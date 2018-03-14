@@ -1,17 +1,18 @@
 import React from 'react';
 
-export default class Login extends React.Component {
 
-	render() {
-   		return (
-   			<div id='div1' >
-	  			<div className='login'>
-		  			{this.props.data}	
-		   		</div>
-		   		<div className='loginImage'>
-		   		</div>
-   			</div>
-		)
- 	}
 
+const Login = (props) => {
+	let {data} = props
+		return (
+			<div id='div1' >
+				<div className='login '>
+	  			{data[0]}	
+	   		</div>
+	   		<div className={`loginImage ${data[1]}`}>
+	   		</div>
+			</div>
+	)
 }
+
+export default Login

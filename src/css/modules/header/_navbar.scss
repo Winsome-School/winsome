@@ -16,7 +16,7 @@
 // opacity:1;
 // }
 .my-navbar:hover+#div4{
-	height: 40px;
+	height: 28px;
 	//background-color: pink;
 }
 
@@ -24,9 +24,9 @@
 	clear: both;
 	//background-color: green;
 	height: 0px;
-	transition: height 1s ease-in-out;
+	transition: height 700ms ;
 }
 #div4:hover{
-	height: 40px;
+	height: 28px;
 	// background-color: pink;
 }

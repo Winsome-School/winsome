@@ -1,9 +1,14 @@
 let dataArray = [
 				// data for login section
 		{ 		loginData: [
-                            'SIGN OUT',
-                            'SIGN IN'
-                            ]
+
+						       
+	                            ['SIGN OUT','glyphicon glyphicon-log-out'],
+	                            ['SIGN IN','glyphicon glyphicon-log-in']
+	                            
+	               
+	                			]
+            	        
     	}
 
     	,// for seperation of objects 

@@ -1,21 +1,23 @@
 .login{
 	//display: inline;
 	color:#0078AD;
-	//font-family: 'Roboto', sans-serif; unable to figure it out the font problem
+	font-family: 'Roboto', sans-serif; //unable to figure it out the font problem
+	font-size: 12px;
 	float:right;
 	margin-top: 20px;
 	margin-right:10px;
 	padding-right: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 15px;
 	//clear: both;
 	//background-color: yellow;
 }
 .loginImage{
-	width:30px;
-	height: 30px;
-	background-color: green;
+	//width:30px;
+	//height: 30px;
+	color:#0078AD;
+	//background-color: green;
 	//display: inline;
 	float:right;
-	margin-top: 15px;
+	margin-top: 21px;
 	margin-right:10px;
 }
