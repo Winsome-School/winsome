@@ -6,7 +6,7 @@ var PurifyCSSPlugin= require('purifycss-webpack');
 module.exports = {
   entry: [
     './src/js/index.jsx',
-    './src/css/styles.scss',
+    './src/css/styles.scss'
   ],
   output: {
     path: `${__dirname}/dist/js`,
@@ -68,9 +68,11 @@ module.exports = {
       }
     ]
   },
+
   resolve: {
     extensions:['.js', '.jsx']
   },
+
   plugins: [
     new ExtractTextPlugin({
       filename: '../css/styles.css'

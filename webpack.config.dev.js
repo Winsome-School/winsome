@@ -60,11 +60,14 @@ module.exports = {
       }
     ]
   },
+
   devServer: {
     contentBase: "./dist",
     historyApiFallback: true
   },
+
   devtool: 'source-map',
+
   resolve: {
     extensions:['.js', '.jsx']
   }

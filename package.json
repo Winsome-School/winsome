@@ -1,23 +1,22 @@
 {
-  "name": "winsome-school",
+  "name": "todolist",
   "version": "1.0.0",
-  "description": "Winsome School website built on Reactjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --config webpack.config.dev.js",
     "prod": "webpack --config webpack.config.prod.js -p"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Taimoormk/winsome-school.git"
-  },
-  "author": "Taimoor Khan",
+  "keywords": [],
+  "author": "ICBootcamp",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Taimoormk/winsome-school/issues"
+  "description": "React Project",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
   },
-  "homepage": "https://github.com/Taimoormk/winsome-school#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -34,9 +33,5 @@
     "style-loader": "^0.20.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
-  },
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
   }
 }

@@ -1,0 +1,6 @@
+@mixin image($loc){
+  background-image: url('../images/' + $loc);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
