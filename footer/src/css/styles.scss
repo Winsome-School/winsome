@@ -1,0 +1,144 @@
+	#footer{
+		width: 100%;
+		background-color:#0078AD;
+		.about{
+			h1{
+				font-family: 'Times New Roman';
+				margin-bottom: 30px;
+			}
+			p{
+				font-size: 1.1em;
+			}
+			.row{
+				img{
+					width: 0px;
+					padding: 4px;
+				}
+			}
+		
+			padding: 80px;
+			color: #fff;
+			box-sizing: border-box;
+		}
+
+		 .colome h4{
+			top:45%;
+			position: absolute;
+			margin-left: 340px;
+			font-size: 22px;
+		}
+		
+		ul {
+				list-style-type: none;
+				top:55%;
+				position: absolute;
+				margin-left: 300px;
+		}
+		ul{
+			li{
+				list-style-type: none;
+				font-size:17px;
+			}
+		}
+		ul{
+			li1{
+				top:50px;
+				font-size:17px;
+				position: absolute;
+			}
+		}
+			ul{
+			li2{
+				top:105px;
+				font-size:17px;
+				position: absolute;
+			}
+		}
+		.SECONDAR {
+			position: relative;
+			top:192px; 
+		//	right:center center;
+			margin-left: 630px;
+		}
+		.SECONDAR h1{
+			font-size: 22px;
+		}
+		.SECONDAR ul li{
+			position: relative;
+			float:right;
+			padding-right: 183%;
+			top:40px;
+		}
+		.SECONDAR  li1{
+			position: relative;
+			float: right;
+			padding-right: 193%;
+			top:65px;
+		}
+		.SECONDAR  li2{
+			position: relative;
+			float: right;
+			padding-right: 180%;
+			top:97px;
+		}
+		.col-md3 {
+			position: relative;
+			top:120px; 
+			margin-left: 730px;
+		}
+		.col-md3 h1 {
+			position: absolute; 
+			margin-left: 220px;
+			font-size:25px; 
+		}
+		.col-md3 li {
+			position: relative; 
+			top:72px; 
+			float: right;
+			margin-right: 125%;
+		}
+		.col-md3 li1 {
+			position: relative; 
+			top:100px; 
+			float: right;
+			margin-right: 75%;
+		}
+
+		.line{
+			background-color:#134A7D;
+			padding: 20px 70px 10px 0;
+			color: #DDD;
+			.fa-instagram{
+				margin-left: 10px;
+			}
+			.fa-instagram:hover{
+				color:red;
+				cursor: pointer;
+			}
+			.fa-facebook:hover{
+				color: blue;
+				cursor: pointer;
+			}
+			.fa-twitter{
+				margin-left: 10px;
+			}
+			.fa-twitter:hover{
+				color: blue;
+				cursor: pointer;	
+			}
+
+			.fa-google{
+					margin-left: 10px;
+			}
+			.fa-google:hover{
+				color: red;
+			    cursor: pointer;
+			}
+			p{
+				float: right;
+				font-family: 'Times New Roman';
+			}
+		}
+	}
+
+	
