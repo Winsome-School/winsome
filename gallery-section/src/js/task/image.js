@@ -1,0 +1,7 @@
+export const bgimage = '../images/two2.jpg'
+export const image1 = '../images/imgone.jpg'
+export const image2 = '../images/imgtwo.jpg'
+export const image3 = '../images/imgthree.jpg'
+export const image4 = '../images/imgfour.jpg'
+export const image5 = '../images/imgfive.jpg'
+export const image6 = '../images/imgsix.jpg'
