@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+
 import Header from './header/nav';
 import HeroImage from './hero/HeroImage';
 import Promo from './promo/app';
 import Calender from './calender/Calender';
+import Gallery from './gallery/Gallery';
 import Footer from './footer/Footer';
+
 
 
 class App extends Component {
@@ -22,6 +25,7 @@ class App extends Component {
         <HeroImage/>
         <Promo />
         <Calender />
+        <Gallery />
        
       </div>
     );

@@ -42,7 +42,7 @@ export default class Calender extends React.Component {
 	render(){
 		const {n}=this.state;
 		return (
-			<div className="app">
+			<div>
 			<Content
 			 n={n}
 			 onClickLeftArrow={this.onClickLeftArrow}

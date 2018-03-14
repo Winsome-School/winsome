@@ -1,7 +1,7 @@
 import React from 'react';
 import { bgimage, image1, image2, image3, image4, image5, image6 } from './image.js'
 
-class App extends React.Component{
+class Gallery extends React.Component{
 
 	render(){
 		return(
@@ -82,4 +82,4 @@ class App extends React.Component{
 		)
 	};
 }
-export default App;
+export default Gallery;
