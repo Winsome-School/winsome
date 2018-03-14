@@ -1,0 +1,33 @@
+@mixin heroImage($loc,$width:100%,$height:510px){
+	width: $width;
+	height: $height;
+	background: grey url('../images/'+$loc) no-repeat center;
+	margin-top: 10px;
+	position:relative;
+}
+@mixin event($fontSize:20px, $margin:0px 0px 0px 80px,$lineHeight:30px,$width:180px,$height:70px,$color:#0078AD,$padding:5px){
+	float: left;
+	margin: $margin;
+	line-height: $lineHeight;
+	width: $width;
+	height: $height;
+	font-weight: 80px;
+	font-family: Roboto;
+	color: $color;
+	font-size: $fontSize;
+	opacity: 2;
+	text-align: center;
+	padding: $padding;
+}
+@mixin arrow($left:87%,$top:62%,$height:70px,$width:70px,$rotationDeg:135deg){
+	position: absolute;
+	left: $left;
+	top: $top;
+	height: $height;
+	width:$width;
+	// border-left:$borderLeft;
+	// border-top: $borderTop;
+	transform:rotate($rotationDeg);
+	cursor: pointer;
+	transition:margin 0.2s ease-in-out;
+}
