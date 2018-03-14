@@ -1,0 +1,17 @@
+.drop-down-box{
+	background-color: aqua;
+	// border-left: 1px solid;
+	// border-top: 1px solid;
+	height:10px;
+	width:10px;
+	top:20px;
+	left :25px;
+	position: absolute;
+	transform: rotate(45deg);
+	opacity: 0;
+	transition: all 700ms;
+}
+.visible{
+	//background-color: red;
+	opacity:1
+}

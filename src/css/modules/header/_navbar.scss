@@ -1,0 +1,32 @@
+.my-navbar{
+  //height : 3px;
+ // display : inline;
+ // background-color : red;
+  //float : right;
+  clear: both;
+//   transition:all 1000ms;
+// 	//transition: height 2s;
+// 	 height : 0px;
+// opacity:0;
+    
+}
+// .my-navbar:hover{
+// height : 100px;
+// background-color: green;
+// opacity:1;
+// }
+.my-navbar:hover+#div4{
+	height: 40px;
+	//background-color: pink;
+}
+
+#div4{
+	clear: both;
+	//background-color: green;
+	height: 0px;
+	transition: height 1s ease-in-out;
+}
+#div4:hover{
+	height: 40px;
+	// background-color: pink;
+}

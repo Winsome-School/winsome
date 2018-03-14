@@ -1,28 +1,32 @@
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 @import '../../node_modules/bootstrap/dist/css/bootstrap-theme.css';
 
-@import './partials/mixins';
 @import './partials/variables';
+@import './partials/mixins';
+@import './partials/globals';
 
-@import './modules/app';
-
-.container {
-  form {
-    #list_item_input{
-      width: 30%;
-    }
-    .color {
-      color: red;
-    }
-  }
-  table {
-    margin: 20px 0;
-    tbody {
-      .completed {
-        text-decoration: line-through;
-      }
-    }
-  }
-}
-
+@import './modules/app/app';
+// ########## Header ##########
+@import './modules/header/_login';
+@import './modules/header/_nav';
+@import './modules/header/_navbar';
+@import './modules/header/_wrapper';
+@import './modules/header/_drop-down-meu';
+@import './modules/header/_navsubmenu';
+@import './modules/header/_DropDownBox';
+// ########## Hero ##########
+@import './modules/hero/hero';
+// ########## Promo ##########
+@import './modules/promo/winsomeSchool';
+@import './modules/promo/promoCard';
+@import './modules/promo/readMoreButton';
+@import './modules/promo/juniorSchool';
+// ########## Calender ##########
+@import './modules/calender/content';
+@import './modules/calender/events';
+@import './modules/calender/arrow';
+// ########## Gallery ##########
+@import './modules/gallery/gallery';
+// ########## Footer ##########
+@import './modules/footer/footer';
 
