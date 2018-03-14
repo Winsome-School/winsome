@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import Header from './header/nav';
+import HeroImage from './hero/HeroImage';
+import Promo from './promo/app';
 
 class App extends Component {
   constructor() {
@@ -12,7 +15,9 @@ class App extends Component {
 
     return (
       <div className="app">
-        Hello
+        <Header/>
+        <HeroImage/>
+        <Promo />
       </div>
     );
   }
