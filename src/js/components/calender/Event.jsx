@@ -1,5 +1,5 @@
 import React from 'react'
-import events from '../Data'
+import events from './Data'
 
 
 const Event=({n})=>{

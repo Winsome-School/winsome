@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Header from './header/nav';
 import HeroImage from './hero/HeroImage';
 import Promo from './promo/app';
+import Calender from './calender/Calender';
 
 class App extends Component {
   constructor() {
@@ -18,6 +19,7 @@ class App extends Component {
         <Header/>
         <HeroImage/>
         <Promo />
+        <Calender />
       </div>
     );
   }

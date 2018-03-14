@@ -1,8 +1,8 @@
 import React from 'react';
 import Content from './Content';
-import events from '../Data'
+import events from './Data'
 
-export default class App extends React.Component {
+export default class Calender extends React.Component {
 	constructor(){
 		super();
 		
