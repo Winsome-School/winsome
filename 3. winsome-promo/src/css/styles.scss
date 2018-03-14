@@ -1,0 +1,17 @@
+@import './partials/mixins';
+@import './partials/variables';
+
+// ########## Import WinsomeSchool Styles Here ##########
+@import './modules/winsomeSchool';
+@import './modules/promoCard';
+@import './modules/readMoreButton';
+@import './modules/juniorSchool';
+
+body {
+  margin: 0;
+  font-family: $font-family;
+}
+
+.clear {
+  clear: both;
+}
