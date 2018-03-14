@@ -1,0 +1,30 @@
+
+
+// @import './componentStyles/_brandImage';
+@import './componentStyles/_login';
+// @import './componentStyles/_filler';
+@import './componentStyles/_nav';
+@import './componentStyles/_navbar';
+@import './componentStyles/_mixins';
+@import './componentStyles/_variables';
+@import './componentStyles/_wrapper';
+@import './componentStyles/_drop-down-meu';
+
+@import './componentStyles/_navsubmenu';
+@import './componentStyles/_DropDownBox';
+// style={{height:'100px', backgroundColor:'pink',clear: 'both'}}
+// .notclick{
+// 	clear: both;
+// 	background-color: green ;
+// 	height: 10px;
+// 	opacity: 0.3;
+// 	//visibility: hidden;
+// 	transition: all 3000ms
+// }
+
+#div2{
+	height:100px;
+	background-color:yellow;
+	clear: both
+}
+

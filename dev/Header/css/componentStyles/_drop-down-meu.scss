@@ -1,0 +1,44 @@
+.drop-down-menu{
+	//display: none;
+	height:40px;
+	// width:100%;
+	//border: 1px solid black;
+	border-radius: 10px;
+	position:absolute;
+	margin-top: 0px;
+	//this top padding and top settings are done to adjust the new div so that it will not be able 
+	// to overlap the text 
+	top: 25px;
+	padding-top: 10px;
+	//this visibility is added because display none does not work and only opacity keeps it there 
+	// so this is added the effect can be seen by commenting out the visibily here and in 
+	// this given portion ' .nav-sub-menu-bar:hover+#div3 '
+	visibility: hidden;
+	opacity: 0;
+	transition:all 700ms ease-in;
+	//background-color: green
+		a{  
+			padding:0px 10px 0px 10px;
+		}
+	}
+.drop-down-menu:hover{
+	//height :100px;
+	opacity: 1;
+	visibility: visible;
+	//display:block;
+	background-color:aqua	//...it is used to purple the background even on hovering 
+}
+.nav-sub-menu-bar:hover+#div3{
+	//height :100px;
+	visibility: visible;
+	opacity: 1;
+	//display:block;
+	background-color:aqua
+	}
+
+.last{
+	right: 30px
+}
+.last2{
+	right:30px
+}
