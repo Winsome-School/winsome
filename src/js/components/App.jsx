@@ -26,7 +26,7 @@ class App extends Component {
         <Promo />
         <Calender />
         <Gallery />
-       
+        <Footer />
       </div>
     );
   }

@@ -21,7 +21,7 @@ export const promoData = [
   },
   {
     id: 2,
-    heading: "...",
+    heading: " ",
     promoDataThree: {
       promoCardId: 3,
       title: "Middle School",

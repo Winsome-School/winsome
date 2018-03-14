@@ -1,58 +1,55 @@
 import React from 'react';
-export default class Footer extends React.Component{
+export default class Footer extends React.Component {
 
-	render() {
-		return (
-			<div id="footer">
-				<div className="row about">
-					<div className="col-md-4">
-						<h4 className="col-md1">
-							<img src="./images/logo.png" />
-						</h4>
-						<p className="contactDetails"><b>Phone:</b>0340-7101829</p>
-						<p><b>Email:</b> ahmad.ramay4@gmail.com</p>
-						<p><b>Street address:</b> 780 A block,</p>
-						<p>Shar Shah,Lahore.</p>
-					</div>
-					<div className="colome">
-						<h4>OUR SCHOOL</h4>
-						<ul>
-							<li> JUNIOR</li>
-							<li1> MIDDLE </li1>
-							<li2> SENIOR </li2>
-						</ul>
-					</div>
-					<div className="SECONDAR">
-						<h1>ADMISSIONS</h1>
-						<ul>
-							<li> STAFF&FACULTY </li>
-							<li1> NEW/EVENTS </li1>
-							<li2>EDUCATIONBLOG</li2>
-						</ul>
-					</div>
-					<div className="col-md3">
-						<h1>POLICIES</h1>
-						<ul>
-							<li>CAREERS</li>
-							<li1>RESOURCECENTER</li1>
-						</ul>
-					</div>
-				</div>
-				<div className="line">
-			<div className="col-md-4">
-				<span className="fa fa-facebook fa-2x"></span>
-				<span className="fa fa-instagram fa-2x"></span>
-					<span className="fa fa-twitter fa-2x"></span>
-					<span className="fa fa-google fa-2x"></span>
-			</div>
-			<div className="col-md-8">
-			<p>
-				Site by <b>Ahmad&amp;Xavier</b> | Copyright © 2017 South East West School. All Rights Reserved
-			</p>
-			</div>
-			<div className="row"></div>
-				</div>
-			</div>
-		)
-	}
+  render() {
+    return (
+      <div id="footer">
+        <div className="footer">
+          <div className="wrapper">
+            <div className="column">
+              <img className="footer-logo" src="./images/logo.png" />
+              <p className="footer-info">Phone: +92 42 34567890</p>
+              <p className="footer-info">Email: info@winsome.ed.pk</p>
+              <p className="footer-info">Address: 12-C Madican Block,</p>
+              <p className="footer-info">Awan Town, Lahore.</p>
+            </div>
+            <div className="column-text">
+              <h4 className="footer-buttons">OUR SCHOOL</h4>
+              <h4 className="footer-buttons">JUNIOR</h4>
+              <h4 className="footer-buttons">MIDDLE</h4>
+              <h4 className="footer-buttons">SENIOR</h4>
+            </div>
+            <div className="column-text">
+              <h4 className="footer-buttons">ADMISSIONS</h4>
+              <h4 className="footer-buttons">STAFF & FACULTY</h4>
+              <h4 className="footer-buttons">NEWS/EVENTS</h4>
+              <h4 className="footer-buttons">EDUCATION BLOG</h4>
+            </div>
+            <div className="column-text">
+              <h4 className="footer-buttons">POLICIES</h4>
+              <h4 className="footer-buttons">CAREERS</h4>
+              <h4 className="footer-buttons">RESOURCE CENTER</h4>
+            </div>
+            <div className="clear"></div>
+          </div>
+        </div>
+        <div className="footer-description">
+          <div className="wrapper">
+            <div className="social-icons">
+              <a href="#" target="_blank"><i className="fa fa-facebook"></i></a>
+              <a href="#" target="_blank"><i className="fa fa-instagram"></i></a>
+              <a href="#" target="_blank"><i className="fa fa-twitter"></i></a>
+              <a href="#" target="_blank"><i className="fa fa-google"></i></a>
+            </div>
+            <div className="copyright-text">
+              <p>
+                Copyright © 2018 Winsome School. All Rights Reserved
+              </p>
+            </div>
+            <div className="clear"></div>
+          </div>
+        </div>
+      </div>
+    )
+  }
 };

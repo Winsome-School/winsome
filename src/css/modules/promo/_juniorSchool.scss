@@ -31,6 +31,7 @@
       padding-top: 30px;
       .junior-school-gallery-container {
         position: relative;
+        left: 250px;
         top: -150px;
         .junior-school-left-image {
           @include junior-school-image(350px, 200px, $background-image-color, './images/junior-school-left.jpg', relative, 0px, 0px);
