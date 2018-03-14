@@ -5,6 +5,8 @@ import Header from './header/nav';
 import HeroImage from './hero/HeroImage';
 import Promo from './promo/app';
 import Calender from './calender/Calender';
+import Footer from './footer/Footer';
+
 
 class App extends Component {
   constructor() {
@@ -20,6 +22,7 @@ class App extends Component {
         <HeroImage/>
         <Promo />
         <Calender />
+       
       </div>
     );
   }

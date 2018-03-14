@@ -1,11 +1,10 @@
 import React from 'react';
-
 import Login from './login';
 import Navbar from './navbar';
 import dataArray from './dataGiver';
 
 
- const Nav = ()=>{
+ const Nav = () => {
   let loginToRender=dataArray[0].loginData.map((item,index)=>{
     return(
       <Login key={index} data={item}/>
