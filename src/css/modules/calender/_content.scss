@@ -1,5 +1,6 @@
 .heroImage{
 	@include heroImage('collage photos.jpg',100%,510px); //parameters are (url,width,height)
+	margin:0px 0px -20px 0px;
 	.line{
 		position: absolute;
 		width: 1020px;

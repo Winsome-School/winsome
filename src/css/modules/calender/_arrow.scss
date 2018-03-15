@@ -1,5 +1,5 @@
 .arrowRight{
-		@include arrow(87%,63.5%,50px,50px,135deg ) //Prameters are left,top,height,width,rotationDegree
+		@include arrow(88%,63.5%,50px,50px,135deg ) //Prameters are left,top,height,width,rotationDegree
 		border-left: 3px solid $arrowColor;
 		border-top: 3px solid $arrowColor;
 		transition:all 0.7s ease-in-out;
