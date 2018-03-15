@@ -13,6 +13,7 @@ export default class Content extends React.Component{
 				<div className="renderEvents">
 						<Event {...this.props}/>
 				</div>
+				<div className="clear"></div>
 				<Arrow
 				{...this.props}
 				 />

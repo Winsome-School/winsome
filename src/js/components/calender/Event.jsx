@@ -16,6 +16,7 @@ const Event=({n})=>{
 					<div className="time">
 							{item['time']}
 					</div>
+					<div className="clear"></div>
 				</div>
 				
 
