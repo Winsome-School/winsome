@@ -13,31 +13,22 @@ let dataArray = [
 
     	,// for seperation of objects 
     					// data for navbar section
-		{                   data: [
-								    'CONTACT',
-								    'CARREER'	,
-								    'NEWS/EVENTS',
-								    'ADMISSIONS',
-								    'OURSCHOOL',	
-								    'HOME'
-								  ] ,
-		                      //just give one space only in the options
-							 dataDropDown: [
-								    'CONTACT link1 link2 link3',
-								    'CARREER link1 link2 link3',	
-								    'NEWS/EVENTS link2 link3',
-								    'ADMISSIONS link1 link2 link3 link4',
-								    'OURSCHOOL link1 link2 link3',	
-								    'HOME link1 link3',
-								  ] , 
-							 //don't forget to use comma after array is ended ........
+		{                   
+			dataNavbar: [
 
-							 styles : [
-							 // if any style is omitted it will give styles accordingly and if one is left empty 
-							 // it will give the styles which were given previously  
-									   'last','last2','','','',''
-		    						]
+
+				      ['CONTACT','CONTACT link1 link2 link3','last',],
+				      ['CARREER','CARREER link1 link2 link3','last2'],
+				      ['NEWS/EVENTS','NEWS/EVENTS link2 link3',''],
+				      [ 'ADMISSIONS','ADMISSIONS link1 link2 link3 link4',''],
+				      ['OURSCHOOL','OURSCHOOL link1 link2 link3',''],
+				      ['HOME','HOME link1 link3','']
+
+				      
+			]
 		}
 ]
+
+
 
 export default dataArray

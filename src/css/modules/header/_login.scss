@@ -1,6 +1,6 @@
 .login{
 	//display: inline;
-	color:#0078AD;
+	color:$primary-color;
 	font-family: 'Roboto', sans-serif; //unable to figure it out the font problem
 	font-size: 12px;
 	float:right;
@@ -14,7 +14,7 @@
 .loginImage{
 	//width:30px;
 	//height: 30px;
-	color:#0078AD;
+	color:$primary-color;
 	//background-color: green;
 	//display: inline;
 	float:right;

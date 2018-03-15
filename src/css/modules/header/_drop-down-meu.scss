@@ -15,9 +15,11 @@
 	// this given portion ' .nav-sub-menu-bar:hover+#div3 '
 	visibility: hidden;
 	opacity: 0;
-	transition:all 700ms ease-in;
+	transition:all 500ms;
+	transition-delay: 400ms;
 	//background-color: green
 		a{  
+			color:$white;
 			padding:0px 10px 0px 10px;
 		}
 	}
@@ -26,14 +28,14 @@
 	opacity: 1;
 	visibility: visible;
 	//display:block;
-	background-color:aqua	//...it is used to purple the background even on hovering 
+	background-color:$secondary-color;	//...it is used to purple the background even on hovering 
 }
 .nav-sub-menu-bar:hover+#div3{
 	//height :100px;
 	visibility: visible;
 	opacity: 1;
 	//display:block;
-	background-color:aqua
+	background-color:$secondary-color;
 	}
 
 .last{
