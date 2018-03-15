@@ -1,0 +1,126 @@
+
+// wraper - class
+%wraper-c {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1200px;
+    clear: both;
+
+}
+
+
+
+//scss start
+
+#sec-2{
+    height: 720px;
+    @include image('../images/chem-formula-pattern.jpg');
+
+    
+    .wraper{
+        @extend %wraper-c;
+        
+        
+        .des{
+            width: 600px;
+            margin:0 auto;
+            
+            
+            h2{
+                font-size: 40px;
+                margin:0px;
+                font-weight: lighter;
+                text-align: center;
+                padding:60px 0px 40px 0px;
+            }
+            
+            
+            span{
+                
+                text-align: center;
+                display: block;
+                font-size: 20px;
+                font-weight: bold;
+                padding-bottom: 30px;
+            }
+            
+            
+        }
+        
+        .whatshappen{
+
+               height: 480px;
+               width: 480px;
+               float: left;
+               margin-left: 10px;
+               border:1px $accent-color solid; 
+
+                .img{
+                       
+                       height: 280px;
+                       width: 478px;
+                       img{
+                        height: 280px;
+                       width: 480px; 
+                       object-fit: cover;
+                       }   
+                }
+                .img-des{
+                    
+                    height: 198px;
+                    width: 478px;
+                    padding:15px;
+                    box-shadow: 0px 5px 8px $accent-color;
+                    background-color: white;
+                    h3{
+                        margin:0px;
+                        color:$primary-color;
+                        font-family: $font-family;
+                    }
+                    p{
+                        padding-top:20px;
+                        font-size: 18px;
+                        text-align: justify;
+                        letter-spacing: 1px;
+                        color:black;
+                        font-family: $font-family;
+
+
+                    }
+                }
+        
+        }
+       
+        
+        
+        .arrows{
+            height:480px;
+            width:80px;
+            display:inline-block;
+            float: left;
+            margin-left: 10px;
+
+            .arrow{
+            border-top:2px $secondary-color solid;
+            border-left:2px $secondary-color solid;
+            display:inline-block;
+            height:80px;
+            width:80px;
+            margin:210px 0;
+            margin-left:15px;
+            cursor: pointer;
+            }
+
+            .previous{
+            transform: rotate(-45deg);
+            }
+            .next{
+            transform: rotate(135deg);
+            margin-left: -15px;
+            
+            }
+           
+        }
+       
+    }
+}

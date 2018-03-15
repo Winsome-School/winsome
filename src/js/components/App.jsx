@@ -6,6 +6,7 @@ import Header from './header/nav';
 import HeroImage from './hero/HeroImage';
 import Promo from './promo/app';
 import Calender from './calender/Calender';
+import Blog from './Whatshappen/Blog';
 import Gallery from './gallery/Gallery';
 import Footer from './footer/Footer';
 
@@ -25,6 +26,7 @@ class App extends Component {
         <HeroImage/>
         <Promo />
         <Calender />
+        <Blog />
         <Gallery />
         <Footer />
       </div>
