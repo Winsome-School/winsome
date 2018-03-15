@@ -10,7 +10,7 @@
 
     
     .wraper{
-        @include wrapper(90%);
+        @include wrapper(1200px);
         
         
         .des{
@@ -45,7 +45,7 @@
                height: 480px;
                width: 480px;
                float: left;
-               margin-left: 25px;
+               margin-left: 20px;
                border:1px $accent-color solid; 
                box-sizing:border-box;
 
