@@ -2,8 +2,8 @@
 	width: 80%;
 	height: 100%;
 	position: absolute;
-	top: 38%;
-	left: 10.5%;
+	top: 45.5%;
+	left: 10.4%;
 	.event{
 		float:left;
 		margin-left: 5%;
@@ -15,9 +15,9 @@
 			float : left;
 			font-weight: bold;
 			color: #0078AD;
-			font-size:23px ;
+			font-size:18px ;
 			text-align: center;
-			margin:-130px auto auto -6%;
+			margin:-150px auto auto -6%;
 			text-transform: uppercase;
 			width: 80%;
 				.clear{
@@ -26,13 +26,14 @@
 			}
 		}	
 		.comingEventsDates{
-				@include event(25px,0px auto auto 5%,30px,150px,150px,#134A7D,40px)// Parameters are fontsize,margin,lineHeight,width,height,color,padding
+				@include event(23px,0px auto auto 5%,28px,130px,130px,#134A7D,36px)// Parameters are fontsize,margin,lineHeight,width,height,color,padding
 				background-color: #fff;
 				float: left;
 				border-radius: 100%;
 				font-weight: bold;
 				text-align: center;
 				box-shadow: 0px 4px 2px rgba(238, 155, 37,0.7);
+				text-transform: uppercase;
 		}
 
 		.time{

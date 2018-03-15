@@ -1,5 +1,5 @@
 .arrowRight{
-		@include arrow(90.7%,64%,50px,50px,135deg ) //Prameters are left,top,height,width,rotationDegree
+		@include arrow(92.4%,67%,40px,40px,135deg ) //Prameters are left,top,height,width,rotationDegree
 		border-left: 3px solid $arrowColor;
 		border-top: 3px solid $arrowColor;
 		transition:all 0.4s ease-in-out;
@@ -8,7 +8,7 @@
 		}
 	}
 	.arrowLeft{
-		@include arrow(5.5%,64%,50px,50px,-45deg) //Prameters are left,top,height,width,rotationDegree
+		@include arrow(4.5%,67%,40px,40px,-45deg) //Prameters are left,top,height,width,rotationDegree
 		border-left: 3px solid $arrowColor;
 		border-top: 3px solid $arrowColor;
 		transition:all 0.4s ease-in-out;
