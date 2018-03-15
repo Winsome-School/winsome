@@ -14,13 +14,16 @@ import dataArray from './dataGiver';
     )
   }) 
   return (
-    <div className='my-nav wrapper'>
+   <div className='wrapper'>
+  <img className="header-logo" src="./images/logo.png" />
+    <div className='my-nav'>
       {loginToRender}
       <Navbar dataArray={dataArray}/> 
       <div id="div4">
         
       </div>
     </div>
+  </div>  
   )
 }
 
