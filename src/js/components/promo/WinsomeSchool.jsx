@@ -46,7 +46,7 @@ export default class WinsomeSchool extends Component {
     return (
       <section id="winsome-school">
         {
-          id === 2 && <div><h2 className="winsome-school-heading">{promoData[1].heading}</h2>{this.renderPromoCardsSectionTwo()}</div>
+          id === 2 && <div><h2 className="winsome-school-hidden-heading">{promoData[1].heading}</h2>{this.renderPromoCardsSectionTwo()}</div>
           ||
           id === 1 && <div><h2 className="winsome-school-heading">{promoData[0].heading}</h2>{this.renderPromoCardsSectionOne()}</div>
         }
