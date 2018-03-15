@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NavSubmenu from './navsubmenu';
+import NavSubmenu from './NavSubMenu';
 //import dataArray from './dataGiver';
 
 

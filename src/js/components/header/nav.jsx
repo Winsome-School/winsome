@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Login from './login';
-import Navbar from './navbar';
-import dataArray from './dataGiver';
+import Login from './Login';
+import Navbar from './Navbar';
+import dataArray from './DataGiver';
 
 
  const Nav = ()=>{
