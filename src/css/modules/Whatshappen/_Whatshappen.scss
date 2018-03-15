@@ -1,24 +1,16 @@
 
-// wraper - class
-%wraper-c {
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 1200px;
-    clear: both;
-
-}
-
 
 
 //scss start
 
 #sec-2{
-    height: 720px;
+    height: 730px;
     @include image('../images/chem-formula-pattern.jpg');
+    margin-top:20px;
 
     
     .wraper{
-        @extend %wraper-c;
+        @include wrapper(90%);
         
         
         .des{
@@ -32,6 +24,7 @@
                 font-weight: lighter;
                 text-align: center;
                 padding:60px 0px 40px 0px;
+                box-sizing:border-box;
             }
             
             
@@ -52,17 +45,25 @@
                height: 480px;
                width: 480px;
                float: left;
-               margin-left: 10px;
+               margin-left: 25px;
                border:1px $accent-color solid; 
+               box-sizing:border-box;
 
                 .img{
                        
                        height: 280px;
                        width: 478px;
+
+                       overflow: hidden;
                        img{
-                        height: 280px;
-                       width: 480px; 
-                       object-fit: cover;
+                       height: 280px;
+                       width: 478px; 
+                       object-fit:cover;
+                       &:hover{
+                       height: 300px;
+                       width: 490px;
+                       }
+
                        }   
                 }
                 .img-des{
@@ -72,6 +73,7 @@
                     padding:15px;
                     box-shadow: 0px 5px 8px $accent-color;
                     background-color: white;
+                    box-sizing:border-box;
                     h3{
                         margin:0px;
                         color:$primary-color;
