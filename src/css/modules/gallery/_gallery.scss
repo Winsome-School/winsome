@@ -6,12 +6,14 @@
   .text-center{
     text-align: center;
   }
-  h1{
-    padding-top: 70px;
-    font-family: 'New Times Roman';
-    font-size: 4em;
-    color: white;
-    margin:0px;
+  h3{
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+    color: $white;
   }
   .box{
     padding: 40px 100px; 
