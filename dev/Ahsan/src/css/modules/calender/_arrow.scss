@@ -1,0 +1,20 @@
+.arrowRight{
+		@include arrow(92.4%,67%,40px,40px,135deg ) //Prameters are left,top,height,width,rotationDegree
+		border-left: 3px solid $arrowColor;
+		border-top: 3px solid $arrowColor;
+		transition:all 0.4s ease-in-out;
+		&:active{
+			transform:scale(1.2) rotate(135deg)
+		}
+	}
+	.arrowLeft{
+		@include arrow(4.5%,67%,40px,40px,-45deg) //Prameters are left,top,height,width,rotationDegree
+		border-left: 3px solid $arrowColor;
+		border-top: 3px solid $arrowColor;
+		transition:all 0.4s ease-in-out;
+		
+		&:active{
+			transform:scale(1.2) rotate(-45deg)
+		}
+
+	}

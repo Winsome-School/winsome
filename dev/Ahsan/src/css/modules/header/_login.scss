@@ -1,0 +1,26 @@
+.login{
+	//display: inline;
+	color:$primary-color;
+	font-family: 'Roboto', sans-serif; //unable to figure it out the font problem
+	font-size: 12px;
+	float:right;
+	margin-top: 20px;
+	margin-right:10px;
+	padding-right: 40px;
+	margin-bottom: 15px;
+	//clear: both;
+	//background-color: yellow;
+}
+.login:hover{
+	cursor: pointer;	
+	}
+.loginImage{
+	//width:30px;
+	//height: 30px;
+	color:$primary-color;
+	//background-color: green;
+	//display: inline;
+	float:right;
+	margin-top: 21px;
+	margin-right:10px;
+}

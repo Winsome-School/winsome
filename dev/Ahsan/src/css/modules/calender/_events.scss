@@ -1,0 +1,49 @@
+.renderEvents{
+	width: 80%;
+	height: 100%;
+	position: absolute;
+	top: 45.5%;
+	left: 10.4%;
+	.event{
+		float:left;
+		margin-left: 5%;
+		width: 20%;
+		height: 25%;
+		margin-top: 6%;
+		//background-color: red;
+		.comingEvents{
+			float : left;
+			font-weight: bold;
+			color: #0078AD;
+			font-size:18px ;
+			text-align: center;
+			margin:-150px auto auto -6%;
+			text-transform: uppercase;
+			width: 80%;
+				.clear{
+					clear: both;
+				}
+			}
+		}	
+		.comingEventsDates{
+				@include event(23px,0px auto auto 5%,28px,130px,130px,#134A7D,36px)// Parameters are fontsize,margin,lineHeight,width,height,color,padding
+				background-color: #fff;
+				float: left;
+				border-radius: 100%;
+				font-weight: bold;
+				text-align: center;
+				box-shadow: 0px 4px 2px rgba(238, 155, 37,0.7);
+				text-transform: uppercase;
+		}
+
+		.time{
+			float:left;
+			text-align: center;
+			width: 140px;
+			height: 140px;
+			font-weight: bold;
+			color: #134A7D;
+			margin:25px auto auto 15px;
+			font-size: 18px;
+		}
+}

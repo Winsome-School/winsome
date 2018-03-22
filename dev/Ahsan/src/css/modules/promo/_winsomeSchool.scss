@@ -1,0 +1,11 @@
+#winsome-school {
+  height: 1000px;
+  width: 100%;
+  background: linear-gradient($primary-color, $secondary-color);
+  .winsome-school-heading {
+    @include H2(center, $white);
+  }
+  .winsome-school-hidden-heading {
+    @include H2(center, $primary-color);
+  }
+}

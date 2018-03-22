@@ -1,0 +1,20 @@
+.heroImage{
+	@include heroImage('collage photos.jpg',100%,510px); //parameters are (url,width,height)
+	margin:0px 0px -20px 0px;
+	.line{
+		position: absolute;
+		width: 77%;
+		height: 3px;
+		background-color: #134A7D;
+		left: 11.8%;
+		top: 71%;
+	}
+	h2{
+		position: absolute;
+		top: 20px;
+		left: 43%;
+		font-family: Roboto;
+	}
+	
+	
+}

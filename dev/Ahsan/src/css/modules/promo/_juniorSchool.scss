@@ -1,0 +1,48 @@
+#junior-school {
+  height: 700px;
+  width: 100%;
+  .top-section {
+    height: 500px;
+    width: 100%;
+    background-color: $accent-color;
+    .wrapper {
+      @include wrapper($wrapper-width);
+      padding-top: 30px;
+      .junior-school-heading {
+        @include H4(center, $black);
+      }
+      .junior-school-description {
+        @include P(center, $black);
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+      .read-more {
+        display: inline-block;
+        align-self: center;
+      }
+    }
+  }
+  .bottom-section {
+    height: 200px;
+    width: 100%;
+    background-color: $secondary-color;
+    .wrapper {
+      @include wrapper($wrapper-width);
+      padding-top: 30px;
+      .junior-school-gallery-container {
+        position: relative;
+        left: 250px;
+        top: -150px;
+        .junior-school-left-image {
+          @include junior-school-image(350px, 200px, $background-image-color, './images/junior-school-left.jpg', relative, 0px, 0px);
+        }
+        .junior-school-middle-image {
+          @include junior-school-image(350px, 350px, $background-image-color, './images/junior-school-middle.jpg', absolute, 220px, -80px);
+        }
+        .junior-school-right-image {
+          @include junior-school-image(350px, 200px, $background-image-color, './images/junior-school-right.jpg', relative, 100px, 0px);
+        }
+      }
+    }
+  }
+}

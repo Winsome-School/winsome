@@ -1,0 +1,106 @@
+.promo-card {
+  margin-bottom: 420px;
+  .wrapper {
+    @include wrapper($wrapper-width);
+    padding-top: 30px;
+    .promo-card-container-sectionOne-left {
+      background-color: $primary-color;
+      position: absolute;
+      width: 100%;
+      box-shadow: 4px 4px 10px $accent-color;
+      .promo-image-container-sectionOne-left {
+        @include promo-image-conatainer-sectionOne-left();
+        .promo-image-sectionOne-left {
+          @include promo-image($background-image-color, $promo-image-1);
+        }
+      }
+      .promo-text-container {
+        @include promo-text-container();
+        .promo-text-wrapper {
+          padding: 30px;
+          .promo-heading {
+            @include promo-heading();
+          }
+          .promo-description {
+            @include promo-description();
+          }
+        }
+      }
+    }
+    .promo-card-container-sectionOne-right {
+      background-color: $primary-color;
+      position: absolute;
+      width: 100%;
+      box-shadow: -4px -4px 10px $accent-color;
+      .promo-image-container-sectionOne-right {
+        @include promo-image-conatainer-sectionOne-right();
+        .promo-image-sectionOne-right {
+          @include promo-image($background-image-color, $promo-image-2);
+        }
+      }
+      .promo-text-container {
+        @include promo-text-container();
+        .promo-text-wrapper {
+          padding: 30px;
+          .promo-heading {
+            @include promo-heading();
+          }
+          .promo-description {
+            @include promo-description();
+          }
+        }
+      }
+    }
+    .promo-card-container-sectionTwo-left {
+      background-color: $primary-color;
+      position: absolute;
+      width: 100%;
+      box-shadow: 4px 4px 10px $accent-color;
+      .promo-image-container-sectionTwo-left {
+        @include promo-image-conatainer-sectionTwo-left();
+        .promo-image-sectionTwo-left {
+          @include promo-image($background-image-color, $promo-image-3);
+        }
+      }
+      .promo-text-container {
+        @include promo-text-container();
+        .promo-text-wrapper {
+          padding: 30px;
+          .promo-heading {
+            @include promo-heading();
+          }
+          .promo-description {
+            @include promo-description();
+          }
+        }
+      }
+    }
+    .promo-card-container-sectionTwo-right {
+      background-color: $primary-color;
+      position: absolute;
+      width: 100%;
+      box-shadow: -4px -4px 10px $accent-color;
+      .promo-image-container-sectionTwo-right {
+        @include promo-image-conatainer-sectionTwo-right();
+        .promo-image-sectionTwo-right {
+          @include promo-image($background-image-color, $promo-image-4);
+        }
+      }
+      .promo-text-container {
+        @include promo-text-container();
+        .promo-text-wrapper {
+          padding: 30px;
+          .promo-heading {
+            @include promo-heading();
+          }
+          .promo-description {
+            @include promo-description();
+          }
+        }
+      }
+    }
+  }
+  .clear {
+    clear: both;
+  }
+}

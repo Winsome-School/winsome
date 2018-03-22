@@ -1,0 +1,59 @@
+#footer{
+  width: 100%;
+  height: 500px;
+  background-color: $secondary-color;
+  .footer {
+    .wrapper {
+      @include wrapper($wrapper-width);
+      padding-top: 30px;
+      .column {
+        width: 23%;
+        height: 370px;
+        float: left;
+        margin: 10px;
+        .footer-logo {
+          width: 225px;
+          margin-bottom: 30px;
+        }
+        .footer-info {
+          @include P(left, $white);
+          padding: 3px;
+        }
+      }
+      .column-text {
+        width: 23%;
+        height: 260px;
+        float: left;
+        margin-top: 150px;
+        .footer-buttons {
+          @include H4(left, $white);
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+  .footer-description {
+    width: 100%;
+    height: 50px;
+    background-color: $primary-color;
+    color: $white;
+    .wrapper {
+      @include wrapper($wrapper-width);
+      .social-icons {
+        width: 25%;
+        float: left;
+        .fa {
+          width: 50px;
+          height: 50px;
+          color: $white;
+          margin-top: 20px;
+        }
+      }
+      .copyright-text {
+        width: 50%;
+        float: right;
+        line-height: 50px;
+      }
+    }
+  }
+}

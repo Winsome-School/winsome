@@ -1,0 +1,178 @@
+.imagesDiv{
+  background: url(../images/two2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .text-center{
+    text-align: center;
+  }
+  h1{
+    padding-top: 70px;
+    font-family: 'New Times Roman';
+    font-size: 4em;
+    color: white;
+    margin:0px;
+  }
+  .box{
+    padding: 40px 100px; 
+    box-sizing: border-box;
+    .firstRow{
+      .col-md-6{
+        .img1{
+          padding: 0;
+          height: 250px;
+          /*margin: 2px;*/
+          // background: url(../images/imgone.jpg);
+          /*width: 95%;*/
+          background-position: center;
+          background-size: cover;
+          box-shadow: 0px 2px 3px 1px #FDBA26;
+          /*padding: 0;*/
+        }
+      }
+      .firstImage{
+        .img2{
+          padding: 0;
+          height: 250px;/*
+          margin-left: 10px;
+          margin-right: 10px;*/
+          // background: url(../images/imgtwo.jpg);
+          background-position:center;
+          background-size: cover;
+          box-shadow: 1px 1px 1px 1px #FDBA26;
+        }
+      }
+      .secondImage{
+        .img3{
+          padding: 0;
+          height: 250px;
+          // background: url(../images/imgthree.jpg);
+          width: 100%;
+          background-size: cover;
+          background-position: center;
+          box-shadow: 1px 1px 1px 1px #FDBA26;
+          /*padding: 100px;*/
+        }
+      }
+    }
+    .secondRow{
+      padding-top: 20px;
+      .thirdImage{
+        .img4{
+          padding: 0;
+          height: 250px;
+          // background: url(../images/imgfour.jpg);
+          background-size: cover;
+          background-position: center;
+          box-shadow: 1px 1px 1px 1px #FDBA26;
+        }
+      }
+      .forthImage{
+        .img5{
+          padding: 0;
+          height: 250px;
+          // background: url(../images/imgfive.jpg);
+          background-position: center;
+          background-size: cover;
+          box-shadow: 1px 1px 3px 1px #FDBA26;
+        }
+      }
+      .col-md-6{
+        .img6{
+          padding: 0;
+          height: 250px;
+          // background: url(../images/imgsix.jpg);
+          background-position: center;
+          background-size: cover;
+          box-shadow: 1px 1px 1px 1px #FDBA26;
+        }
+      }
+    }
+    .imgHover{
+      transition: background-color 0.4s ease-out;
+    }
+    .imgHover:hover{
+      cursor: pointer;
+      opacity: 0.5;
+      transition: background-color 0.4s ease-out;
+    }   
+  }
+}
+
+
+
+.modal{
+    display:none;
+}
+
+.modal_bg {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.8);
+    position: fixed;
+    top: 0px;
+}
+
+.modal_content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: calc(100vh - 34px);
+    transform: translate(-50%, -55%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    // padding-bottom: 40px;
+    margin-top: 34px;
+    
+    .modelimg1{
+      background: url(../images/imgone.jpg);
+      height: calc(100vh - 52px); 
+      background-position: center;
+      background-size: cover;
+      }
+    .modelimg2{
+      background: url(../images/imgtwo.jpg);
+      height: calc(100vh - 52px); 
+      background-position: center;
+      background-size: cover;
+      }
+    .modelimg3{
+      background: url(../images/imgthree.jpg);
+      height: calc(100vh - 52px); 
+      background-position: center;
+      background-size: cover;
+      }
+    .modelimg4{
+      background: url(../images/imgfour.jpg);
+      height: calc(100vh - 52px); 
+      background-position: center;
+      background-size: cover;
+      }
+    .modelimg5{
+      background: url(../images/imgfive.jpg);
+      height: calc(100vh - 52px); 
+      background-position: center;
+      background-size: cover;
+      }
+    .modelimg6{
+      background: url(../images/imgsix.jpg);
+      height: calc(100vh - 52px); 
+      background-position: center;
+      background-size: cover;
+      }
+    .fa-times{
+      position: fixed;
+      right: 20px;
+      top: 10px;
+      font-size: 2em;
+      color: #FDBA26;
+
+      &:hover{text-decoration: none;}
+    }
+  }
+#modal1:target, #modal2:target, #modal3:target, #modal4:target, 
+#modal5:target,#modal6:target{
+    display: block;
+}

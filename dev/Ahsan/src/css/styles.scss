@@ -1,0 +1,35 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../node_modules/bootstrap/dist/css/bootstrap-theme.css';
+
+@import './partials/variables';
+@import './partials/mixins';
+@import './partials/globals';
+
+@import './modules/app/app';
+// ########## Header ##########
+@import './modules/header/_login';
+@import './modules/header/_nav';
+@import './modules/header/_navbar';
+@import './modules/header/_wrapper';
+@import './modules/header/_drop-down-meu';
+@import './modules/header/_navsubmenu';
+@import './modules/header/_DropDownBox';
+// ########## Hero ##########
+@import './modules/hero/hero';
+// ########## Promo ##########
+@import './modules/promo/winsomeSchool';
+@import './modules/promo/promoCard';
+@import './modules/promo/readMoreButton';
+@import './modules/promo/juniorSchool';
+// ########## Calender ##########
+@import './modules/calender/content';
+@import './modules/calender/events';
+@import './modules/calender/arrow';
+// ########## Whatshappen ##########
+@import './modules/Whatshappen/Whatshappen';
+// ########## Gallery ##########
+@import './modules/gallery/gallery';
+// ########## Footer ##########
+@import './modules/career/career';
+@import './modules/footer/footer';
+
