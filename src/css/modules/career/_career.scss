@@ -1,0 +1,121 @@
+//############### color variables #########
+$heading-icon-color:yellow;
+$career-body-color: #e6e6e6;
+$placeholder-color:#999999;
+$border-color:#737373;
+$button-color:#737373;
+$p-color:#737373;
+//############### CSS Classes#########
+%career-button{
+	height: 45px;
+	width:35%;
+	font-size: 18px;
+	color:white;
+	background-color:  $button-color;
+	border: none;
+	line-height: 40px;
+	font-weight:lighter;
+
+}
+
+//############# Career SCSS ###########
+.career{
+	border-top:10px yellow solid;
+	background-color: $career-body-color;
+	.wrapper{
+		@include wrapper($wrapper-width);
+		//border: 1px grey solid;s
+		//height:1500px;  //temporary
+		.content-1{
+			width:55%;
+			.content-box{
+				h3{
+					@include H3(left,$black);
+					letter-spacing: 2px;
+				}
+				.yellow-icon{
+					width: 18px;
+					background-color:$heading-icon-color;
+					height: 18px;
+					margin:30px 0px;
+				}
+				p{
+					@include P(left,$p-color);
+					font-weight: 600;
+					letter-spacing: 1px;
+				}
+
+
+			}
+			.box-2{
+				margin-top: 80px;
+				.dropDown{
+					margin:15px 0px;
+					select{
+						width: 100%;
+						height:50px;
+						font-size: 24px;
+						color:$border-color;
+						border: $border-color 2px solid;
+						text-indent: 18px;
+						background-color: $career-body-color;
+
+					}
+				}
+				.resume-box{
+					width: 100%;
+					height: 220px;
+					border: $border-color 2px solid;
+					margin:45px 0px;
+					p:nth-child(1){
+						color:black;
+						padding-top:40px;
+						text-align: center;
+					}
+					p:nth-child(2){
+						text-align: center;
+						padding-top: 7px;
+					}
+					.upload-btn{
+						margin: 20px 32.5%;
+						width: 100%;
+						height: 50px;
+						button{
+							@extend %career-button;
+						}
+					}
+				}
+				.user-info{
+					input{
+						display: block;
+						margin:15px 0px;
+						border:2px $border-color solid;
+						width: 100%;
+						height: 60px; 
+						font-size: 24px;
+						text-indent: 18px;
+						background-color: $career-body-color;
+						&::placeholder{  /* Chrome, Firefox, Opera, Safari 10.1+ */
+							color:$placeholder-color;	
+							opacity:1;   /* Firefox */
+						}
+						&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+						    color: $placeholder-color;
+						}
+
+						&::-ms-input-placeholder { /* Microsoft Edge */
+						    color:$placeholder-color;
+						}
+					}
+					button{
+						
+						@extend %career-button;
+						margin-top:20px;
+						margin-bottom: 80px;
+
+					}
+				}
+			}
+		}
+	}
+}
