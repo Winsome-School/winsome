@@ -34,7 +34,7 @@ class App extends Component {
           <Header />
           <HeroImage />
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/HOME" component={Home} />
             <Route exact path="/CAREER" component={Career} />
           </Switch>
           <Footer />
