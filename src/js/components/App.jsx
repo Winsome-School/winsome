@@ -18,6 +18,8 @@ import Footer from './footer/Footer';
 import Career from './career/Career';
 import Home from './Home/Home';
 import Junior from './Junior/Junior';
+import Middle from './middle/Middle';
+import PhotoGallery from './photogallery/PhotoGallery';
 
 
 
@@ -37,6 +39,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/carrer" component={Career} />
             <Route exact path="/junior" component={Junior} />
+            <Route exact path="/middle" component={Middle} />
+            <Route exact path="/photo-gallery" component={PhotoGallery} />
             <Route path="/" component={Home} />
           </Switch>
           <Footer />

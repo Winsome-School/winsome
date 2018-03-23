@@ -1,0 +1,27 @@
+#middle{
+	height: 1300px;
+	padding: 20px 70px 50px 70px;
+	background-color: $background-image-color;
+	.middleSection{
+		width: 70%;
+	}
+	.middleH2{
+		@include H2('', $black);
+	}
+	.yellowBox{
+		margin: 30px 0;
+		height: 20px;
+		width: 20px;
+		background-color: $accent-color;
+	}
+	.middleP{
+		@include P('', $black);
+		padding-right: 120px;
+		margin-bottom: 30px;
+
+	}
+	.middleImg{
+		height: 400px;
+		@include image('IMG_9463 (2).jpg')
+	}
+}
