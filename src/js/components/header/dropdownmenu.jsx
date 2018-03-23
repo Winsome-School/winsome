@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  Link,
+} from 'react-router-dom';
 
 
 
@@ -7,7 +10,7 @@ const DropDownMenu = (props)=> {
 	data2=data2.split(' ')
 	let mydata=data2.map((item,index)=>{
 		return (
-			<a  key={index} >{item}</a>			
+			<Link to={item} key={index} >{item}</Link>			
 		)
 	})
 		return (

@@ -3,12 +3,7 @@ import React, { Component } from 'react';
 import NavSubmenu from './NavSubMenu';
 //import dataArray from './dataGiver';
 import {
-  BrowserRouter as Router,
-  Route,
   Link,
-  Redirect,
-  NavLink,
-  Switch
 } from 'react-router-dom';
 
 

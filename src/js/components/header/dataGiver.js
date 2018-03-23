@@ -10,7 +10,7 @@ let dataArray = [
   // data for navbar section
   {
     dataNavbar: [
-      ['contact', 'contact link1 link2 link3', 'last',],
+      ['contact', 'contact photo-gallery link2 link3', 'last',],
       ['carrer', 'carrer link1 link2 link3', 'last2'],
       ['news/events', 'news/events link2 link3', ''],
       ['admissions', 'admissions link1 link2 link3 link4', ''],
