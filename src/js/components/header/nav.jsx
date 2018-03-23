@@ -5,25 +5,25 @@ import Navbar from './Navbar';
 import dataArray from './DataGiver';
 
 
- const Nav = ()=>{
+const Nav = () => {
   //console.log(dataArray)
-  let loginToRender=dataArray[0].loginData.map((item,index)=>{
-    return(
+  let loginToRender = dataArray[0].loginData.map((item, index) => {
+    return (
       // the array is being passed to the component for better results 
       <Login key={index} data={item} />
     )
-  }) 
+  })
   return (
-   <div className='wrapper'>
-  <img className="header-logo" src="./images/logo.png" />
-    <div className='my-nav'>
-      {loginToRender}
-      <Navbar dataArray={dataArray}/> 
-      <div id="div4">
-        
+    <div className='wrapper'>
+      <img className="header-logo" src="./images/logo.png" />
+      <div className='my-nav'>
+        {loginToRender}
+        <Navbar dataArray={dataArray} />
+        <div id="div4">
+
+        </div>
       </div>
     </div>
-  </div>  
   )
 }
 

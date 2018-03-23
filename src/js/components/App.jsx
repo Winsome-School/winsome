@@ -16,6 +16,7 @@ import Blog from './Whatshappen/Blog';
 import Gallery from './gallery/Gallery';
 import Footer from './footer/Footer';
 import Career from './career/Career';
+import Home from './Home/Home';
 
 
 
@@ -32,24 +33,9 @@ class App extends Component {
         <div className="app">
           <Header />
           <HeroImage />
-          <Promo />
-          <Calender />
-          <Blog />
-          <Gallery />
           <Switch>
-            <Router
-              exact path="/career"
-              render={
-                routerProps => {
-                  <div>
-                    <Header {...routeProps} />
-                    <HeroImage {...routeProps} />
-                    <Career {...routeProps} />
-                    <Footer {...routeProps} />
-                  </div>
-                }
-              }
-            />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/CAREER" component={Career} />
           </Switch>
           <Footer />
         </div>
