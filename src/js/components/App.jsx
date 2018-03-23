@@ -17,6 +17,7 @@ import Gallery from './gallery/Gallery';
 import Footer from './footer/Footer';
 import Career from './career/Career';
 import Home from './Home/Home';
+import Junior from './Junior/Junior';
 
 
 
@@ -36,6 +37,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/HOME" component={Home} />
             <Route exact path="/CAREER" component={Career} />
+            <Route exact path="/JUNIOR" component={Junior} />
           </Switch>
           <Footer />
         </div>
