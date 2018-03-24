@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import News  from '../News/News';
 
 export default class career extends Component {
   constructor() {
@@ -87,6 +88,7 @@ export default class career extends Component {
             </div>
           </div>
 
+           <News />
         </div>
       </div>
 

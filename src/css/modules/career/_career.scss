@@ -1,5 +1,5 @@
 //############### color variables #########
-$heading-icon-color:yellow;
+$heading-icon-color:#ffcc33;
 $career-body-color: #e6e6e6;
 $placeholder-color:#999999;
 $border-color:#737373;
@@ -19,14 +19,15 @@ $p-color:#737373;
 
 //############# Career SCSS ###########
 .career{
-	border-top:10px yellow solid;
+	border-top:10px $heading-icon-color solid;
 	background-color: $career-body-color;
 	.wrapper{
 		@include wrapper($wrapper-width);
-		//border: 1px grey solid;s
-		//height:1500px;  //temporary
+		
 		.content-1{
 			width:55%;
+			
+			float: left;
 			.content-box{
 				h3{
 					@include H3(left,$black);
