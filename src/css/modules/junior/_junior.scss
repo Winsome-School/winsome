@@ -1,13 +1,15 @@
 .container {
-  background-color: #ece3e3;
+  background-color: #e2e2e2;
+  width: 100%;
   .junior {
     width: 70%;
     padding: 15px 50px 30px 60px;
     //margin: 5%;
     .box {
-      background-color: #e2f596;
+      background-color: $accent-color;
       width: 20px;
       height: 20px;
+      margin: 30px 0;
       
     }
     p {
@@ -17,18 +19,17 @@
       padding-bottom:  3% ;
       width: 70%;
     }
-    .image{
-      
-    }
+    
   }
 
   .creating {
      padding: 15px 10px 30px 60px;
 
     .box {
-      background-color: #e2f596;
+      background-color: $accent-color;
       width: 20px;
       height: 20px;
+      margin: 30px 0;
     }
     .textimage {
         
@@ -41,8 +42,7 @@
       float: left;
   }
        .imglion {
-        width: 40%;
-        height: 70vh;
+        width: 40%;        
         float: right;
         margin-top: 3%;
     } 
@@ -56,9 +56,10 @@
     clear: both;
 
     .box {
-      background-color: #e2f596;
+      background-color: $accent-color;
       width: 20px;
       height: 20px;
+      margin: 30px 0;
     }
     p {
       line-height: 1.6;
