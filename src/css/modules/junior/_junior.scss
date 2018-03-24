@@ -1,6 +1,8 @@
 .container {
   background-color: #e2e2e2;
   width: 100%;
+  margin: 0;
+  padding: 0;
   .junior {
     width: 70%;
     padding: 15px 50px 30px 60px;
@@ -13,7 +15,7 @@
       
     }
     p {
-      // font-family: roboto;
+      
       line-height: 1.6;
       padding-top:  1% ;
       padding-bottom:  3% ;
@@ -23,7 +25,7 @@
   }
 
   .creating {
-     padding: 15px 10px 30px 60px;
+     padding: 15px 0 30px 60px;
 
     .box {
       background-color: $accent-color;
@@ -36,7 +38,7 @@
     .pdivs{
       
       line-height: 1.6;
-      padding-top:  1% ;
+      //padding-top:  1% ;
       padding-bottom:  3% ;
       width: 50%;
       float: left;
@@ -44,7 +46,7 @@
        .imglion {
         width: 40%;        
         float: right;
-        margin-top: 3%;
+        //margin-top: 3%;
     } 
   }
     

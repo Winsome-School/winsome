@@ -52,6 +52,7 @@ export default class Juniors extends React.Component {
             <div className="image">
               <img className='imglion' src='./images/junior2.jpg' />
             </div>
+            <div className="clear"></div>
           </div>
         </div>
         <div className="key">
