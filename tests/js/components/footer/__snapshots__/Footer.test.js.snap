@@ -1,0 +1,2099 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Footer component renders the Footer component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Footer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="footer"
+        >
+          <div
+            className="wrapper"
+          >
+            <div
+              className="column"
+            >
+              <img
+                className="footer-logo"
+                src="./images/logo.png"
+              />
+              <p
+                className="footer-info"
+              >
+                Phone: +92 42 34567890
+              </p>
+              <p
+                className="footer-info"
+              >
+                Email: info@winsome.ed.pk
+              </p>
+              <p
+                className="footer-info"
+              >
+                Address: 12-C Madican Block,
+              </p>
+              <p
+                className="footer-info"
+              >
+                Awan Town, Lahore.
+              </p>
+            </div>
+            <div
+              className="column-text"
+            >
+              <h4
+                className="footer-buttons"
+              >
+                OUR SCHOOL
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                JUNIOR
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                MIDDLE
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                SENIOR
+              </h4>
+            </div>
+            <div
+              className="column-text"
+            >
+              <h4
+                className="footer-buttons"
+              >
+                ADMISSIONS
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                STAFF & FACULTY
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                NEWS/EVENTS
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                EDUCATION BLOG
+              </h4>
+            </div>
+            <div
+              className="column-text"
+            >
+              <h4
+                className="footer-buttons"
+              >
+                POLICIES
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                CAREERS
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                RESOURCE CENTER
+              </h4>
+            </div>
+            <div
+              className="clear"
+            />
+          </div>
+        </div>,
+        <div
+          className="footer-description"
+        >
+          <div
+            className="wrapper"
+          >
+            <div
+              className="social-icons"
+            >
+              <a
+                href="#"
+                target="_blank"
+              >
+                <i
+                  className="fab fa-facebook-square"
+                />
+              </a>
+              <a
+                href="#"
+                target="_blank"
+              >
+                <i
+                  className="fab fa-instagram"
+                />
+              </a>
+              <a
+                href="#"
+                target="_blank"
+              >
+                <i
+                  className="fab fa-twitter-square"
+                />
+              </a>
+              <a
+                href="#"
+                target="_blank"
+              >
+                <i
+                  className="fab fa-google-plus-square"
+                />
+              </a>
+            </div>
+            <div
+              className="copyright-text"
+            >
+              <p>
+                Copyright © 2018 Winsome School. All Rights Reserved
+              </p>
+            </div>
+            <div
+              className="clear"
+            />
+          </div>
+        </div>,
+      ],
+      "id": "footer",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="wrapper"
+          >
+            <div
+              className="column"
+            >
+              <img
+                className="footer-logo"
+                src="./images/logo.png"
+              />
+              <p
+                className="footer-info"
+              >
+                Phone: +92 42 34567890
+              </p>
+              <p
+                className="footer-info"
+              >
+                Email: info@winsome.ed.pk
+              </p>
+              <p
+                className="footer-info"
+              >
+                Address: 12-C Madican Block,
+              </p>
+              <p
+                className="footer-info"
+              >
+                Awan Town, Lahore.
+              </p>
+            </div>
+            <div
+              className="column-text"
+            >
+              <h4
+                className="footer-buttons"
+              >
+                OUR SCHOOL
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                JUNIOR
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                MIDDLE
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                SENIOR
+              </h4>
+            </div>
+            <div
+              className="column-text"
+            >
+              <h4
+                className="footer-buttons"
+              >
+                ADMISSIONS
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                STAFF & FACULTY
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                NEWS/EVENTS
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                EDUCATION BLOG
+              </h4>
+            </div>
+            <div
+              className="column-text"
+            >
+              <h4
+                className="footer-buttons"
+              >
+                POLICIES
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                CAREERS
+              </h4>
+              <h4
+                className="footer-buttons"
+              >
+                RESOURCE CENTER
+              </h4>
+            </div>
+            <div
+              className="clear"
+            />
+          </div>,
+          "className": "footer",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="column"
+              >
+                <img
+                  className="footer-logo"
+                  src="./images/logo.png"
+                />
+                <p
+                  className="footer-info"
+                >
+                  Phone: +92 42 34567890
+                </p>
+                <p
+                  className="footer-info"
+                >
+                  Email: info@winsome.ed.pk
+                </p>
+                <p
+                  className="footer-info"
+                >
+                  Address: 12-C Madican Block,
+                </p>
+                <p
+                  className="footer-info"
+                >
+                  Awan Town, Lahore.
+                </p>
+              </div>,
+              <div
+                className="column-text"
+              >
+                <h4
+                  className="footer-buttons"
+                >
+                  OUR SCHOOL
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  JUNIOR
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  MIDDLE
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  SENIOR
+                </h4>
+              </div>,
+              <div
+                className="column-text"
+              >
+                <h4
+                  className="footer-buttons"
+                >
+                  ADMISSIONS
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  STAFF & FACULTY
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  NEWS/EVENTS
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  EDUCATION BLOG
+                </h4>
+              </div>,
+              <div
+                className="column-text"
+              >
+                <h4
+                  className="footer-buttons"
+                >
+                  POLICIES
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  CAREERS
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  RESOURCE CENTER
+                </h4>
+              </div>,
+              <div
+                className="clear"
+              />,
+            ],
+            "className": "wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    className="footer-logo"
+                    src="./images/logo.png"
+                  />,
+                  <p
+                    className="footer-info"
+                  >
+                    Phone: +92 42 34567890
+                  </p>,
+                  <p
+                    className="footer-info"
+                  >
+                    Email: info@winsome.ed.pk
+                  </p>,
+                  <p
+                    className="footer-info"
+                  >
+                    Address: 12-C Madican Block,
+                  </p>,
+                  <p
+                    className="footer-info"
+                  >
+                    Awan Town, Lahore.
+                  </p>,
+                ],
+                "className": "column",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "footer-logo",
+                    "src": "./images/logo.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Phone: +92 42 34567890",
+                    "className": "footer-info",
+                  },
+                  "ref": null,
+                  "rendered": "Phone: +92 42 34567890",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Email: info@winsome.ed.pk",
+                    "className": "footer-info",
+                  },
+                  "ref": null,
+                  "rendered": "Email: info@winsome.ed.pk",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Address: 12-C Madican Block,",
+                    "className": "footer-info",
+                  },
+                  "ref": null,
+                  "rendered": "Address: 12-C Madican Block,",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Awan Town, Lahore.",
+                    "className": "footer-info",
+                  },
+                  "ref": null,
+                  "rendered": "Awan Town, Lahore.",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="footer-buttons"
+                  >
+                    OUR SCHOOL
+                  </h4>,
+                  <h4
+                    className="footer-buttons"
+                  >
+                    JUNIOR
+                  </h4>,
+                  <h4
+                    className="footer-buttons"
+                  >
+                    MIDDLE
+                  </h4>,
+                  <h4
+                    className="footer-buttons"
+                  >
+                    SENIOR
+                  </h4>,
+                ],
+                "className": "column-text",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "OUR SCHOOL",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "OUR SCHOOL",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "JUNIOR",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "JUNIOR",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "MIDDLE",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "MIDDLE",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "SENIOR",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "SENIOR",
+                  "type": "h4",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="footer-buttons"
+                  >
+                    ADMISSIONS
+                  </h4>,
+                  <h4
+                    className="footer-buttons"
+                  >
+                    STAFF & FACULTY
+                  </h4>,
+                  <h4
+                    className="footer-buttons"
+                  >
+                    NEWS/EVENTS
+                  </h4>,
+                  <h4
+                    className="footer-buttons"
+                  >
+                    EDUCATION BLOG
+                  </h4>,
+                ],
+                "className": "column-text",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ADMISSIONS",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "ADMISSIONS",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "STAFF & FACULTY",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "STAFF & FACULTY",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NEWS/EVENTS",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "NEWS/EVENTS",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "EDUCATION BLOG",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "EDUCATION BLOG",
+                  "type": "h4",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="footer-buttons"
+                  >
+                    POLICIES
+                  </h4>,
+                  <h4
+                    className="footer-buttons"
+                  >
+                    CAREERS
+                  </h4>,
+                  <h4
+                    className="footer-buttons"
+                  >
+                    RESOURCE CENTER
+                  </h4>,
+                ],
+                "className": "column-text",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "POLICIES",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "POLICIES",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "CAREERS",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "CAREERS",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "RESOURCE CENTER",
+                    "className": "footer-buttons",
+                  },
+                  "ref": null,
+                  "rendered": "RESOURCE CENTER",
+                  "type": "h4",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "clear",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="wrapper"
+          >
+            <div
+              className="social-icons"
+            >
+              <a
+                href="#"
+                target="_blank"
+              >
+                <i
+                  className="fab fa-facebook-square"
+                />
+              </a>
+              <a
+                href="#"
+                target="_blank"
+              >
+                <i
+                  className="fab fa-instagram"
+                />
+              </a>
+              <a
+                href="#"
+                target="_blank"
+              >
+                <i
+                  className="fab fa-twitter-square"
+                />
+              </a>
+              <a
+                href="#"
+                target="_blank"
+              >
+                <i
+                  className="fab fa-google-plus-square"
+                />
+              </a>
+            </div>
+            <div
+              className="copyright-text"
+            >
+              <p>
+                Copyright © 2018 Winsome School. All Rights Reserved
+              </p>
+            </div>
+            <div
+              className="clear"
+            />
+          </div>,
+          "className": "footer-description",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="social-icons"
+              >
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-facebook-square"
+                  />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-instagram"
+                  />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-twitter-square"
+                  />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-google-plus-square"
+                  />
+                </a>
+              </div>,
+              <div
+                className="copyright-text"
+              >
+                <p>
+                  Copyright © 2018 Winsome School. All Rights Reserved
+                </p>
+              </div>,
+              <div
+                className="clear"
+              />,
+            ],
+            "className": "wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-facebook-square"
+                    />
+                  </a>,
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-instagram"
+                    />
+                  </a>,
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-twitter-square"
+                    />
+                  </a>,
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-google-plus-square"
+                    />
+                  </a>,
+                ],
+                "className": "social-icons",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fab fa-facebook-square"
+                    />,
+                    "href": "#",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-facebook-square",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fab fa-instagram"
+                    />,
+                    "href": "#",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-instagram",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fab fa-twitter-square"
+                    />,
+                    "href": "#",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-twitter-square",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <i
+                      className="fab fa-google-plus-square"
+                    />,
+                    "href": "#",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-google-plus-square",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <p>
+                  Copyright © 2018 Winsome School. All Rights Reserved
+                </p>,
+                "className": "copyright-text",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Copyright © 2018 Winsome School. All Rights Reserved",
+                },
+                "ref": null,
+                "rendered": "Copyright © 2018 Winsome School. All Rights Reserved",
+                "type": "p",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "clear",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="footer"
+          >
+            <div
+              className="wrapper"
+            >
+              <div
+                className="column"
+              >
+                <img
+                  className="footer-logo"
+                  src="./images/logo.png"
+                />
+                <p
+                  className="footer-info"
+                >
+                  Phone: +92 42 34567890
+                </p>
+                <p
+                  className="footer-info"
+                >
+                  Email: info@winsome.ed.pk
+                </p>
+                <p
+                  className="footer-info"
+                >
+                  Address: 12-C Madican Block,
+                </p>
+                <p
+                  className="footer-info"
+                >
+                  Awan Town, Lahore.
+                </p>
+              </div>
+              <div
+                className="column-text"
+              >
+                <h4
+                  className="footer-buttons"
+                >
+                  OUR SCHOOL
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  JUNIOR
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  MIDDLE
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  SENIOR
+                </h4>
+              </div>
+              <div
+                className="column-text"
+              >
+                <h4
+                  className="footer-buttons"
+                >
+                  ADMISSIONS
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  STAFF & FACULTY
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  NEWS/EVENTS
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  EDUCATION BLOG
+                </h4>
+              </div>
+              <div
+                className="column-text"
+              >
+                <h4
+                  className="footer-buttons"
+                >
+                  POLICIES
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  CAREERS
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  RESOURCE CENTER
+                </h4>
+              </div>
+              <div
+                className="clear"
+              />
+            </div>
+          </div>,
+          <div
+            className="footer-description"
+          >
+            <div
+              className="wrapper"
+            >
+              <div
+                className="social-icons"
+              >
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-facebook-square"
+                  />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-instagram"
+                  />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-twitter-square"
+                  />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-google-plus-square"
+                  />
+                </a>
+              </div>
+              <div
+                className="copyright-text"
+              >
+                <p>
+                  Copyright © 2018 Winsome School. All Rights Reserved
+                </p>
+              </div>
+              <div
+                className="clear"
+              />
+            </div>
+          </div>,
+        ],
+        "id": "footer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="wrapper"
+            >
+              <div
+                className="column"
+              >
+                <img
+                  className="footer-logo"
+                  src="./images/logo.png"
+                />
+                <p
+                  className="footer-info"
+                >
+                  Phone: +92 42 34567890
+                </p>
+                <p
+                  className="footer-info"
+                >
+                  Email: info@winsome.ed.pk
+                </p>
+                <p
+                  className="footer-info"
+                >
+                  Address: 12-C Madican Block,
+                </p>
+                <p
+                  className="footer-info"
+                >
+                  Awan Town, Lahore.
+                </p>
+              </div>
+              <div
+                className="column-text"
+              >
+                <h4
+                  className="footer-buttons"
+                >
+                  OUR SCHOOL
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  JUNIOR
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  MIDDLE
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  SENIOR
+                </h4>
+              </div>
+              <div
+                className="column-text"
+              >
+                <h4
+                  className="footer-buttons"
+                >
+                  ADMISSIONS
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  STAFF & FACULTY
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  NEWS/EVENTS
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  EDUCATION BLOG
+                </h4>
+              </div>
+              <div
+                className="column-text"
+              >
+                <h4
+                  className="footer-buttons"
+                >
+                  POLICIES
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  CAREERS
+                </h4>
+                <h4
+                  className="footer-buttons"
+                >
+                  RESOURCE CENTER
+                </h4>
+              </div>
+              <div
+                className="clear"
+              />
+            </div>,
+            "className": "footer",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="column"
+                >
+                  <img
+                    className="footer-logo"
+                    src="./images/logo.png"
+                  />
+                  <p
+                    className="footer-info"
+                  >
+                    Phone: +92 42 34567890
+                  </p>
+                  <p
+                    className="footer-info"
+                  >
+                    Email: info@winsome.ed.pk
+                  </p>
+                  <p
+                    className="footer-info"
+                  >
+                    Address: 12-C Madican Block,
+                  </p>
+                  <p
+                    className="footer-info"
+                  >
+                    Awan Town, Lahore.
+                  </p>
+                </div>,
+                <div
+                  className="column-text"
+                >
+                  <h4
+                    className="footer-buttons"
+                  >
+                    OUR SCHOOL
+                  </h4>
+                  <h4
+                    className="footer-buttons"
+                  >
+                    JUNIOR
+                  </h4>
+                  <h4
+                    className="footer-buttons"
+                  >
+                    MIDDLE
+                  </h4>
+                  <h4
+                    className="footer-buttons"
+                  >
+                    SENIOR
+                  </h4>
+                </div>,
+                <div
+                  className="column-text"
+                >
+                  <h4
+                    className="footer-buttons"
+                  >
+                    ADMISSIONS
+                  </h4>
+                  <h4
+                    className="footer-buttons"
+                  >
+                    STAFF & FACULTY
+                  </h4>
+                  <h4
+                    className="footer-buttons"
+                  >
+                    NEWS/EVENTS
+                  </h4>
+                  <h4
+                    className="footer-buttons"
+                  >
+                    EDUCATION BLOG
+                  </h4>
+                </div>,
+                <div
+                  className="column-text"
+                >
+                  <h4
+                    className="footer-buttons"
+                  >
+                    POLICIES
+                  </h4>
+                  <h4
+                    className="footer-buttons"
+                  >
+                    CAREERS
+                  </h4>
+                  <h4
+                    className="footer-buttons"
+                  >
+                    RESOURCE CENTER
+                  </h4>
+                </div>,
+                <div
+                  className="clear"
+                />,
+              ],
+              "className": "wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      className="footer-logo"
+                      src="./images/logo.png"
+                    />,
+                    <p
+                      className="footer-info"
+                    >
+                      Phone: +92 42 34567890
+                    </p>,
+                    <p
+                      className="footer-info"
+                    >
+                      Email: info@winsome.ed.pk
+                    </p>,
+                    <p
+                      className="footer-info"
+                    >
+                      Address: 12-C Madican Block,
+                    </p>,
+                    <p
+                      className="footer-info"
+                    >
+                      Awan Town, Lahore.
+                    </p>,
+                  ],
+                  "className": "column",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "footer-logo",
+                      "src": "./images/logo.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Phone: +92 42 34567890",
+                      "className": "footer-info",
+                    },
+                    "ref": null,
+                    "rendered": "Phone: +92 42 34567890",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Email: info@winsome.ed.pk",
+                      "className": "footer-info",
+                    },
+                    "ref": null,
+                    "rendered": "Email: info@winsome.ed.pk",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Address: 12-C Madican Block,",
+                      "className": "footer-info",
+                    },
+                    "ref": null,
+                    "rendered": "Address: 12-C Madican Block,",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Awan Town, Lahore.",
+                      "className": "footer-info",
+                    },
+                    "ref": null,
+                    "rendered": "Awan Town, Lahore.",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="footer-buttons"
+                    >
+                      OUR SCHOOL
+                    </h4>,
+                    <h4
+                      className="footer-buttons"
+                    >
+                      JUNIOR
+                    </h4>,
+                    <h4
+                      className="footer-buttons"
+                    >
+                      MIDDLE
+                    </h4>,
+                    <h4
+                      className="footer-buttons"
+                    >
+                      SENIOR
+                    </h4>,
+                  ],
+                  "className": "column-text",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "OUR SCHOOL",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "OUR SCHOOL",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "JUNIOR",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "JUNIOR",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "MIDDLE",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "MIDDLE",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "SENIOR",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "SENIOR",
+                    "type": "h4",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="footer-buttons"
+                    >
+                      ADMISSIONS
+                    </h4>,
+                    <h4
+                      className="footer-buttons"
+                    >
+                      STAFF & FACULTY
+                    </h4>,
+                    <h4
+                      className="footer-buttons"
+                    >
+                      NEWS/EVENTS
+                    </h4>,
+                    <h4
+                      className="footer-buttons"
+                    >
+                      EDUCATION BLOG
+                    </h4>,
+                  ],
+                  "className": "column-text",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "ADMISSIONS",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "ADMISSIONS",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "STAFF & FACULTY",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "STAFF & FACULTY",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "NEWS/EVENTS",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "NEWS/EVENTS",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "EDUCATION BLOG",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "EDUCATION BLOG",
+                    "type": "h4",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="footer-buttons"
+                    >
+                      POLICIES
+                    </h4>,
+                    <h4
+                      className="footer-buttons"
+                    >
+                      CAREERS
+                    </h4>,
+                    <h4
+                      className="footer-buttons"
+                    >
+                      RESOURCE CENTER
+                    </h4>,
+                  ],
+                  "className": "column-text",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "POLICIES",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "POLICIES",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "CAREERS",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "CAREERS",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "RESOURCE CENTER",
+                      "className": "footer-buttons",
+                    },
+                    "ref": null,
+                    "rendered": "RESOURCE CENTER",
+                    "type": "h4",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "clear",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="wrapper"
+            >
+              <div
+                className="social-icons"
+              >
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-facebook-square"
+                  />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-instagram"
+                  />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-twitter-square"
+                  />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-google-plus-square"
+                  />
+                </a>
+              </div>
+              <div
+                className="copyright-text"
+              >
+                <p>
+                  Copyright © 2018 Winsome School. All Rights Reserved
+                </p>
+              </div>
+              <div
+                className="clear"
+              />
+            </div>,
+            "className": "footer-description",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="social-icons"
+                >
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-facebook-square"
+                    />
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-instagram"
+                    />
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-twitter-square"
+                    />
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-google-plus-square"
+                    />
+                  </a>
+                </div>,
+                <div
+                  className="copyright-text"
+                >
+                  <p>
+                    Copyright © 2018 Winsome School. All Rights Reserved
+                  </p>
+                </div>,
+                <div
+                  className="clear"
+                />,
+              ],
+              "className": "wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <a
+                      href="#"
+                      target="_blank"
+                    >
+                      <i
+                        className="fab fa-facebook-square"
+                      />
+                    </a>,
+                    <a
+                      href="#"
+                      target="_blank"
+                    >
+                      <i
+                        className="fab fa-instagram"
+                      />
+                    </a>,
+                    <a
+                      href="#"
+                      target="_blank"
+                    >
+                      <i
+                        className="fab fa-twitter-square"
+                      />
+                    </a>,
+                    <a
+                      href="#"
+                      target="_blank"
+                    >
+                      <i
+                        className="fab fa-google-plus-square"
+                      />
+                    </a>,
+                  ],
+                  "className": "social-icons",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fab fa-facebook-square"
+                      />,
+                      "href": "#",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fab fa-facebook-square",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fab fa-instagram"
+                      />,
+                      "href": "#",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fab fa-instagram",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fab fa-twitter-square"
+                      />,
+                      "href": "#",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fab fa-twitter-square",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fab fa-google-plus-square"
+                      />,
+                      "href": "#",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fab fa-google-plus-square",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "a",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <p>
+                    Copyright © 2018 Winsome School. All Rights Reserved
+                  </p>,
+                  "className": "copyright-text",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Copyright © 2018 Winsome School. All Rights Reserved",
+                  },
+                  "ref": null,
+                  "rendered": "Copyright © 2018 Winsome School. All Rights Reserved",
+                  "type": "p",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "clear",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
