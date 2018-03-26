@@ -10,7 +10,7 @@ import {
 
 import Header from './header/nav';
 import HeroImage from './hero/HeroImage';
-import Promo from './promo/app';
+import Promo from './promo/Promo';
 import Calender from './calender/Calender';
 import Blog from './Whatshappen/Blog';
 import Gallery from './gallery/Gallery';

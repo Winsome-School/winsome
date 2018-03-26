@@ -9,7 +9,7 @@ import WinsomeSchool from './WinsomeSchool';
 import JuniorSchool from './JuniorSchool';
 import { promoData } from './promoData';
 
-export class App extends Component {
+export class Promo extends Component {
   render() {
     let { promoData } = this.props;
     return (
@@ -34,4 +34,4 @@ function mapStateToProps({promoData}) {
   }
 }
 
-export default connect(mapStateToProps, {})(App);
+export default connect(mapStateToProps, {})(Promo);
