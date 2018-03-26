@@ -36,10 +36,10 @@ export default class Footer extends React.Component {
         <div className="footer-description">
           <div className="wrapper">
             <div className="social-icons">
-              <a href="#" target="_blank"><i className="fa fa-facebook"></i></a>
-              <a href="#" target="_blank"><i className="fa fa-instagram"></i></a>
-              <a href="#" target="_blank"><i className="fa fa-twitter"></i></a>
-              <a href="#" target="_blank"><i className="fa fa-google"></i></a>
+              <a href="#" target="_blank"><i className="fab fa-facebook-square"></i></a>
+              <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>
+              <a href="#" target="_blank"><i className="fab fa-twitter-square"></i></a>
+              <a href="#" target="_blank"><i className="fab fa-google-plus-square"></i></a>
             </div>
             <div className="copyright-text">
               <p>
