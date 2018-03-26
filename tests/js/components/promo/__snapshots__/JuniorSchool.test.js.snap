@@ -1,0 +1,527 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing JuniorSchool component renders the JuniorSchool component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <JuniorSchool />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="top-section"
+        >
+          <div
+            className="wrapper"
+          >
+            <h3
+              className="junior-school-heading"
+            >
+              Junior School
+            </h3>
+            <p
+              className="junior-school-description"
+            >
+              At Winsome we believe in providing a dual approach to education which supports every child to become confident learners. For us, the quality of relationship developed with the child has a direct link to the effective practice of teaching the children and guiding them to discover new things and think for themselves. We believe that if the teacher-child relationship is based on mutual respect, active listening and the sharing of knowledge and skills, the child’s capacity to learn and discover the world is enhanced.
+            </p>
+            <ReadMoreButton
+              align="center"
+            />
+          </div>
+        </div>,
+        <div
+          className="bottom-section"
+        >
+          <div
+            className="wrapper"
+          >
+            <div
+              className="junior-school-gallery-container"
+            >
+              <div
+                className="junior-school-left-image"
+              />
+              <div
+                className="junior-school-right-image"
+              />
+              <div
+                className="junior-school-middle-image"
+              />
+            </div>
+          </div>
+        </div>,
+      ],
+      "id": "junior-school",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="wrapper"
+          >
+            <h3
+              className="junior-school-heading"
+            >
+              Junior School
+            </h3>
+            <p
+              className="junior-school-description"
+            >
+              At Winsome we believe in providing a dual approach to education which supports every child to become confident learners. For us, the quality of relationship developed with the child has a direct link to the effective practice of teaching the children and guiding them to discover new things and think for themselves. We believe that if the teacher-child relationship is based on mutual respect, active listening and the sharing of knowledge and skills, the child’s capacity to learn and discover the world is enhanced.
+            </p>
+            <ReadMoreButton
+              align="center"
+            />
+          </div>,
+          "className": "top-section",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="junior-school-heading"
+              >
+                Junior School
+              </h3>,
+              <p
+                className="junior-school-description"
+              >
+                At Winsome we believe in providing a dual approach to education which supports every child to become confident learners. For us, the quality of relationship developed with the child has a direct link to the effective practice of teaching the children and guiding them to discover new things and think for themselves. We believe that if the teacher-child relationship is based on mutual respect, active listening and the sharing of knowledge and skills, the child’s capacity to learn and discover the world is enhanced.
+              </p>,
+              <ReadMoreButton
+                align="center"
+              />,
+            ],
+            "className": "wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Junior School",
+                "className": "junior-school-heading",
+              },
+              "ref": null,
+              "rendered": "Junior School",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "At Winsome we believe in providing a dual approach to education which supports every child to become confident learners. For us, the quality of relationship developed with the child has a direct link to the effective practice of teaching the children and guiding them to discover new things and think for themselves. We believe that if the teacher-child relationship is based on mutual respect, active listening and the sharing of knowledge and skills, the child’s capacity to learn and discover the world is enhanced.",
+                "className": "junior-school-description",
+              },
+              "ref": null,
+              "rendered": "At Winsome we believe in providing a dual approach to education which supports every child to become confident learners. For us, the quality of relationship developed with the child has a direct link to the effective practice of teaching the children and guiding them to discover new things and think for themselves. We believe that if the teacher-child relationship is based on mutual respect, active listening and the sharing of knowledge and skills, the child’s capacity to learn and discover the world is enhanced.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "align": "center",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="wrapper"
+          >
+            <div
+              className="junior-school-gallery-container"
+            >
+              <div
+                className="junior-school-left-image"
+              />
+              <div
+                className="junior-school-right-image"
+              />
+              <div
+                className="junior-school-middle-image"
+              />
+            </div>
+          </div>,
+          "className": "bottom-section",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="junior-school-gallery-container"
+            >
+              <div
+                className="junior-school-left-image"
+              />
+              <div
+                className="junior-school-right-image"
+              />
+              <div
+                className="junior-school-middle-image"
+              />
+            </div>,
+            "className": "wrapper",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="junior-school-left-image"
+                />,
+                <div
+                  className="junior-school-right-image"
+                />,
+                <div
+                  className="junior-school-middle-image"
+                />,
+              ],
+              "className": "junior-school-gallery-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "junior-school-left-image",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "junior-school-right-image",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "junior-school-middle-image",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="top-section"
+          >
+            <div
+              className="wrapper"
+            >
+              <h3
+                className="junior-school-heading"
+              >
+                Junior School
+              </h3>
+              <p
+                className="junior-school-description"
+              >
+                At Winsome we believe in providing a dual approach to education which supports every child to become confident learners. For us, the quality of relationship developed with the child has a direct link to the effective practice of teaching the children and guiding them to discover new things and think for themselves. We believe that if the teacher-child relationship is based on mutual respect, active listening and the sharing of knowledge and skills, the child’s capacity to learn and discover the world is enhanced.
+              </p>
+              <ReadMoreButton
+                align="center"
+              />
+            </div>
+          </div>,
+          <div
+            className="bottom-section"
+          >
+            <div
+              className="wrapper"
+            >
+              <div
+                className="junior-school-gallery-container"
+              >
+                <div
+                  className="junior-school-left-image"
+                />
+                <div
+                  className="junior-school-right-image"
+                />
+                <div
+                  className="junior-school-middle-image"
+                />
+              </div>
+            </div>
+          </div>,
+        ],
+        "id": "junior-school",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="wrapper"
+            >
+              <h3
+                className="junior-school-heading"
+              >
+                Junior School
+              </h3>
+              <p
+                className="junior-school-description"
+              >
+                At Winsome we believe in providing a dual approach to education which supports every child to become confident learners. For us, the quality of relationship developed with the child has a direct link to the effective practice of teaching the children and guiding them to discover new things and think for themselves. We believe that if the teacher-child relationship is based on mutual respect, active listening and the sharing of knowledge and skills, the child’s capacity to learn and discover the world is enhanced.
+              </p>
+              <ReadMoreButton
+                align="center"
+              />
+            </div>,
+            "className": "top-section",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="junior-school-heading"
+                >
+                  Junior School
+                </h3>,
+                <p
+                  className="junior-school-description"
+                >
+                  At Winsome we believe in providing a dual approach to education which supports every child to become confident learners. For us, the quality of relationship developed with the child has a direct link to the effective practice of teaching the children and guiding them to discover new things and think for themselves. We believe that if the teacher-child relationship is based on mutual respect, active listening and the sharing of knowledge and skills, the child’s capacity to learn and discover the world is enhanced.
+                </p>,
+                <ReadMoreButton
+                  align="center"
+                />,
+              ],
+              "className": "wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Junior School",
+                  "className": "junior-school-heading",
+                },
+                "ref": null,
+                "rendered": "Junior School",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "At Winsome we believe in providing a dual approach to education which supports every child to become confident learners. For us, the quality of relationship developed with the child has a direct link to the effective practice of teaching the children and guiding them to discover new things and think for themselves. We believe that if the teacher-child relationship is based on mutual respect, active listening and the sharing of knowledge and skills, the child’s capacity to learn and discover the world is enhanced.",
+                  "className": "junior-school-description",
+                },
+                "ref": null,
+                "rendered": "At Winsome we believe in providing a dual approach to education which supports every child to become confident learners. For us, the quality of relationship developed with the child has a direct link to the effective practice of teaching the children and guiding them to discover new things and think for themselves. We believe that if the teacher-child relationship is based on mutual respect, active listening and the sharing of knowledge and skills, the child’s capacity to learn and discover the world is enhanced.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "align": "center",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="wrapper"
+            >
+              <div
+                className="junior-school-gallery-container"
+              >
+                <div
+                  className="junior-school-left-image"
+                />
+                <div
+                  className="junior-school-right-image"
+                />
+                <div
+                  className="junior-school-middle-image"
+                />
+              </div>
+            </div>,
+            "className": "bottom-section",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="junior-school-gallery-container"
+              >
+                <div
+                  className="junior-school-left-image"
+                />
+                <div
+                  className="junior-school-right-image"
+                />
+                <div
+                  className="junior-school-middle-image"
+                />
+              </div>,
+              "className": "wrapper",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="junior-school-left-image"
+                  />,
+                  <div
+                    className="junior-school-right-image"
+                  />,
+                  <div
+                    className="junior-school-middle-image"
+                  />,
+                ],
+                "className": "junior-school-gallery-container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "junior-school-left-image",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "junior-school-right-image",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "junior-school-middle-image",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
