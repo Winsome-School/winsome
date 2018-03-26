@@ -16,7 +16,7 @@ export default class Juniors extends React.Component {
             of learning in our classrooms.
           </p>
           <div className="image" >
-            <img src='./images/junior1.jpg' height="450px" width="650px" />
+            <img src='./images/junior1.jpg'  width='90%' />
           </div>
         </div>
         <div className="creating">
