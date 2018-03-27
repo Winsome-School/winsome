@@ -1,5 +1,6 @@
 import React from 'react'
 import events from './Data'
+import {connect} from 'react-redux'
 
 
 const Event=({counter})=>{
@@ -22,4 +23,9 @@ const Event=({counter})=>{
 
 		))
 	}
-export default Event;
+function mapStateToProps({counter}) {
+	return {
+		counter
+	}
+}
+export default connect(mapStateToProps,null)(Event)

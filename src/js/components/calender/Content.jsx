@@ -1,8 +1,7 @@
 import React from 'react';
-import {connect} from 'react-redux'
 import Arrow from './Arrow';
 import Event from './Event';
- class Content extends React.Component{
+ export default class Content extends React.Component{
 	constructor(){
 		super();
 	}
@@ -12,19 +11,13 @@ import Event from './Event';
 				<div className="line"></div>
 				<h2><strong>Up Coming Events</strong></h2>
 				<div className="renderEvents">
-						<Event {...this.props}/>
+						<Event />
 				</div>
 				<div className="clear"></div>
 				<Arrow
-				{...this.props}
 				 />
 			</div>
 		)
 	}
 }
-function mapStateToProps({counter}) {
-	return {
-		counter
-	}
-}
-export default connect(mapStateToProps,null)(Content)
+

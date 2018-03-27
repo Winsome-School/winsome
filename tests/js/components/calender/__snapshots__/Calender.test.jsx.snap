@@ -17,7 +17,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Connect(Content) />,
+      "children": <Content />,
     },
     "ref": null,
     "rendered": Object {
@@ -37,7 +37,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Connect(Content) />,
+        "children": <Content />,
       },
       "ref": null,
       "rendered": Object {
