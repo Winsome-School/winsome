@@ -22,6 +22,7 @@ import Middle from './middle/Middle';
 import PhotoGallery from './photogallery/PhotoGallery';
 import Staff from './staff/Staff';
 import Achievers from './achievers/Achievers';
+import Events from './events/Events';
 
 
 
@@ -44,7 +45,8 @@ class App extends Component {
             <Route exact path="/middle" component={Middle} />
             <Route exact path="/photo-gallery" component={PhotoGallery} />
             <Route exact path="/staff" component={Staff} />
-            <Route exact path="/annual-achievers" component={Achievers} />            
+            <Route exact path="/annual-achievers" component={Achievers} />
+            <Route exact path="/events" component={Events} />                        
             <Route path="/" component={Home} />
           </Switch>
           <Footer />
