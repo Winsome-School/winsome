@@ -16,7 +16,7 @@ describe('testing PromoCard component', () => {
     imageDirection: "left"
   };
   const wrapper = shallow(<PromoCard data={data} />);
-  it('renders the ReadMoreButton component', () => {
+  it('renders the PromoCard component', () => {
     expect(wrapper).toMatchSnapshot();
   });
 });
