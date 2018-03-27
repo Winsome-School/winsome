@@ -7,7 +7,7 @@ import ReadMoreButton from '../../../../src/js/components/promo/ReadMoreButton';
 Enzyme.configure({ adapter: new Adapter() });
 
 describe('testing ReadMoreButton component', () => {
-  const wrapper = shallow(<ReadMoreButton />);
+  const wrapper = shallow(<ReadMoreButton align={'center'} />);
   it('renders the ReadMoreButton component', () => {
     expect(wrapper).toMatchSnapshot();
   });
