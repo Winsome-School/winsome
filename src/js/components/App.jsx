@@ -23,6 +23,7 @@ import PhotoGallery from './photogallery/PhotoGallery';
 import Staff from './staff/Staff';
 import Achievers from './achievers/Achievers';
 import Events from './events/Events';
+import Contact from './contact/Contact';
 
 
 
@@ -46,7 +47,8 @@ class App extends Component {
             <Route exact path="/photo-gallery" component={PhotoGallery} />
             <Route exact path="/staff" component={Staff} />
             <Route exact path="/annual-achievers" component={Achievers} />
-            <Route exact path="/events" component={Events} />                        
+            <Route exact path="/events" component={Events} />
+            <Route exact path="/contact" component={Contact} />            
             <Route path="/" component={Home} />
           </Switch>
           <Footer />

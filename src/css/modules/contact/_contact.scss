@@ -1,0 +1,132 @@
+$contact-body-color: #e6e6e6;
+$placeholder-color:#999999;
+$border-color:#737373;
+$button-color:#737373;
+$p-color:#737373;
+
+
+
+.contact{
+	border-top: 10px yellow solid;
+	height: 1500px;
+	padding: 20px 70px 50px 70px;
+	background-color: $background-image-color;
+	.row{
+		margin: 0;
+		padding: 0; 
+
+	
+		// width: 1000px;
+		// width: 350px;
+		.contactInfo{
+			width: 500px;
+
+			// width: 500;
+			// float: left;
+			.contactH2{
+				@include H2('', $black)
+			}
+			.yellowBox{
+
+				margin-top: 30px;
+				margin-bottom: 30px;
+				height: 20px;
+				width: 20px;
+				background-color: $accent-color;
+
+			}.contactP{
+				width: 340px;
+			}
+		}
+	
+	.glyphicon{
+			color: yellow;
+			// float: right;
+			// width: 350;
+			// position: absolute;
+		}.location{
+			
+			padding-top: 145px;
+			padding-left: 100px;
+			.address{
+				padding-left: 0px;
+			}
+
+		}
+	}
+
+.contactUs{
+
+	.contactForm{
+		margin-top: 100px;
+		.contactH2{
+			@include H2('',$black)
+		}
+		.yellowBox{
+			margin-top: 30px;
+			margin-bottom: 30px;
+			height: 20px;
+			width: 20px;
+			background-color: $accent-color;
+		 }.userInfo{
+			input{
+				margin: 15px 0px;
+				border: 2px $border-color solid;
+				width: 50%;
+				height: 60px;
+				font-size: 20px;
+				text-indent: 18px;
+				background-color: $contact-body-color;
+				&::placeholder{
+					color: $placeholder-color;
+					opacity:1;
+
+				}
+			}
+		}.messageForm{
+			input{
+				margin: 15px 0px;
+				border: 2px $border-color solid;
+				width: 50%;
+				height: 350px;
+				font-size:20px;
+				text-indent: 18px;
+				background-color: $contact-body-color;
+				&::placeholder{
+					color: $placeholder-color;
+					opacity: 1;
+				}
+				
+			}
+			
+
+		}
+	}
+}
+}
+textarea{
+					margin: 15px 0px;
+					border: 2px $border-color solid;
+					width: 50%;
+					height: 350px;
+					font-size: 20px;
+					text-indent: 18px;
+					background-color: $contact-body-color;
+					&::placeholder{
+						color: $placeholder-color;
+						opacity: 1;
+					}
+				}
+				button{
+				margin-top: 20px;
+				margin-bottom: 80px;
+				height: 45px;
+				width: 150px
+				// color: red;
+				// font-size: 18px;
+				// color: white;
+				// background-color: $button-color;
+				// border: none;
+				// line-height: 40px;
+				// font-weight: lighter;
+			}
