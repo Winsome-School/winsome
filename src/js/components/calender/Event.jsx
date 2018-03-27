@@ -6,7 +6,6 @@ import {connect} from 'react-redux'
 const Event=({counter})=>{
 	let selectedEvent=[...events];
 		return selectedEvent.slice(counter,counter+4).map(({...item},index)=>(
-
 				<div className="event">
 					<div className="comingEvents">
 						{item['event']}
