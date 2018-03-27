@@ -1,0 +1,12 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../node_modules/bootstrap/dist/css/bootstrap-theme.css';
+
+@import './partials/variables';
+@import './partials/mixins';
+@import './partials/globals';
+
+@import './modules/Achievers/achievers';
+@import './modules/Achievers/firstHeading';
+@import './modules/Achievers/secondParts';
+
+

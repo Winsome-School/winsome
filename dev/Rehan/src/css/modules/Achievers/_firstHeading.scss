@@ -1,0 +1,31 @@
+.first{
+	width: 65%;
+	height: 300px;
+	margin:  3% 0 0 2% ;
+	float: left;
+	@media (max-width: 600px) {
+			width: 100%;
+		}
+
+	.firstPart{
+		width: 60%;
+		height: 300px;
+		margin: 0% 2% 2% 5%;
+		h2{
+			font-size: 20px;
+			margin: 0px;
+			font-weight: bold;
+		}
+		.box{
+			width:13px;
+			height: 13px;
+			 background-color: yellow;
+			 margin-top: 5%;
+			 margin-left: 0.5%;
+		}
+		p{
+			text-align: justify;
+			margin-top: 7%;
+		}
+	}
+}

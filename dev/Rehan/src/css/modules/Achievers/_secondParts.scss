@@ -1,0 +1,118 @@
+.secondPart{
+	width: 100%;
+	height: 1200px;
+	margin-top: -30%;
+	@media (max-width: 600px) {
+			width: 100%;
+		}
+	h2{
+		font-size: 25px;
+		font-weight: bold;
+		margin-left: 5.3%;
+		@media (min-width: 600px) {
+			font-size: 20px;		
+		}
+
+	}
+	.box{
+		width:13px;
+		height: 13px;
+	 	background-color: yellow;
+	 	margin-top: 10%;
+	 	margin-left: 5.5%;
+	 	margin-bottom: -6.5%
+	}
+	.col1{
+		width: 45%;
+		float: left;
+		height: 1000px;
+		margin-left: 1%;
+		margin-top: -2%;
+		@media (min-width: 600px) {
+			width: 45%;		
+		}
+
+
+
+		.part{
+			float: left;
+			width: 100%;
+			height: 30%;
+			margin-left: 10%;
+			margin-top: 12%;
+			@media (max-width: 600px) {
+			width: 100%;
+		}
+			h4{
+				margin-left: 40%;
+				margin-bottom: -80%;
+				margin-top: 15%;
+				font-weight: bold;
+			}
+			img{
+				float: left;
+				width: 200px;
+				height: 200px;
+				border: 2px solid white;
+				@media  (max-width: 600px) {
+				width: 140px;
+				height: 140px;		
+		}
+
+			}
+			.paragraph{
+				width: 30%;
+				float: left;
+				text-align: justify;
+				margin-top: 20%;
+				margin-left: 5%;
+			}
+
+		}
+	}
+	.col2{
+		float: right;
+		width:45%;
+		height: 900px;
+		margin-top: 0.8%;
+		@media (min-width: 600px) {
+			width: 45%;		
+		}
+
+		.part{
+			float: left;
+			width: 100%;
+			height: 30%;
+			margin-left: 10%;
+			margin-top: 12%;
+			h4{
+				margin-left: 40%;
+				margin-bottom: -80%;
+				margin-top: 15%;
+				font-weight: bold;
+			}
+			img{
+				float: left;
+				width: 200px;
+				height: 200px;
+				border: 2px solid white;
+				@media  (max-width: 600px) {
+				width: 140px;
+				height: 140px;	
+		}
+			}
+			.paragraph{
+				width: 30%;
+				float: left;
+				text-align: justify;
+				margin-top: 20%;
+				margin-left: 5%;
+				@media  (max-width: 600px) {
+				width: 100%;
+						
+		}
+			}
+
+		}
+	}
+}
