@@ -6,34 +6,34 @@ export const Achieversdata = {
   },
   secondPart: [
     {
-      textHeading: 'John Doe',
+      textHeading: 'musharraf',
       text: 'john doe is a developer but i don not know him',
-      image: './images/our-school-photo.jpg'
+      image: './images/our-school-photo.jpg',
+      divStyle:''
     },
     {
       textHeading: 'John Doe',
       text: 'john doe is a developer but i don not know him',
-      image: './images/our-school-photo.jpg'
+      image: './images/our-school-photo.jpg',
+      divStyle:''
     },
     {
       textHeading: 'John Doe',
       text: 'john doe is a developer but i don not know him',
-      image: './images/our-school-photo.jpg'
+      image: './images/our-school-photo.jpg',
+      divStyle:''
     },
     {
       textHeading: 'John Doe',
       text: 'john doe is a developer but i don not know him',
-      image: './images/our-school-photo.jpg'
+      image: './images/our-school-photo.jpg',
+      divStyle:''
     },
-    // {
-    // 	textHeading:'John Doe',
-    // 	text:'john doe is a developer but i don not know him',
-    // 	image:'./images/our-school-photo.jpg'
-    // },
     {
       textHeading: 'John Doe',
       text: 'john doe is a developer but i don not know him',
-      image: './images/our-school-photo.jpg'
+      image: './images/our-school-photo.jpg',
+      divStyle:"divStyle"
     }
   ]
 }

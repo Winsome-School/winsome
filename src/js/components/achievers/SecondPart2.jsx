@@ -20,6 +20,7 @@ class SecondPart2 extends React.Component {
                   textHeading={item.textHeading}
                   text={item.text}
                   image={item.image}
+                  divStyle={item.divStyle}
                 />
               )
             })}

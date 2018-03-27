@@ -37,7 +37,7 @@ import {Achieversdata} from './data'
 				 secondNo={3} 
 				 heading={'Class of 2016'}
 				/>
-				
+				<div className="clear"></div>
 			</div>
 		)
 	}

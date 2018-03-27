@@ -6,16 +6,18 @@ import PropTypes from 'prop-types'
 		super();
 	}
 	render(){
-		let {text,textHeading,image}=this.props
+		let {text,textHeading,image,divStyle}=this.props
 		return (
 			<div>
-				<div className="part">
-					<h4>{textHeading}</h4>
-					<img src={image} />
-					<div  className="paragraph">
-					<p>{text}</p>
+				<div className={divStyle}>
+					<div className="part">
+						<h4>{textHeading}</h4>
+						<img src={image} />
+						<div  className="paragraph">
+						<p>{text}</p>
+						</div>
 					</div>
-				</div>
+				</div>	
 				<div className="clear"></div>
 			</div>	
 		)
