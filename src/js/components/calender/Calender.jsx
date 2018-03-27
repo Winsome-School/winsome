@@ -1,8 +1,9 @@
 import React from 'react';
 import Content from './Content';
-import events from './Data'
+import events from './Data';
+import {connect} from 'react-redux';
 
-export default class Calender extends React.Component {
+export class Calender extends React.Component {
 	constructor(){
 		super();
 	}
@@ -14,4 +15,6 @@ export default class Calender extends React.Component {
 			</div>
 		)
 	}
-} 
+}
+
+export default connect(null,null)(Calender); 

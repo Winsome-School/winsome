@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`testing PromoCard component renders the ReadMoreButton component 1`] = `
+exports[`testing PromoCard component renders the PromoCard component 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
