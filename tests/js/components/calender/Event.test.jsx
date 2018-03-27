@@ -11,7 +11,7 @@ describe('Test the Event Component of Calender',()=>{
 		expect(wrapper).toMatchSnapshot();
 	})
 	it('Test the return of array of objects',()=>{
-		let items=[{},{},{}];
-		expect(items[0]).toEqual({})
+		let items=[{event:'Half terms End',eventDate:'01 May',time:''},{},{}];
+		expect(items[0]).toEqual({event:'Half terms End',eventDate:'01 May',time:''})
 	})
 })

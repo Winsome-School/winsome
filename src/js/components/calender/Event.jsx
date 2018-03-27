@@ -3,7 +3,7 @@ import events from './Data'
 import {connect} from 'react-redux'
 
 
-const Event=({counter})=>{
+export const Event=({counter})=>{
 	let selectedEvent=[...events];
 		return selectedEvent.slice(counter,counter+4).map(({...item},index)=>(
 				<div className="event">

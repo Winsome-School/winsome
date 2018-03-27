@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import {connect} from 'react-redux';
 import {onClickRightArrow,onClickLeftArrow} from '../../actions'
 
-class Arrow extends React.Component{
+export class Arrow extends React.Component{
 	constructor()
 	{
 		super();
@@ -26,7 +26,7 @@ class Arrow extends React.Component{
 	}
 }
 Arrow.propTypes={
-	onClickRightArrow:PropTypes.func.isRequired,
-	onClickLeftArrow:PropTypes.func.isRequired
+	onClickRightArrow:PropTypes.func,
+	onClickLeftArrow:PropTypes.func
 }
 export default connect(null,{onClickLeftArrow,onClickRightArrow})(Arrow);
