@@ -1,0 +1,522 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing PromoCard component renders the ReadMoreButton component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PromoCard
+    data={
+      Object {
+        "description": "We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.",
+        "imageDirection": "left",
+        "imageLink": "./img/our-school-photo.jpg",
+        "promoCardId": 1,
+        "readMoreLink": "",
+        "title": "Our School",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="wrapper"
+      >
+        <div
+          className="promo-card-container-sectionOne-left"
+        >
+          <div
+            className="promo-image-container-sectionOne-left"
+          >
+            <div
+              className="promo-image-sectionOne-left"
+            />
+          </div>
+          <div
+            className="promo-text-container"
+          >
+            <div
+              className="promo-text-wrapper"
+            >
+              <h4
+                className="promo-heading"
+              >
+                Our School
+              </h4>
+              <p
+                className="promo-description"
+              >
+                We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.
+              </p>
+              <ReadMoreButton
+                align="left"
+              />
+            </div>
+          </div>
+        </div>
+      </div>,
+      "className": "promo-card",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="promo-card-container-sectionOne-left"
+        >
+          <div
+            className="promo-image-container-sectionOne-left"
+          >
+            <div
+              className="promo-image-sectionOne-left"
+            />
+          </div>
+          <div
+            className="promo-text-container"
+          >
+            <div
+              className="promo-text-wrapper"
+            >
+              <h4
+                className="promo-heading"
+              >
+                Our School
+              </h4>
+              <p
+                className="promo-description"
+              >
+                We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.
+              </p>
+              <ReadMoreButton
+                align="left"
+              />
+            </div>
+          </div>
+        </div>,
+        "className": "wrapper",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="promo-image-container-sectionOne-left"
+            >
+              <div
+                className="promo-image-sectionOne-left"
+              />
+            </div>,
+            <div
+              className="promo-text-container"
+            >
+              <div
+                className="promo-text-wrapper"
+              >
+                <h4
+                  className="promo-heading"
+                >
+                  Our School
+                </h4>
+                <p
+                  className="promo-description"
+                >
+                  We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.
+                </p>
+                <ReadMoreButton
+                  align="left"
+                />
+              </div>
+            </div>,
+          ],
+          "className": "promo-card-container-sectionOne-left",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="promo-image-sectionOne-left"
+              />,
+              "className": "promo-image-container-sectionOne-left",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "promo-image-sectionOne-left",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="promo-text-wrapper"
+              >
+                <h4
+                  className="promo-heading"
+                >
+                  Our School
+                </h4>
+                <p
+                  className="promo-description"
+                >
+                  We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.
+                </p>
+                <ReadMoreButton
+                  align="left"
+                />
+              </div>,
+              "className": "promo-text-container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="promo-heading"
+                  >
+                    Our School
+                  </h4>,
+                  <p
+                    className="promo-description"
+                  >
+                    We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.
+                  </p>,
+                  <ReadMoreButton
+                    align="left"
+                  />,
+                ],
+                "className": "promo-text-wrapper",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Our School",
+                    "className": "promo-heading",
+                  },
+                  "ref": null,
+                  "rendered": "Our School",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.",
+                    "className": "promo-description",
+                  },
+                  "ref": null,
+                  "rendered": "We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "align": "left",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="wrapper"
+        >
+          <div
+            className="promo-card-container-sectionOne-left"
+          >
+            <div
+              className="promo-image-container-sectionOne-left"
+            >
+              <div
+                className="promo-image-sectionOne-left"
+              />
+            </div>
+            <div
+              className="promo-text-container"
+            >
+              <div
+                className="promo-text-wrapper"
+              >
+                <h4
+                  className="promo-heading"
+                >
+                  Our School
+                </h4>
+                <p
+                  className="promo-description"
+                >
+                  We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.
+                </p>
+                <ReadMoreButton
+                  align="left"
+                />
+              </div>
+            </div>
+          </div>
+        </div>,
+        "className": "promo-card",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="promo-card-container-sectionOne-left"
+          >
+            <div
+              className="promo-image-container-sectionOne-left"
+            >
+              <div
+                className="promo-image-sectionOne-left"
+              />
+            </div>
+            <div
+              className="promo-text-container"
+            >
+              <div
+                className="promo-text-wrapper"
+              >
+                <h4
+                  className="promo-heading"
+                >
+                  Our School
+                </h4>
+                <p
+                  className="promo-description"
+                >
+                  We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.
+                </p>
+                <ReadMoreButton
+                  align="left"
+                />
+              </div>
+            </div>
+          </div>,
+          "className": "wrapper",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="promo-image-container-sectionOne-left"
+              >
+                <div
+                  className="promo-image-sectionOne-left"
+                />
+              </div>,
+              <div
+                className="promo-text-container"
+              >
+                <div
+                  className="promo-text-wrapper"
+                >
+                  <h4
+                    className="promo-heading"
+                  >
+                    Our School
+                  </h4>
+                  <p
+                    className="promo-description"
+                  >
+                    We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.
+                  </p>
+                  <ReadMoreButton
+                    align="left"
+                  />
+                </div>
+              </div>,
+            ],
+            "className": "promo-card-container-sectionOne-left",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="promo-image-sectionOne-left"
+                />,
+                "className": "promo-image-container-sectionOne-left",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "promo-image-sectionOne-left",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="promo-text-wrapper"
+                >
+                  <h4
+                    className="promo-heading"
+                  >
+                    Our School
+                  </h4>
+                  <p
+                    className="promo-description"
+                  >
+                    We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.
+                  </p>
+                  <ReadMoreButton
+                    align="left"
+                  />
+                </div>,
+                "className": "promo-text-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h4
+                      className="promo-heading"
+                    >
+                      Our School
+                    </h4>,
+                    <p
+                      className="promo-description"
+                    >
+                      We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.
+                    </p>,
+                    <ReadMoreButton
+                      align="left"
+                    />,
+                  ],
+                  "className": "promo-text-wrapper",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Our School",
+                      "className": "promo-heading",
+                    },
+                    "ref": null,
+                    "rendered": "Our School",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.",
+                      "className": "promo-description",
+                    },
+                    "ref": null,
+                    "rendered": "We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "align": "left",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
