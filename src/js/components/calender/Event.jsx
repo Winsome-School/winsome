@@ -2,9 +2,9 @@ import React from 'react'
 import events from './Data'
 
 
-const Event=({n})=>{
+const Event=({counter})=>{
 	let selectedEvent=[...events];
-		return selectedEvent.slice(n,n+4).map(({...item},index)=>(
+		return selectedEvent.slice(counter,counter+4).map(({...item},index)=>(
 
 				<div className="event">
 					<div className="comingEvents">

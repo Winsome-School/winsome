@@ -1,7 +1,8 @@
 import React from 'react';
+import {connect} from 'react-redux'
 import Arrow from './Arrow';
 import Event from './Event';
-export default class Content extends React.Component{
+ class Content extends React.Component{
 	constructor(){
 		super();
 	}
@@ -21,3 +22,9 @@ export default class Content extends React.Component{
 		)
 	}
 }
+function mapStateToProps({counter}) {
+	return {
+		counter
+	}
+}
+export default connect(mapStateToProps,null)(Content)
