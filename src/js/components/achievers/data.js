@@ -27,13 +27,32 @@ export const Achieversdata = {
       textHeading: 'John Doe',
       text: 'john doe is a developer but i don not know him',
       image: './images/our-school-photo.jpg',
-      divStyle:''
+      divStyle:'divStyle'
     },
     {
       textHeading: 'John Doe',
       text: 'john doe is a developer but i don not know him',
       image: './images/our-school-photo.jpg',
       divStyle:"divStyle"
+    },
+    {
+      textHeading: 'John Doe',
+      text: 'john doe is a developer but i don not know him',
+      image: './images/our-school-photo.jpg',
+      divStyle:''
+    },
+    {
+      textHeading: 'John Doe',
+      text: 'john doe is a developer but i don not know him',
+      image: './images/our-school-photo.jpg',
+      divStyle:''
+    },
+    {
+      textHeading: 'John Doe',
+      text: 'john doe is a developer but i don not know him',
+      image: './images/our-school-photo.jpg',
+      divStyle:''
     }
+
   ]
 }

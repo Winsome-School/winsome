@@ -27,14 +27,17 @@ import {Achieversdata} from './data'
 
 				<SecondPart2
 				 Achieversdata={Achieversdata}
+				  top={0}
 				 firstNo={3} 
 				 secondNo={5} 
-				 heading={'Class of 2017'} 
+				 heading={'Class of 2017'}
+				 
 				/>
 				<SecondPart2 
 				 Achieversdata={Achieversdata} 
-				 firstNo={2} 
-				 secondNo={3} 
+				 top={5}
+				 firstNo={7} 
+				 secondNo={8} 
 				 heading={'Class of 2016'}
 				/>
 				<div className="clear"></div>
