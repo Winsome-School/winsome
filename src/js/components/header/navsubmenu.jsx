@@ -36,7 +36,12 @@ export default class NavSubMenu extends React.Component {
 				<div className='nav-sub-menu-bar' onMouseOver={this.handler1} onMouseLeave={this.handler2}>	
 					{this.props.data}				
 				</div>
-				<DropDownMenu extraClass={this.state.myclass} {...this.props} func1={this.handler1} func2={this.handler2}/>
+				<DropDownMenu 
+					extraClass={this.state.myclass}
+				 	func1={this.handler1} 
+				 	func2={this.handler2}
+				 	{...this.props}
+				 />
 				<div className={`drop-down-box ${this.state.myclass}`} >
 				</div>
 

@@ -8,7 +8,7 @@ import {
   Switch
 } from 'react-router-dom';
 
-import Header from './header/nav';
+import Header from './header';
 import HeroImage from './hero/HeroImage';
 import Promo from './promo/Promo';
 import Calender from './calender/Calender';

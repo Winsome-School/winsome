@@ -14,10 +14,13 @@ export default class Navbar extends Component {
       return	(
       <NavSubmenu 
       key={i} 
-      data={<Link to={dataArray[1].dataNavbar[i][0]}>{dataArray[1].dataNavbar[i][0]}</Link>}
-      // data={dataArray[1].dataNavbar[i][0]}
-      data2={dataArray[1].dataNavbar[i][1]}
-      styles={dataArray[1].dataNavbar[i][2]}
+      data={
+              <Link to={dataArray[1].dataNavbar[i].dropDownMenu[i].value}>
+                {dataArray[1].dataNavbar[i].value}
+              </Link>
+            }
+      data2={dataArray[1].dataNavbar[i].dropDownMenu}
+      styles={dataArray[1].dataNavbar[i].styles}
       />
     )
     })

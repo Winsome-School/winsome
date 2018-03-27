@@ -1,5 +1,4 @@
-.wrapper{
-
-@include wrapper($wrapper-width);
-margin-bottom: 30px;
+.header-wrapper{
+	@include wrapper($wrapper-width);
+	margin-bottom: 30px;
 }

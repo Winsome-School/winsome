@@ -18,10 +18,10 @@
 	transition:all 500ms;
 	transition-delay: 400ms;
 	//background-color: green
-		a{  
+		a{	
 			color:$white;
 			padding:0px 10px 0px 10px;
-		}
+		}	
 	}
 .drop-down-menu:hover{
 	//height :100px;
@@ -41,7 +41,8 @@
 	}
 
 .last{
-	right: 30px
+	right: 30px;
+	//width: 400px; this line was added to solve the spacing or hyphen problem 
 }
 .last2{
 	right:30px
