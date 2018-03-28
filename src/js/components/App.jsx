@@ -50,7 +50,7 @@ class App extends Component {
             <Route exact path="/events" component={Events} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/policies" component={Policies} />
-            <Route exact path="/our-school" component={OurSchool} />            
+            <Route exact path="/school" component={OurSchool} />            
             <Route path="/" component={Home} />
           </Switch>
           <Footer />

@@ -21,7 +21,7 @@ const Events = function () {
   return (
     <div>
       <div className='events-wrapper'>
-        <div className='events'>
+        <div className='my-events'>
           <h2>Junior School</h2>
           <div className="box-events"></div>
           <p>

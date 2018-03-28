@@ -15,7 +15,7 @@ export default class Navbar extends Component {
         <NavSubmenu 
           key={i} 
           data={
-                  <Link to={dataArray[1].dataNavbar[i].addressValue}>
+                  <Link className='navbar-main-anchors' to={dataArray[1].dataNavbar[i].addressValue}>
                     {dataArray[1].dataNavbar[i].value}
                   </Link>
                 }
