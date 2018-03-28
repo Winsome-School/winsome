@@ -1,4 +1,5 @@
 import React from 'react';
+import Discover from '../discover/Discover';
 
 
 export default class Contact extends React.Component{
@@ -58,6 +59,7 @@ export default class Contact extends React.Component{
 					</div>
 				</div>
 			</div>
+      <Discover />
 		</div>
 		)}
 }
