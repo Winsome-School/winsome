@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import News  from '../News/News';
+import Discover from '../discover/Discover';
 
 export default class career extends Component {
   constructor() {
@@ -89,6 +90,7 @@ export default class career extends Component {
           </div>
 
            <News />
+           <Discover />
         </div>
       </div>
 
