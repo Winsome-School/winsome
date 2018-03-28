@@ -27,8 +27,6 @@ import Contact from './contact/Contact';
 import Policies from './policies/Policies';
 import OurSchool from './ourschool/OurSchool';
 
-
-
 class App extends Component {
   constructor() {
     super();
