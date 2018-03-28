@@ -38,7 +38,7 @@ export const Achieversdata = {
     },
   ],
   classYear2:'Class of 2016',
-  classof2016:[
+  classOf2016:[
 
     {
       textHeading: 'John Doe',
@@ -47,7 +47,7 @@ export const Achieversdata = {
       divStyle:''
     },
     {
-      textHeading: 'John Doe',
+      textHeading: 'Rehan saeed',
       text: 'john doe is a developer but i don not know him',
       image: './images/our-school-photo.jpg',
       divStyle:''

@@ -15,7 +15,7 @@ class SecondPart2 extends React.Component {
           <h2>{heading}</h2>
           <div className="col1">
             {[...classStudents].slice(top, firstNo).map(function ({...item}, index) {
-              console.log(item.textHeading)
+              console.log(item.text)
               return (
                 <SecondParts
                   key={index}

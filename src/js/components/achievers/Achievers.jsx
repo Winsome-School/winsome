@@ -25,15 +25,17 @@ import {Achieversdata} from './data'
 				/>
 				<div className="clear"></div>
 
-				<SecondPart2
-				  top={0}
-				 firstNo={3} 
-				 secondNo={5} 
-				 heading={Achieversdata.classYear}
-				 classStudents={Achieversdata.classOf2017}
+				{
+				// 	<SecondPart2
+				//   top={0}
+				//  firstNo={3} 
+				//  secondNo={5} 
+				//  heading={Achieversdata.classYear}
+				//  classStudents={Achieversdata.classOf2017}
 				 
-				/>
-				<SecondPart2  
+				// />
+			}
+				 <SecondPart2  
 				 top={0}
 				 firstNo={2} 
 				 secondNo={3} 
