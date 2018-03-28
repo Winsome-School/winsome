@@ -1,0 +1,35 @@
+#discover {
+  .Text {
+      background-color: #fdba26;
+      opacity: 0.8;
+      .discover-heading{
+          padding: 2%;
+          text-align: center;
+          margin: 0;
+      }
+  }
+  .one-third {
+      height: 400px;
+      width: 33.33333333%;
+      float: left;
+      .discover-subheading {
+          color: white;
+          padding: 4%;
+          margin-top: 343px;
+          background-color: rgba(24, 24, 24, 0.6);
+      }
+  }
+  .events {
+      background-image: url('./images/junior1.jpg');
+      background-repeat: no-repeat;
+      // background-size: cover;
+  }
+  .faculty {
+      background-image: url('./images/junior1.jpg');
+      background-repeat: no-repeat;
+  }
+  .policies {
+      background-image: url('./images/junior1.jpg');
+      background-repeat: no-repeat;
+  }
+}

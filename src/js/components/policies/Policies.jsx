@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Discover from '../discover/Discover';
 
 
 export default class Policies extends Component {
@@ -18,6 +19,7 @@ export default class Policies extends Component {
           <h4 className="policy-name-heading">Complaint Procedure</h4>
           <p className="policy-name-paragraph">Download PDF</p>
         </div>
+        <Discover />
       </div>
     );
   }

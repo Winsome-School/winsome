@@ -9,7 +9,7 @@ const DropDownMenu = (props)=> {
 	let {data2,func1,func2,styles}=props
 	let mydata=data2.map((item,index)=>{
 		return (
-			<Link to={item.value} key={index} >{item.value}</Link>		
+			<Link to={item.value} key={index} ><a>{"text not"}</a></Link>		
 		)
 	})
 		return (

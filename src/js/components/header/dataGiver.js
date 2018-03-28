@@ -118,7 +118,7 @@ let dataArray = [
         dropDownMenu:[
           {
             id:'1',
-            value:'item1',
+            value:'item 1',
             addressValue: 'item1',
             styles: '',
           },
