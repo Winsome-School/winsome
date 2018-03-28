@@ -1,0 +1,25 @@
+#policies {
+  .wrapper {
+    margin-left: 100px;
+    .policies-heading {
+      @include H3('left', $black);
+    }
+    .box {
+      width: 25px;
+      height: 25px;
+      background-color: $accent-color;
+      margin: 30px 30px 30px 0px;
+    }
+    .policies-paragraph {
+      @include P('left', $black);
+    }
+    .policy-name-heading {
+      @include H4('left', $black);
+      margin-top: 30px;
+    }
+    .policy-name-paragraph {
+      @include P('left', $black);
+      margin-top: 10px;
+    }
+  }
+}
