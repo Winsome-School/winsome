@@ -2,10 +2,10 @@ import React from 'react';
 import dataForEvents from './DataEvents';
 import EventsSection from './EventsSection';
 import Discover from '../discover/Discover';
-import News from '../News/News';
+import EventNews from './EventNews';
 
 const Events = function () {
-  console.log(dataForEvents)
+  //console.log(dataForEvents)
   var dataToRender = dataForEvents.map((item, index) => {
     return (
       <EventsSection
@@ -34,10 +34,9 @@ const Events = function () {
 		        </p>
           {dataToRender}
         </div>
-        {
-          //################ Please add the right portion here! #####################
-        }
-        <News />
+        <div className='filler'>
+          <EventNews/>
+        </div>
       </div>
       <Discover />
     </div>

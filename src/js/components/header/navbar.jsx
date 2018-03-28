@@ -9,7 +9,7 @@ import {
 export default class Navbar extends Component {
   render() {
     let { dataArray } = this.props;
-    console.log(dataArray[1].dataNavbar[0].adressValue)
+    //console.log(dataArray[1].dataNavbar[0].adressValue)
     var dataToRender = dataArray[1].dataNavbar.map((item,i)=> {
       return	(
         <NavSubmenu 

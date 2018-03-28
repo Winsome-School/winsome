@@ -6,7 +6,7 @@ import dataArray from './DataGiver';
 
 
 const Nav = () => {
-  console.log(dataArray)
+  //console.log(dataArray)
   let loginToRender = dataArray[0].loginData.map((item, index) => {
     return (
       ///////// the array is being passed to the component for better results 

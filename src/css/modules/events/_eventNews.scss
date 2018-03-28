@@ -1,0 +1,71 @@
+//############# color Variables  ##########
+$uper-box-color : #404040;
+$box-1-color:#ffcc33;
+$box-2-color: #ff6666;
+$box-3-color: #8080ff;
+$box-4-color:#80ff80;
+$box-border-color:#404040;
+
+//######### SCSS of News ###################
+.event-News{
+	.event-news-Box{
+	height:750px;
+	width:100%;
+	//float:right;
+		.event-uper-box{
+			
+			width: 100%;
+			background-color: $uper-box-color;
+			h2{
+				margin: 0px;
+				padding: 50px 40px;
+				color:white;
+				font-family: sans-serif;
+			}
+			p{
+				@include P(left,white);
+				padding:0px 40px 50px 40px;
+				font-size: 18px;
+				text-align: justify;
+				font-family: sans-serif;
+				color:#d9d9d9;
+				span{
+					color:$box-1-color;
+				}
+			}
+		}
+		.event-lower-box{
+			
+			width: 100%;
+
+			.event-des-box{
+				height: 50%;
+				width: 50%;
+				background-color: $box-1-color;
+				float: left;
+				h3{
+					font-family: sans-serif;
+					padding: 0 20%;
+					margin:35% 0;
+					border-left:9px $box-border-color solid ;
+					box-sizing: border-box;
+					font-weight: 700;
+				}
+			}
+			.event-box-2{
+				background-color: $box-2-color;
+			}
+			.event-box-3{
+				background-color: $box-3-color;
+			}
+			.event-box-4{
+				background-color: $box-4-color;
+			}
+			
+		}
+	}
+	// .clear{
+	// 	clear: both; 
+	// }
+
+}
