@@ -44,7 +44,6 @@ export default class NavSubMenu extends React.Component {
 				 />
 				<div className={`drop-down-box ${this.state.myclass}`} >
 				</div>
-
 			</div>
 		)
  	}

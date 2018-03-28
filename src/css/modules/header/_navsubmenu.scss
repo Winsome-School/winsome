@@ -4,7 +4,6 @@
   position: relative;
   float : right;
   padding: 0px 30px 0px 10px;
-
 	// .nav-sub-menu-bar:hover+.drop-down-box{
 	// //height :100px;
 	// //visibility: visible;
@@ -14,10 +13,14 @@
   // }
   a {
     text-transform: uppercase;
+    text-decoration: none;
+    transition : all;
+    //######################  this anchor tag gives style to main nav menus ########################
+  }
+  a:active{
+     transform: scale(1.5);
   }
 }
 #nav-sub-menu:hover{
 	cursor: pointer;
 }
-
-

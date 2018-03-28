@@ -4,15 +4,15 @@ let dataArray = [
     loginData: [
       {
         id:'1', 
-        value:'SIGN OUT', 
+        value:'sign out', 
         styles:'glyphicon glyphicon-log-out',
-        addressValue:'SIGN-OUT'
+        addressValue:'sign-out'
       },
       {
         id:'2', 
-        value:'SIGN IN', 
+        value:'sign in', 
         styles:'glyphicon glyphicon-log-in',
-        addressValue:'SIGN-IN'
+        addressValue:'sign-in'
       }
     ]
   }
@@ -26,224 +26,115 @@ let dataArray = [
         id:'1',                         
         value:'contact',
         addressValue: 'contact',
-        styles: 'last',
+        styles: 'contact-header',
   ///////////////////// dropDown options are given here//////////////// 
         dropDownMenu:[
           {
             id:'1',
-            value:'item1',
-            addressValue: 'item1',
+            value:'',
+            addressValue: '',
             styles: '',
-          },
-          {
-            id:'2',
-            value:'link1',
-            addressValue: 'link1',
-            styles: '',
-          },
-          {
-            id:'3',
-            value:'break',
-            addressValue: 'break',
-            styles: '',
-          },
-          {
-            id:'4',
-            value:'redux',
-            addressValue: 'redux',
-            styles: '',
-          },
-          {
-            id:'5',
-            value:'whatever',
-            addressValue: 'whatever',
-            styles: '',
-          },
-         
+          },        
         ]
       },
   //////////////////// option values /////////////////////////////                        
       {
         id:'2',
-        value:'carreer',
-        addressValue: 'carreer',
-        styles: 'last2',
+        value:'career',
+        addressValue: 'career',
+        styles: 'career-header',
   ///////////////////// dropDown options are given here////////////////                          
         dropDownMenu:[
           {
             id:'1',
-            value:'item1',
-            addressValue: 'item1',
+            value:'',
+            addressValue: '',
             styles: 'last2',
           },
-          {
-            id:'2',
-            value:'link1',
-            addressValue: 'link1',
-            styles: '',
-          },
-          {
-            id:'3',
-            value:'break',
-            addressValue: 'break',
-            styles: '',
-          },
-          {
-            id:'4',
-            value:'redux',
-            addressValue: 'redux',
-            styles: '',
-          },
-          {
-            id:'5',
-            value:'whatever',
-            addressValue: 'whatever',
-            styles: '',
-          },
-          {
-            id:'6',
-            value:'item2',
-            addressValue: 'item2',
-            styles: '',
-          }
         ]
       },
   //////////////////// option values /////////////////////////////                        
       {
         id:'3',
         value:'news|events',
-        addressValue: 'news|events',
-        styles: '',
+        addressValue: '',
+        styles: 'news-events-header',
   ///////////////////// dropDown options are given here////////////////                          
         dropDownMenu:[
           {
             id:'1',
-            value:'item 1',
-            addressValue: 'item1',
+            value:'annual achievers',
+            addressValue: 'annual-achievers',
             styles: '',
           },
           {
             id:'2',
-            value:'link1',
-            addressValue: 'link1',
+            value:'photo galleries',
+            addressValue: 'photo-galleries',
             styles: '',
           },
           {
             id:'3',
-            value:'break',
-            addressValue: 'break',
+            value:'events',
+            addressValue: 'events',
             styles: '',
           },
-          {
-            id:'4',
-            value:'redux',
-            addressValue: 'redux',
-            styles: '',
-          },
-          {
-            id:'5',
-            value:'whatever',
-            addressValue: 'whatever',
-            styles: '',
-          },
-          {
-            id:'6',
-            value:'item2',
-            addressValue: 'item2',
-            styles: '',
-          }
         ]
       },
   //////////////////// option values /////////////////////////////                        
       {
         id:'4',
-        value:'ourschool',
-        addressValue: 'ourschool',
+        value:'admissions',
+        addressValue: '',
         styles: '',
   ///////////////////// dropDown options are given here////////////////                          
         dropDownMenu:[
           {
             id:'1',
-            value:'item1',
-            addressValue: 'item1',
+            value: 'staff',
+            addressValue: 'staff',
             styles: '',
           },
           {
             id:'2',
-            value:'link1',
-            addressValue: 'link1',
+            value:'policies',
+            addressValue: 'policies',
             styles: '',
           },
-          {
-            id:'3',
-            value:'break',
-            addressValue: 'break',
-            styles: '',
-          },
-          {
-            id:'4',
-            value:'redux',
-            addressValue: 'redux',
-            styles: '',
-          },
-          {
-            id:'5',
-            value:'whatever',
-            addressValue: 'whatever',
-            styles: '',
-          },
-          {
-            id:'6',
-            value:'item2',
-            addressValue: 'item2',
-            styles: '',
-          }
         ]
       },
   //////////////////// option values /////////////////////////////                        
       {
         id:'5',
-        value:'admission',
-        addressValue: 'admission',
+        value:'our school',
+        addressValue: '',
         styles: '',
   ///////////////////// dropDown options are given here////////////////                          
         dropDownMenu:[
           {
             id:'1',
-            value:'item1',
-            addressValue: 'item1',
+            value:'school',
+            addressValue: 'school',
             styles: '',
           },
           {
             id:'2',
-            value:'link1',
-            addressValue: 'link1',
+            value:'junior',
+            addressValue: 'junior',
             styles: '',
           },
           {
             id:'3',
-            value:'break',
-            addressValue: 'break',
+            value:'middle',
+            addressValue: 'middle',
             styles: '',
           },
           {
             id:'4',
-            value:'redux',
-            addressValue: 'redux',
+            value:'senior',
+            addressValue: 'senior',
             styles: '',
           },
-          {
-            id:'5',
-            value:'whatever',
-            addressValue: 'whatever',
-            styles: '',
-          },
-          {
-            id:'6',
-            value:'item2',
-            addressValue: 'item2',
-            styles: '',
-          }
         ]
       },
   //////////////////// option values /////////////////////////////                        
@@ -251,45 +142,15 @@ let dataArray = [
         id:'6',
         value:'home',
         addressValue: 'home',
-        styles: '',
+        styles: 'home-header',
   ///////////////////// dropDown options are given here////////////////                          
         dropDownMenu:[
           {
             id:'1',
-            value:'item1',
-            addressValue: 'item1',
+            value:'',
+            addressValue: '',
             styles: '',
           },
-          {
-            id:'2',
-            value:'link1',
-            addressValue: 'link1',
-            styles: '',
-          },
-          {
-            id:'3',
-            value:'break',
-            addressValue: 'break',
-            styles: '',
-          },
-          {
-            id:'4',
-            value:'redux',
-            addressValue: 'redux',
-            styles: '',
-          },
-          {
-            id:'5',
-            value:'whatever',
-            addressValue: 'whatever',
-            styles: '',
-          },
-          {
-            id:'6',
-            value:'item2',
-            addressValue: 'item2',
-            styles: '',
-          }
         ]
       },
     ]
