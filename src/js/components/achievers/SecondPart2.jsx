@@ -7,16 +7,18 @@ class SecondPart2 extends React.Component {
     super();
   }
   render() {
-    let { Achieversdata, firstNo, secondNo, heading,top } = this.props;
+    let { classStudents, firstNo, secondNo, heading,top } = this.props;
     return (
       <div>
         <div className="secondPart">
           <div className="box"></div>
           <h2>{heading}</h2>
           <div className="col1">
-            {[...Achieversdata.secondPart].slice(top, firstNo).map(function (item, index) {
+            {[...classStudents].slice(top, firstNo).map(function ({...item}, index) {
+              console.log(item.textHeading)
               return (
                 <SecondParts
+                  key={index}
                   textHeading={item.textHeading}
                   text={item.text}
                   image={item.image}
@@ -27,9 +29,10 @@ class SecondPart2 extends React.Component {
 
           </div>
           <div className="col2">
-            {[...Achieversdata.secondPart].slice(firstNo, secondNo).map(function (item, index) {
+            {[...classStudents].slice(firstNo, secondNo).map(function ({...item}, index) {
               return (
                 <SecondParts
+                  key={index}
                   textHeading={item.textHeading}
                   text={item.text}
                   image={item.image}
