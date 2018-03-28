@@ -6,6 +6,7 @@ import FirstHeading from './FirstHeading'
 import SecondPart2 from './SecondPart2';
 import {Achieversdata} from './data';
 import News from '../News/News';
+import Discover from '../discover/Discover';
 
 
  class Achievers extends React.Component {
@@ -45,6 +46,7 @@ import News from '../News/News';
 				/>
 
         <News />
+        <Discover />
 				<div className="clear"></div>
 			</div>
 		)
