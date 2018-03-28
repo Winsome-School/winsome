@@ -13,16 +13,18 @@
       width: 33.33333333%;
       float: left;
       .discover-subheading {
+        @include H3('left', $white);
           color: white;
-          padding: 4%;
-          margin-top: 343px;
+          padding: 20px;
+          // margin-top: 343px;
+          position: relative;
+          bottom: 0px;
           background-color: rgba(24, 24, 24, 0.6);
       }
   }
   .events {
       background-image: url('./images/junior1.jpg');
       background-repeat: no-repeat;
-      // background-size: cover;
   }
   .faculty {
       background-image: url('./images/junior1.jpg');
