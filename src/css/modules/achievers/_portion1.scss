@@ -1,0 +1,52 @@
+.portion1{
+margin-top: 3%;
+width: 100%;
+height: 1600px;
+float: left;
+h2{
+	margin-left: 6.5%;
+}
+.box{
+	width:13px;
+	height: 13px;
+	background-color: yellow;
+	margin-top: 2.5%;
+	margin-left: 7%;
+}	
+	.part{
+		width: 40%;
+		height: 400px;
+		float:left;
+		margin: 2.5% auto 3% 4%;
+			img{
+				float: left;
+				width: 300px;
+				height: 300px;
+				border: 2px solid white;
+				margin:4% auto auto 5%;
+				border:1px solid white;
+			}
+		.paragraph{
+			width: 30%;
+			float: left;
+			margin-left: 2%;
+			margin-top: 28%;
+			
+			h4{
+			font-weight: bold;
+			margin-right: 6%;
+			float: left;
+			margin-top: 50%;
+			margin-left: 10%;
+			}
+			p{
+				margin-top: 70%;
+				margin-left: 5%;
+				padding: 5%;
+			}
+		}
+
+	}
+}
+
+
