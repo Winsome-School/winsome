@@ -1,0 +1,62 @@
+.head {
+	background-color: lightgrey;
+	h2 {
+		font-size: 28px;
+		font-weight: bold;
+	}
+	p {
+		line-height: 180%;
+		font-size: 15px;
+		letter-spacing: 0.48px;
+	}
+	.box {
+		margin: 3% 0 3% 0;
+		background-color: yellow;
+		width: 18px;
+		height: 18px;
+	}
+	.school {
+		width: 70%;
+		float: left;
+		padding: 5%;
+		p {
+			width: 83%;
+		}
+	}
+	.col1 {
+		width: 60%;
+		float: left;	
+		padding: 5%;
+		.mission {
+			padding-top: 15%;
+		}
+	}
+	.col2 {
+		width: 40%;
+		float: left;
+		padding: 5%;
+	}
+	.board {
+		.honor{
+			text-decoration: underline;
+			margin: 0;
+		}
+		h5 {
+			font-weight: bold;
+			padding: 5% 0 0 0;
+			font-size: 15px;
+			margin: 0;
+		}
+		h2 {
+			padding-bottom: 3%;
+		}
+		p {
+			margin: 2% 0 0 2%;
+		}
+	}
+}
+.head::after {
+    content: "";
+    clear: both;
+    display: block;
+}

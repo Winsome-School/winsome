@@ -25,6 +25,7 @@ import Achievers from './achievers/Achievers';
 import Events from './events/Events';
 import Contact from './contact/Contact';
 import Policies from './policies/Policies';
+import OurSchool from './ourschool/OurSchool';
 
 
 
@@ -50,7 +51,8 @@ class App extends Component {
             <Route exact path="/annual-achievers" component={Achievers} />
             <Route exact path="/events" component={Events} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/policies" component={Policies} />            
+            <Route exact path="/policies" component={Policies} />
+            <Route exact path="/our-school" component={OurSchool} />            
             <Route path="/" component={Home} />
           </Switch>
           <Footer />
