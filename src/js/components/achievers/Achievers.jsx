@@ -4,7 +4,8 @@ import PropTypes from 'prop-types'
 
 import FirstHeading from './FirstHeading'
 import SecondPart2 from './SecondPart2';
-import {Achieversdata} from './data'
+import {Achieversdata} from './data';
+import News from '../News/News';
 
 
  class Achievers extends React.Component {
@@ -42,6 +43,8 @@ import {Achieversdata} from './data'
 				 heading={Achieversdata.classYear2}
 				 classStudents={[Achieversdata.classOf2016]}
 				/>
+
+        <News />
 				<div className="clear"></div>
 			</div>
 		)

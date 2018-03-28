@@ -1,4 +1,6 @@
 #policies {
+  width: 100%;
+  height: 700px;
   .wrapper {
     margin-left: 100px;
     .policies-heading {
@@ -20,6 +22,8 @@
     .policy-name-paragraph {
       @include P('left', $black);
       margin-top: 10px;
+      text-decoration: underline;
+      text-decoration-style: 5px solid $accent-color;
     }
   }
 }
