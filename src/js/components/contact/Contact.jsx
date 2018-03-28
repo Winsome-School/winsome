@@ -1,5 +1,6 @@
 import React from 'react';
 import Discover from '../discover/Discover';
+import News from '../News/News';
 
 
 export default class Contact extends React.Component {
@@ -21,6 +22,7 @@ export default class Contact extends React.Component {
     return (
       <div>
         <div className="contact">
+        <News />
           <div className='row'>
             <div className="col-md-6 contactInfo">
               <h2 className='contactH2'>Get In Touch</h2>

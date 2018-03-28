@@ -2,6 +2,7 @@ import React from 'react';
 import dataForEvents from './DataEvents';
 import EventsSection from './EventsSection';
 import Discover from '../discover/Discover';
+import News from '../News/News';
 
 const Events = function () {
   console.log(dataForEvents)
@@ -36,6 +37,7 @@ const Events = function () {
         {
           //################ Please add the right portion here! #####################
         }
+        <News />
       </div>
       <Discover />
     </div>
