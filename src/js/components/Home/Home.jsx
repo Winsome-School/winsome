@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 
-
+import Hero from '../hero/HeroImage';
 import Promo from '../promo/Promo';
 import Calender from '../calender/Calender';
 import Blog from '../Whatshappen/Blog';
@@ -24,7 +24,7 @@ class Home extends Component {
 
       <div className="Home">
        
-       
+        <Hero />
         <Promo />
         <Calender/>
         <Blog/>

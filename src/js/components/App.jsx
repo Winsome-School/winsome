@@ -40,7 +40,6 @@ class App extends Component {
       <Router>
         <div className="app">
           <Header />
-          <HeroImage />
           <Switch>
             <Route exact path="/career" component={Career} />
             <Route exact path="/junior" component={Junior} />
