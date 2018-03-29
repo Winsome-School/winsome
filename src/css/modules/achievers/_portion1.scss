@@ -18,31 +18,30 @@ h2{
 		height: 400px;
 		float:left;
 		margin: 2.5% auto 3% 4%;
-			img{
-				float: left;
-				width: 300px;
-				height: 300px;
-				border: 2px solid white;
-				margin:4% auto auto 5%;
-				border:1px solid white;
-			}
+		img{
+			float: left;
+			width: 300px;
+			height: 300px;
+			border: 2px solid white;
+			margin:4% auto auto 5%;
+			border:1px solid white;
+		}
 		.paragraph{
 			width: 30%;
 			float: left;
 			margin-left: 2%;
-			margin-top: 28%;
-			
+			margin-top: 240px;
 			h4{
-			font-weight: bold;
-			margin-right: 6%;
-			float: left;
-			margin-top: 50%;
-			margin-left: 10%;
+				font-weight: bold;
+				// margin-right: 6%;
+				// float: left;
+				// margin-top: 20%;
+				// margin-left: 10%;
 			}
 			p{
-				margin-top: 70%;
-				margin-left: 5%;
-				padding: 5%;
+				// margin-top: 70%;
+				// margin-left: 5%;
+				// padding: 5%;
 			}
 		}
 

@@ -1,14 +1,16 @@
 .achievers {
-  background-color: #CFD5D4;
-	width: 100%;
-	height: 3000px;
+	.content{
+		float: left;
+		width: 55%;
+	}
 	margin: 0px;
 	font-family: Roboto;
 	overflow: hidden;
-}
+	background-color: #BAC6C6;
+}	
 .invisibleBox{
 	width: 20%;
-	height: 475px;
+	height: 567px;
 	float: right;
 
 

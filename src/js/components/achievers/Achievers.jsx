@@ -19,24 +19,29 @@ class Achievers extends React.Component {
   render() {
 
     return (
-      <div>
+    <div>
         <Hero
           style={'header-image'}
         />
-        <div className="achievers">
-
-          <FirstHeading
-            heading={achieversData.firstPart.heading}
-            text={achieversData.firstPart.text}
-          />
-          <Portion1
-            achieversData={achieversData}
-          />
-          <Portion2
-            achieversData={achieversData}
-          />
-          <div className="clear"></div>
-        </div>
+       
+        
+          
+          <div className="achievers">
+            <div className="content">
+              <FirstHeading
+                heading={achieversData.firstPart.heading}
+                text={achieversData.firstPart.text}
+              />
+              <Portion1
+                achieversData={achieversData}
+              />
+              <Portion2
+                achieversData={achieversData}
+              />
+            </div>  
+            <News/>
+            <div className="clear"></div>
+          </div>
       </div>
     )
   }

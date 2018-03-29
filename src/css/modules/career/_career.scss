@@ -21,12 +21,12 @@ $p-color:#737373;
 .career{
 	border-top:10px $heading-icon-color solid;
 	background-color: $career-body-color;
-	.wrapper{
-		@include wrapper($wrapper-width);
+	// .wrapper{
+	// 	@include wrapper($wrapper-width);
 		
 		.content-1{
 			width:55%;
-			
+			margin-left: 7%;
 			float: left;
 			.content-box{
 				h3{
@@ -117,5 +117,5 @@ $p-color:#737373;
 				}
 			}
 		}
-	}
+	// }
 }

@@ -22,7 +22,8 @@ import Part from './Part';
 						image={item.image}
 					/>
 				))
-			}	
+			}
+			<div className="clear"></div>	
 			</div>
 		)
 	}

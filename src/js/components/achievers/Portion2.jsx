@@ -31,6 +31,7 @@ import Part from './Part'
 			<div className="portion2">
 			<div className="invisibleBox"></div>
 				{this.renderArrayHandler()}
+				<div className="clear"></div>
 			</div>
 		)
 	}

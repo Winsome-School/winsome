@@ -16,7 +16,7 @@ export default class career extends Component {
           style={'header-image'}
         />
         <div className="career">
-          <div className="wrapper">
+
             <div className="content-1">
               <div className="content-box">
                 <h3>Working at Winsome </h3>
@@ -90,7 +90,7 @@ export default class career extends Component {
             </div>
 
             <News />
-          </div>
+          
         </div>
         <Discover />
       </div>

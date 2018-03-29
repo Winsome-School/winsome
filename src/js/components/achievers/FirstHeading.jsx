@@ -14,6 +14,7 @@ import PropTypes from 'prop-types'
 					<h2>{heading}</h2>
 					<div className="box"></div>
 					<p>{text}</p>
+					<div className="clear"></div>
 				</div>
 				<div className="clear"></div>
 			</div>

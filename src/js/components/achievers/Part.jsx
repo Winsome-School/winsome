@@ -9,12 +9,12 @@ import PropTypes from 'prop-types'
 		let {text,textHeading,image}=this.props
 		return (			
 			<div className="part">
-				
 				<img src={image} />
 				<div  className="paragraph">
 				<h4>{textHeading}</h4>
 				<p>{text}</p>
 				</div>
+				<div className="clear"></div>
 			</div>	
 		)
 	}
