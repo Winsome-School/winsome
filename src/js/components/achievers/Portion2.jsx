@@ -29,7 +29,6 @@ import Part from './Part'
 		console.log('array in portion 2 is ',this.props.achieversData.class16Data.data)
 		return (
 			<div className="portion2">
-			<div className="invisibleBox"></div>
 				{this.renderArrayHandler()}
 				<div className="clear"></div>
 			</div>

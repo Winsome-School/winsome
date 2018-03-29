@@ -13,6 +13,7 @@ import PropTypes from 'prop-types'
 				<div  className="paragraph">
 				<h4>{textHeading}</h4>
 				<p>{text}</p>
+				<div className="clear"></div>
 				</div>
 				<div className="clear"></div>
 			</div>	
