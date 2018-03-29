@@ -26,6 +26,7 @@ import Events from './events/Events';
 import Contact from './contact/Contact';
 import Policies from './policies/Policies';
 import OurSchool from './ourschool/OurSchool';
+import Senior from './senior/Senior';
 
 class App extends Component {
   constructor() {
@@ -50,7 +51,8 @@ class App extends Component {
             <Route exact path="/events" component={Events} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/policies" component={Policies} />
-            <Route exact path="/school" component={OurSchool} />            
+            <Route exact path="/school" component={OurSchool} />
+            <Route exact path="/senior" component={Senior} />
             <Route path="/" component={Home} />
           </Switch>
           <Footer />

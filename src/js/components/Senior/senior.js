@@ -21,7 +21,7 @@ export default class Senior extends React.Component{
               Winsome School System ensures they are able to thrive in a safe and positive environment.
             <br />
           </p>
-          <img src='./images/im1.jpg' width='90%' /> 
+          <img src='./images/IMG_9554.jpg' width='90%' /> 
           </div>
           <div className="col1">
             <div className="aims">
