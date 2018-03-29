@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 import FirstHeading from './FirstHeading'
 import Portion1 from './Portion1'
 import Portion2 from './Portion2'
+import News from '../News/News'
 import {achieversData} from './data'
 
 
@@ -19,6 +20,7 @@ import {achieversData} from './data'
 		
 		return (
 			<div className="achievers">
+				
 				<FirstHeading 
 					heading={achieversData.firstPart.heading}
 					text={achieversData.firstPart.text}
