@@ -49,7 +49,7 @@ let dataArray = [
             id:'1',
             value:'',
             addressValue: '',
-            styles: 'last2',
+            styles: '',
           },
         ]
       },
@@ -86,7 +86,7 @@ let dataArray = [
         id:'4',
         value:'admissions',
         addressValue: '',
-        styles: '',
+        styles: 'admissions-header',
   ///////////////////// dropDown options are given here////////////////                          
         dropDownMenu:[
           {
@@ -108,7 +108,7 @@ let dataArray = [
         id:'5',
         value:'our school',
         addressValue: '',
-        styles: '',
+        styles: 'our-school-header',
   ///////////////////// dropDown options are given here////////////////                          
         dropDownMenu:[
           {

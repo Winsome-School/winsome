@@ -11,13 +11,15 @@
   // //display:block;
   // //background-color: purple
   // }
-  .navbar-main-anchors{
+  a{
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
     //######################  this anchor tag gives style to main nav menus ########################
   }
-  .navbar-main-anchors:active{
+  a:active{
       font-weight: 1000;
+      transform: scale(1.1);
     //##################### this weight is given to produce clicked effect on the text #############
     //##################### by making it bold. #####################################################
   }
