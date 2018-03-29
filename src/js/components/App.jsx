@@ -44,7 +44,7 @@ class App extends Component {
             <Route exact path="/career" component={Career} />
             <Route exact path="/junior" component={Junior} />
             <Route exact path="/middle" component={Middle} />
-            <Route exact path="/photo-gallery" component={PhotoGallery} />
+            <Route exact path="/photo-galleries" component={PhotoGallery} />
             <Route exact path="/staff" component={Staff} />
             <Route exact path="/annual-achievers" component={Achievers} />
             <Route exact path="/events" component={Events} />
