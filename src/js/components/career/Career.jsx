@@ -1,21 +1,31 @@
 import React, { Component } from 'react';
 import News from '../News/News';
 import Discover from '../discover/Discover';
+import Hero from '../hero/HeroImage';
+
+const headerImageData = [
+  {
+    id: 1,
+    heroImage: 'hero-image',
+  },
+  {
+    id: 2,
+    headerImage: 'header-image'
+  }
+]
 
 export default class career extends Component {
   constructor() {
     super();
-
   }
 
   render() {
-
     let { } = this.props;
-
-
-
     return (
       <div>
+        <Hero 
+          headerImage = {headerImageData[1]}
+        />
         <div className="career">
           <div className="wrapper">
             <div className="content-1">

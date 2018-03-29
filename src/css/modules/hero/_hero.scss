@@ -1,14 +1,23 @@
-.bgimage {
-    //width:100%;
-    height:calc(100vh - 130px);
-    background: url('../images/Hero.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size:cover;
-    position: relative;
-    border-bottom: 5px solid #FDBA26 ;
-    //box-sizing: border-box;
-  }
+#hero-image {
+  //width:100%;
+  height:calc(100vh - 130px);
+  background: url('../images/Hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  position: relative;
+  border-bottom: 5px solid #FDBA26 ;
+  //box-sizing: border-box;
+}
   
-  
-
+#header-image {
+  width:100%;
+  height:calc(50vh - 130px);
+  background: url('../images/Hero-without-dialogue.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  position: relative;
+  border-bottom: 5px solid #FDBA26 ;
+  //box-sizing: border-box;
+}
