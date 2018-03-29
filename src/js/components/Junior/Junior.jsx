@@ -1,6 +1,7 @@
 import React from 'react';
 import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
+import News from '../News/News';
 
 export default class Juniors extends React.Component {
   render() {
@@ -10,6 +11,7 @@ export default class Juniors extends React.Component {
           style={'header-image'}
         />
         <div className="container">
+        
           <div className="junior">
             <h2>Junior School</h2>
             <div className="box"></div>
@@ -24,7 +26,9 @@ export default class Juniors extends React.Component {
             <div className="image" >
               <img src='./images/junior1.jpg' width='90%' />
             </div>
+            
           </div>
+          <News />
           <div className="creating">
             <h2>Creating Confident Learners</h2>
             <div className="box"></div>
