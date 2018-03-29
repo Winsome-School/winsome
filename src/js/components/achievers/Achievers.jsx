@@ -1,15 +1,15 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import {connect} from 'react-redux'
 
 import Hero from '../hero/HeroImage';
 import FirstHeading from './FirstHeading'
 import Portion1 from './Portion1'
 import Portion2 from './Portion2'
 import News from '../News/News'
-import { achieversData } from './data'
 
 
-class Achievers extends React.Component {
+export class Achievers extends React.Component {
   constructor() {
     super();
   }
@@ -17,6 +17,8 @@ class Achievers extends React.Component {
 
   }
   render() {
+    let {achieversData}=this.props;
+    console.log('Data of Achievers',achieversData)
 
     return (
     <div>
@@ -43,5 +45,10 @@ class Achievers extends React.Component {
     )
   }
 }
+function mapStateToProps({achieversData}) {
+  return {
+    achieversData:achieversData
+  }
+}
 
-export default Achievers
+export default connect(mapStateToProps,null)(Achievers)
