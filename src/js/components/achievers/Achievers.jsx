@@ -23,9 +23,6 @@ class Achievers extends React.Component {
         <Hero
           style={'header-image'}
         />
-       
-        
-          
           <div className="achievers">
             <div className="content">
               <FirstHeading

@@ -9,7 +9,7 @@ import { FILL_ME } from '../constants';
 const rootReducer = combineReducers({
   test: testReducer,
   promoData: promoReducer,
-  counter:calenderReducer
+  calender:calenderReducer
 });
 
 export default rootReducer;
