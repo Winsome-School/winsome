@@ -3,6 +3,7 @@ import dataForEvents from './DataEvents';
 import EventsSection from './EventsSection';
 import Discover from '../discover/Discover';
 import EventNews from './EventNews';
+import Hero from '../hero/HeroImage';
 
 const Events = function () {
   //console.log(dataForEvents)
@@ -20,6 +21,9 @@ const Events = function () {
   })
   return (
     <div>
+      <Hero
+        style={'header-image'}
+      />
       <div className='events-wrapper'>
         <div className='my-events'>
           <h2>Junior School</h2>
@@ -35,7 +39,7 @@ const Events = function () {
           {dataToRender}
         </div>
         <div className='filler'>
-          <EventNews/>
+          <EventNews />
         </div>
       </div>
       <Discover />

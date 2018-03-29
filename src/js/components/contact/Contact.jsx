@@ -1,6 +1,7 @@
 import React from 'react';
 import Discover from '../discover/Discover';
 import News from '../News/News';
+import Hero from '../hero/HeroImage';
 
 
 export default class Contact extends React.Component {
@@ -21,8 +22,11 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
+        <Hero
+          style={'header-image'}
+        />
         <div className="contact">
-        <News />
+          <News />
           <div className='row'>
             <div className="col-md-6 contactInfo">
               <h2 className='contactH2'>Get In Touch</h2>

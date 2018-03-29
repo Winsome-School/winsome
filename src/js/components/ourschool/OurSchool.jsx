@@ -1,5 +1,6 @@
 import React from 'react';
 import Discover from '../discover/Discover';
+import Hero from '../hero/HeroImage';
 
 export default class App extends React.Component {
   constructor() {
@@ -9,6 +10,9 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
+        <Hero
+          style={'header-image'}
+        />
         <div className="head">
           <div className="school">
             <h2>Our School</h2>

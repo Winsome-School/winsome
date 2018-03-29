@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 export default class HeroImage extends Component {
   render() {
-    let { headerImage, heroImage } = this.props;
+    let { style } = this.props;
     return (
       <section >
-        <div id={ heroImage.id === 1 && "hero-image" || headerImage.id === 2 && "hero-image"}>
+        <div className={style}>
         </div>
       </section>
     );

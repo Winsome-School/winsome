@@ -1,10 +1,14 @@
 import React from 'react';
 import Discover from '../discover/Discover';
 import { images } from './photogallerydata';
+import Hero from '../hero/HeroImage';
 
 const Gallery = () => {
   return (
     <div>
+      <Hero
+        style={'header-image'}
+      />
       <div id='photogallery'>
         <div>
           <h2 className='photogalleryH2'>Photo Gallery Title</h2>

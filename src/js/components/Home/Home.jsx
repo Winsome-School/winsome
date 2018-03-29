@@ -9,16 +9,6 @@ import Calender from '../calender/Calender';
 import Blog from '../Whatshappen/Blog';
 import Gallery from '../gallery/Gallery';
 
-const headerImageData = [
-  {
-    id: 1,
-    heroImage: 'hero-image',
-  },
-  {
-    id: 2,
-    headerImage: 'header-image'
-  }
-]
 
 class Home extends Component {
   constructor() {
@@ -26,12 +16,12 @@ class Home extends Component {
   }
 
   render() {
-    let {} = this.props;
+    let {style} = this.props;
 
     return (
       <div className="Home">
         <Hero 
-          heroImage = {heroImageData[0]}
+          style={'hero-image'}
         />
         <Promo />
         <Calender/>

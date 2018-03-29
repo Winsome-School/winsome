@@ -3,17 +3,6 @@ import News from '../News/News';
 import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
 
-const headerImageData = [
-  {
-    id: 1,
-    heroImage: 'hero-image',
-  },
-  {
-    id: 2,
-    headerImage: 'header-image'
-  }
-]
-
 export default class career extends Component {
   constructor() {
     super();
@@ -24,7 +13,7 @@ export default class career extends Component {
     return (
       <div>
         <Hero 
-          headerImage = {headerImageData[1]}
+          style={'header-image'}
         />
         <div className="career">
           <div className="wrapper">

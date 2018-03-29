@@ -1,4 +1,5 @@
 #discover {
+  position: relative;
   .Text {
       background-color: #fdba26;
       opacity: 0.8;
@@ -17,7 +18,9 @@
           color: white;
           padding: 20px;
           // margin-top: 343px;
-          position: relative;
+          position: absolute;
+          width: 33.33%;
+          cursor: pointer;
           bottom: 0px;
           background-color: rgba(24, 24, 24, 0.6);
       }

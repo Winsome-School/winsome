@@ -1,11 +1,16 @@
 import React from 'react';
 import Discover from '../discover/Discover';
+import Hero from '../hero/HeroImage';
+
 export default class Senior extends React.Component {
 
   render() {
     return (
       <div>
         <div>
+          <Hero
+            style={'header-image'}
+          />
           <div className="head">
             <div className="school">
               <h2>Senior School</h2>

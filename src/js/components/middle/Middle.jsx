@@ -1,9 +1,13 @@
 import React from 'react';
 import Discover from '../discover/Discover';
+import Hero from '../hero/HeroImage';
 
 const Middle = () => {
   return (
     <div>
+      <Hero
+        style={'header-image'}
+      />
       <div id='middle'>
         <div className='middleSection'>
           <div>

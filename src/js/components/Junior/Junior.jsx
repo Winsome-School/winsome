@@ -1,10 +1,14 @@
 import React from 'react';
 import Discover from '../discover/Discover';
+import Hero from '../hero/HeroImage';
 
 export default class Juniors extends React.Component {
   render() {
     return (
       <div>
+        <Hero
+          style={'header-image'}
+        />
         <div className="container">
           <div className="junior">
             <h2>Junior School</h2>

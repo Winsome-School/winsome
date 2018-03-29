@@ -1,4 +1,4 @@
-#hero-image {
+.hero-image {
   //width:100%;
   height:calc(100vh - 130px);
   background: url('../images/Hero.jpg');
@@ -10,7 +10,7 @@
   //box-sizing: border-box;
 }
   
-#header-image {
+.header-image {
   width:100%;
   height:calc(50vh - 130px);
   background: url('../images/Hero-without-dialogue.jpg');
