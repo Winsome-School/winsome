@@ -13,12 +13,5 @@ describe('Test the Event Component of Calender',()=>{
 	it('checks the rendring',()=>{
 		expect(wrapper).toMatchSnapshot();
 	})
-	it('Test the return of array of objects',()=>{
-		
-		expect('object').toBe(typeOf(items[0]))
-	})
-	it('Test the counter',()=>{
-		
-		expect(counter).toBe(0);
-	})
+	
 })
