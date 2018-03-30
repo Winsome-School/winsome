@@ -6,12 +6,19 @@ import {Event} from '../../../../src/js/components/calender/Event';
 Enzyme.configure({adapter:new Adapter()})
 
 describe('Test the Event Component of Calender',()=>{
-	const wrapper=shallow(<Event />);
+
+	let items=[{event:'Half terms End',eventDate:'01 May',time:''},{},{}];
+	let counter=0;
+	const wrapper=shallow(<Event counter={counter} items={items} />);
 	it('checks the rendring',()=>{
 		expect(wrapper).toMatchSnapshot();
 	})
 	it('Test the return of array of objects',()=>{
-		let items=[{event:'Half terms End',eventDate:'01 May',time:''},{},{}];
-		expect(items[0]).toEqual({event:'Half terms End',eventDate:'01 May',time:''})
+		
+		expect('object').toBe(typeOf(items[0]))
+	})
+	it('Test the counter',()=>{
+		
+		expect(counter).toBe(0);
 	})
 })
