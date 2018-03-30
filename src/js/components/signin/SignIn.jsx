@@ -1,13 +1,15 @@
 import React,{ Component } from 'react';
 import Menu from './Menu';
+import UserData from './UserData';
 import Hero from '../hero/HeroImage';
 
 export default class  SignIn extends Component {
 		constructor(){
 		super();
 
-		this.user = "admin";
-		this.pass = "winsome";
+
+		this.user = UserData.user;
+		this.pass = UserData.pass;
 
 		this.EnterUserName = '';
 		this.EnterPassword = '';
@@ -38,17 +40,22 @@ export default class  SignIn extends Component {
 	
 	loginHandler(){
 
-		if( this.EnterUserName == this.user && this.EnterPassword == this.pass){
+		if( this.EnterUserName != '' && this.EnterPassword != '' ){
 
-			
-			this.setState({
-				usermatch:true
-			})
-		}else{
-			this.setState({
-				loginMsg:'Please Enter valid Credentials'
-			})
+				if( this.EnterUserName == this.user && this.EnterPassword == this.pass){
+
+					
+					this.setState({
+						usermatch:true
+					})
+				}else{
+					this.setState({
+						loginMsg:'Please Enter valid Credentials'
+					})
+				}
 		}
+
+
 	}  
 
 	render() {
