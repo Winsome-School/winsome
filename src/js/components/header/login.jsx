@@ -1,5 +1,7 @@
 import React from 'react';
-
+import {
+  Link,
+} from 'react-router-dom';
 
 const Login = (props) => {
 
@@ -7,7 +9,7 @@ const Login = (props) => {
 	return(
 		<div id='div1' >
 			<div className='login '>
-	  			{data.value}	
+	  			<Link to={data.value}>{data.value}</Link>	
 	   		</div>
 	   		<div className={`loginImage ${data.styles}`}>
 	   		</div>

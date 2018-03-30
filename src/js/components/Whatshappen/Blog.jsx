@@ -51,38 +51,64 @@ class Blog extends React.Component {
 
   render() {
     var {selectedView} = this.state;
-    selectedView = selectedView.map((item, i) => {
-      return <WhatsHappen key={i} blog={item} next={this.next} previous={this.previous} selectedView={selectedView}/>
+    var responsiveView = <WhatsHappen blog={selectedView[0]} />
+    selectedView = selectedView.map((item, index) => {
+      return <WhatsHappen  blog={item} count={index}/>
     });
   
+    console.log('selectedView',selectedView[0])
+
+    if(window.innerWidth >= 992){
+      selectedView = selectedView
+      console.log('selectedView')
+    }
+    else{
+      selectedView = responsiveView
+      console.log('responsiveView')
+    }
 
     return (
-    	 <div>
+    	 
        <div id="sec-2">
             <div className="wraper"> 
+
                 <div className="des">
                     <h2>What's been happening</h2>
                     <span>What it's like to be a part of our school community. </span>
                 </div>
+              
+                {/*{responsiveView}*/}
                 
-                <div className="arrows" onClick={this.previous}>
-                    <div className="arrow previous">
-                
-                    </div>
+
+                <div className="slide-show">
+
+                   <div className="arrows left" onClick={this.previous}>
+                      <div className="arrow previous"></div>
+                   </div>
+
+                   <div className="arrows right" onClick={this.next}>
+                     <div className="arrow next"></div>
+                   </div> 
+
+                   <div className="whatsHappen-card">
+
+                      <div className="whatsHappen-box">
+                        {selectedView}
+                      </div>
+
+                   </div>
+
+
+                  
+
+
+
                 </div>
 
-
-		            {selectedView}
-
-                 <div className="arrows" onClick={this.next}>
-                    <div className="arrow next">
-                
-                    </div>
+                <div className="clear">
                 </div>
-
-
-            </div>
-      </div>
+         
+           </div>
 		  </div>
     );
   }

@@ -1,30 +1,50 @@
+$career-medium-screen:400px;
+$career-large-screen:992px;
 
 
 
 //scss start
 
 #sec-2{
-    height: 730px;
+    height: 800px;
     @include image('../images/chem-formula-pattern.jpg');
-    margin-top:20px;
+    padding:60px 0 0 0;
 
     
     .wraper{
-        @include wrapper(1200px);
+        @include wrapper(90%);
+        //border:1px red solid;
         
         
         .des{
-            width: 600px;
+            //width: 80%;
             margin:0 auto;
+            //background-color: grey;
             
             
             h2{
-                font-size: 40px;
+                font-size: 18px;
                 margin:0px;
-                font-weight: lighter;
+                font-weight: 700;
                 text-align: center;
-                padding:60px 0px 40px 0px;
+                padding:40px 0px 30px 0px;
                 box-sizing:border-box;
+
+                @media only screen and (min-width:$career-medium-screen){
+
+                    font-size: 30px;
+                    padding: 50px 0px 35px 0px;
+                    font-weight: lighter;
+
+                }
+                @media only screen and (min-width:$career-large-screen){
+
+                    font-size: 40px;
+                    padding: 60px 0px 40px 0px;
+                    font-weight: lighter;
+
+                }
+               
             }
             
             
@@ -32,97 +52,179 @@
                 
                 text-align: center;
                 display: block;
-                font-size: 20px;
-                font-weight: bold;
-                padding-bottom: 30px;
+                font-size: 11px;
+                font-weight: lighter;
+                padding-bottom: 20px;
+                //background-color: red;
+                @media only screen and (min-width: $career-medium-screen){
+
+                    font-size: 17px;
+                    
+                }
+                @media only screen and (min-width:$career-large-screen){
+
+                    font-size: 20px;
+
+                }
             }
             
             
         }
         
-        .whatshappen{
 
-               height: 480px;
-               width: 480px;
-               float: left;
-               margin-left: 20px;
-               border:1px $accent-color solid; 
-               box-sizing:border-box;
-
-                .img{
-                       
-                       height: 280px;
-                       width: 478px;
-
-                       overflow: hidden;
-                       img{
-                       height: 280px;
-                       width: 478px; 
-                       object-fit:cover;
-                       &:hover{
-                       height: 300px;
-                       width: 490px;
-                       }
-
-                       }   
-                }
-                .img-des{
-                    
-                    height: 198px;
-                    width: 478px;
-                    padding:15px;
-                    box-shadow: 0px 5px 8px $accent-color;
-                    background-color: white;
-                    box-sizing:border-box;
-                    h3{
-                        margin:0px;
-                        color:$primary-color;
-                        font-family: $font-family;
-                    }
-                    p{
-                        padding-top:20px;
-                        font-size: 18px;
-                        text-align: justify;
-                        letter-spacing: 1px;
-                        color:black;
-                        font-family: $font-family;
-
-
-                    }
-                }
-        
-        }
-       
-        
-        
-        .arrows{
-            height:480px;
-            width:80px;
-            display:inline-block;
-            float: left;
-            margin-left: 10px;
+        .slide-show{
+            height: 540px;
+            //background-color: lightblue;
+            clear: both;
+           
+            .arrows{
+                width: 6%;
+                height: 480px;
+                //background-color: green;
+                display: inline-block;
+                
+            }
+            .left{
+                    float: left;
+            }
+            .right{
+                    float: right;
+            }
 
             .arrow{
-            border-top:2px $secondary-color solid;
-            border-left:2px $secondary-color solid;
-            display:inline-block;
-            height:80px;
-            width:80px;
-            margin:210px 0;
-            margin-left:15px;
-            cursor: pointer;
-            }
+                border-top:2px $secondary-color solid;
+                border-left:2px $secondary-color solid;
+                display:inline-block;
+                height:30px;
+                width:30px;
+                margin:210px 0;
+                margin-left:15px;
+                cursor: pointer;
 
-            .previous{
-            transform: rotate(-45deg);
+                @media only screen and (min-width: $career-medium-screen){
+
+                        height: 60px;
+                        width:60px; 
+                        
+                }
+
+                @media only screen and (min-width:$career-large-screen){
+
+                        height:80px;
+                        width:80px;
+
+                    
+
+                }
+
+               
+
+            } 
+             .previous{
+
+                transform: rotate(-45deg);
+
+
             }
             .next{
-            transform: rotate(135deg);
-            margin-left: -15px;
+                transform: rotate(135deg);
+                float: right;
+                margin-right: 15px;
+                
+            }  
+
+            .whatsHappen-card{
+
+                width: 88%;
+                height: 480px;
+                //background-color: purple;
+                float: left;
+                //margin-left: 1%;
+                .whatsHappen-box{
+                    margin: 0 auto;
+                    //padding-right: 10px;
+                }
+                // @media only screen and (max-width:$career-large-screen){
+
+                //         width: 80%;
+
+                // }
+
+
+                .whatshappen{
+
+                   height: 480px;
+                   width: 48%;
+                   
+                   //margin-left: 20px;
+                   border:1px $accent-color solid; 
+                   box-sizing:border-box;
+                   // @media only screen and (max-width:$career-large-screen){
+
+                   //      width: 80%;
+                   //      margin-left: 0 20px;
+
+                   //  }
+
+                   
+
+
+                    .img{
+                           
+                           height: 280px;
+                           width: 100%;
+
+                           overflow: hidden;
+                           img{
+                           height: 280px;
+                           width: 100%; 
+                           object-fit:cover;
+                               &:hover{
+                               height: 300px;
+                               width: 110;
+                               }
+                            }
+                              
+                    }
+                    .img-des{
+                        
+                        height: 198px;
+                        width: 100%;
+                        padding:15px;
+                        box-shadow: 0px 5px 8px $accent-color;
+                        background-color: white;
+                        box-sizing:border-box;
+                        h3{
+                            margin:0px;
+                            color:$primary-color;
+                            font-family: $font-family;
+                        }
+                        p{
+                            padding-top:20px;
+                            font-size: 18px;
+                            text-align: justify;
+                            letter-spacing: 1px;
+                            color:black;
+                            font-family: $font-family;
+
+
+                        }
+                    }
             
+                }
+                
+                
             }
+            .card-0{
+                    float: left;
+                }
+            .card-1{
+                float: right;
+            }
+            
            
+            
         }
-       
+        
     }
 }

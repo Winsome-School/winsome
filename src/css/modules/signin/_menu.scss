@@ -1,0 +1,36 @@
+
+#menu{
+	clear: both;
+	height: 600px;
+	width: 100%;
+
+	border-bottom:4px #FDBA26 solid;
+
+	.menu-sidebar{
+		height: 596px;
+		float: left;
+		width: 15%;
+		background-color: $secondary-color;
+		ul{
+			list-style: none;
+			//text-align: center;
+			color:white;
+			font-size: 25px;
+			//border: 1px white solid;
+			margin:0px;
+			padding: 0px;
+			text-indent: 20px;
+			li{
+				padding: 10px 0;
+				border-top:1px #FDBA26 solid; 
+				cursor: pointer;
+				&:hover{
+					color:#FDBA26;
+					font-size: 26px;
+				}
+			}
+
+
+		}
+	}
+}
