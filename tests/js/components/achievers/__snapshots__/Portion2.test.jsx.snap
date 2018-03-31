@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Portion2 Component test the rendring 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Portion2
+    achieversData={
+      Object {
+        "class16Data": Object {
+          "data": Array [
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Rehan",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Taimoor",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Mushraf",
+            },
+          ],
+          "textYear": "",
+        },
+        "class17Data": Object {
+          "data": Array [
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Ahmed",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Waqar",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Ahsan",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Hassan",
+            },
+          ],
+          "textYear": "",
+        },
+        "firstPart": Object {
+          "heading": "",
+          "text": "",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <h2>
+            
+          </h2>
+          <div
+            className="box"
+          />
+          <Part
+            image=""
+            text=""
+            textHeading="Rehan"
+          />
+          <Part
+            image=""
+            text=""
+            textHeading="Taimoor"
+          />
+          <Part
+            image=""
+            text=""
+            textHeading="Mushraf"
+          />
+        </div>,
+        <div
+          className="clear"
+        />,
+      ],
+      "className": "portion2",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              
+            </h2>,
+            <div
+              className="box"
+            />,
+            Array [
+              <Part
+                image=""
+                text=""
+                textHeading="Rehan"
+              />,
+              <Part
+                image=""
+                text=""
+                textHeading="Taimoor"
+              />,
+              <Part
+                image=""
+                text=""
+                textHeading="Mushraf"
+              />,
+            ],
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "box",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "class",
+            "props": Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Rehan",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Taimoor",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Mushraf",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "clear",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <h2>
+              
+            </h2>
+            <div
+              className="box"
+            />
+            <Part
+              image=""
+              text=""
+              textHeading="Rehan"
+            />
+            <Part
+              image=""
+              text=""
+              textHeading="Taimoor"
+            />
+            <Part
+              image=""
+              text=""
+              textHeading="Mushraf"
+            />
+          </div>,
+          <div
+            className="clear"
+          />,
+        ],
+        "className": "portion2",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                
+              </h2>,
+              <div
+                className="box"
+              />,
+              Array [
+                <Part
+                  image=""
+                  text=""
+                  textHeading="Rehan"
+                />,
+                <Part
+                  image=""
+                  text=""
+                  textHeading="Taimoor"
+                />,
+                <Part
+                  image=""
+                  text=""
+                  textHeading="Mushraf"
+                />,
+              ],
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "box",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "image": "",
+                "text": "",
+                "textHeading": "Rehan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "image": "",
+                "text": "",
+                "textHeading": "Taimoor",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "image": "",
+                "text": "",
+                "textHeading": "Mushraf",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "clear",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

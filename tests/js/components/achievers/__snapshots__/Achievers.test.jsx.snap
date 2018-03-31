@@ -1,0 +1,1306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Achievers Components test the rendring 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Achievers
+    achieversData={
+      Object {
+        "class16Data": Object {
+          "data": Array [
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Rehan",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Taimoor",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Mushraf",
+            },
+          ],
+          "textYear": "",
+        },
+        "class17Data": Object {
+          "data": Array [
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Ahmed",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Waqar",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Ahsan",
+            },
+            Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Hassan",
+            },
+          ],
+          "textYear": "",
+        },
+        "firstPart": Object {
+          "heading": "",
+          "text": "",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HeroImage
+          style="header-image"
+        />,
+        <div
+          className="achievers"
+        >
+          <div
+            className="content"
+          >
+            <FirstHeading
+              heading=""
+              text=""
+            />
+            <Portion1
+              achieversData={
+                Object {
+                  "class16Data": Object {
+                    "data": Array [
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Rehan",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Taimoor",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Mushraf",
+                      },
+                    ],
+                    "textYear": "",
+                  },
+                  "class17Data": Object {
+                    "data": Array [
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Ahmed",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Waqar",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Ahsan",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Hassan",
+                      },
+                    ],
+                    "textYear": "",
+                  },
+                  "firstPart": Object {
+                    "heading": "",
+                    "text": "",
+                  },
+                }
+              }
+            />
+            <Portion2
+              achieversData={
+                Object {
+                  "class16Data": Object {
+                    "data": Array [
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Rehan",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Taimoor",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Mushraf",
+                      },
+                    ],
+                    "textYear": "",
+                  },
+                  "class17Data": Object {
+                    "data": Array [
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Ahmed",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Waqar",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Ahsan",
+                      },
+                      Object {
+                        "image": "",
+                        "text": "",
+                        "textHeading": "Hassan",
+                      },
+                    ],
+                    "textYear": "",
+                  },
+                  "firstPart": Object {
+                    "heading": "",
+                    "text": "",
+                  },
+                }
+              }
+            />
+          </div>
+          <News />
+          <div
+            className="clear"
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "style": "header-image",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="content"
+            >
+              <FirstHeading
+                heading=""
+                text=""
+              />
+              <Portion1
+                achieversData={
+                  Object {
+                    "class16Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Rehan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Taimoor",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Mushraf",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "class17Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahmed",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Waqar",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahsan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Hassan",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "firstPart": Object {
+                      "heading": "",
+                      "text": "",
+                    },
+                  }
+                }
+              />
+              <Portion2
+                achieversData={
+                  Object {
+                    "class16Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Rehan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Taimoor",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Mushraf",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "class17Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahmed",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Waqar",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahsan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Hassan",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "firstPart": Object {
+                      "heading": "",
+                      "text": "",
+                    },
+                  }
+                }
+              />
+            </div>,
+            <News />,
+            <div
+              className="clear"
+            />,
+          ],
+          "className": "achievers",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <FirstHeading
+                  heading=""
+                  text=""
+                />,
+                <Portion1
+                  achieversData={
+                    Object {
+                      "class16Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Rehan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Taimoor",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Mushraf",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "class17Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahmed",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Waqar",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahsan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Hassan",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "firstPart": Object {
+                        "heading": "",
+                        "text": "",
+                      },
+                    }
+                  }
+                />,
+                <Portion2
+                  achieversData={
+                    Object {
+                      "class16Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Rehan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Taimoor",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Mushraf",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "class17Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahmed",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Waqar",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahsan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Hassan",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "firstPart": Object {
+                        "heading": "",
+                        "text": "",
+                      },
+                    }
+                  }
+                />,
+              ],
+              "className": "content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "heading": "",
+                  "text": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "achieversData": Object {
+                    "class16Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Rehan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Taimoor",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Mushraf",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "class17Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahmed",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Waqar",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahsan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Hassan",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "firstPart": Object {
+                      "heading": "",
+                      "text": "",
+                    },
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "achieversData": Object {
+                    "class16Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Rehan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Taimoor",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Mushraf",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "class17Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahmed",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Waqar",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahsan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Hassan",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "firstPart": Object {
+                      "heading": "",
+                      "text": "",
+                    },
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "clear",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HeroImage
+            style="header-image"
+          />,
+          <div
+            className="achievers"
+          >
+            <div
+              className="content"
+            >
+              <FirstHeading
+                heading=""
+                text=""
+              />
+              <Portion1
+                achieversData={
+                  Object {
+                    "class16Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Rehan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Taimoor",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Mushraf",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "class17Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahmed",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Waqar",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahsan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Hassan",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "firstPart": Object {
+                      "heading": "",
+                      "text": "",
+                    },
+                  }
+                }
+              />
+              <Portion2
+                achieversData={
+                  Object {
+                    "class16Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Rehan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Taimoor",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Mushraf",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "class17Data": Object {
+                      "data": Array [
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahmed",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Waqar",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Ahsan",
+                        },
+                        Object {
+                          "image": "",
+                          "text": "",
+                          "textHeading": "Hassan",
+                        },
+                      ],
+                      "textYear": "",
+                    },
+                    "firstPart": Object {
+                      "heading": "",
+                      "text": "",
+                    },
+                  }
+                }
+              />
+            </div>
+            <News />
+            <div
+              className="clear"
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "style": "header-image",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="content"
+              >
+                <FirstHeading
+                  heading=""
+                  text=""
+                />
+                <Portion1
+                  achieversData={
+                    Object {
+                      "class16Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Rehan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Taimoor",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Mushraf",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "class17Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahmed",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Waqar",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahsan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Hassan",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "firstPart": Object {
+                        "heading": "",
+                        "text": "",
+                      },
+                    }
+                  }
+                />
+                <Portion2
+                  achieversData={
+                    Object {
+                      "class16Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Rehan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Taimoor",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Mushraf",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "class17Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahmed",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Waqar",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahsan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Hassan",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "firstPart": Object {
+                        "heading": "",
+                        "text": "",
+                      },
+                    }
+                  }
+                />
+              </div>,
+              <News />,
+              <div
+                className="clear"
+              />,
+            ],
+            "className": "achievers",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <FirstHeading
+                    heading=""
+                    text=""
+                  />,
+                  <Portion1
+                    achieversData={
+                      Object {
+                        "class16Data": Object {
+                          "data": Array [
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Rehan",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Taimoor",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Mushraf",
+                            },
+                          ],
+                          "textYear": "",
+                        },
+                        "class17Data": Object {
+                          "data": Array [
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Ahmed",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Waqar",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Ahsan",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Hassan",
+                            },
+                          ],
+                          "textYear": "",
+                        },
+                        "firstPart": Object {
+                          "heading": "",
+                          "text": "",
+                        },
+                      }
+                    }
+                  />,
+                  <Portion2
+                    achieversData={
+                      Object {
+                        "class16Data": Object {
+                          "data": Array [
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Rehan",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Taimoor",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Mushraf",
+                            },
+                          ],
+                          "textYear": "",
+                        },
+                        "class17Data": Object {
+                          "data": Array [
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Ahmed",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Waqar",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Ahsan",
+                            },
+                            Object {
+                              "image": "",
+                              "text": "",
+                              "textHeading": "Hassan",
+                            },
+                          ],
+                          "textYear": "",
+                        },
+                        "firstPart": Object {
+                          "heading": "",
+                          "text": "",
+                        },
+                      }
+                    }
+                  />,
+                ],
+                "className": "content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "heading": "",
+                    "text": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "achieversData": Object {
+                      "class16Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Rehan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Taimoor",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Mushraf",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "class17Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahmed",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Waqar",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahsan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Hassan",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "firstPart": Object {
+                        "heading": "",
+                        "text": "",
+                      },
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "achieversData": Object {
+                      "class16Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Rehan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Taimoor",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Mushraf",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "class17Data": Object {
+                        "data": Array [
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahmed",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Waqar",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Ahsan",
+                          },
+                          Object {
+                            "image": "",
+                            "text": "",
+                            "textHeading": "Hassan",
+                          },
+                        ],
+                        "textYear": "",
+                      },
+                      "firstPart": Object {
+                        "heading": "",
+                        "text": "",
+                      },
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "clear",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

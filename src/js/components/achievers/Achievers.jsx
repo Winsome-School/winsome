@@ -18,7 +18,7 @@ export class Achievers extends React.Component {
   }
   render() {
     let {achieversData}=this.props;
-    console.log('Data of Achievers',achieversData)
+    
 
     return (
     <div>
@@ -47,7 +47,7 @@ export class Achievers extends React.Component {
 }
 function mapStateToProps({achieversData}) {
   return {
-    achieversData:achieversData
+    achieversData
   }
 }
 

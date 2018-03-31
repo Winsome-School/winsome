@@ -2,7 +2,7 @@ import React from 'react';
 import Content from './Content';
 import {connect} from 'react-redux';
 
-export class Calender extends React.Component {
+export default class Calender extends React.Component {
 	constructor(){
 		super();
 	}
@@ -15,5 +15,3 @@ export class Calender extends React.Component {
 		)
 	}
 }
-
-export default connect(null,null)(Calender); 
