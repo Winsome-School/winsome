@@ -1,6 +1,7 @@
 import React from 'react';
 import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
+import News from '../News/News'
 
 export default class Staff extends React.Component {
 
@@ -8,12 +9,14 @@ export default class Staff extends React.Component {
 
     return (
       <div>
-        <Hero
+      <Hero
           style={'header-image'}
         />
+      <div className = 'app'>
         <div className='staff'>
-          <h2> Faculty & Staff </h2>
-          <div className='box'></div>
+         <div className = 'heading'> <h2> Faculty & Staff </h2> 
+          <div className='box'></div></div>
+          <div className = 'paragraph'>
           <p>Creating inspiring lessons which expose pupils to arange of media and learning styles,they
     aim to help young people of all abilities to develop learning habits which will not only lead
 them to exam success but stand them in good stead for the rest of their lives.</p>
@@ -28,8 +31,12 @@ arranging special trips,or learning challenges to staging exhibitions and school
 courtesy and respect, whilst developing aquiet‘condence for life’.</p>
 
           <p>If you're interested in working with us,please visit our Careers page.</p>
+          </div>
         </div>
-        <Discover />
+        
+      </div>
+      <News />
+      <Discover />
       </div>
     );
   }
