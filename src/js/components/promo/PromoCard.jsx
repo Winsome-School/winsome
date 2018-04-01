@@ -1,6 +1,6 @@
 // ########## Import Dependencies Here ##########
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import { shape, number, string } from 'prop-types';
 
 // ########## Import Screens Here ##########
 
@@ -8,8 +8,13 @@ import PropTypes from 'prop-types';
 import ReadMoreButton from './ReadMoreButton';
 
 export default class PromoCard extends Component {
+
+  componentDidMount() {
+
+  }
+
   render() {
-    let { data } = this.props;
+    const { data } = this.props;
     return (
       <div className="promo-card">
         <div className="wrapper">
@@ -35,5 +40,10 @@ export default class PromoCard extends Component {
 }
 
 PromoCard.propTypes = {
-  data: PropTypes.object.isRequired
+  data: shape({
+    promoCardId: number.isRequired,
+    imageDirection: string.isRequired,
+    title: string.isRequired,
+    description: string.isRequired
+  }).isRequired
 }

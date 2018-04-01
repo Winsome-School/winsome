@@ -1,14 +1,19 @@
 // ########## Import Dependencies Here ##########
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import { string } from 'prop-types';
 
 // ########## Import Screens Here ##########
 
 // ########## Import Components Here ##########
 
 export default class ReadMoreButton extends Component {
+
+  componentDidMount() {
+
+  }
+
   render() {
-    let { align } = this.props;
+    const { align } = this.props;
     return (
       <div className={`read-more-button-${align}`}>
         <p className="read-more-button-text">
@@ -20,5 +25,5 @@ export default class ReadMoreButton extends Component {
 }
 
 ReadMoreButton.propTypes = {
-  align: PropTypes.string.isRequired,
+  align: string.isRequired,
 }

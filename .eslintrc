@@ -4,7 +4,9 @@
     "prettier"
   ],
   "parser": "babel-eslint",
-  "rules": {},
+  "rules": {
+    "linebreak-style" : 0
+  },
   "env": {
     "browser": true,
     "node": true
