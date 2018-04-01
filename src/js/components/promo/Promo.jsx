@@ -1,5 +1,6 @@
 // ########## Import Dependencies Here ##########
 import React, { Component } from 'react';
+import { shape, arrayOf, string } from 'prop-types';
 import { connect } from 'react-redux';
 
 // ########## Import Screens Here ##########
@@ -7,11 +8,16 @@ import { connect } from 'react-redux';
 // ########## Import Components Here ##########
 import WinsomeSchool from './WinsomeSchool';
 import JuniorSchool from './JuniorSchool';
-import { promoData } from './promoData';
+
 
 export class Promo extends Component {
+
+  componentDidMount() {
+
+  }
+
   render() {
-    let { promoData } = this.props;
+    const { promoData } = this.props;
     return (
       <div>
         <WinsomeSchool 
@@ -26,6 +32,12 @@ export class Promo extends Component {
       </div>
     );
   }
+}
+
+Promo.propTypes = {
+  promoData: arrayOf(shape({
+    id: string.isRequired
+  })).isRequired
 }
 
 function mapStateToProps({promoData}) {

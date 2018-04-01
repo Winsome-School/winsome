@@ -20,8 +20,7 @@ export default class PromoCard extends Component {
         <div className="wrapper">
           <div className={`promo-card-container-${data.promoCardId > 2 && "sectionTwo-" || data.promoCardId <= 2 && "sectionOne-"}${data.imageDirection}`}>
             <div className={`promo-image-container-${data.promoCardId > 2 && "sectionTwo-" || data.promoCardId <= 2 && "sectionOne-"}${data.imageDirection}`}>
-              <div className={`promo-image-${data.promoCardId > 2 && "sectionTwo-" || data.promoCardId <= 2 && "sectionOne-"}${data.imageDirection}`}>
-              </div>
+              <div className={`promo-image-${data.promoCardId > 2 && "sectionTwo-" || data.promoCardId <= 2 && "sectionOne-"}${data.imageDirection}`} />
             </div>
             <div className="promo-text-container">
               <div className="promo-text-wrapper">
