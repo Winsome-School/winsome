@@ -1,5 +1,10 @@
-import React from 'react';
-export default class Feature extends React.Component {
+import React, { Component } from 'react';
+
+export default class Feature extends Component {
+
+  componentDidMount() {
+    
+  }
 
   render() {
     return (
@@ -16,7 +21,7 @@ export default class Feature extends React.Component {
         <div className="one-third policies">
           <h3 className="discover-subheading">Policies & Procedures</h3>
         </div>
-        <div className="clear"></div>
+        <div className="clear" />
       </div>
     )
   }
