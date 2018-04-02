@@ -1,5 +1,5 @@
-@mixin image($loc){
-  background-image: url('../images/' + $loc);
+@mixin image($loc) {
+  background-image: url('../images/'+$loc);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -125,7 +125,15 @@
   overflow: hidden;
 }
 
-@mixin junior-school-image($width, $height, $bic, $bil, $position, $left, $top) {
+@mixin junior-school-image(
+  $width,
+  $height,
+  $bic,
+  $bil,
+  $position,
+  $left,
+  $top
+) {
   background-size: cover;
   overflow: hidden;
   border: 5px solid $white;
@@ -141,17 +149,24 @@
 
 // Calender
 
-@mixin heroImage($loc,$width:100%,$height:510px){
+@mixin heroImage($loc, $width: 100%, $height: 510px) {
   width: $width;
   height: $height;
   background: grey url('../images/'+$loc) no-repeat center;
   background-size: cover;
   margin: auto;
   margin-top: 10px;
-  position:relative;
-
+  position: relative;
 }
-@mixin event($fontSize:20px, $margin:0px 0px 0px 80px,$lineHeight:30px,$width:180px,$height:70px,$color:#0078AD,$padding:5px){
+@mixin event(
+  $fontSize: 20px,
+  $margin: 0px 0px 0px 80px,
+  $lineHeight: 30px,
+  $width: 180px,
+  $height: 70px,
+  $color: #0078ad,
+  $padding: 5px
+) {
   float: left;
   margin: $margin;
   line-height: $lineHeight;
@@ -165,17 +180,24 @@
   text-align: center;
   padding: $padding;
 }
-@mixin arrow($left:87%,$top:62%,$height:70px,$width:70px,$rotationDeg:135deg){
+@mixin arrow(
+  $left: 87%,
+  $top: 62%,
+  $height: 70px,
+  $width: 70px,
+  $rotationDeg: 135deg
+) {
   position: absolute;
   left: $left;
   top: $top;
   height: $height;
-  width:$width;
+  width: $width;
   // border-left:$borderLeft;
   // border-top: $borderTop;
-  transform:rotate($rotationDeg);
+  transform: rotate($rotationDeg);
   cursor: pointer;
-  transition:margin 0.2s ease-in-out;
+  transition: margin 0.2s ease-in-out;
+  background-color: transparent;
+  border-right: 0;
+  border-bottom: 0;
 }
-
-
