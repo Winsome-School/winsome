@@ -21,14 +21,10 @@ ShallowWrapper {
         <div
           className="arrowRight"
           onClick={undefined}
-          role="button"
-          tabIndex="0"
         />,
         <div
           className="arrowLeft"
           onClick={undefined}
-          role="button"
-          tabIndex="0"
         />,
       ],
     },
@@ -41,8 +37,6 @@ ShallowWrapper {
         "props": Object {
           "className": "arrowRight",
           "onClick": undefined,
-          "role": "button",
-          "tabIndex": "0",
         },
         "ref": null,
         "rendered": null,
@@ -55,8 +49,6 @@ ShallowWrapper {
         "props": Object {
           "className": "arrowLeft",
           "onClick": undefined,
-          "role": "button",
-          "tabIndex": "0",
         },
         "ref": null,
         "rendered": null,
@@ -75,14 +67,10 @@ ShallowWrapper {
           <div
             className="arrowRight"
             onClick={undefined}
-            role="button"
-            tabIndex="0"
           />,
           <div
             className="arrowLeft"
             onClick={undefined}
-            role="button"
-            tabIndex="0"
           />,
         ],
       },
@@ -95,8 +83,6 @@ ShallowWrapper {
           "props": Object {
             "className": "arrowRight",
             "onClick": undefined,
-            "role": "button",
-            "tabIndex": "0",
           },
           "ref": null,
           "rendered": null,
@@ -109,8 +95,6 @@ ShallowWrapper {
           "props": Object {
             "className": "arrowLeft",
             "onClick": undefined,
-            "role": "button",
-            "tabIndex": "0",
           },
           "ref": null,
           "rendered": null,

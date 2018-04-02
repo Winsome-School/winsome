@@ -5,8 +5,28 @@ import * as actions from '../../actions';
 
 export const Arrow = ({ onClickRightArrow, onClickLeftArrow }) => (
 	<div>
-		<div className="arrowRight" onClick={onClickRightArrow} />
-		<div className="arrowLeft" onClick={onClickLeftArrow} />
+		<div
+			className="arrowRight"
+			onClick={onClickRightArrow}
+			onKeyPress={e => {
+				if (e.nativeEvent.keyCode === 13) {
+					onClickRightArrow();
+				}
+			}}
+			role="button"
+			tabIndex="0"
+		/>
+		<div
+			className="arrowLeft"
+			onClick={onClickLeftArrow}
+			onKeyPress={e => {
+				if (e.nativeEvent.keyCode === 13) {
+					onClickLeftArrow();
+				}
+			}}
+			role="button"
+			tabIndex="0"
+		/>
 	</div>
 );
 

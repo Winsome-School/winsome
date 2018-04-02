@@ -5,7 +5,15 @@
 	border-top: 3px solid $arrowColor;
 	transition: all 0.4s ease-in-out;
 	&:active {
-		transform: scale(1.2) rotate(135deg);
+		transform: scale(1.5) rotate(135deg);
+		outline: 0;
+		outline: none;
+	}
+	&:focus {
+		border-left: 6px solid $arrowColor;
+		border-top: 6px solid $arrowColor;
+		outline: 0;
+		outline: none;
 	}
 }
 .arrowLeft {
@@ -14,8 +22,15 @@
 	border-left: 3px solid $arrowColor;
 	border-top: 3px solid $arrowColor;
 	transition: all 0.4s ease-in-out;
-
 	&:active {
-		transform: scale(1.2) rotate(-45deg);
+		transform: scale(1.5) rotate(-45deg);
+		outline: 0;
+		outline: none;
+	}
+	&:focus {
+		border-left: 6px solid $arrowColor;
+		border-top: 6px solid $arrowColor;
+		outline: 0;
+		outline: none;
 	}
 }
