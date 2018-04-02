@@ -1,5 +1,10 @@
-import React from 'react';
-export default class Footer extends React.Component {
+import React, { Component } from 'react';
+
+export default class Footer extends Component {
+
+  componentDidMount() {
+
+  }
 
   render() {
     return (
@@ -7,7 +12,7 @@ export default class Footer extends React.Component {
         <div className="footer">
           <div className="wrapper">
             <div className="column">
-              <img className="footer-logo" src="./images/logo.png" />
+              <img className="footer-logo" src="./images/logo.png" alt="Winsome Footer logo" />
               <p className="footer-info">Phone: +92 42 34567890</p>
               <p className="footer-info">Email: info@winsome.ed.pk</p>
               <p className="footer-info">Address: 12-C Madican Block,</p>
@@ -30,23 +35,23 @@ export default class Footer extends React.Component {
               <h4 className="footer-buttons">CAREERS</h4>
               <h4 className="footer-buttons">RESOURCE CENTER</h4>
             </div>
-            <div className="clear"></div>
+            <div className="clear" />
           </div>
         </div>
         <div className="footer-description">
           <div className="wrapper">
             <div className="social-icons">
-              <a href="#" target="_blank"><i className="fab fa-facebook-square"></i></a>
-              <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>
-              <a href="#" target="_blank"><i className="fab fa-twitter-square"></i></a>
-              <a href="#" target="_blank"><i className="fab fa-google-plus-square"></i></a>
+              <a href="https://facebook.com" rel="noopener noreferrer" target="_blank"><i className="fab fa-facebook-square" /></a>
+              <a href="https://instagram.com" rel="noopener noreferrer" target="_blank"><i className="fab fa-instagram" /></a>
+              <a href="https://twitter.com" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitter-square" /></a>
+              <a href="https://google.com" rel="noopener noreferrer" target="_blank"><i className="fab fa-google-plus-square" /></a>
             </div>
             <div className="copyright-text">
               <p>
                 Copyright © 2018 Winsome School. All Rights Reserved
               </p>
             </div>
-            <div className="clear"></div>
+            <div className="clear" />
           </div>
         </div>
       </div>
