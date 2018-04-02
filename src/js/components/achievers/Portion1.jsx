@@ -1,46 +1,49 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import { shape, arrayOf, string } from 'prop-types';
 import Part from './Part';
 
- class Portion1 extends React.Component {
-	constructor(){
-		super();
-	}
-	renderArrayHandler(){
-		let {achieversData}=this.props;
+class Portion1 extends React.Component {
+	renderArrayHandler() {
+		const { achieversData } = this.props;
 
 		return (
 			<div>
-			<h2>{achieversData.class17Data.textYear}</h2>
-			<div className='box'></div>
-			{
-				achieversData.class17Data.data.map((item,index)=>(
-					<Part 
-						key={index}
+				<h2>{achieversData.class17Data.textYear}</h2>
+				<div className="box" />
+				{achieversData.class17Data.data.map(item => (
+					<Part
+						key={Math.random()}
 						text={item.text}
 						textHeading={item.textHeading}
 						image={item.image}
 					/>
-				))
-			}
-			<div className="clear"></div>	
+				))}
+				<div className="clear" />
 			</div>
-		)
+		);
 	}
-	render(){
-		
-		return (
-			<div className="portion1">
-				{
-					this.renderArrayHandler()
-				}
-			</div>
-		)
+	render() {
+		return <div className="portion1">{this.renderArrayHandler()}</div>;
 	}
-} 
-
-export default Portion1
-
-Portion1.propTypes={
-	//getAction: PropTypes.func.isRequired
 }
+
+export default Portion1;
+
+Portion1.propTypes = {
+	achieversData: shape({
+		firstPart: shape({
+			heading: string.isRequired,
+			text: string.isRequired
+		}).isRequired,
+		class17Data: shape({
+			textYear: string.isRequired,
+			data: arrayOf(
+				shape({
+					textHeading: string.isRequired,
+					text: string.isRequired,
+					image: string.isRequired
+				})
+			).isRequired
+		}).isRequired
+	}).isRequired
+};
