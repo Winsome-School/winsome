@@ -82,26 +82,21 @@ class Blog extends React.Component {
 
                 <div className="slide-show">
 
-                   <div className="arrows left" onClick={this.previous}>
-                      <div className="arrow previous"></div>
-                   </div>
+                  <div className="arrows left" onClick={this.previous}>
+                    <div className="arrow previous"></div>
+                  </div>
 
-                   <div className="arrows right" onClick={this.next}>
-                     <div className="arrow next"></div>
-                   </div> 
+                  <div className="arrows right" onClick={this.next}>
+                    <div className="arrow next"></div>
+                  </div> 
 
-                   <div className="whatsHappen-card">
+                  <div className="whatsHappen-card">
 
-                      <div className="whatsHappen-box">
+                    <div className="whatsHappen-box">
                         {selectedView}
-                      </div>
+                    </div>
 
-                   </div>
-
-
-                  
-
-
+                  </div>
 
                 </div>
 

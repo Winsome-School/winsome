@@ -76,9 +76,10 @@ $career-large-screen:992px;
             height: 540px;
             //background-color: lightblue;
             clear: both;
+            width: 100%;
            
             .arrows{
-                width: 6%;
+                width: 8%;
                 height: 480px;
                 //background-color: green;
                 display: inline-block;
@@ -130,15 +131,20 @@ $career-large-screen:992px;
                 transform: rotate(135deg);
                 float: right;
                 margin-right: 15px;
-                
-            }  
+
+            }
 
             .whatsHappen-card{
 
-                width: 88%;
+                width: 84%;
                 height: 480px;
                 //background-color: purple;
                 float: left;
+
+                @media only screen and (max-width: 400px){
+
+                    margin-left: 10px;
+                }
                 //margin-left: 1%;
                 .whatsHappen-box{
                     margin: 0 auto;
@@ -180,8 +186,8 @@ $career-large-screen:992px;
                            width: 100%; 
                            object-fit:cover;
                                &:hover{
-                               height: 300px;
-                               width: 110;
+                               height: 330px;
+                               width: 115;
                                }
                             }
                               

@@ -89,7 +89,9 @@ export default class career extends Component {
               </div>
             </div>
 
-            <News />
+            <div className="News-container">
+              <News />
+            </div>
           
         </div>
         <Discover />

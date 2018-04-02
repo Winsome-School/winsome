@@ -73,7 +73,7 @@ export default class  SignIn extends Component {
 					<div className="wraper">
 						<div className="login-box">
 
-							<h1>LOGIN CREDENTIALS 
+							<h1>LOGIN CREDENTIALS
 								<span className="glyphicon glyphicon-user"/>
 							</h1>
 
