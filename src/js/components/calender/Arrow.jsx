@@ -21,8 +21,8 @@ export const Arrow = ({ onClickRightArrow, onClickLeftArrow }) => (
 );
 
 Arrow.propTypes = {
-	onClickRightArrow: func.isRequired,
-	onClickLeftArrow: func.isRequired
+	onClickRightArrow: func,
+	onClickLeftArrow: func
 };
 export default connect(null, {
 	onClickLeftArrow: actions.onClickLeftArrow,

@@ -1,5 +1,5 @@
 import React from 'react';
-import { shape, arrayOf, string } from 'prop-types';
+import { shape, arrayOf, string, number } from 'prop-types';
 import Part from './Part';
 
 class Portion2 extends React.Component {
@@ -11,7 +11,7 @@ class Portion2 extends React.Component {
 				<div className="box" />
 				{achieversData.class16Data.data.map(item => (
 					<Part
-						key={Math.random()}
+						key={item.id}
 						text={item.text}
 						textHeading={item.textHeading}
 						image={item.image}
@@ -42,6 +42,7 @@ Portion2.propTypes = {
 			textYear: string.isRequired,
 			data: arrayOf(
 				shape({
+					id: number,
 					textHeading: string.isRequired,
 					text: string.isRequired,
 					image: string.isRequired

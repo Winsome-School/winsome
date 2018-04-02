@@ -10,19 +10,22 @@ ShallowWrapper {
         "class16Data": Object {
           "data": Array [
             Object {
+              "id": 1,
               "image": "",
               "text": "",
-              "textHeading": "Rehan",
+              "textHeading": "",
             },
             Object {
+              "id": 2,
               "image": "",
               "text": "",
-              "textHeading": "Taimoor",
+              "textHeading": "Ahmed",
             },
             Object {
+              "id": 3,
               "image": "",
               "text": "",
-              "textHeading": "Mushraf",
+              "textHeading": "Waqar",
             },
           ],
           "textYear": "",
@@ -30,26 +33,31 @@ ShallowWrapper {
         "class17Data": Object {
           "data": Array [
             Object {
+              "id": 1,
               "image": "",
               "text": "",
               "textHeading": "",
             },
             Object {
+              "id": 2,
               "image": "",
               "text": "",
               "textHeading": "Ahmed",
             },
             Object {
+              "id": 3,
               "image": "",
               "text": "",
               "textHeading": "Waqar",
             },
             Object {
+              "id": 4,
               "image": "",
               "text": "",
               "textHeading": "Ahsan",
             },
             Object {
+              "id": 5,
               "image": "",
               "text": "",
               "textHeading": "Hassan",
@@ -185,8 +193,8 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "0",
-          "nodeType": "class",
+          "key": "1",
+          "nodeType": "function",
           "props": Object {
             "image": "",
             "text": "",
@@ -198,8 +206,8 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "1",
-          "nodeType": "class",
+          "key": "2",
+          "nodeType": "function",
           "props": Object {
             "image": "",
             "text": "",
@@ -211,8 +219,8 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "2",
-          "nodeType": "class",
+          "key": "3",
+          "nodeType": "function",
           "props": Object {
             "image": "",
             "text": "",
@@ -224,8 +232,8 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "3",
-          "nodeType": "class",
+          "key": "4",
+          "nodeType": "function",
           "props": Object {
             "image": "",
             "text": "",
@@ -237,8 +245,8 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "4",
-          "nodeType": "class",
+          "key": "5",
+          "nodeType": "function",
           "props": Object {
             "image": "",
             "text": "",
@@ -379,8 +387,8 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "0",
-            "nodeType": "class",
+            "key": "1",
+            "nodeType": "function",
             "props": Object {
               "image": "",
               "text": "",
@@ -392,8 +400,8 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "1",
-            "nodeType": "class",
+            "key": "2",
+            "nodeType": "function",
             "props": Object {
               "image": "",
               "text": "",
@@ -405,8 +413,8 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "2",
-            "nodeType": "class",
+            "key": "3",
+            "nodeType": "function",
             "props": Object {
               "image": "",
               "text": "",
@@ -418,8 +426,8 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "3",
-            "nodeType": "class",
+            "key": "4",
+            "nodeType": "function",
             "props": Object {
               "image": "",
               "text": "",
@@ -431,8 +439,8 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "4",
-            "nodeType": "class",
+            "key": "5",
+            "nodeType": "function",
             "props": Object {
               "image": "",
               "text": "",
