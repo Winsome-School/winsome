@@ -6,14 +6,6 @@
 	transition: all 0.4s ease-in-out;
 	&:active {
 		transform: scale(1.2) rotate(135deg);
-		border-right: transparent;
-		border-bottom: transparent;
-	}
-	&:focus {
-		border-left: 5px solid $arrowColor;
-		border-top: 5px solid $arrowColor;
-		border-right: transparent;
-		border-bottom: transparent;
 	}
 }
 .arrowLeft {
@@ -25,13 +17,5 @@
 
 	&:active {
 		transform: scale(1.2) rotate(-45deg);
-		border-right: transparent;
-		border-bottom: transparent;
-	}
-	&:focus {
-		border-left: 5px solid $arrowColor;
-		border-top: 5px solid $arrowColor;
-		border-right: transparent;
-		border-bottom: transparent;
 	}
 }
