@@ -1,5 +1,5 @@
 import { FILL_ME } from '../constants';
-import { promoData } from '../components/promo/promoData';
+import promoData from '../components/promo/promoData';
 
 export default function (state = promoData, action) {
   switch (action.type) {

@@ -1,4 +1,4 @@
-import { FILL_ME,ARROW_LEFT,ARROW_RIGHT } from '../constants';
+import { ARROW_LEFT, ARROW_RIGHT } from '../constants';
 
 export function onClickLeftArrow() {
 	return {
