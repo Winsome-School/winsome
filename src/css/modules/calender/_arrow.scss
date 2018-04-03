@@ -5,7 +5,6 @@
 	border-top: 3px solid $arrowColor;
 	transition: all 0.4s ease-in-out;
 	&:active {
-<<<<<<< HEAD
 		transform: scale(1.2) rotate(135deg);
 		border-right: transparent;
 		border-bottom: transparent;
@@ -15,17 +14,6 @@
 		border-top: 5px solid $arrowColor;
 		border-right: transparent;
 		border-bottom: transparent;
-=======
-		transform: scale(1.5) rotate(135deg);
-		outline: 0;
-		outline: none;
-	}
-	&:focus {
-		border-left: 6px solid $arrowColor;
-		border-top: 6px solid $arrowColor;
-		outline: 0;
-		outline: none;
->>>>>>> 0e2bb0bf8a7c4da622c6eee85d4f822541b0cb07
 	}
 }
 .arrowLeft {
@@ -34,8 +22,6 @@
 	border-left: 3px solid $arrowColor;
 	border-top: 3px solid $arrowColor;
 	transition: all 0.4s ease-in-out;
-<<<<<<< HEAD
-
 	&:active {
 		transform: scale(1.2) rotate(-45deg);
 		border-right: transparent;
@@ -46,17 +32,5 @@
 		border-top: 5px solid $arrowColor;
 		border-right: transparent;
 		border-bottom: transparent;
-=======
-	&:active {
-		transform: scale(1.5) rotate(-45deg);
-		outline: 0;
-		outline: none;
-	}
-	&:focus {
-		border-left: 6px solid $arrowColor;
-		border-top: 6px solid $arrowColor;
-		outline: 0;
-		outline: none;
->>>>>>> 0e2bb0bf8a7c4da622c6eee85d4f822541b0cb07
 	}
 }

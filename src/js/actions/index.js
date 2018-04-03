@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {
 	ARROW_LEFT,
 	ARROW_RIGHT,
@@ -8,9 +7,6 @@ import {
 	GET_PASSWORD,
 	LOGIN
 } from '../constants';
-=======
-import { ARROW_LEFT, ARROW_RIGHT } from '../constants';
->>>>>>> 0e2bb0bf8a7c4da622c6eee85d4f822541b0cb07
 
 export function onClickLeftArrow() {
 	return {
