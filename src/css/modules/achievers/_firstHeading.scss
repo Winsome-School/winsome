@@ -1,24 +1,25 @@
-.first{
+.first {
 	width: 100%;
 	height: 300px;
 	float: left;
-	.firstPart{
+	.firstPart {
 		width: 60%;
 		height: 500px;
 		margin: 5.5% auto auto 6.5%;
-		h2{
+		float: left;
+		h2 {
 			font-size: 20px;
 			margin: 0px;
 			font-weight: bold;
 		}
-		.box{
-			width:13px;
+		.box {
+			width: 13px;
 			height: 13px;
-			 background-color: yellow;
-			 margin-top: 5%;
-			 margin-left: 0.5%;
+			background-color: yellow;
+			margin-top: 5%;
+			margin-left: 0.5%;
 		}
-		p{
+		p {
 			text-align: justify;
 			margin-top: 7%;
 		}

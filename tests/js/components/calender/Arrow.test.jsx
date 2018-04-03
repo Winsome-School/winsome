@@ -14,9 +14,21 @@ describe('Test the Arrow Component', () => {
 	it('checks the Left Click', () => {
 		const onClickLeftArrow = jest.fn();
 		wrapper.find('.arrowLeft').simulate('click');
+		expect(onClickLeftArrow.mock.calls.length).toBe(0);
 	});
 	it('checks the Right Click', () => {
 		const onClickRightArrow = jest.fn();
 		wrapper.find('.arrowRight').simulate('click');
+		expect(onClickRightArrow.mock.calls.length).toBe(0);
+	});
+	it('checks the Left Enter key Press', () => {
+		const onClickLeftArrow = jest.fn();
+		wrapper.find('.arrowLeft').simulate('onkeypress');
+		expect(onClickLeftArrow.mock.calls.length).toBe(0);
+	});
+	it('checks the Right Click', () => {
+		const onClickRightArrow = jest.fn();
+		wrapper.find('.arrowRight').simulate('onkeypress');
+		expect(onClickRightArrow.mock.calls.length).toBe(0);
 	});
 });
