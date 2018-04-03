@@ -1,5 +1,6 @@
 module.exports = {
-  entry: ['./src/js/index.jsx', './src/css/styles.scss'],
+  entry: ['./dev/Sultan/photo-gallery/src/js/index.jsx', 
+          './dev/Sultan/photo-gallery/src/css/styles.scss'],
   output: {
     path: `${__dirname}/dist/js`,
     filename: 'bundle.js',
