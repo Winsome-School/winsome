@@ -197,7 +197,11 @@
   transform: rotate($rotationDeg);
   cursor: pointer;
   transition: margin 0.2s ease-in-out;
+<<<<<<< HEAD
   background-color: transparent;
   border-right: 0;
   border-bottom: 0;
+=======
+  outline: 0;
+>>>>>>> 0e2bb0bf8a7c4da622c6eee85d4f822541b0cb07
 }

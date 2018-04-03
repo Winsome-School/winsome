@@ -16,7 +16,11 @@ module.exports = {
             loader: 'babel-loader',
             options: {
               presets: ['env', 'react'],
+<<<<<<< HEAD
               plugins: ['transform-object-rest-spread']
+=======
+              plugins: ["transform-object-rest-spread",]
+>>>>>>> 0e2bb0bf8a7c4da622c6eee85d4f822541b0cb07
             }
           },
           {
@@ -32,7 +36,11 @@ module.exports = {
             loader: 'babel-loader',
             options: {
               presets: ['env'],
+<<<<<<< HEAD
               plugins: ['transform-object-rest-spread']
+=======
+              plugins: ["transform-object-rest-spread",]
+>>>>>>> 0e2bb0bf8a7c4da622c6eee85d4f822541b0cb07
             }
           },
           {

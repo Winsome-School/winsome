@@ -1,39 +1,50 @@
-.portion1{
-margin-top: 3%;
-width: 100%;
-float: left;
-h2{
-	margin-left: 6.5%;
-}
-.box{
-	width:13px;
-	height: 13px;
-	background-color: yellow;
-	margin-top: 2.5%;
-	margin-left: 7%;
-}	
-	.part{
-		width: 40%;
-		height: 280px;
-		float:left;
-		margin: 2.5% auto 3% 4%;
-		img{
+.portion1 {
+	margin-top: 3%;
+	width: 100%;
+	float: left;
+	h2 {
+		margin-left: 4.5%;
+	}
+	.box {
+		width: 13px;
+		height: 13px;
+		background-color: yellow;
+		margin-top: 2.5%;
+		margin-left: 5%;
+	}
+	.part {
+		width: 400px;
+		height: 360px;
+		float: left;
+		margin: 0 auto 3% 2%;
+		@media (max-width: 1090px) {
+			width: 70%;
+		}
+		@media (max-width: 747px) {
+			width: 70%;
+		}
+
+		img {
 			float: left;
 			width: 200px;
 			height: 200px;
 			border: 2px solid white;
-			margin:4% auto auto 5%;
-			border:1px solid white;
+			margin: 4% auto auto 5%;
+			border: 1px solid white;
 		}
-		.paragraph{
-			width: 35%;
+		.paragraph {
+			width: 40%;
 			float: left;
 			margin-left: 2%;
-			margin-top: 120px;
-			h4{
+			margin-top: 138px;
+			@media (max-width: 747px) {
+				margin-top: 0px;
+				margin-left: 5%;
+				width: 40%;
+			}
+			h4 {
 				font-weight: bold;
 			}
 		}
-
 	}
 }

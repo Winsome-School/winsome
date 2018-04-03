@@ -23,6 +23,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <img
+          alt=""
           src=""
         />,
         <div
@@ -51,6 +52,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "alt": "",
           "src": "",
         },
         "ref": null,
@@ -135,6 +137,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <img
+            alt=""
             src=""
           />,
           <div
@@ -163,6 +166,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "",
             "src": "",
           },
           "ref": null,

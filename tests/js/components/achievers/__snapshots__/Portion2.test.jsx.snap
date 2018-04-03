@@ -10,19 +10,22 @@ ShallowWrapper {
         "class16Data": Object {
           "data": Array [
             Object {
+              "id": 1,
               "image": "",
               "text": "",
-              "textHeading": "Rehan",
+              "textHeading": "",
             },
             Object {
+              "id": 2,
               "image": "",
               "text": "",
-              "textHeading": "Taimoor",
+              "textHeading": "Ahmed",
             },
             Object {
+              "id": 3,
               "image": "",
               "text": "",
-              "textHeading": "Mushraf",
+              "textHeading": "Waqar",
             },
           ],
           "textYear": "",
@@ -30,26 +33,31 @@ ShallowWrapper {
         "class17Data": Object {
           "data": Array [
             Object {
+              "id": 1,
               "image": "",
               "text": "",
               "textHeading": "",
             },
             Object {
+              "id": 2,
               "image": "",
               "text": "",
               "textHeading": "Ahmed",
             },
             Object {
+              "id": 3,
               "image": "",
               "text": "",
               "textHeading": "Waqar",
             },
             Object {
+              "id": 4,
               "image": "",
               "text": "",
               "textHeading": "Ahsan",
             },
             Object {
+              "id": 5,
               "image": "",
               "text": "",
               "textHeading": "Hassan",
@@ -87,17 +95,17 @@ ShallowWrapper {
           <Part
             image=""
             text=""
-            textHeading="Rehan"
+            textHeading=""
           />
           <Part
             image=""
             text=""
-            textHeading="Taimoor"
+            textHeading="Ahmed"
           />
           <Part
             image=""
             text=""
-            textHeading="Mushraf"
+            textHeading="Waqar"
           />
         </div>,
         <div
@@ -124,17 +132,17 @@ ShallowWrapper {
               <Part
                 image=""
                 text=""
-                textHeading="Rehan"
+                textHeading=""
               />,
               <Part
                 image=""
                 text=""
-                textHeading="Taimoor"
+                textHeading="Ahmed"
               />,
               <Part
                 image=""
                 text=""
-                textHeading="Mushraf"
+                textHeading="Waqar"
               />,
             ],
           ],
@@ -165,25 +173,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "0",
-            "nodeType": "class",
-            "props": Object {
-              "image": "",
-              "text": "",
-              "textHeading": "Rehan",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
             "key": "1",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "image": "",
               "text": "",
-              "textHeading": "Taimoor",
+              "textHeading": "",
             },
             "ref": null,
             "rendered": null,
@@ -192,11 +187,24 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "2",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "image": "",
               "text": "",
-              "textHeading": "Mushraf",
+              "textHeading": "Ahmed",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "image": "",
+              "text": "",
+              "textHeading": "Waqar",
             },
             "ref": null,
             "rendered": null,
@@ -236,17 +244,17 @@ ShallowWrapper {
             <Part
               image=""
               text=""
-              textHeading="Rehan"
+              textHeading=""
             />
             <Part
               image=""
               text=""
-              textHeading="Taimoor"
+              textHeading="Ahmed"
             />
             <Part
               image=""
               text=""
-              textHeading="Mushraf"
+              textHeading="Waqar"
             />
           </div>,
           <div
@@ -273,17 +281,17 @@ ShallowWrapper {
                 <Part
                   image=""
                   text=""
-                  textHeading="Rehan"
+                  textHeading=""
                 />,
                 <Part
                   image=""
                   text=""
-                  textHeading="Taimoor"
+                  textHeading="Ahmed"
                 />,
                 <Part
                   image=""
                   text=""
-                  textHeading="Mushraf"
+                  textHeading="Waqar"
                 />,
               ],
             ],
@@ -314,25 +322,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "0",
-              "nodeType": "class",
-              "props": Object {
-                "image": "",
-                "text": "",
-                "textHeading": "Rehan",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
               "key": "1",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "image": "",
                 "text": "",
-                "textHeading": "Taimoor",
+                "textHeading": "",
               },
               "ref": null,
               "rendered": null,
@@ -341,11 +336,24 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "2",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "image": "",
                 "text": "",
-                "textHeading": "Mushraf",
+                "textHeading": "Ahmed",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "image": "",
+                "text": "",
+                "textHeading": "Waqar",
               },
               "ref": null,
               "rendered": null,
