@@ -8,10 +8,11 @@ import App from './components/App';
 
 const store = createStore(rootReducer);
 
-
 ReactDOM.render(
-	<Provider store={store}>  
+	<Provider store={store}>
 		<App />
 	</Provider>,
-  document.querySelector('#app')
+	document.querySelector('#app')
 );
+
+export default store;

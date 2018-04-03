@@ -11,37 +11,32 @@ import Gallery from '../gallery/Gallery';
 
 
 class Home extends Component {
-  constructor() {
-    super();
-  }
 
   render() {
-    let {style} = this.props;
+    let { style } = this.props;
 
     return (
       <div className="Home">
-        <Hero 
+        <Hero
           style={'hero-image'}
         />
         <Promo />
-        <Calender/>
-        <Blog/>
-        <Gallery/>
-        
+        <Calender />
+        <Blog />
+        <Gallery />
       </div>
-
-          );
+    );
   }
 };
 
 Home.propTypes = {
-  //getAction: PropTypes.func.isRequired,
+  // getAction: PropTypes.func.isRequired,
 };
 
-function mapStateToProps(state) {
-  return {
-    test: state.test
-  };
-};
+// function mapStateToProps(state) {
+//   return {
+//     test: state.test
+//   };
+// };
 
-export default connect(mapStateToProps,{})(Home);
+export default connect(null, {})(Home);

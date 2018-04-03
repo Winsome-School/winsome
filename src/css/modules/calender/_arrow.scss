@@ -1,20 +1,37 @@
-.arrowRight{
-		@include arrow(92.4%,67%,40px,40px,135deg ) //Prameters are left,top,height,width,rotationDegree
-		border-left: 3px solid $arrowColor;
-		border-top: 3px solid $arrowColor;
-		transition:all 0.4s ease-in-out;
-		&:active{
-			transform:scale(1.2) rotate(135deg)
-		}
+.arrowRight {
+	//Prameters are left,top,height,width,rotationDegree
+	@include arrow(92.4%, 67%, 40px, 40px, 135deg);
+	border-left: 3px solid $arrowColor;
+	border-top: 3px solid $arrowColor;
+	transition: all 0.4s ease-in-out;
+	&:active {
+		transform: scale(1.2) rotate(135deg);
+		border-right: transparent;
+		border-bottom: transparent;
 	}
-	.arrowLeft{
-		@include arrow(4.5%,67%,40px,40px,-45deg) //Prameters are left,top,height,width,rotationDegree
-		border-left: 3px solid $arrowColor;
-		border-top: 3px solid $arrowColor;
-		transition:all 0.4s ease-in-out;
-		
-		&:active{
-			transform:scale(1.2) rotate(-45deg)
-		}
+	&:focus {
+		border-left: 5px solid $arrowColor;
+		border-top: 5px solid $arrowColor;
+		border-right: transparent;
+		border-bottom: transparent;
+	}
+}
+.arrowLeft {
+	//Prameters are left,top,height,width,rotationDegree
+	@include arrow(4.5%, 67%, 40px, 40px, -45deg);
+	border-left: 3px solid $arrowColor;
+	border-top: 3px solid $arrowColor;
+	transition: all 0.4s ease-in-out;
 
+	&:active {
+		transform: scale(1.2) rotate(-45deg);
+		border-right: transparent;
+		border-bottom: transparent;
 	}
+	&:focus {
+		border-left: 5px solid $arrowColor;
+		border-top: 5px solid $arrowColor;
+		border-right: transparent;
+		border-bottom: transparent;
+	}
+}

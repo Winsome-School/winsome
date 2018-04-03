@@ -1,4 +1,4 @@
-export const promoData = [
+const promoData = [
   {
     id: 1,
     heading: "Winsome Radical School",
@@ -40,3 +40,5 @@ export const promoData = [
     }
   }
 ]
+
+export default promoData;

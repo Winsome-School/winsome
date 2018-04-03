@@ -1,105 +1,110 @@
-import React,{ Component } from 'react';
+import React, { Component } from 'react';
+import { func, bool, shape, string } from 'prop-types';
+import { connect } from 'react-redux';
+import { getUserAction, getPassAction, loginAction } from '../../actions';
+
 import Menu from './Menu';
-import UserData from './UserData';
 import Hero from '../hero/HeroImage';
 
-export default class  SignIn extends Component {
-		constructor(){
+class SignIn extends Component {
+	constructor() {
 		super();
-
-
-		this.user = UserData.user;
-		this.pass = UserData.pass;
-
-		this.EnterUserName = '';
-		this.EnterPassword = '';
-
-		this.state = {
-
-			
-			usermatch: false,
-			loginMsg: ''
-		}
 
 		this.getUserName = this.getUserName.bind(this);
 		this.getPassword = this.getPassword.bind(this);
 		this.loginHandler = this.loginHandler.bind(this);
 	}
 
-	getUserName(e){
-
-		//console.log(e.target.value)
-		this.EnterUserName = e.target.value;
-		console.log(this.EnterUserName)
+	getUserName(e) {
+		this.props.getUserAction(e.target.value);
 	}
-	getPassword(e){
-
-		this.EnterPassword = e.target.value;
-		console.log(this.EnterPassword)
+	getPassword(e) {
+		this.props.getPassAction(e.target.value);
 	}
-	
-	loginHandler(){
 
-		if( this.EnterUserName != '' && this.EnterPassword != '' ){
-
-				if( this.EnterUserName == this.user && this.EnterPassword == this.pass){
-
-					
-					this.setState({
-						usermatch:true
-					})
-				}else{
-					this.setState({
-						loginMsg:'Please Enter valid Credentials'
-					})
-				}
-		}
-
-
-	}  
+	loginHandler() {
+		this.props.loginAction();
+	}
 
 	render() {
-		
-		let {} = this.props;
+		const { loginData } = this.props;
 
-		return(
-				
-		        this.state.usermatch ?  <div> <Hero style={'hero-image'} /><Menu /> </div> :
-
-		        <div>
-		        <Hero style={'hero-image'}  />
+		return loginData.usermatch ? (
+			<div>
+				<Hero style={'hero-image'} />
+				<Menu />
+			</div>
+		) : (
+			<div>
+				<Hero style={'hero-image'} />
 
 				<div className="user-signin">
 					<div className="wraper">
 						<div className="login-box">
-
-							<h1>LOGIN CREDENTIALS
-								<span className="glyphicon glyphicon-user"/>
+							<h1>
+								LOGIN CREDENTIALS
+								<span className="glyphicon glyphicon-user" />
 							</h1>
 
-							
 							<form className="login-form">
+								<div className="yellow-icon" />
+								<input
+									type="text"
+									placeholder="Username"
+									onChange={this.getUserName}
+									required
+								/>
 
-								<div className="yellow-icon"></div>
-								<input type="text" placeholder="Username"  onChange= {this.getUserName} required/> 
+								<div className="yellow-icon" />
+								<input
+									type="password"
+									placeholder="Password"
+									onChange={this.getPassword}
+									required
+								/>
 
-								<div className="yellow-icon"></div>
-								<input type="password" placeholder="Password" onChange= {this.getPassword} required/> 
+								<input
+									type="button"
+									value="Submit"
+									className="login-btn"
+									onClick={this.loginHandler}
+								/>
 
-								<input type="button" value="Submit" className="login-btn" onClick={this.loginHandler}/>
-								
 								<br />
-								{ this.state.loginMsg }
-								
+								{loginData.loginMsg}
 							</form>
-							
 						</div>
-
 					</div>
 				</div>
-				</div>
-
-		        
+			</div>
 		);
 	}
 }
+SignIn.propTypes = {
+	getUserAction: func,
+	getPassAction: func,
+	loginAction: func,
+	loginData: shape({
+		usermatch: bool,
+		loginMsg: string
+	})
+};
+SignIn.defaultProps = {
+	getUserAction: null,
+	getPassAction: null,
+	loginAction: null,
+	loginData: {
+		usermatch: false,
+		loginMsg: ''
+	}
+};
+
+function mapStateToProps({ loginData }) {
+	return { loginData };
+}
+
+export default connect(mapStateToProps, {
+	getUserAction,
+	getPassAction,
+	loginAction
+})(SignIn);

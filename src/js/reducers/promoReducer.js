@@ -1,12 +1,11 @@
 import { FILL_ME } from '../constants';
-import { promoData } from '../components/promo/promoData';
+import promoData from '../components/promo/promoData';
 
-const initial = promoData;
-
-export default function(state=promoData, action) {
-  switch(action.type) {
+export default function (state = promoData, action) {
+  switch (action.type) {
     case FILL_ME:
       return state;
+    default:
+      return state;
   }
-  return state;
 };

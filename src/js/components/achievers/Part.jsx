@@ -1,28 +1,22 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import { string } from 'prop-types';
 
- class Part extends React.Component {
-	constructor(){
-		super();
-	}
-	render(){
-		let {text,textHeading,image}=this.props
-		return (			
-			<div className="part">
-				<img src={image} />
-				<div  className="paragraph">
-				<h4>{textHeading}</h4>
-				<p>{text}</p>
-				<div className="clear"></div>
-				</div>
-				<div className="clear"></div>
-			</div>	
-		)
-	}
-} 
+const Part = ({ text, textHeading, image }) => (
+	<div className="part">
+		<img src={image} alt="" />
+		<div className="paragraph">
+			<h4>{textHeading}</h4>
+			<p>{text}</p>
+			<div className="clear" />
+		</div>
+		<div className="clear" />
+	</div>
+);
 
-export default Part
+export default Part;
 
-Part.propTypes={
-	//getAction: PropTypes.func.isRequired
-}
+Part.propTypes = {
+	text: string.isRequired,
+	textHeading: string.isRequired,
+	image: string.isRequired
+};

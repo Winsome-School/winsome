@@ -1,29 +1,21 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import { string } from 'prop-types';
 
- class FirstHeading extends React.Component {
-	constructor(){
-		super();
-	}
-	render(){
-		let {heading,text}=this.props;
-		
-		return (
-			<div className="first">
-				<div className="firstPart">
-					<h2>{heading}</h2>
-					<div className="box"></div>
-					<p>{text}</p>
-					<div className="clear"></div>
-				</div>
-				<div className="clear"></div>
-			</div>
-		)
-	}
-} 
+const FirstHeading = ({ heading, text }) => (
+	<div className="first">
+		<div className="firstPart">
+			<h2>{heading}</h2>
+			<div className="box" />
+			<p>{text}</p>
+			<div className="clear" />
+		</div>
+		<div className="clear" />
+	</div>
+);
 
-export default FirstHeading
+export default FirstHeading;
 
-FirstHeading.propTypes={
-	//getAction: PropTypes.func.isRequired
-}
+FirstHeading.propTypes = {
+	heading: string.isRequired,
+	text: string.isRequired
+};

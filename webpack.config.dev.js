@@ -1,8 +1,5 @@
 module.exports = {
-  entry: [
-    './src/js/index.jsx',
-    './src/css/styles.scss'
-  ],
+  entry: ['./src/js/index.jsx', './src/css/styles.scss'],
   output: {
     path: `${__dirname}/dist/js`,
     filename: 'bundle.js',
@@ -14,29 +11,39 @@ module.exports = {
       {
         test: /\.jsx$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['env', 'react'],
-            plugins: ["transform-object-rest-spread", ]
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['env', 'react'],
+              plugins: ['transform-object-rest-spread']
+            }
+          },
+          {
+            loader: 'eslint-loader'
           }
-        }
+        ]
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['env'],
-            plugins: ["transform-object-rest-spread", ]
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['env'],
+              plugins: ['transform-object-rest-spread']
+            }
+          },
+          {
+            loader: 'eslint-loader'
           }
-        }
+        ]
       },
       {
-        test:/\.css$/,
+        test: /\.css$/,
         use: [
-          'style-loader', 
+          'style-loader',
           {
             loader: 'css-loader',
             options: {
@@ -46,8 +53,8 @@ module.exports = {
         ]
       },
       {
-        test:/\.scss$/,
-        use: [ 
+        test: /\.scss$/,
+        use: [
           'style-loader',
           {
             loader: 'css-loader',
@@ -62,13 +69,13 @@ module.exports = {
   },
 
   devServer: {
-    contentBase: "./dist",
+    contentBase: './dist',
     historyApiFallback: true
   },
 
   devtool: 'source-map',
 
   resolve: {
-    extensions:['.js', '.jsx']
+    extensions: ['.js', '.jsx']
   }
 };

@@ -1,36 +1,35 @@
-import React,{ Component } from 'react'
+import React from 'react';
 
-export default class  WhatsHappen extends Component {
-	constructor () {
-		super();
+import { shape, string, number } from 'prop-types';
 
-		
-	}
+const WhatsHappen = props => {
+	const { blog, count } = props;
+	const adrs = `../images/${blog.img}`;
+	const style = `whatshappen card-${count}`;
 
-	render() {
-		
-		let {blog,count} = this.props;
-		console.log(this.props)
-		var adrs = "../images/"+blog.img;
-		
+	return (
+		<div className={style}>
+			<div className="img">
+				<img src={adrs} alt="" />
+			</div>
 
-		var style = 'whatshappen card-'+count+'';
-		
-		return(
-				
-		          <div className={style}> 
-
-					<div className="img">
-		            	<img src={adrs}/>
-		            </div>
-					
-					<div className="img-des">
-		            	<h3>{blog.title}</h3>
-		            	<p>{blog.description}</p>
-		            </div>  
-
-		        </div>
-		        
-		);
-	}
-}
+			<div className="img-des">
+				<h3>{blog.title}</h3>
+				<p>{blog.description}</p>
+			</div>
+		</div>
+	);
+};
+WhatsHappen.propTypes = {
+	blog: shape({
+		img: string,
+		title: string,
+		description: string
+	}),
+	count: number
+};
+WhatsHappen.defaultProps = {
+	blog: null,
+	count: null
+};
+export default WhatsHappen;

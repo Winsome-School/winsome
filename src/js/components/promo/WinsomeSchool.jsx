@@ -1,6 +1,6 @@
 // ########## Import Dependencies Here ##########
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import { arrayOf, shape, number } from 'prop-types';
 
 // ########## Import Screens Here ##########
 
@@ -10,7 +10,7 @@ import PromoCard from './PromoCard';
 export default class WinsomeSchool extends Component {
 
   renderPromoCardsSectionOne() {
-    let { promoData } = this.props;
+    const { promoData } = this.props;
     return (
       [
         <PromoCard 
@@ -26,7 +26,7 @@ export default class WinsomeSchool extends Component {
   }
 
   renderPromoCardsSectionTwo() {
-    let { promoData } = this.props;
+    const { promoData } = this.props;
     return (
       [
         <PromoCard 
@@ -42,7 +42,7 @@ export default class WinsomeSchool extends Component {
   }
 
   render() {
-    let { promoData, id } = this.props;
+    const { promoData, id } = this.props;
     return (
       <section id="winsome-school">
         {
@@ -56,6 +56,19 @@ export default class WinsomeSchool extends Component {
 }
 
 WinsomeSchool.propTypes = {
-  promoData: PropTypes.array.isRequired,
-  id: PropTypes.number.isRequired,
+  promoData: arrayOf(shape({
+    promoDataOne: shape({
+      promoCardId: number.isRequired
+    }).isRequired,
+    promoDataTwo: shape({
+      promoCardId: number.isRequired
+    }).isRequired,
+    promoDataThree: shape({
+      promoCardId: number.isRequired
+    }).isRequired,
+    promoDataFour: shape({
+      promoCardId: number.isRequired
+    }).isRequired,
+  })).isRequired,
+  id: number.isRequired,
 }

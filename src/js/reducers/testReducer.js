@@ -2,10 +2,11 @@ import { FILL_ME } from '../constants';
 
 const initial = null;
 
-export default function(state=initial, action) {
-  switch(action.type) {
+export default function (state = initial, action) {
+  switch (action.type) {
     case FILL_ME:
       return state;
+    default:
+      return state;
   }
-  return state;
 };
