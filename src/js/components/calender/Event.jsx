@@ -4,8 +4,8 @@ import { arrayOf, shape, number, string } from 'prop-types';
 
 export class Event extends React.Component {
 	renderArray() {
-		const { counter, events } = this.props;
-		return [...events].slice(counter, counter + 4).map(({ ...item }) => (
+		const { counter, events,count } = this.props;
+		return [...events].slice(counter, counter + count).map(({ ...item }) => (
 			<div key={item.id} className="event">
 				<div className="comingEvents">{item.event}</div>
 				<div className="comingEventsDates">{item.eventDate}</div>

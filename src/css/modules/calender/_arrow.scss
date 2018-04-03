@@ -1,36 +1,81 @@
 .arrowRight {
-	//Prameters are left,top,height,width,rotationDegree
 	@include arrow(92.4%, 67%, 40px, 40px, 135deg);
 	border-left: 3px solid $arrowColor;
 	border-top: 3px solid $arrowColor;
 	transition: all 0.4s ease-in-out;
+	@media (max-width: 767px) {
+		left: 90.6%;
+	}
 	&:active {
-		transform: scale(1.2) rotate(135deg);
-		border-right: transparent;
-		border-bottom: transparent;
+		transform: scale(1.5) rotate(135deg);
+		outline: 0;
+		outline: none;
 	}
 	&:focus {
-		border-left: 5px solid $arrowColor;
-		border-top: 5px solid $arrowColor;
-		border-right: transparent;
-		border-bottom: transparent;
+		border-left: 6px solid $arrowColor;
+		border-top: 6px solid $arrowColor;
+		outline: 0;
+		outline: none;
 	}
 }
 .arrowLeft {
-	//Prameters are left,top,height,width,rotationDegree
 	@include arrow(4.5%, 67%, 40px, 40px, -45deg);
 	border-left: 3px solid $arrowColor;
 	border-top: 3px solid $arrowColor;
 	transition: all 0.4s ease-in-out;
 	&:active {
-		transform: scale(1.2) rotate(-45deg);
-		border-right: transparent;
-		border-bottom: transparent;
+		transform: scale(1.5) rotate(-45deg);
+		outline: 0;
+		outline: none;
 	}
 	&:focus {
-		border-left: 5px solid $arrowColor;
-		border-top: 5px solid $arrowColor;
-		border-right: transparent;
-		border-bottom: transparent;
+		border-left: 6px solid $arrowColor;
+		border-top: 6px solid $arrowColor;
+		outline: 0;
+		outline: none;
 	}
+}
+
+
+
+
+
+
+@media (max-width: 468px) {
+	.arrowRight {
+	@include arrow(82.4%, 67%, 40px, 40px, 135deg);
+	border-left: 3px solid $arrowColor;
+	border-top: 3px solid $arrowColor;
+	transition: all 0.4s ease-in-out;
+	
+	&:active {
+		transform: scale(1.5) rotate(135deg);
+		outline: 0;
+		outline: none;
+	}
+	&:focus {
+		border-left: 6px solid $arrowColor;
+		border-top: 6px solid $arrowColor;
+		outline: 0;
+		outline: none;
+	}
+}
+.arrowLeft {
+	@include arrow(4.5%, 67%, 40px, 40px, -45deg);
+	border-left: 3px solid $arrowColor;
+	border-top: 3px solid $arrowColor;
+	transition: all 0.4s ease-in-out;
+	&:active {
+		transform: scale(1.5) rotate(-45deg);
+		outline: 0;
+		outline: none;
+	}
+	&:focus {
+		border-left: 6px solid $arrowColor;
+		border-top: 6px solid $arrowColor;
+		outline: 0;
+		outline: none;
+	}
+}
+
 }
