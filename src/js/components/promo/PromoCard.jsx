@@ -1,5 +1,5 @@
 // ########## Import Dependencies Here ##########
-import React, { Component } from 'react';
+import React from 'react';
 import { shape, number, string } from 'prop-types';
 
 // ########## Import Screens Here ##########

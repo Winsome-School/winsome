@@ -1,5 +1,5 @@
 // ########## Import Dependencies Here ##########
-import React, { Component } from 'react';
+import React from 'react';
 import { shape, arrayOf, string } from 'prop-types';
 import { connect } from 'react-redux';
 

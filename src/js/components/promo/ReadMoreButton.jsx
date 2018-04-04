@@ -1,5 +1,5 @@
 // ########## Import Dependencies Here ##########
-import React, { Component } from 'react';
+import React from 'react';
 import { string } from 'prop-types';
 
 // ########## Import Screens Here ##########
@@ -12,7 +12,7 @@ const ReadMoreButton = (props) => {
     <div className={`read-more-button-${align}`}>
       <p className="read-more-button-text">
         Read More
-        </p>
+      </p>
     </div>
   );
 }
