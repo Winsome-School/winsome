@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="copyright-text">
             <p>
               Copyright © 2018 Winsome School. All Rights Reserved
-              </p>
+            </p>
           </div>
           <div className="clear" />
         </div>
