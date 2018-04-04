@@ -62,8 +62,11 @@ describe('Test the Event Component of Calender', () => {
 			time: '11:38 pm'
 		}
 	];
+	const count = 0;
 
-	const wrapper = shallow(<Event events={events} counter={0} />);
+	const wrapper = shallow(
+		<Event events={events} counter={0} count={count} />
+	);
 	it('checks the rendring', () => {
 		expect(wrapper).toMatchSnapshot();
 	});

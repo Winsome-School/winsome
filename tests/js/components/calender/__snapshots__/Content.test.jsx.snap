@@ -4,7 +4,9 @@ exports[`Test the Content Component of Calender checks the rendering 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Content />,
+  Symbol(enzyme.__unrendered__): <Content
+    count={0}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -29,7 +31,9 @@ ShallowWrapper {
         <div
           className="renderEvents"
         >
-          <Connect(Event) />
+          <Connect(Event)
+            count={0}
+          />
         </div>,
         <div
           className="clear"
@@ -79,7 +83,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Connect(Event) />,
+          "children": <Connect(Event)
+            count={0}
+          />,
           "className": "renderEvents",
         },
         "ref": null,
@@ -87,7 +93,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "count": 0,
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
@@ -135,7 +143,9 @@ ShallowWrapper {
           <div
             className="renderEvents"
           >
-            <Connect(Event) />
+            <Connect(Event)
+              count={0}
+            />
           </div>,
           <div
             className="clear"
@@ -185,7 +195,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Connect(Event) />,
+            "children": <Connect(Event)
+              count={0}
+            />,
             "className": "renderEvents",
           },
           "ref": null,
@@ -193,7 +205,9 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
-            "props": Object {},
+            "props": Object {
+              "count": 0,
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
