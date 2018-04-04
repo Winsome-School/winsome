@@ -1,12 +1,11 @@
 import React from 'react';
-import { data } from './data';
+import  data  from './data';
 import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
 import News from '../News/News';
 
-export default class Juniors extends React.Component {
-  render() {
-    return (
+ const Junior =  () =>  (
+  
       <div>
         <Hero
           style={'header-image'}
@@ -15,69 +14,47 @@ export default class Juniors extends React.Component {
         
           <div className="junior">
             <h2>{data.p1.heading}</h2>
-            <div className="box"></div>
+            <div className='box' />
             <p>
-              Kindergarten and Pre-primary education provides
-              an important foundation for both brain development
-              and instilling a child's life long love of learning.
-              We have a holistic view of education and cater for the physical,
-              creative, intellectual, emotional, social and spiritual domains
-              of learning in our classrooms.
-          </p>
+            {data.p1.text}
+            </p>
             <div className="image" >
-              <img src='./images/junior1.jpg' width='90%' />
+              <img src='./images/junior1.jpg' width='90%' alt="Junior1" />
             </div>
             
           </div>
           <News />
           <div className="creating">
             <h2>{data.p2.heading}</h2>
-            <div className="box"></div>
+            <div className="box" />
             <div className="textimage">
               <div className="pdivs">
                 <p>
-                  At Winsome we believe in providing a dual approach to education which
-                  supports every child to become condent learners. For us, the quality of
-                  relationship developed with the child has a direct link to the eective practice
-                  of teaching the children and guiding them to discover new things and think
-                  for themselves. We believe that if the teacher-child relationship is based on
-                  mutual respect, active listening and the sharing of knowledge and skills, the
-                  child’s capacity to learn and discover the world is enhanced.
-            </p>
+                {data.p2.p21.text}
+                </p>
                 <p>
-                  We aim to make strong genuine connections with families
-                  to support the children's learning. We foster a shared sense of
-                  achievement through regular communication and by providing
-                  opportunities for parent and caregiver involvement in the
-                  classroom. Throughout the year there will be a number of
-                  special events and opportunities in which parents and caregivers
-                  can become involved.
-            </p>
+                {data.p2.p22.text}
+                </p>
                 <p>
-                  Our goal is to capture the heart of a child through play-based learning,
-                  which develops a love and excitement for learning—the foundation on
-                  which social, emotional, psychological, spiritual and creative wellbeing
-                  is developed and ultimately sustained into adulthood.
-            </p>
+                {data.p2.p23.text}
+                </p>
               </div>
               <div className="image">
-                <img className='imglion' src='./images/junior2.jpg' />
+                <img className='imglion' src='./images/junior2.jpg' alt='junior2' />
               </div>
-              <div className="clear"></div>
+              <div className="clear" />
             </div>
           </div>
           <div className="key">
             <h2>{data.p3.heading}</h2>
-            <div className="box"></div>
+            <div className="box" />
             <p>
-              Early Years programme promotes age-appropriate, holistic development
-              focusing on children’s communication and language skills, creative expressions, as
-              well as physical, social and personal competencies.
-          </p>
+            {data.p3.text}
+            </p>
           </div>
         </div>
         <Discover />
       </div>
-    )
-  }
-};
+     
+  )
+export default Junior

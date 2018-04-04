@@ -1,4 +1,4 @@
-export const data = 
+const data = 
     {
         p1:{
           heading:"Junior School",
@@ -22,8 +22,7 @@ export const data =
             heading:"Key Features",
             text:"Early Years programme promotes age-appropriate, holistic development focusing on children’s communication and language skills, creative expressions, as well as physical, social and personal competencies.",
             
-            }
-      
+            }     
       
     }
- 
+    export default data
