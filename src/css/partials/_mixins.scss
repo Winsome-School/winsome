@@ -98,6 +98,16 @@
   color: $c;
 }
 
+@mixin H5($t-a, $c) {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0px;
+  padding-top: 0px;
+  text-align: $t-a;
+  color: $c;
+}
+
 @mixin P($t-a, $c) {
   font-family: $font-family;
   font-weight: 200;

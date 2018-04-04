@@ -28,6 +28,7 @@ import Policies from './policies/Policies';
 import OurSchool from './ourschool/OurSchool';
 import Senior from './senior/Senior';
 import SignIn from './signin/SignIn';
+import HR from './hr/HR';
 
 class App extends Component {
   constructor() {
@@ -54,6 +55,7 @@ class App extends Component {
             <Route exact path="/policies" component={Policies} />
             <Route exact path="/school" component={OurSchool} />
             <Route exact path="/senior" component={Senior} />
+            <Route exact path="/hr" component={HR} />
             <Route path="/" component={Home} />
           </Switch>
           <Footer />

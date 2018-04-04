@@ -1,0 +1,95 @@
+#hr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  .wrapper {
+    @include wrapper($wrapper-width);
+    .hr-form{
+      .candidate-section {
+        width: 46%;
+        float: left;
+        margin: 10px;
+        .section-heading {
+          @include H3('center', $black);
+          margin-bottom: 60px;
+        }
+        .form {
+          .form-entry {
+            @include H5('left', $black);
+            .form-entry-item {
+              margin-left: 10px;
+              margin-bottom: 20px;
+              width: 300px;
+            }
+          }
+        }
+      }
+      .father-section {
+        width: 46%;
+        float: left;
+        margin: 10px;
+        .section-heading {
+          @include H3('center', $black);
+          margin-bottom: 60px;
+        }
+        .form {
+          .form-entry {
+            @include H5('left', $black);
+            .form-entry-item {
+              margin-left: 10px;
+              margin-bottom: 20px;
+              width: 300px;
+            }
+            .text-area {
+              width: 250px;
+              height: 100px;
+              background-color: $white;
+            }
+          }
+        }
+      }
+      .class-section {
+        width: 46%;
+        float: left;
+        margin: 10px;
+        .section-heading {
+          @include H3('center', $black);
+          margin-bottom: 60px;
+        }
+        .form {
+          .form-entry {
+            @include H5('left', $black);
+            .form-entry-item {
+              margin-left: 10px;
+              margin-bottom: 20px;
+              width: 300px;
+            }
+          }
+        }
+      }
+      .emergency-section {
+        width: 46%;
+        float: left;
+        margin: 10px;
+        .section-heading {
+          @include H3('center', $black);
+          margin-bottom: 60px;
+        }
+        .form {
+          .form-entry {
+            @include H5('left', $black);
+            .form-entry-item {
+              margin-left: 10px;
+              margin-bottom: 20px;
+              width: 300px;
+            }
+            .text-area {
+              width: 250px;
+              height: 100px;
+              background-color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
