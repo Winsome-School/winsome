@@ -20,3 +20,5 @@ const ReadMoreButton = (props) => {
 ReadMoreButton.propTypes = {
   align: string.isRequired,
 }
+
+export default ReadMoreButton;
