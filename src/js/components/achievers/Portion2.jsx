@@ -11,7 +11,6 @@ class Portion2 extends React.Component {
 				<div className="box" />
 				{achieversData.class16Data.data.map(item => (
 					<Part
-						key={Math.random()}
 						key={item.id}
 						text={item.text}
 						textHeading={item.textHeading}
