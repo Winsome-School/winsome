@@ -3,6 +3,9 @@
 	padding: 20px 70px 120px 70px;
 	width: 100%;
 	background-color: $background-image-color;
+	@media only screen and (max-width : 768px) {
+		padding: 20px 10px 120px 10px;
+	}
 	.photogalleryH2{
 		@include H2('', $black);
 	}
@@ -16,7 +19,10 @@
 		@include P('', $black);
 		padding-right: 120px;
 		margin-bottom: 30px;
-
+		@media only screen and (max-width : 768px) {
+			padding-right: 0;
+			margin-bottom: 20px;
+		}
 	}
 	.showImages{
 		margin-top: 80px;
@@ -32,6 +38,9 @@
 					font-size: 1.2em;
 					font-weight: bold;
 					font-style: italic;
+					@media only screen and (max-width : 768px) {
+						font-size: 1em;												
+					}
 				}
 			}
 		}
