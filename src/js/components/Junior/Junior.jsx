@@ -1,10 +1,10 @@
 import React from 'react';
-import  data  from './data';
+import { connect } from 'react-redux';
 import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
 import News from '../News/News';
 
- const Junior =  () =>  (
+ const Junior =  ({juniorData}) =>  (
   
       <div>
         <Hero
@@ -13,10 +13,10 @@ import News from '../News/News';
         <div className="container">
         
           <div className="junior">
-            <h2>{data.p1.heading}</h2>
+            <h2>{juniorData.p1.heading}</h2>
             <div className='box' />
             <p>
-            {data.p1.text}
+            {juniorData.p1.text}
             </p>
             <div className="image" >
               <img src='./images/junior1.jpg' width='90%' alt="Junior1" />
@@ -25,18 +25,18 @@ import News from '../News/News';
           </div>
           <News />
           <div className="creating">
-            <h2>{data.p2.heading}</h2>
+            <h2>{juniorData.p2.heading}</h2>
             <div className="box" />
             <div className="textimage">
               <div className="pdivs">
                 <p>
-                {data.p2.p21.text}
+                {juniorData.p2.p21.text}
                 </p>
                 <p>
-                {data.p2.p22.text}
+                {juniorData.p2.p22.text}
                 </p>
                 <p>
-                {data.p2.p23.text}
+                {juniorData.p2.p23.text}
                 </p>
               </div>
               <div className="image">
@@ -46,10 +46,10 @@ import News from '../News/News';
             </div>
           </div>
           <div className="key">
-            <h2>{data.p3.heading}</h2>
+            <h2>{juniorData.p3.heading}</h2>
             <div className="box" />
             <p>
-            {data.p3.text}
+            {juniorData.p3.text}
             </p>
           </div>
         </div>
@@ -57,4 +57,11 @@ import News from '../News/News';
       </div>
      
   )
-export default Junior
+
+  function mapStateToProps({juniorData}){
+    return {
+      juniorData
+    };
+  }
+  
+export default connect(mapStateToProps, null)(Junior);

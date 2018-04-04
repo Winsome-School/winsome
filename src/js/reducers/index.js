@@ -5,6 +5,7 @@ import calenderReducer from './calenderReducer';
 import achieversReducer from './achieversReducer';
 import whReducer from './whReducer';
 import loginReducer from './loginReducer';
+import juniorReducer from './juniorReducer';
 
 const rootReducer = combineReducers({
 	test: testReducer,
@@ -12,7 +13,8 @@ const rootReducer = combineReducers({
 	calender: calenderReducer,
 	achieversData: achieversReducer,
 	viewData: whReducer,
-	loginData: loginReducer
+	loginData: loginReducer,
+	juniorData: juniorReducer,
 });
 
 export default rootReducer;
