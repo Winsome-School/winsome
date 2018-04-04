@@ -1,0 +1,181 @@
+@mixin image($loc){
+  background-image: url('../images/' + $loc);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+// Promo
+
+// ########## All Layout Mixins Here ##########
+@mixin wrapper($w) {
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  width: $w;
+}
+
+@mixin read-more-button-left() {
+  width: 150px;
+  height: 50px;
+  background-color: $secondary-color;
+  border-radius: 7px;
+  box-shadow: 4px 4px 10px $accent-color;
+}
+
+@mixin read-more-button-center() {
+  width: 150px;
+  height: 50px;
+  background-color: $secondary-color;
+  border-radius: 7px;
+  box-shadow: 4px 4px 10px $accent-color;
+  margin: 0 auto;
+}
+
+@mixin promo-image-conatainer-sectionOne-left() {
+  width: 50%;
+  float: left;
+}
+
+@mixin promo-image-conatainer-sectionTwo-left() {
+  width: 50%;
+  float: left;
+}
+
+@mixin promo-image-conatainer-sectionOne-right() {
+  width: 50%;
+  float: right;
+}
+
+@mixin promo-image-conatainer-sectionTwo-right() {
+  width: 50%;
+  float: right;
+}
+
+@mixin promo-text-container() {
+  width: 50%;
+  float: left;
+}
+
+@mixin promo-heading() {
+  @include H4(left, $white);
+  padding-bottom: 20px;
+}
+
+@mixin promo-description() {
+  @include P(left, $white);
+  padding-bottom: 20px;
+}
+
+// ########## All Text Mixins Here ##########
+@mixin H2($t-a, $c) {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0px;
+  padding-top: 30px;
+  text-align: $t-a;
+  color: $c;
+}
+
+@mixin H3($t-a, $c) {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0px;
+  padding-top: 30px;
+  text-align: $t-a;
+  color: $c;
+}
+
+@mixin H4($t-a, $c) {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0px;
+  padding-top: 0px;
+  text-align: $t-a;
+  color: $c;
+}
+
+@mixin P($t-a, $c) {
+  font-family: $font-family;
+  font-weight: 200;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 22px;
+  text-align: $t-a;
+  color: $c;
+}
+
+@mixin read-more-button-text() {
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: $white;
+  margin: 0px;
+}
+
+// ########## All Image Mixins Here ##########
+@mixin promo-image($bic, $bil) {
+  width: 100%;
+  height: 380px;
+  background: $bic url($bil) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+@mixin junior-school-image($width, $height, $bic, $bil, $position, $left, $top) {
+  background-size: cover;
+  overflow: hidden;
+  border: 5px solid $white;
+  border-radius: 7px;
+  display: inline-block;
+  width: $width;
+  height: $height;
+  background: $bic url($bil) no-repeat center;
+  position: $position;
+  left: $left;
+  top: $top;
+}
+
+// Calender
+
+@mixin heroImage($loc,$width:100%,$height:510px){
+  width: $width;
+  height: $height;
+  background: grey url('../images/'+$loc) no-repeat center;
+  background-size: cover;
+  margin: auto;
+  margin-top: 10px;
+  position:relative;
+
+}
+@mixin event($fontSize:20px, $margin:0px 0px 0px 80px,$lineHeight:30px,$width:180px,$height:70px,$color:#0078AD,$padding:5px){
+  float: left;
+  margin: $margin;
+  line-height: $lineHeight;
+  width: $width;
+  height: $height;
+  font-weight: 80px;
+  font-family: Roboto;
+  color: $color;
+  font-size: $fontSize;
+  opacity: 2;
+  text-align: center;
+  padding: $padding;
+}
+@mixin arrow($left:87%,$top:62%,$height:70px,$width:70px,$rotationDeg:135deg){
+  position: absolute;
+  left: $left;
+  top: $top;
+  height: $height;
+  width:$width;
+  // border-left:$borderLeft;
+  // border-top: $borderTop;
+  transform:rotate($rotationDeg);
+  cursor: pointer;
+  transition:margin 0.2s ease-in-out;
+}
+
+
