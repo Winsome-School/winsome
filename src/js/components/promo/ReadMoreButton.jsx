@@ -6,22 +6,15 @@ import { string } from 'prop-types';
 
 // ########## Import Components Here ##########
 
-export default class ReadMoreButton extends Component {
-
-  componentDidMount() {
-
-  }
-
-  render() {
-    const { align } = this.props;
-    return (
-      <div className={`read-more-button-${align}`}>
-        <p className="read-more-button-text">
-          Read More
+const ReadMoreButton = (props) => {
+  const { align } = props;
+  return (
+    <div className={`read-more-button-${align}`}>
+      <p className="read-more-button-text">
+        Read More
         </p>
-      </div>
-    );
-  }
+    </div>
+  );
 }
 
 ReadMoreButton.propTypes = {
