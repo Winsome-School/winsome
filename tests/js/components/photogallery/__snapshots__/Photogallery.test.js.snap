@@ -1,0 +1,3199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Gallery Component Renders Gallery Component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Gallery />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="imagesDiv"
+          style={
+            Object {
+              "backgroundImage": "url(./images/life-at-campus.jpg)",
+            }
+          }
+        >
+          <h3
+            className="text-center"
+          >
+            Life At Winsome
+          </h3>
+          <div
+            className="box"
+          >
+            <div
+              className="row firstRow"
+            >
+              <div
+                className="col-md-6"
+              >
+                <a
+                  href="#modal1"
+                >
+                  <div
+                    className="imgHover img1"
+                    style={
+                      Object {
+                        "backgroundImage": "url(./images/IMG_9463.jpg)",
+                      }
+                    }
+                  />
+                </a>
+              </div>
+              <div
+                className="col-md-3 firstImage"
+              >
+                <a
+                  href="#modal2"
+                >
+                  <div
+                    className="imgHover img2"
+                    style={
+                      Object {
+                        "backgroundImage": "url(./images/IMG_9439.jpg)",
+                      }
+                    }
+                  />
+                </a>
+              </div>
+              <div
+                className="col-md-3 secondImage"
+              >
+                <a
+                  href="#modal3"
+                >
+                  <div
+                    className="imgHover img3"
+                    style={
+                      Object {
+                        "backgroundImage": "url(./images/IMG_9705.jpg)",
+                      }
+                    }
+                  />
+                </a>
+              </div>
+            </div>
+            <div
+              className="row secondRow"
+            >
+              <div
+                className="col-md-3 thirdImage"
+              >
+                <a
+                  href="#modal4"
+                >
+                  <div
+                    className="imgHover img4"
+                    style={
+                      Object {
+                        "backgroundImage": "url(./images/IMG_0348.jpg)",
+                      }
+                    }
+                  />
+                </a>
+              </div>
+              <div
+                className="col-md-3 forthImage"
+              >
+                <a
+                  href="#modal5"
+                >
+                  <div
+                    className="imgHover img5"
+                    style={
+                      Object {
+                        "backgroundImage": "url(./images/IMG_0224.jpg)",
+                      }
+                    }
+                  />
+                </a>
+              </div>
+              <div
+                className="col-md-6"
+              >
+                <a
+                  href="#modal6"
+                >
+                  <div
+                    className="imgHover img6"
+                    style={
+                      Object {
+                        "backgroundImage": "url(./images/IMG_9706.jpg)",
+                      }
+                    }
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>,
+        <div
+          className="modal"
+          id="modal1"
+        >
+          <a
+            href="#"
+          >
+            <div
+              className="modal_bg"
+            />
+          </a>
+          <div
+            className="modal_content"
+          >
+            <a
+              className="fa fa-times"
+              href="#"
+            />
+            <div
+              className="modelimg1"
+            />
+          </div>
+        </div>,
+        <div
+          className="modal"
+          id="modal2"
+        >
+          <a
+            href="#"
+          >
+            <div
+              className="modal_bg"
+            />
+          </a>
+          <div
+            className="modal_content"
+          >
+            <a
+              className="fa fa-times"
+              href="#"
+            />
+            <div
+              className="modelimg2"
+            />
+          </div>
+        </div>,
+        <div
+          className="modal"
+          id="modal3"
+        >
+          <a
+            href="#"
+          >
+            <div
+              className="modal_bg"
+            />
+          </a>
+          <div
+            className="modal_content"
+          >
+            <a
+              className="fa fa-times"
+              href="#"
+            />
+            <div
+              className="modelimg3"
+            />
+          </div>
+        </div>,
+        <div
+          className="modal"
+          id="modal4"
+        >
+          <a
+            href="#"
+          >
+            <div
+              className="modal_bg"
+            />
+          </a>
+          <div
+            className="modal_content"
+          >
+            <a
+              className="fa fa-times"
+              href="#"
+            />
+            <div
+              className="modelimg4"
+            />
+          </div>
+        </div>,
+        <div
+          className="modal"
+          id="modal5"
+        >
+          <a
+            href="#"
+          >
+            <div
+              className="modal_bg"
+            />
+          </a>
+          <div
+            className="modal_content"
+          >
+            <a
+              className="fa fa-times"
+              href="#"
+            />
+            <div
+              className="modelimg5"
+            />
+          </div>
+        </div>,
+        <div
+          className="modal"
+          id="modal6"
+        >
+          <a
+            href="#"
+          >
+            <div
+              className="modal_bg"
+            />
+          </a>
+          <div
+            className="modal_content"
+          >
+            <a
+              className="fa fa-times"
+              href="#"
+            />
+            <div
+              className="modelimg6"
+            />
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="text-center"
+            >
+              Life At Winsome
+            </h3>,
+            <div
+              className="box"
+            >
+              <div
+                className="row firstRow"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <a
+                    href="#modal1"
+                  >
+                    <div
+                      className="imgHover img1"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_9463.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-md-3 firstImage"
+                >
+                  <a
+                    href="#modal2"
+                  >
+                    <div
+                      className="imgHover img2"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_9439.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-md-3 secondImage"
+                >
+                  <a
+                    href="#modal3"
+                  >
+                    <div
+                      className="imgHover img3"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_9705.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+              </div>
+              <div
+                className="row secondRow"
+              >
+                <div
+                  className="col-md-3 thirdImage"
+                >
+                  <a
+                    href="#modal4"
+                  >
+                    <div
+                      className="imgHover img4"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_0348.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-md-3 forthImage"
+                >
+                  <a
+                    href="#modal5"
+                  >
+                    <div
+                      className="imgHover img5"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_0224.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <a
+                    href="#modal6"
+                  >
+                    <div
+                      className="imgHover img6"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_9706.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>,
+          ],
+          "className": "imagesDiv",
+          "style": Object {
+            "backgroundImage": "url(./images/life-at-campus.jpg)",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Life At Winsome",
+              "className": "text-center",
+            },
+            "ref": null,
+            "rendered": "Life At Winsome",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="row firstRow"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <a
+                      href="#modal1"
+                    >
+                      <div
+                        className="imgHover img1"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_9463.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className="col-md-3 firstImage"
+                  >
+                    <a
+                      href="#modal2"
+                    >
+                      <div
+                        className="imgHover img2"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_9439.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className="col-md-3 secondImage"
+                  >
+                    <a
+                      href="#modal3"
+                    >
+                      <div
+                        className="imgHover img3"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_9705.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                </div>,
+                <div
+                  className="row secondRow"
+                >
+                  <div
+                    className="col-md-3 thirdImage"
+                  >
+                    <a
+                      href="#modal4"
+                    >
+                      <div
+                        className="imgHover img4"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_0348.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className="col-md-3 forthImage"
+                  >
+                    <a
+                      href="#modal5"
+                    >
+                      <div
+                        className="imgHover img5"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_0224.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <a
+                      href="#modal6"
+                    >
+                      <div
+                        className="imgHover img6"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_9706.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                </div>,
+              ],
+              "className": "box",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="col-md-6"
+                    >
+                      <a
+                        href="#modal1"
+                      >
+                        <div
+                          className="imgHover img1"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9463.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>,
+                    <div
+                      className="col-md-3 firstImage"
+                    >
+                      <a
+                        href="#modal2"
+                      >
+                        <div
+                          className="imgHover img2"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9439.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>,
+                    <div
+                      className="col-md-3 secondImage"
+                    >
+                      <a
+                        href="#modal3"
+                      >
+                        <div
+                          className="imgHover img3"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9705.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>,
+                  ],
+                  "className": "row firstRow",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="#modal1"
+                      >
+                        <div
+                          className="imgHover img1"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9463.jpg)",
+                            }
+                          }
+                        />
+                      </a>,
+                      "className": "col-md-6",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <div
+                          className="imgHover img1"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9463.jpg)",
+                            }
+                          }
+                        />,
+                        "href": "#modal1",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "imgHover img1",
+                          "style": Object {
+                            "backgroundImage": "url(./images/IMG_9463.jpg)",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      "type": "a",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="#modal2"
+                      >
+                        <div
+                          className="imgHover img2"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9439.jpg)",
+                            }
+                          }
+                        />
+                      </a>,
+                      "className": "col-md-3 firstImage",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <div
+                          className="imgHover img2"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9439.jpg)",
+                            }
+                          }
+                        />,
+                        "href": "#modal2",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "imgHover img2",
+                          "style": Object {
+                            "backgroundImage": "url(./images/IMG_9439.jpg)",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      "type": "a",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="#modal3"
+                      >
+                        <div
+                          className="imgHover img3"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9705.jpg)",
+                            }
+                          }
+                        />
+                      </a>,
+                      "className": "col-md-3 secondImage",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <div
+                          className="imgHover img3"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9705.jpg)",
+                            }
+                          }
+                        />,
+                        "href": "#modal3",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "imgHover img3",
+                          "style": Object {
+                            "backgroundImage": "url(./images/IMG_9705.jpg)",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      "type": "a",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="col-md-3 thirdImage"
+                    >
+                      <a
+                        href="#modal4"
+                      >
+                        <div
+                          className="imgHover img4"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_0348.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>,
+                    <div
+                      className="col-md-3 forthImage"
+                    >
+                      <a
+                        href="#modal5"
+                      >
+                        <div
+                          className="imgHover img5"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_0224.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>,
+                    <div
+                      className="col-md-6"
+                    >
+                      <a
+                        href="#modal6"
+                      >
+                        <div
+                          className="imgHover img6"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9706.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>,
+                  ],
+                  "className": "row secondRow",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="#modal4"
+                      >
+                        <div
+                          className="imgHover img4"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_0348.jpg)",
+                            }
+                          }
+                        />
+                      </a>,
+                      "className": "col-md-3 thirdImage",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <div
+                          className="imgHover img4"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_0348.jpg)",
+                            }
+                          }
+                        />,
+                        "href": "#modal4",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "imgHover img4",
+                          "style": Object {
+                            "backgroundImage": "url(./images/IMG_0348.jpg)",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      "type": "a",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="#modal5"
+                      >
+                        <div
+                          className="imgHover img5"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_0224.jpg)",
+                            }
+                          }
+                        />
+                      </a>,
+                      "className": "col-md-3 forthImage",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <div
+                          className="imgHover img5"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_0224.jpg)",
+                            }
+                          }
+                        />,
+                        "href": "#modal5",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "imgHover img5",
+                          "style": Object {
+                            "backgroundImage": "url(./images/IMG_0224.jpg)",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      "type": "a",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="#modal6"
+                      >
+                        <div
+                          className="imgHover img6"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9706.jpg)",
+                            }
+                          }
+                        />
+                      </a>,
+                      "className": "col-md-6",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <div
+                          className="imgHover img6"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9706.jpg)",
+                            }
+                          }
+                        />,
+                        "href": "#modal6",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "imgHover img6",
+                          "style": Object {
+                            "backgroundImage": "url(./images/IMG_9706.jpg)",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      "type": "a",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>,
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg1"
+              />
+            </div>,
+          ],
+          "className": "modal",
+          "id": "modal1",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="modal_bg"
+              />,
+              "href": "#",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "modal_bg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />,
+                <div
+                  className="modelimg1"
+                />,
+              ],
+              "className": "modal_content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-times",
+                  "href": "#",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modelimg1",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>,
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg2"
+              />
+            </div>,
+          ],
+          "className": "modal",
+          "id": "modal2",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="modal_bg"
+              />,
+              "href": "#",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "modal_bg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />,
+                <div
+                  className="modelimg2"
+                />,
+              ],
+              "className": "modal_content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-times",
+                  "href": "#",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modelimg2",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>,
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg3"
+              />
+            </div>,
+          ],
+          "className": "modal",
+          "id": "modal3",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="modal_bg"
+              />,
+              "href": "#",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "modal_bg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />,
+                <div
+                  className="modelimg3"
+                />,
+              ],
+              "className": "modal_content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-times",
+                  "href": "#",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modelimg3",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>,
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg4"
+              />
+            </div>,
+          ],
+          "className": "modal",
+          "id": "modal4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="modal_bg"
+              />,
+              "href": "#",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "modal_bg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />,
+                <div
+                  className="modelimg4"
+                />,
+              ],
+              "className": "modal_content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-times",
+                  "href": "#",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modelimg4",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>,
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg5"
+              />
+            </div>,
+          ],
+          "className": "modal",
+          "id": "modal5",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="modal_bg"
+              />,
+              "href": "#",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "modal_bg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />,
+                <div
+                  className="modelimg5"
+                />,
+              ],
+              "className": "modal_content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-times",
+                  "href": "#",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modelimg5",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>,
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg6"
+              />
+            </div>,
+          ],
+          "className": "modal",
+          "id": "modal6",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="modal_bg"
+              />,
+              "href": "#",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "modal_bg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />,
+                <div
+                  className="modelimg6"
+                />,
+              ],
+              "className": "modal_content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-times",
+                  "href": "#",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modelimg6",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="imagesDiv"
+            style={
+              Object {
+                "backgroundImage": "url(./images/life-at-campus.jpg)",
+              }
+            }
+          >
+            <h3
+              className="text-center"
+            >
+              Life At Winsome
+            </h3>
+            <div
+              className="box"
+            >
+              <div
+                className="row firstRow"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <a
+                    href="#modal1"
+                  >
+                    <div
+                      className="imgHover img1"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_9463.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-md-3 firstImage"
+                >
+                  <a
+                    href="#modal2"
+                  >
+                    <div
+                      className="imgHover img2"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_9439.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-md-3 secondImage"
+                >
+                  <a
+                    href="#modal3"
+                  >
+                    <div
+                      className="imgHover img3"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_9705.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+              </div>
+              <div
+                className="row secondRow"
+              >
+                <div
+                  className="col-md-3 thirdImage"
+                >
+                  <a
+                    href="#modal4"
+                  >
+                    <div
+                      className="imgHover img4"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_0348.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-md-3 forthImage"
+                >
+                  <a
+                    href="#modal5"
+                  >
+                    <div
+                      className="imgHover img5"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_0224.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <a
+                    href="#modal6"
+                  >
+                    <div
+                      className="imgHover img6"
+                      style={
+                        Object {
+                          "backgroundImage": "url(./images/IMG_9706.jpg)",
+                        }
+                      }
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="modal"
+            id="modal1"
+          >
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg1"
+              />
+            </div>
+          </div>,
+          <div
+            className="modal"
+            id="modal2"
+          >
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg2"
+              />
+            </div>
+          </div>,
+          <div
+            className="modal"
+            id="modal3"
+          >
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg3"
+              />
+            </div>
+          </div>,
+          <div
+            className="modal"
+            id="modal4"
+          >
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg4"
+              />
+            </div>
+          </div>,
+          <div
+            className="modal"
+            id="modal5"
+          >
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg5"
+              />
+            </div>
+          </div>,
+          <div
+            className="modal"
+            id="modal6"
+          >
+            <a
+              href="#"
+            >
+              <div
+                className="modal_bg"
+              />
+            </a>
+            <div
+              className="modal_content"
+            >
+              <a
+                className="fa fa-times"
+                href="#"
+              />
+              <div
+                className="modelimg6"
+              />
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="text-center"
+              >
+                Life At Winsome
+              </h3>,
+              <div
+                className="box"
+              >
+                <div
+                  className="row firstRow"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <a
+                      href="#modal1"
+                    >
+                      <div
+                        className="imgHover img1"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_9463.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className="col-md-3 firstImage"
+                  >
+                    <a
+                      href="#modal2"
+                    >
+                      <div
+                        className="imgHover img2"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_9439.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className="col-md-3 secondImage"
+                  >
+                    <a
+                      href="#modal3"
+                    >
+                      <div
+                        className="imgHover img3"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_9705.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  className="row secondRow"
+                >
+                  <div
+                    className="col-md-3 thirdImage"
+                  >
+                    <a
+                      href="#modal4"
+                    >
+                      <div
+                        className="imgHover img4"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_0348.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className="col-md-3 forthImage"
+                  >
+                    <a
+                      href="#modal5"
+                    >
+                      <div
+                        className="imgHover img5"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_0224.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <a
+                      href="#modal6"
+                    >
+                      <div
+                        className="imgHover img6"
+                        style={
+                          Object {
+                            "backgroundImage": "url(./images/IMG_9706.jpg)",
+                          }
+                        }
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "imagesDiv",
+            "style": Object {
+              "backgroundImage": "url(./images/life-at-campus.jpg)",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Life At Winsome",
+                "className": "text-center",
+              },
+              "ref": null,
+              "rendered": "Life At Winsome",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="row firstRow"
+                  >
+                    <div
+                      className="col-md-6"
+                    >
+                      <a
+                        href="#modal1"
+                      >
+                        <div
+                          className="imgHover img1"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9463.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>
+                    <div
+                      className="col-md-3 firstImage"
+                    >
+                      <a
+                        href="#modal2"
+                      >
+                        <div
+                          className="imgHover img2"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9439.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>
+                    <div
+                      className="col-md-3 secondImage"
+                    >
+                      <a
+                        href="#modal3"
+                      >
+                        <div
+                          className="imgHover img3"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9705.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>
+                  </div>,
+                  <div
+                    className="row secondRow"
+                  >
+                    <div
+                      className="col-md-3 thirdImage"
+                    >
+                      <a
+                        href="#modal4"
+                      >
+                        <div
+                          className="imgHover img4"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_0348.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>
+                    <div
+                      className="col-md-3 forthImage"
+                    >
+                      <a
+                        href="#modal5"
+                      >
+                        <div
+                          className="imgHover img5"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_0224.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>
+                    <div
+                      className="col-md-6"
+                    >
+                      <a
+                        href="#modal6"
+                      >
+                        <div
+                          className="imgHover img6"
+                          style={
+                            Object {
+                              "backgroundImage": "url(./images/IMG_9706.jpg)",
+                            }
+                          }
+                        />
+                      </a>
+                    </div>
+                  </div>,
+                ],
+                "className": "box",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="col-md-6"
+                      >
+                        <a
+                          href="#modal1"
+                        >
+                          <div
+                            className="imgHover img1"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9463.jpg)",
+                              }
+                            }
+                          />
+                        </a>
+                      </div>,
+                      <div
+                        className="col-md-3 firstImage"
+                      >
+                        <a
+                          href="#modal2"
+                        >
+                          <div
+                            className="imgHover img2"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9439.jpg)",
+                              }
+                            }
+                          />
+                        </a>
+                      </div>,
+                      <div
+                        className="col-md-3 secondImage"
+                      >
+                        <a
+                          href="#modal3"
+                        >
+                          <div
+                            className="imgHover img3"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9705.jpg)",
+                              }
+                            }
+                          />
+                        </a>
+                      </div>,
+                    ],
+                    "className": "row firstRow",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="#modal1"
+                        >
+                          <div
+                            className="imgHover img1"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9463.jpg)",
+                              }
+                            }
+                          />
+                        </a>,
+                        "className": "col-md-6",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <div
+                            className="imgHover img1"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9463.jpg)",
+                              }
+                            }
+                          />,
+                          "href": "#modal1",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "imgHover img1",
+                            "style": Object {
+                              "backgroundImage": "url(./images/IMG_9463.jpg)",
+                            },
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "div",
+                        },
+                        "type": "a",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="#modal2"
+                        >
+                          <div
+                            className="imgHover img2"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9439.jpg)",
+                              }
+                            }
+                          />
+                        </a>,
+                        "className": "col-md-3 firstImage",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <div
+                            className="imgHover img2"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9439.jpg)",
+                              }
+                            }
+                          />,
+                          "href": "#modal2",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "imgHover img2",
+                            "style": Object {
+                              "backgroundImage": "url(./images/IMG_9439.jpg)",
+                            },
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "div",
+                        },
+                        "type": "a",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="#modal3"
+                        >
+                          <div
+                            className="imgHover img3"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9705.jpg)",
+                              }
+                            }
+                          />
+                        </a>,
+                        "className": "col-md-3 secondImage",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <div
+                            className="imgHover img3"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9705.jpg)",
+                              }
+                            }
+                          />,
+                          "href": "#modal3",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "imgHover img3",
+                            "style": Object {
+                              "backgroundImage": "url(./images/IMG_9705.jpg)",
+                            },
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "div",
+                        },
+                        "type": "a",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="col-md-3 thirdImage"
+                      >
+                        <a
+                          href="#modal4"
+                        >
+                          <div
+                            className="imgHover img4"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_0348.jpg)",
+                              }
+                            }
+                          />
+                        </a>
+                      </div>,
+                      <div
+                        className="col-md-3 forthImage"
+                      >
+                        <a
+                          href="#modal5"
+                        >
+                          <div
+                            className="imgHover img5"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_0224.jpg)",
+                              }
+                            }
+                          />
+                        </a>
+                      </div>,
+                      <div
+                        className="col-md-6"
+                      >
+                        <a
+                          href="#modal6"
+                        >
+                          <div
+                            className="imgHover img6"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9706.jpg)",
+                              }
+                            }
+                          />
+                        </a>
+                      </div>,
+                    ],
+                    "className": "row secondRow",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="#modal4"
+                        >
+                          <div
+                            className="imgHover img4"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_0348.jpg)",
+                              }
+                            }
+                          />
+                        </a>,
+                        "className": "col-md-3 thirdImage",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <div
+                            className="imgHover img4"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_0348.jpg)",
+                              }
+                            }
+                          />,
+                          "href": "#modal4",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "imgHover img4",
+                            "style": Object {
+                              "backgroundImage": "url(./images/IMG_0348.jpg)",
+                            },
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "div",
+                        },
+                        "type": "a",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="#modal5"
+                        >
+                          <div
+                            className="imgHover img5"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_0224.jpg)",
+                              }
+                            }
+                          />
+                        </a>,
+                        "className": "col-md-3 forthImage",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <div
+                            className="imgHover img5"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_0224.jpg)",
+                              }
+                            }
+                          />,
+                          "href": "#modal5",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "imgHover img5",
+                            "style": Object {
+                              "backgroundImage": "url(./images/IMG_0224.jpg)",
+                            },
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "div",
+                        },
+                        "type": "a",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="#modal6"
+                        >
+                          <div
+                            className="imgHover img6"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9706.jpg)",
+                              }
+                            }
+                          />
+                        </a>,
+                        "className": "col-md-6",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <div
+                            className="imgHover img6"
+                            style={
+                              Object {
+                                "backgroundImage": "url(./images/IMG_9706.jpg)",
+                              }
+                            }
+                          />,
+                          "href": "#modal6",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "imgHover img6",
+                            "style": Object {
+                              "backgroundImage": "url(./images/IMG_9706.jpg)",
+                            },
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "div",
+                        },
+                        "type": "a",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="#"
+              >
+                <div
+                  className="modal_bg"
+                />
+              </a>,
+              <div
+                className="modal_content"
+              >
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />
+                <div
+                  className="modelimg1"
+                />
+              </div>,
+            ],
+            "className": "modal",
+            "id": "modal1",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="modal_bg"
+                />,
+                "href": "#",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modal_bg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    className="fa fa-times"
+                    href="#"
+                  />,
+                  <div
+                    className="modelimg1"
+                  />,
+                ],
+                "className": "modal_content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fa fa-times",
+                    "href": "#",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "modelimg1",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="#"
+              >
+                <div
+                  className="modal_bg"
+                />
+              </a>,
+              <div
+                className="modal_content"
+              >
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />
+                <div
+                  className="modelimg2"
+                />
+              </div>,
+            ],
+            "className": "modal",
+            "id": "modal2",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="modal_bg"
+                />,
+                "href": "#",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modal_bg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    className="fa fa-times"
+                    href="#"
+                  />,
+                  <div
+                    className="modelimg2"
+                  />,
+                ],
+                "className": "modal_content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fa fa-times",
+                    "href": "#",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "modelimg2",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="#"
+              >
+                <div
+                  className="modal_bg"
+                />
+              </a>,
+              <div
+                className="modal_content"
+              >
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />
+                <div
+                  className="modelimg3"
+                />
+              </div>,
+            ],
+            "className": "modal",
+            "id": "modal3",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="modal_bg"
+                />,
+                "href": "#",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modal_bg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    className="fa fa-times"
+                    href="#"
+                  />,
+                  <div
+                    className="modelimg3"
+                  />,
+                ],
+                "className": "modal_content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fa fa-times",
+                    "href": "#",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "modelimg3",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="#"
+              >
+                <div
+                  className="modal_bg"
+                />
+              </a>,
+              <div
+                className="modal_content"
+              >
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />
+                <div
+                  className="modelimg4"
+                />
+              </div>,
+            ],
+            "className": "modal",
+            "id": "modal4",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="modal_bg"
+                />,
+                "href": "#",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modal_bg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    className="fa fa-times"
+                    href="#"
+                  />,
+                  <div
+                    className="modelimg4"
+                  />,
+                ],
+                "className": "modal_content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fa fa-times",
+                    "href": "#",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "modelimg4",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="#"
+              >
+                <div
+                  className="modal_bg"
+                />
+              </a>,
+              <div
+                className="modal_content"
+              >
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />
+                <div
+                  className="modelimg5"
+                />
+              </div>,
+            ],
+            "className": "modal",
+            "id": "modal5",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="modal_bg"
+                />,
+                "href": "#",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modal_bg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    className="fa fa-times"
+                    href="#"
+                  />,
+                  <div
+                    className="modelimg5"
+                  />,
+                ],
+                "className": "modal_content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fa fa-times",
+                    "href": "#",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "modelimg5",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="#"
+              >
+                <div
+                  className="modal_bg"
+                />
+              </a>,
+              <div
+                className="modal_content"
+              >
+                <a
+                  className="fa fa-times"
+                  href="#"
+                />
+                <div
+                  className="modelimg6"
+                />
+              </div>,
+            ],
+            "className": "modal",
+            "id": "modal6",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="modal_bg"
+                />,
+                "href": "#",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "modal_bg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    className="fa fa-times"
+                    href="#"
+                  />,
+                  <div
+                    className="modelimg6"
+                  />,
+                ],
+                "className": "modal_content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fa fa-times",
+                    "href": "#",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "modelimg6",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
