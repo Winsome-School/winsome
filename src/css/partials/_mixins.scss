@@ -32,24 +32,44 @@
   margin: 0 auto;
 }
 
-@mixin promo-image-conatainer-sectionOne-left() {
+@mixin promo-image-container-sectionOne-left() {
   width: 50%;
   float: left;
 }
 
-@mixin promo-image-conatainer-sectionTwo-left() {
+@mixin promo-image-container-sectionOne-leftMobile() {
+  width: 100%;
+  float: none;
+}
+
+@mixin promo-image-container-sectionTwo-left() {
   width: 50%;
   float: left;
 }
 
-@mixin promo-image-conatainer-sectionOne-right() {
+@mixin promo-image-container-sectionTwo-leftMobile() {
+  width: 100%;
+  float: none;
+}
+
+@mixin promo-image-container-sectionOne-right() {
   width: 50%;
   float: right;
 }
 
-@mixin promo-image-conatainer-sectionTwo-right() {
+@mixin promo-image-container-sectionOne-rightMobile() {
+  width: 100%;
+  float: none;
+}
+
+@mixin promo-image-container-sectionTwo-right() {
   width: 50%;
   float: right;
+}
+
+@mixin promo-image-container-sectionTwo-rightMobile() {
+  width: 100%;
+  float: none;
 }
 
 @mixin promo-text-container() {
@@ -57,8 +77,18 @@
   float: left;
 }
 
+@mixin promo-text-containerMobile() {
+  width: 100%;
+  float: none;
+}
+
 @mixin promo-heading() {
   @include H4(left, $white);
+  padding-bottom: 20px;
+}
+
+@mixin promo-headingMobile() {
+  @include H4Mobile(left, $white);
   padding-bottom: 20px;
 }
 
@@ -67,11 +97,26 @@
   padding-bottom: 20px;
 }
 
+@mixin promo-descriptionMobile() {
+  @include PMobile(left, $white);
+  padding-bottom: 20px;
+}
+
 // ########## All Text Mixins Here ##########
 @mixin H2($t-a, $c) {
   font-family: $font-family;
   font-weight: 700;
   font-size: 30px;
+  margin: 0px;
+  padding-top: 30px;
+  text-align: $t-a;
+  color: $c;
+}
+
+@mixin H2Mobile($t-a, $c) {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 24px;
   margin: 0px;
   padding-top: 30px;
   text-align: $t-a;
@@ -98,6 +143,16 @@
   color: $c;
 }
 
+@mixin H4Mobile($t-a, $c) {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0px;
+  padding-top: 0px;
+  text-align: $t-a;
+  color: $c;
+}
+
 @mixin H5($t-a, $c) {
   font-family: $font-family;
   font-weight: 700;
@@ -112,6 +167,16 @@
   font-family: $font-family;
   font-weight: 200;
   font-size: 14px;
+  margin: 0px;
+  line-height: 22px;
+  text-align: $t-a;
+  color: $c;
+}
+
+@mixin PMobile($t-a, $c) {
+  font-family: $font-family;
+  font-weight: 200;
+  font-size: 12px;
   margin: 0px;
   line-height: 22px;
   text-align: $t-a;
@@ -136,6 +201,28 @@
 }
 
 @mixin junior-school-image(
+  $width,
+  $height,
+  $bic,
+  $bil,
+  $position,
+  $left,
+  $top
+) {
+  background-size: cover;
+  overflow: hidden;
+  border: 5px solid $white;
+  border-radius: 7px;
+  display: inline-block;
+  width: $width;
+  height: $height;
+  background: $bic url($bil) no-repeat center;
+  position: $position;
+  left: $left;
+  top: $top;
+}
+
+@mixin junior-school-imageMobile(
   $width,
   $height,
   $bic,

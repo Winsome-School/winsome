@@ -9,7 +9,7 @@
       width: 100%;
       box-shadow: 4px 4px 10px $accent-color;
       .promo-image-container-sectionOne-left {
-        @include promo-image-conatainer-sectionOne-left();
+        @include promo-image-container-sectionOne-left();
         .promo-image-sectionOne-left {
           @include promo-image($background-image-color, $promo-image-1);
         }
@@ -33,7 +33,7 @@
       width: 100%;
       box-shadow: -4px -4px 10px $accent-color;
       .promo-image-container-sectionOne-right {
-        @include promo-image-conatainer-sectionOne-right();
+        @include promo-image-container-sectionOne-right();
         .promo-image-sectionOne-right {
           @include promo-image($background-image-color, $promo-image-2);
         }
@@ -57,7 +57,7 @@
       width: 100%;
       box-shadow: 4px 4px 10px $accent-color;
       .promo-image-container-sectionTwo-left {
-        @include promo-image-conatainer-sectionTwo-left();
+        @include promo-image-container-sectionTwo-left();
         .promo-image-sectionTwo-left {
           @include promo-image($background-image-color, $promo-image-3);
         }
@@ -81,7 +81,7 @@
       width: 100%;
       box-shadow: -4px -4px 10px $accent-color;
       .promo-image-container-sectionTwo-right {
-        @include promo-image-conatainer-sectionTwo-right();
+        @include promo-image-container-sectionTwo-right();
         .promo-image-sectionTwo-right {
           @include promo-image($background-image-color, $promo-image-4);
         }
@@ -102,5 +102,87 @@
   }
   .clear {
     clear: both;
+  }
+}
+
+// Styles smaller than mobile/tablet
+
+@media only screen and (max-width: 768px) {
+  .promo-card {
+    margin-bottom: 720px;
+    .wrapper {
+      .promo-card-container-sectionOne-left {
+        .promo-image-container-sectionOne-left {
+          @include promo-image-container-sectionOne-leftMobile();
+          .promo-image-sectionOne-left {
+          }
+        }
+        .promo-text-container {
+          @include promo-text-containerMobile();
+          .promo-text-wrapper {
+            .promo-heading {
+              @include promo-headingMobile();
+              .promo-description {
+                @include promo-descriptionMobile();
+              }
+            }
+          }
+        }
+      }
+      .promo-card-container-sectionOne-right {
+        .promo-image-container-sectionOne-right {
+          @include promo-image-container-sectionOne-rightMobile();
+          .promo-image-sectionOne-right {
+          }
+        }
+        .promo-text-container {
+          @include promo-text-containerMobile();
+          .promo-text-wrapper {
+            .promo-heading {
+              @include promo-headingMobile();
+              .promo-description {
+                @include promo-descriptionMobile();
+              }
+            }
+          }
+        }
+      }
+      .promo-card-container-sectionTwo-left {
+        .promo-image-container-sectionTwo-left {
+          @include promo-image-container-sectionTwo-leftMobile();
+          .promo-image-sectionTwo-left {
+          }
+        }
+        .promo-text-container {
+          @include promo-text-containerMobile();
+          .promo-text-wrapper {
+            .promo-heading {
+              @include promo-headingMobile();
+              .promo-description {
+                @include promo-descriptionMobile();
+              }
+            }
+          }
+        }
+      }
+      .promo-card-container-sectionTwo-right {
+        .promo-image-container-sectionTwo-right {
+          @include promo-image-container-sectionTwo-rightMobile();
+          .promo-image-sectionTwo-right {
+          }
+        }
+        .promo-text-container {
+          @include promo-text-containerMobile();
+          .promo-text-wrapper {
+            .promo-heading {
+              @include promo-headingMobile();
+              .promo-description {
+                @include promo-descriptionMobile();
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

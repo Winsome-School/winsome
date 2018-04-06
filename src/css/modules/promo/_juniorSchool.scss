@@ -47,3 +47,37 @@
     }
   }
 }
+
+
+// Styles smaller than mobile/tablet
+
+@media only screen and (max-width: 768px) {
+  #junior-school {
+    .top-section {
+      .wrapper {
+        .junior-school-heading {
+          .junior-school-description {
+            .read-more {
+
+            }
+          }
+        }
+      }
+    }
+    .bottom-section {
+      .wrapper {
+        .junior-school-gallery-container {
+          .junior-school-left-image {
+            display: none;
+          }
+          .junior-school-middle-image {
+            @include junior-school-imageMobile(250px, 250px, $background-image-color, './images/junior-school-middle.jpg', relative, -30px, 10px);
+          }
+          .junior-school-right-image {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

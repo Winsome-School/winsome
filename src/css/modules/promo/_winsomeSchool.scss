@@ -9,3 +9,17 @@
     @include H2(center, $primary-color);
   }
 }
+
+// Styles smaller than mobile/tablet
+
+@media only screen and (max-width: 768px) {
+  #winsome-school {
+    height: 1550px;
+    .winsome-school-heading {
+      @include H2Mobile(center, $white);
+    }
+    .winsome-school-hidden-heading {
+      @include H2Mobile(center, $primary-color);
+    }
+  }
+}
