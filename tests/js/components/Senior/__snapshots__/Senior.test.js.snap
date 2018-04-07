@@ -1,0 +1,945 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Senior component renders the Senior component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Senior />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <HeroImage
+            style="header-image"
+          />
+          <div
+            className="head"
+          >
+            <div
+              className="school"
+            >
+              <h2>
+                Senior School
+              </h2>
+              <div
+                className="box"
+              />
+              <p>
+                Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.
+                <br />
+                <br />
+                The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.
+                <br />
+              </p>
+              <img
+                src="./images/IMG_9554.jpg"
+                width="90%"
+              />
+            </div>
+            <div
+              className="col1"
+            >
+              <div
+                className="aims"
+              >
+                <h2>
+                  Besearch-based Best Practice
+                </h2>
+                <div
+                  className="box"
+                />
+                <p>
+                  Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.
+                  <br />
+                </p>
+                <div
+                  className="mission"
+                >
+                  <p>
+                    With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>,
+        <Feature />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <HeroImage
+              style="header-image"
+            />,
+            <div
+              className="head"
+            >
+              <div
+                className="school"
+              >
+                <h2>
+                  Senior School
+                </h2>
+                <div
+                  className="box"
+                />
+                <p>
+                  Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.
+                  <br />
+                  <br />
+                  The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.
+                  <br />
+                </p>
+                <img
+                  src="./images/IMG_9554.jpg"
+                  width="90%"
+                />
+              </div>
+              <div
+                className="col1"
+              >
+                <div
+                  className="aims"
+                >
+                  <h2>
+                    Besearch-based Best Practice
+                  </h2>
+                  <div
+                    className="box"
+                  />
+                  <p>
+                    Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.
+                    <br />
+                  </p>
+                  <div
+                    className="mission"
+                  >
+                    <p>
+                      With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "style": "header-image",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="school"
+                >
+                  <h2>
+                    Senior School
+                  </h2>
+                  <div
+                    className="box"
+                  />
+                  <p>
+                    Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.
+                    <br />
+                    <br />
+                    The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.
+                    <br />
+                  </p>
+                  <img
+                    src="./images/IMG_9554.jpg"
+                    width="90%"
+                  />
+                </div>,
+                <div
+                  className="col1"
+                >
+                  <div
+                    className="aims"
+                  >
+                    <h2>
+                      Besearch-based Best Practice
+                    </h2>
+                    <div
+                      className="box"
+                    />
+                    <p>
+                      Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.
+                      <br />
+                    </p>
+                    <div
+                      className="mission"
+                    >
+                      <p>
+                        With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                      </p>
+                    </div>
+                  </div>
+                </div>,
+              ],
+              "className": "head",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h2>
+                      Senior School
+                    </h2>,
+                    <div
+                      className="box"
+                    />,
+                    <p>
+                      Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.
+                      <br />
+                      <br />
+                      The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.
+                      <br />
+                    </p>,
+                    <img
+                      src="./images/IMG_9554.jpg"
+                      width="90%"
+                    />,
+                  ],
+                  "className": "school",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Senior School",
+                    },
+                    "ref": null,
+                    "rendered": "Senior School",
+                    "type": "h2",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "box",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.",
+                        <br />,
+                        <br />,
+                        "The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.",
+                        <br />,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": "br",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": "br",
+                      },
+                      "The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": "br",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "src": "./images/IMG_9554.jpg",
+                      "width": "90%",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="aims"
+                  >
+                    <h2>
+                      Besearch-based Best Practice
+                    </h2>
+                    <div
+                      className="box"
+                    />
+                    <p>
+                      Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.
+                      <br />
+                    </p>
+                    <div
+                      className="mission"
+                    >
+                      <p>
+                        With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                      </p>
+                    </div>
+                  </div>,
+                  "className": "col1",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h2>
+                        Besearch-based Best Practice
+                      </h2>,
+                      <div
+                        className="box"
+                      />,
+                      <p>
+                        Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.
+                        <br />
+                      </p>,
+                      <div
+                        className="mission"
+                      >
+                        <p>
+                          With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                        </p>
+                      </div>,
+                    ],
+                    "className": "aims",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Besearch-based Best Practice",
+                      },
+                      "ref": null,
+                      "rendered": "Besearch-based Best Practice",
+                      "type": "h2",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "box",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.",
+                          <br />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <p>
+                          With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                        </p>,
+                        "className": "mission",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students",
+                        },
+                        "ref": null,
+                        "rendered": "With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students",
+                        "type": "p",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <HeroImage
+              style="header-image"
+            />
+            <div
+              className="head"
+            >
+              <div
+                className="school"
+              >
+                <h2>
+                  Senior School
+                </h2>
+                <div
+                  className="box"
+                />
+                <p>
+                  Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.
+                  <br />
+                  <br />
+                  The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.
+                  <br />
+                </p>
+                <img
+                  src="./images/IMG_9554.jpg"
+                  width="90%"
+                />
+              </div>
+              <div
+                className="col1"
+              >
+                <div
+                  className="aims"
+                >
+                  <h2>
+                    Besearch-based Best Practice
+                  </h2>
+                  <div
+                    className="box"
+                  />
+                  <p>
+                    Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.
+                    <br />
+                  </p>
+                  <div
+                    className="mission"
+                  >
+                    <p>
+                      With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>,
+          <Feature />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <HeroImage
+                style="header-image"
+              />,
+              <div
+                className="head"
+              >
+                <div
+                  className="school"
+                >
+                  <h2>
+                    Senior School
+                  </h2>
+                  <div
+                    className="box"
+                  />
+                  <p>
+                    Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.
+                    <br />
+                    <br />
+                    The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.
+                    <br />
+                  </p>
+                  <img
+                    src="./images/IMG_9554.jpg"
+                    width="90%"
+                  />
+                </div>
+                <div
+                  className="col1"
+                >
+                  <div
+                    className="aims"
+                  >
+                    <h2>
+                      Besearch-based Best Practice
+                    </h2>
+                    <div
+                      className="box"
+                    />
+                    <p>
+                      Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.
+                      <br />
+                    </p>
+                    <div
+                      className="mission"
+                    >
+                      <p>
+                        With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "style": "header-image",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="school"
+                  >
+                    <h2>
+                      Senior School
+                    </h2>
+                    <div
+                      className="box"
+                    />
+                    <p>
+                      Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.
+                      <br />
+                      <br />
+                      The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.
+                      <br />
+                    </p>
+                    <img
+                      src="./images/IMG_9554.jpg"
+                      width="90%"
+                    />
+                  </div>,
+                  <div
+                    className="col1"
+                  >
+                    <div
+                      className="aims"
+                    >
+                      <h2>
+                        Besearch-based Best Practice
+                      </h2>
+                      <div
+                        className="box"
+                      />
+                      <p>
+                        Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.
+                        <br />
+                      </p>
+                      <div
+                        className="mission"
+                      >
+                        <p>
+                          With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                        </p>
+                      </div>
+                    </div>
+                  </div>,
+                ],
+                "className": "head",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h2>
+                        Senior School
+                      </h2>,
+                      <div
+                        className="box"
+                      />,
+                      <p>
+                        Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.
+                        <br />
+                        <br />
+                        The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.
+                        <br />
+                      </p>,
+                      <img
+                        src="./images/IMG_9554.jpg"
+                        width="90%"
+                      />,
+                    ],
+                    "className": "school",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Senior School",
+                      },
+                      "ref": null,
+                      "rendered": "Senior School",
+                      "type": "h2",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "box",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.",
+                          <br />,
+                          <br />,
+                          "The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.",
+                          <br />,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Supporthing our teenagers as they become young adults.our teenagers grow towards adulhood,our secondary school aims to develop students of ne character who are intrinsically motivated to learn and make a positive di erence in our community,nation and world.",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        "The teenage years can be a challenging time can be a challenging time for many for many students. but by adopting a zero. tolerance approach to builying.dangerous behavior and illegal substance. Winsome School System ensures they are able to thrive in a safe and positive environment.",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "src": "./images/IMG_9554.jpg",
+                        "width": "90%",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="aims"
+                    >
+                      <h2>
+                        Besearch-based Best Practice
+                      </h2>
+                      <div
+                        className="box"
+                      />
+                      <p>
+                        Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.
+                        <br />
+                      </p>
+                      <div
+                        className="mission"
+                      >
+                        <p>
+                          With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                        </p>
+                      </div>
+                    </div>,
+                    "className": "col1",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h2>
+                          Besearch-based Best Practice
+                        </h2>,
+                        <div
+                          className="box"
+                        />,
+                        <p>
+                          Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.
+                          <br />
+                        </p>,
+                        <div
+                          className="mission"
+                        >
+                          <p>
+                            With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                          </p>
+                        </div>,
+                      ],
+                      "className": "aims",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Besearch-based Best Practice",
+                        },
+                        "ref": null,
+                        "rendered": "Besearch-based Best Practice",
+                        "type": "h2",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "box",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.",
+                            <br />,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Teachers apply research-bash best pravtice to deliver a curriculum that is engaging. relevant and e ective at helping studengts reach their post-secondary goals.",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                        ],
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students
+                          </p>,
+                          "className": "mission",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students",
+                          },
+                          "ref": null,
+                          "rendered": "With a strong focus on numeracy and literacy,our curricumlum also provids opportunities for students is performing arts.technology,outdoor educatio and sporting endeavors.We pride ourselves on providing a dynamic learning environment that is constantly under review so that we can ensure we continue to educate according to world class standards and best practice.Guiding and assisting students through senior classesl while providing and excellent eduction is a partnership between staff,students and parents.We welcome open communication and feedback to optimize learning outcomes for all students",
+                          "type": "p",
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
