@@ -2,7 +2,13 @@ import React from 'react';
 import MediaQuery from 'react-responsive';
 import Content from './Content';
 
-const Desktop = props => <MediaQuery {...props} maxWidth={1400} />;
+const LargeDesktop = props => (
+	<MediaQuery {...props} maxWidth={1800} minWidth={1401} />
+);
+
+const Desktop = props => (
+	<MediaQuery {...props} maxWidth={1400} minWidth={992} />
+);
 const Tablet = props => <MediaQuery {...props} minWidth={768} maxWidth={991} />;
 const Mobile = props => <MediaQuery {...props} maxWidth={767} minWidth={600} />;
 const SmallMobile = props => (
@@ -11,6 +17,9 @@ const SmallMobile = props => (
 const ExtraSmallMobile = props => <MediaQuery {...props} maxWidth={468} />;
 const Calender = () => (
 	<div>
+		<LargeDesktop>
+			<Content count={5} />
+		</LargeDesktop>
 		<Desktop>
 			<Content count={4} />
 		</Desktop>
