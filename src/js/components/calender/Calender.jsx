@@ -2,10 +2,6 @@ import React from 'react';
 import MediaQuery from 'react-responsive';
 import Content from './Content';
 
-const LargeDesktop = props => (
-	<MediaQuery {...props} maxWidth={1800} minWidth={1401} />
-);
-
 const Desktop = props => (
 	<MediaQuery {...props} maxWidth={1400} minWidth={992} />
 );
@@ -17,9 +13,6 @@ const SmallMobile = props => (
 const ExtraSmallMobile = props => <MediaQuery {...props} maxWidth={468} />;
 const Calender = () => (
 	<div>
-		<LargeDesktop>
-			<Content count={5} />
-		</LargeDesktop>
 		<Desktop>
 			<Content count={4} />
 		</Desktop>
