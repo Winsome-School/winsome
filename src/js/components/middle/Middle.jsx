@@ -1,6 +1,8 @@
 import React from 'react';
 import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
+import News from '../News/News';
+import Footer from '../footer/Footer';
 
 const Middle = () => (
   <div>
@@ -53,8 +55,11 @@ const Middle = () => (
           </p>
         </div>
       </div>
+      <News />
     </div>
     <Discover />
+    <div className="row" />
+    <Footer />
   </div>
 )
 
