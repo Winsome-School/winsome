@@ -2,8 +2,7 @@ import React from 'react';
 
 import Hero from '../hero/HeroImage';
 
-const HR = () => {
-  return (
+const HR = () => (
     <div>
       <Hero
         style={'header-image'}
@@ -84,6 +83,5 @@ const HR = () => {
       </div>
     </div>
   );
-}
 
 export default HR;
