@@ -3,6 +3,8 @@ import {
 	ARROW_RIGHT,
 	NEXT_VIEW,
 	PREVIOUS_VIEW,
+	NEXT_RESP_VIEW,
+	PREVIOUS_RESP_VIEW,
 	GET_USERNAME,
 	GET_PASSWORD,
 	LOGIN
@@ -33,7 +35,17 @@ export function previousView() {
 		type: PREVIOUS_VIEW
 	};
 }
+export function nextRespView() {
+	return {
+		type: NEXT_RESP_VIEW
+	};
+}
 
+export function previousRespView() {
+	return {
+		type: PREVIOUS_RESP_VIEW
+	};
+}
 export function getUserAction(username) {
 	return {
 		type: GET_USERNAME,

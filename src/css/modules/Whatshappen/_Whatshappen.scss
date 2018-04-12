@@ -1,5 +1,4 @@
-$career-medium-screen: 400px;
-$career-large-screen: 992px;
+$career-resp-screen: 768px;
 
 //scss start
 
@@ -10,6 +9,7 @@ $career-large-screen: 992px;
 
     .wraper {
         @include wrapper(90%);
+        padding: 0 10px 50px 10px;
         //border:1px red solid;
 
         .des {
@@ -18,36 +18,26 @@ $career-large-screen: 992px;
             //background-color: grey;
 
             h2 {
-                font-size: 18px;
+                font-size: 25px;
                 margin: 0px;
                 font-weight: 700;
                 text-align: center;
-                padding: 40px 0px 30px 0px;
+                padding: 40px 0px 35px 0px;
                 box-sizing: border-box;
-
-                @media only screen and (min-width: $career-medium-screen) {
-                    font-size: 30px;
-                    padding: 50px 0px 35px 0px;
-                    font-weight: lighter;
-                }
-                @media only screen and (min-width: $career-large-screen) {
+                @media only screen and (min-width: $career-resp-screen) {
                     font-size: 40px;
                     padding: 60px 0px 40px 0px;
-                    font-weight: lighter;
+                    font-weight: 600;
                 }
             }
 
             span {
                 text-align: center;
                 display: block;
-                font-size: 11px;
+                font-size: 16px;
                 font-weight: lighter;
-                padding-bottom: 20px;
-                //background-color: red;
-                @media only screen and (min-width: $career-medium-screen) {
-                    font-size: 17px;
-                }
-                @media only screen and (min-width: $career-large-screen) {
+                padding-bottom: 35px;
+                @media only screen and (min-width: $career-resp-screen) {
                     font-size: 20px;
                 }
             }
@@ -76,26 +66,20 @@ $career-large-screen: 992px;
                 border-top: 2px $secondary-color solid;
                 border-left: 2px $secondary-color solid;
                 display: inline-block;
-                height: 30px;
-                width: 30px;
+                height: 50px;
+                width: 50px;
                 margin: 210px 0;
                 margin-left: 15px;
                 cursor: pointer;
                 &:focus {
-                    border-bottom: none;
-                    border-right: none;
-                    outline-bottom: none;
-                    outline-right: none;
+                    outline: 0;
                 }
-
-                @media only screen and (min-width: $career-medium-screen) {
+                &:active {
+                    outline: 0;
+                }
+                @media only screen and (min-width: $career-resp-screen) {
                     height: 60px;
                     width: 60px;
-                }
-
-                @media only screen and (min-width: $career-large-screen) {
-                    height: 80px;
-                    width: 80px;
                 }
             }
             .previous {
@@ -110,37 +94,32 @@ $career-large-screen: 992px;
             .whatsHappen-card {
                 width: 84%;
                 height: 480px;
-                //background-color: purple;
                 float: left;
-
-                @media only screen and (max-width: 400px) {
-                    margin-left: 10px;
+                .wh-normal-view {
+                    display: none;
+                    @media only screen and (min-width: $career-resp-screen) {
+                        display: block;
+                        margin: 0 auto;
+                    }
                 }
-                //margin-left: 1%;
-                .whatsHappen-box {
+                .wh-responsive-view {
+                    display: block;
                     margin: 0 auto;
-                    //padding-right: 10px;
+                    @media only screen and (min-width: $career-resp-screen) {
+                        display: none;
+                    }
                 }
-                // @media only screen and (max-width:$career-large-screen){
-
-                //         width: 80%;
-
-                // }
 
                 .whatshappen {
                     height: 480px;
-                    width: 48%;
-
-                    //margin-left: 20px;
+                    width: 80%;
                     border: 1px $accent-color solid;
                     box-sizing: border-box;
-                    // @media only screen and (max-width:$career-large-screen){
-
-                    //      width: 80%;
-                    //      margin-left: 0 20px;
-
-                    //  }
-
+                    margin: 0 auto;
+                    @media only screen and (min-width: $career-resp-screen) {
+                        width: 48%;
+                        margin: 0;
+                    }
                     .img {
                         height: 280px;
                         width: 100%;
@@ -159,7 +138,7 @@ $career-large-screen: 992px;
                     .img-des {
                         height: 198px;
                         width: 100%;
-                        padding: 15px;
+                        padding: 15px 15px 0 15px;
                         box-shadow: 0px 5px 8px $accent-color;
                         background-color: white;
                         box-sizing: border-box;
@@ -169,10 +148,9 @@ $career-large-screen: 992px;
                             font-family: $font-family;
                         }
                         p {
-                            padding-top: 20px;
+                            padding-top: 18px;
                             font-size: 18px;
                             text-align: justify;
-                            letter-spacing: 1px;
                             color: black;
                             font-family: $font-family;
                         }

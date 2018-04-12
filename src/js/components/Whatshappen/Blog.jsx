@@ -2,7 +2,12 @@ import React from 'react';
 import { number, func, array, shape } from 'prop-types';
 import { connect } from 'react-redux';
 import WhatsHappen from './whatshappen';
-import { nextView, previousView } from '../../actions';
+import {
+  nextView,
+  previousView,
+  nextRespView,
+  previousRespView
+} from '../../actions';
 
 class Blog extends React.Component {
   constructor() {
@@ -13,12 +18,14 @@ class Blog extends React.Component {
 
   next() {
     this.props.nextView();
+    this.props.nextRespView();
   }
 
   previous() {
     this.props.previousView();
+    this.props.previousRespView();
   }
-  createView() {
+  createNormalView() {
     const { viewData } = this.props;
 
     const view = viewData.selectedView.map((item, index) => (
@@ -26,14 +33,23 @@ class Blog extends React.Component {
     ));
     return view;
   }
+  createRespView() {
+    const { viewData } = this.props;
+
+    const view = viewData.respView.map(item => (
+      <WhatsHappen blog={item} key={Math.random()} count={'resp'} />
+    ));
+    return view;
+  }
   render() {
-    const view = this.createView();
+    const view = this.createNormalView();
+    const respView = this.createRespView();
     return (
       <div id="sec-2">
         <div className="wraper">
           <div className="des">
-            <h2>What's been happening</h2>
-            <span>What it's like to be a part of our school community.</span>
+            <h2>Whats been happening</h2>
+            <span>What its like to be a part of our school community.</span>
           </div>
 
           <div className="slide-show">
@@ -58,7 +74,8 @@ class Blog extends React.Component {
             </div>
 
             <div className="whatsHappen-card">
-              <div className="whatsHappen-box">{view}</div>
+              <div className="wh-normal-view">{view}</div>
+              <div className="wh-responsive-view">{respView}</div>
             </div>
           </div>
 
@@ -71,6 +88,8 @@ class Blog extends React.Component {
 Blog.propTypes = {
   nextView: func,
   previousView: func,
+  nextRespView: func,
+  previousRespView: func,
   viewData: shape({
     selectedView: array,
     firstIndexofSelectedView: number
@@ -79,6 +98,8 @@ Blog.propTypes = {
 Blog.defaultProps = {
   nextView: null,
   previousView: null,
+  nextRespView: null,
+  previousRespView: null,
   viewData: null
 };
 function mapStateToProps({ viewData }) {
@@ -87,4 +108,9 @@ function mapStateToProps({ viewData }) {
   };
 }
 
-export default connect(mapStateToProps, { nextView, previousView })(Blog);
+export default connect(mapStateToProps, {
+  nextView,
+  previousView,
+  nextRespView,
+  previousRespView
+})(Blog);
