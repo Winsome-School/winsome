@@ -1,4 +1,69 @@
-.header-wrapper{
+.header-wrapper {
 	@include wrapper($wrapper-width);
 	margin-bottom: 30px;
+}
+
+// ############# this code is written for the responsiveness of header ##########################
+.responsive-header {
+	.header-logo {
+		top: 20px;
+		left: 20px;
+		height: 180px;
+		position: absolute;
+		z-index: 1;
+	}
+}
+.responsive-nav {
+	display: inline-block;
+	//background-color: green;
+	position: absolute;
+	right: 20px;
+	z-index: 1;
+	top: 8px;
+	height: 60px;
+	width: 60px;
+	&:active {
+		display: none;
+	}
+	.responsive-nav-lines {
+		// top: 45px;
+		position: absolute;
+		background-color: $white;
+		height: 7px;
+		width: 70%;
+		top: 45%;
+		left: 2px;
+		&:before {
+			position: absolute;
+			background-color: $white;
+			bottom: 12px;
+			height: 133%;
+			width: 133%;
+			content: '';
+		}
+		// before and after uses content for their appearence if content is commented they will not
+		// be appeared even height and width is given
+		&:after {
+			position: absolute;
+			background-color: $white;
+			top: 12px;
+			height: 66%;
+			width: 66%;
+			content: '';
+		}
+	}
+}
+// ############# this code is written for the disappearence of Nav ##########################
+
+@media only screen and (max-width: 1080px) {
+	.header-wrapper {
+		display: none;
+	}
+}
+// ############# this code is written for the appearence of Nav-Responsive-for mobiles ##########################
+
+@media only screen and (min-width: 1080px) {
+	.responsive-header {
+		display: none;
+	}
 }

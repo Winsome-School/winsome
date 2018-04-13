@@ -3,159 +3,156 @@ let dataArray = [
   {
     loginData: [
       {
-        id:'1', 
-        value:'sign out', 
-        styles:'glyphicon glyphicon-log-out',
-        addressValue:'sign-out'
+        id: '1',
+        value: 'sign out',
+        styles: 'glyphicon glyphicon-log-out',
+        addressValue: 'sign-out'
       },
       {
-        id:'2', 
-        value:'sign in', 
-        styles:'glyphicon glyphicon-log-in',
-        addressValue:'sign-in'
+        id: '2',
+        value: 'sign in',
+        styles: 'glyphicon glyphicon-log-in',
+        addressValue: 'sign-in'
       }
     ]
-  }
-  ,// for seperation of objects 
+  }, // for seperation of objects
   // data for navbar section
   {
     dataNavbar: [
-
       //////////////////// option values /////////////////////////////
       {
-        id:'1',                         
-        value:'contact',
+        id: '1',
+        value: 'contact',
         addressValue: 'contact',
         styles: 'contact-header',
-  ///////////////////// dropDown options are given here//////////////// 
-        dropDownMenu:[
+        ///////////////////// dropDown options are given here////////////////
+        dropDownMenu: [
           {
-            id:'1',
-            value:'',
+            id: '1',
+            value: '',
             addressValue: '',
-            styles: '',
-          },        
+            styles: ''
+          }
         ]
       },
-  //////////////////// option values /////////////////////////////                        
+      //////////////////// option values /////////////////////////////
       {
-        id:'2',
-        value:'career',
+        id: '2',
+        value: 'career',
         addressValue: 'career',
         styles: 'career-header',
-  ///////////////////// dropDown options are given here////////////////                          
-        dropDownMenu:[
+        ///////////////////// dropDown options are given here////////////////
+        dropDownMenu: [
           {
-            id:'1',
-            value:'',
+            id: '1',
+            value: '',
             addressValue: '',
-            styles: '',
-          },
+            styles: ''
+          }
         ]
       },
-  //////////////////// option values /////////////////////////////                        
+      //////////////////// option values /////////////////////////////
       {
-        id:'3',
-        value:'news|events',
+        id: '3',
+        value: 'news|events',
         addressValue: '',
         styles: 'news-events-header',
-  ///////////////////// dropDown options are given here////////////////                          
-        dropDownMenu:[
+        ///////////////////// dropDown options are given here////////////////
+        dropDownMenu: [
           {
-            id:'1',
-            value:'annual achievers',
+            id: '1',
+            value: 'annual achievers',
             addressValue: 'annual-achievers',
-            styles: '',
+            styles: ''
           },
           {
-            id:'2',
-            value:'photo galleries',
+            id: '2',
+            value: 'photo galleries',
             addressValue: 'photo-galleries',
-            styles: '',
+            styles: ''
           },
           {
-            id:'3',
-            value:'events',
+            id: '3',
+            value: 'events',
             addressValue: 'events',
-            styles: '',
-          },
+            styles: ''
+          }
         ]
       },
-  //////////////////// option values /////////////////////////////                        
+      //////////////////// option values /////////////////////////////
       {
-        id:'4',
-        value:'admissions',
+        id: '4',
+        value: 'admissions',
         addressValue: '',
         styles: 'admissions-header',
-  ///////////////////// dropDown options are given here////////////////                          
-        dropDownMenu:[
+        ///////////////////// dropDown options are given here////////////////
+        dropDownMenu: [
           {
-            id:'1',
+            id: '1',
             value: 'staff',
             addressValue: 'staff',
-            styles: '',
+            styles: ''
           },
           {
-            id:'2',
-            value:'policies',
+            id: '2',
+            value: 'policies',
             addressValue: 'policies',
-            styles: '',
-          },
+            styles: ''
+          }
         ]
       },
-  //////////////////// option values /////////////////////////////                        
+      //////////////////// option values /////////////////////////////
       {
-        id:'5',
-        value:'our school',
+        id: '5',
+        value: 'our school',
         addressValue: '',
         styles: 'our-school-header',
-  ///////////////////// dropDown options are given here////////////////                          
-        dropDownMenu:[
+        ///////////////////// dropDown options are given here////////////////
+        dropDownMenu: [
           {
-            id:'1',
-            value:'school',
+            id: '1',
+            value: 'school',
             addressValue: 'school',
-            styles: '',
+            styles: ''
           },
           {
-            id:'2',
-            value:'junior',
+            id: '2',
+            value: 'junior',
             addressValue: 'junior',
-            styles: '',
+            styles: ''
           },
           {
-            id:'3',
-            value:'middle',
+            id: '3',
+            value: 'middle',
             addressValue: 'middle',
-            styles: '',
+            styles: ''
           },
           {
-            id:'4',
-            value:'senior',
+            id: '4',
+            value: 'senior',
             addressValue: 'senior',
-            styles: '',
-          },
+            styles: ''
+          }
         ]
       },
-  //////////////////// option values /////////////////////////////                        
+      //////////////////// option values /////////////////////////////
       {
-        id:'6',
-        value:'home',
+        id: '6',
+        value: 'home',
         addressValue: 'home',
         styles: 'home-header',
-  ///////////////////// dropDown options are given here////////////////                          
-        dropDownMenu:[
+        ///////////////////// dropDown options are given here////////////////
+        dropDownMenu: [
           {
-            id:'1',
-            value:'',
+            id: '1',
+            value: '',
             addressValue: '',
-            styles: '',
-          },
+            styles: ''
+          }
         ]
-      },
+      }
     ]
   }
-]
+];
 
-export default dataArray
-
+export default dataArray;
