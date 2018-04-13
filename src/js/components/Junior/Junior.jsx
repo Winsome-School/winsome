@@ -1,12 +1,12 @@
-import React from "react";
-import { connect } from "react-redux";
-import Discover from "../discover/Discover";
-import Hero from "../hero/HeroImage";
-import News from "../News/News";
+import React from 'react';
+import { connect } from 'react-redux';
+import Discover from '../discover/Discover';
+import Hero from '../hero/HeroImage';
+import News from '../News/News';
 
 export const Junior = ({ juniorData }) => (
-  <div>
-    <Hero style={"header-image"} />
+  <div id="junior">
+    <Hero style={'header-image'} />
     <div className="container">
       <div className="junior">
         <h2>{juniorData.p1.heading}</h2>
@@ -37,7 +37,12 @@ export const Junior = ({ juniorData }) => (
         <p>{juniorData.p3.text}</p>
       </div>
     </div>
-    <Discover />
+    <div className="junior-news">
+      <News />
+    </div>
+    <div className="clear">
+      <Discover />
+    </div>
   </div>
 );
 

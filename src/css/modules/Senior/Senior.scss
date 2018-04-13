@@ -1,5 +1,6 @@
 .head {
-    background-color: lightgrey;
+    background-color: #e6e6e6;
+
     h2 {
         font-size: 28px;
         font-weight: bold;
@@ -23,20 +24,20 @@
             width: 83%;
         }
     }
-    .school img{
+    .school img {
         padding-top: 5%;
     }
     .col1 {
         width: 56%;
-        float: left;    
+        float: left;
         padding: 5%;
         .mission {
             padding-top: 5%;
         }
-    }   
+    }
 }
 .head::after {
-    content: "";
+    content: '';
     clear: both;
     display: block;
 }
