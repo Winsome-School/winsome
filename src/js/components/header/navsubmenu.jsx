@@ -1,51 +1,47 @@
 import React from 'react';
 
-import DropDownMenu from './DropDownMenu'
-
+import DropDownMenu from './DropDownMenu';
 
 export default class NavSubMenu extends React.Component {
-	constructor(){
-		super()
-		this.state={
-           myclass: ''
-		}
-		this.handler1=this.handler1.bind(this)
-		this.handler2=this.handler2.bind(this)
-
+	constructor() {
+		super();
+		this.state = {
+			myclass: ''
+		};
+		this.handler1 = this.handler1.bind(this);
+		this.handler2 = this.handler2.bind(this);
 	}
 
-	handler1(){
-
-	 		this.setState({
-	 	           myclass: 'visible'
-	 		})
+	handler1() {
+		this.setState({
+			myclass: 'visible'
+		});
 	}
-	
 
-	handler2(){
-
-			this.setState({
-	 	           myclass: ''
-	 		})	
+	handler2() {
+		this.setState({
+			myclass: ''
+		});
 	}
 
 	render() {
-
-   		return (
-   			<div id='nav-sub-menu'>
-				<div className='nav-sub-menu-bar' onMouseOver={this.handler1} onMouseLeave={this.handler2}>	
-					{this.props.data}				
+		return (
+			<div id="nav-sub-menu">
+				<div
+					className="nav-sub-menu-bar"
+					onMouseOver={this.handler1}
+					onMouseLeave={this.handler2}
+				>
+					{this.props.data}
 				</div>
-				<DropDownMenu 
+				<DropDownMenu
 					extraClass={this.state.myclass}
-				 	func1={this.handler1} 
-				 	func2={this.handler2}
-				 	{...this.props}
-				 />
-				<div className={`drop-down-box ${this.state.myclass}`} >
-				</div>
+					func1={this.handler1}
+					func2={this.handler2}
+					{...this.props}
+				/>
+				<div className={`drop-down-box ${this.state.myclass}`} />
 			</div>
-		)
- 	}
+		);
+	}
 }
-

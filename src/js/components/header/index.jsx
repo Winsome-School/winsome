@@ -1,30 +1,40 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 import Login from './Login';
 import Navbar from './Navbar';
-import dataArray from './DataGiver';
+import ResponsiveNavbar from './ResponsiveNavbar';
 
+// import dataArray from './DataGiver';
 
-const Nav = () => {
+const Nav = ({ headerData }) => {
+  console.log(headerData);
   //console.log(dataArray)
-  let loginToRender = dataArray[0].loginData.map((item, index) => {
+  let loginToRender = headerData[0].loginData.map((item, index) => {
     return (
-      ///////// the array is being passed to the component for better results 
+      ///////// the array is being passed to the component for better results
       <Login key={index} data={item} />
-    )
-  })
+    );
+  });
   return (
-    <div className='header-wrapper'>
-      <img className="header-logo" src="./images/logo.png" />
-       <div className='my-nav'>
-           {loginToRender}
-          <Navbar dataArray={dataArray} />
-          <div id="div4">
-          </div>
+    <div>
+      <div className="header-wrapper">
+        <img className="header-logo" src="./images/logo.png" />
+        <div className="my-nav">
+          {loginToRender}
+          <Navbar dataArray={headerData} />
+          <div id="div4" />
+        </div>
       </div>
+      <ResponsiveNavbar />
     </div>
+  );
+};
 
-  )
+function mapStateToProps({ headerData }) {
+  return {
+    headerData
+  };
 }
 
-export default Nav
+export default connect(mapStateToProps, {})(Nav);
