@@ -21,12 +21,12 @@ export default class Contact extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div id="contact">
         <Hero
           style={'header-image'}
         />
         <div className="contact">
-          <News />
+          
           <div className='row'>
             <div className="col-md-6 contactInfo">
               <h2 className='contactH2'>Get In Touch</h2>
@@ -67,7 +67,12 @@ export default class Contact extends React.Component {
             </div>
           </div>
         </div>
+        <div className="contact-news">
+        <News/>
+        </div>
+        <div className="clear">
         <Discover />
+        </div>
       </div>
     )
   }

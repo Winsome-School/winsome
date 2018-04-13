@@ -30,4 +30,11 @@
 		height: 400px;
 		@include image('IMG_9463 (2).jpg')
 	}
+	.middle-news{
+		float: right;
+		width: 25%;
+		@media only screen and (max-width:768px){
+			width:100%;
+		}
+	}
 }

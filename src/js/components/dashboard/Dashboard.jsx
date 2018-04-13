@@ -6,7 +6,7 @@ const Dashboard= ()=>(
     <div className="line" />
     <div className="row">
       <div className="col-sm-4">
-        <a href="https://google.com">
+        // <a href="https://google.com">
           <div className="box">
             <span className="glyphicon glyphicon-globe" />
           </div>

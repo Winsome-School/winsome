@@ -1,34 +1,48 @@
-.app{
-	//margin-top:0px;
-	width: 100%;
-
-	.staff{
-		width: 75%;
+#staff{
+	background-color: #d9d9d9;
+	.staff-app{
+		//margin-top:0px;
+		width: 100%;
 		background-color: #d9d9d9;
-		height: 750px;
-		clear: both;
-		float: left;
-
-		.box{
-			height: 10px;
-			width: 10px;
-			background-color: yellow;
-		}
-		.heading{
-			margin-left: 10%;
-			position: relative;
-			margin-top: 7%;
-		}
-		.paragraph{
-			width: 65%;
-			margin-top: 4%;
-			margin-left: 6%;
-			p{
-			
-				margin-top: 25px;
-				margin-left: 5%;
+		.staff{
+			width: 75%;
+			background-color: #d9d9d9;
+			height: 750px;
+			clear: both;
+			float: left;
+			@media only screen and (max-width:768px){
+				width: 100%;
 			}
 
-		}	
+			.box{
+				height: 10px;
+				width: 10px;
+				background-color: yellow;
+			}
+			.heading{
+				margin-left: 10%;
+				position: relative;
+				margin-top: 7%;
+			}
+			.paragraph{
+				width: 65%;
+				margin-top: 4%;
+				margin-left: 6%;
+				p{
+				
+					margin-top: 25px;
+					margin-left: 5%;
+				}
+
+			}	
+		}
+		.staff-news{
+			float: right;
+			width: 25%;
+			@media only screen and (max-width:768px){
+				width:100%;
+				
+			}
+		}
 	}
 }

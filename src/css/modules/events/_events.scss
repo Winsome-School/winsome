@@ -1,3 +1,4 @@
+
 .filler{
 	width: 30%;
 	float : right
@@ -5,11 +6,13 @@
 }
 .events-wrapper{
 	background-color:#e2e2e2;
-	padding : 0 0px 50px 50px;
+	width:100%;
+	
 }
 .my-events{
 	margin-top: 25px;
 	width: 70%;
+	padding : 0 0px 50px 50px;
 	display: inline-block;
 	p{
 		padding: 0px 40% 40px 0px;
@@ -33,4 +36,13 @@
 	height: 400px;
 	@include image('reggio-emilia-photo.jpg');
 	border-bottom: 10px solid $accent-color
+}
+.events-news{
+	float: right;
+	width: 25%;
+	padding-left:-50px; 
+	@media only screen and (max-width:768px){
+		width:100%;
+			
+	}
 }

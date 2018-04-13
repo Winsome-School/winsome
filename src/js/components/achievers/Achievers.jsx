@@ -20,7 +20,9 @@ export const Achievers = ({ achieversData }) => (
         <Portion1 achieversData={achieversData} />
         <Portion2 achieversData={achieversData} />
       </div>
-      <News />
+      <div className="achievers-news">
+        <News />
+      </div>
       <div className="clear" />
     </div>
   </div>

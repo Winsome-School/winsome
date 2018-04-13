@@ -33,7 +33,7 @@ export default class News extends Component{
 						<div className="lower-box">
 
 							<div className="des-box">
-								<h3>Education Blog</h3>
+								<h3>Education Blogs</h3>
 							</div>
 							<div className="des-box box-2">
 								<h3>Resource center</h3>

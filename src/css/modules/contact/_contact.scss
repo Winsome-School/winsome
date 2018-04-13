@@ -5,12 +5,18 @@ $button-color:#737373;
 $p-color:#737373;
 
 
-
+#contact{
+	background-color: $background-image-color;
+}
 .contact{
 	border-top: 10px yellow solid;
-	height: 1500px;
 	padding: 20px 70px 50px 70px;
 	background-color: $background-image-color;
+	width: 75%;
+	float: left;
+	@media only screen and(max-width: 768px){
+		width: 100%;
+	}
 	.row{
 		margin: 0;
 		padding: 0; 
@@ -54,7 +60,9 @@ $p-color:#737373;
 
 		}
 	}
+.contact-news{
 
+}
 .contactUs{
 
 	.contactForm{
@@ -130,3 +138,13 @@ textarea{
 				// line-height: 40px;
 				// font-weight: lighter;
 			}
+.contact-news{
+	float: right;
+	width: 25%;
+	border-top: 10px yellow solid;
+	@media only screen and (max-width:768px){
+		width:100%;
+		border-top: none;
+			
+	}
+}

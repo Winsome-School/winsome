@@ -5,13 +5,12 @@ $box-2-color: #ff6666;
 $box-3-color: #8080ff;
 $box-4-color:#80ff80;
 $box-border-color:#404040;
+$news-resp-screen:767px;
 
 //######### SCSS of News ###################
 .News{
 	.news-Box{
-	height:750px;
-	width:25%;
-	float:right;
+	width:100%;
 	
 		.uper-box{
 			
@@ -22,6 +21,9 @@ $box-border-color:#404040;
 				padding: 50px 40px;
 				color:white;
 				font-family: sans-serif;
+				@media only screen and (max-width:940px){
+					padding: 30px 20px;	
+				}
 			}
 			p{
 				@include P(left,white);
@@ -30,6 +32,9 @@ $box-border-color:#404040;
 				text-align: justify;
 				font-family: sans-serif;
 				color:#d9d9d9;
+				@media only screen and (max-width:940px){
+					padding:0px 20px 30px 20px;
+				}
 				span{
 					color:$box-1-color;
 				}
@@ -39,11 +44,22 @@ $box-border-color:#404040;
 			
 			width: 100%;
 
+
 			.des-box{
-				height: 50%;
-				width: 50%;
+				height: 100px;
+				width: 25%;	
 				background-color: $box-1-color;
 				float: left;
+			
+				@media only screen and (min-width:$news-resp-screen){
+					
+					height: 80px;
+					width: 100%;	
+				}
+				@media only screen and(min-width:940px){
+					height: 50%;
+					width: 50%;	
+				}
 				h3{
 					font-family: sans-serif;
 					padding: 0 20%;
@@ -51,6 +67,20 @@ $box-border-color:#404040;
 					border-left:9px $box-border-color solid ;
 					box-sizing: border-box;
 					font-weight: 700;
+					@media only screen and (max-width: 1300px){
+						font-weight:600;
+						padding:0 5%;
+						font-size: 18px; 
+					}
+					@media only screen and (max-width:940px){
+						margin:35px 0;	
+					}
+					@media only screen and (max-width:$news-resp-screen){
+						font-weight:600;
+						padding:0 7%;
+						font-size: 22px;
+						border-left:5px $box-border-color solid ;
+					}
 				}
 			}
 			.box-2{

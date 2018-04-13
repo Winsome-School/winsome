@@ -46,19 +46,6 @@ export default function whReducer(state = initial, action) {
 			}
 
 			break;
-		case NEXT_RESP_VIEW:
-			if (indexofRespView < data.length - 1) {
-				newRespview = [...respView];
-
-				newRespview.splice(0, 1, data[indexofRespView + 1]);
-				newRespindex = indexofRespView + 1;
-				return {
-					...state,
-					respView: newRespview,
-					indexofRespView: newRespindex
-				};
-			}
-			break;
 		case PREVIOUS_VIEW:
 			if (firstIndexofSelectedView > 0 && firstIndexofSelectedView < 5) {
 				newview = [...selectedView];
@@ -76,9 +63,22 @@ export default function whReducer(state = initial, action) {
 				};
 			}
 			break;
+		case NEXT_RESP_VIEW:
+			if (indexofRespView < data.length - 1) {
+				newRespview = [...respView];
+
+				newRespview.splice(0, 1, data[indexofRespView + 1]);
+				newRespindex = indexofRespView + 1;
+				return {
+					...state,
+					respView: newRespview,
+					indexofRespView: newRespindex
+				};
+			}
+			break;
 		case PREVIOUS_RESP_VIEW:
 			if (indexofRespView > 0 && indexofRespView < 6) {
-				newRespview = [...selectedView];
+				newRespview = [...respView];
 				newRespview.splice(0, 1, data[indexofRespView - 1]);
 				newRespindex = indexofRespView - 1;
 				return {

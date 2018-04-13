@@ -2,7 +2,7 @@ import React from 'react';
 import dataForEvents from './DataEvents';
 import EventsSection from './EventsSection';
 import Discover from '../discover/Discover';
-import EventNews from './EventNews';
+import News from '../News/News';
 import Hero from '../hero/HeroImage';
 
 const Events = function () {
@@ -38,11 +38,13 @@ const Events = function () {
 		        </p>
           {dataToRender}
         </div>
-        <div className='filler'>
-          <EventNews />
+        <div className='events-news'>
+          <News />
         </div>
       </div>
-      <Discover />
+      <div className="clear">
+        <Discover />
+      </div>
     </div>
   )
 }

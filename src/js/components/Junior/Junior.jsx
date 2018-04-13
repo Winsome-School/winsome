@@ -16,7 +16,6 @@ export const Junior = ({ juniorData }) => (
           <img src="./images/junior1.jpg" width="90%" alt="Junior1" />
         </div>
       </div>
-      <News />
       <div className="creating">
         <h2>{juniorData.p2.heading}</h2>
         <div className="box" />

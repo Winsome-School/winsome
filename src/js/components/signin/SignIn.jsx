@@ -3,8 +3,7 @@ import { func, bool, shape, string } from 'prop-types';
 import { connect } from 'react-redux';
 import { getUserAction, getPassAction, loginAction } from '../../actions';
 
-import Menu from './Menu';
-import Hero from '../hero/HeroImage';
+import {Redirect} from 'react-router-dom';
 
 class SignIn extends Component {
 	constructor() {
@@ -28,16 +27,15 @@ class SignIn extends Component {
 
 	render() {
 		const { loginData } = this.props;
-
+		
 		return loginData.usermatch ? (
 			<div>
-				<Hero style={'hero-image'} />
-				<Menu />
+				<Redirect to="/dashboard" />
 			</div>
 		) : (
 			<div>
-				<Hero style={'hero-image'} />
-
+				
+				
 				<div className="user-signin">
 					<div className="wraper">
 						<div className="login-box">
