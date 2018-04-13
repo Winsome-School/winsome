@@ -1,40 +1,42 @@
-#middle{
-	min-height: 1300px;
+#middle {
+	height: 1500px;
 	background-color: $background-image-color;
-	.middleSection{
+	@media only screen and (max-width: 768px) {
+		height: 1700px;
+	}
+	.middleSection {
 		padding: 20px 50px 50px 50px;
 		width: 75%;
 		float: left;
 		box-sizing: border-box;
-		@media only screen and (max-width : 768px) {
+		@media only screen and (max-width: 768px) {
 			width: 100%;
 			padding: 20px 70px 30px 70px;
 		}
 	}
-	.middleH2{
+	.middleH2 {
 		@include H2('', $black);
 	}
-	.yellowBox{
+	.yellowBox {
 		margin: 30px 0;
 		height: 20px;
 		width: 20px;
 		background-color: $accent-color;
 	}
-	.middleP{
+	.middleP {
 		@include P('', $black);
 		padding-right: 120px;
 		margin-bottom: 30px;
-
 	}
-	.middleImg{
+	.middleImg {
 		height: 400px;
-		@include image('IMG_9463 (2).jpg')
+		@include image('IMG_9463(2).jpg');
 	}
-	.middle-news{
+	.middle-news {
 		float: right;
 		width: 25%;
-		@media only screen and (max-width:768px){
-			width:100%;
+		@media only screen and (max-width: 768px) {
+			width: 100%;
 		}
 	}
 }
