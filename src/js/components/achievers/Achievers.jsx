@@ -1,5 +1,5 @@
 import React from 'react';
-import { shape, arrayOf, string } from 'prop-types';
+import { shape, arrayOf, string, func } from 'prop-types';
 import { connect } from 'react-redux';
 
 import Hero from '../hero/HeroImage';
@@ -7,26 +7,41 @@ import FirstHeading from './FirstHeading';
 import Portion1 from './Portion1';
 import Portion2 from './Portion2';
 import News from '../News/News';
+import * as actions from '../../actions';
 
-export const Achievers = ({ achieversData }) => (
-  <div>
-    <Hero style={'header-image'} />
-    <div className="achievers">
-      <div className="content">
-        <FirstHeading
-          heading={achieversData.firstPart.heading}
-          text={achieversData.firstPart.text}
-        />
-        <Portion1 achieversData={achieversData} />
-        <Portion2 achieversData={achieversData} />
+export class Achievers extends React.Component {
+  componentWillMount() {
+    this.props.getAchieversData();
+  }
+
+  render() {
+    let data;
+    if (Object.keys(this.props.achieversData).length) {
+      data = this.props.achieversData;
+    } else {
+      return '';
+    }
+    return (
+      <div>
+        <Hero style={'header-image'} />
+        <div className="achievers">
+          <div className="content">
+            <FirstHeading
+              heading={data.firstPart.heading}
+              text={data.firstPart.text}
+            />
+            <Portion1 achieversData={data} />
+            <Portion2 achieversData={data} />
+          </div>
+          <div className="achievers-news">
+            <News />
+          </div>
+          <div className="clear" />
+        </div>
       </div>
-      <div className="achievers-news">
-        <News />
-      </div>
-      <div className="clear" />
-    </div>
-  </div>
-);
+    );
+  }
+}
 
 function mapStateToProps({ achieversData }) {
   return {
@@ -59,7 +74,10 @@ Achievers.propTypes = {
         })
       ).isRequired
     }).isRequired
-  }).isRequired
+  }).isRequired,
+  getAchieversData: func.isRequired
 };
 
-export default connect(mapStateToProps, null)(Achievers);
+export default connect(mapStateToProps, {
+  getAchieversData: actions.getAchieversData
+})(Achievers);
