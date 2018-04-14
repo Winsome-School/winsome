@@ -11,7 +11,11 @@ import {
 	GET_ACHIEVERS_DATA,
 	GET_ACHIEVERS_DATA_SUCCESS,
 	GET_ACHIEVERS_DATA_ATTEMPT,
-	GET_ACHIEVERS_DATA_FAIL
+	GET_ACHIEVERS_DATA_FAIL,
+	GET_CALENDER_DATA,
+	GET_CALENDER_DATA_SUCCESS,
+	GET_CALENDER_DATA_ATTEMPT,
+	GET_CALENDER_DATA_FAIL
 } from '../constants';
 
 export function onClickLeftArrow() {
@@ -88,6 +92,29 @@ export function getAchieversDataAttempt() {
 export function getAchieversDataFail(error) {
 	return {
 		type: GET_ACHIEVERS_DATA_FAIL,
+		payload: error
+	};
+}
+
+export function getCalenderData() {
+	return {
+		type: GET_CALENDER_DATA
+	};
+}
+export function getCalenderDataSuccess(data) {
+	return {
+		type: GET_CALENDER_DATA_SUCCESS,
+		payload: data
+	};
+}
+export function getCalenderDataAttempt() {
+	return {
+		type: GET_CALENDER_DATA_ATTEMPT
+	};
+}
+export function getCalenderDataFail(error) {
+	return {
+		type: GET_CALENDER_DATA_FAIL,
 		payload: error
 	};
 }

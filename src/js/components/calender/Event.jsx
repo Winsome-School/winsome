@@ -1,11 +1,24 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { arrayOf, shape, number, string } from 'prop-types';
+import { arrayOf, shape, number, string, func} from 'prop-types';
+import * as actions from '../../actions'
 
 export class Event extends React.Component {
+
+	componentWillMount(){
+		this.props.getCalenderData();
+	}
 	renderArray() {
-		const { counter, events, count } = this.props;
-		return [...events]
+		const {count,calender} = this.props;
+		let events,counter;
+		if(Object.keys(this.props.calender).length){
+			 events=[...calender.events]
+			 counter=calender.counter;
+		}
+		else{
+			return '';
+		}
+		return events
 			.slice(counter, counter + count)
 			.map(({ ...item }) => (
 				<div key={item.id} className="event">
@@ -23,21 +36,24 @@ export class Event extends React.Component {
 
 function mapStateToProps({ calender }) {
 	return {
-		counter: calender.counter,
-		events: calender.events
+		calender
 	};
 }
 
 Event.propTypes = {
 	count: number.isRequired,
-	counter: number.isRequired,
-	events: arrayOf(
-		shape({
-			id: number.isRequired,
-			event: string.isRequired,
-			eventDate: string.isRequired,
-			time: string.isRequired
-		})
-	).isRequired
+	calender:shape({
+		counter: number.isRequired,
+		events: arrayOf(
+			shape({
+				id: number.isRequired,
+				event: string.isRequired,
+				eventDate: string.isRequired,
+				time: string.isRequired
+			})
+		).isRequired
+	}).isRequired,
+	getCalenderData:func.isRequired
+	
 };
-export default connect(mapStateToProps, null)(Event);
+export default connect(mapStateToProps, {getCalenderData:actions.getCalenderData})(Event);

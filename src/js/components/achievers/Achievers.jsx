@@ -1,5 +1,5 @@
 import React from 'react';
-import { shape, arrayOf, string, func } from 'prop-types';
+import { shape, arrayOf, string,func } from 'prop-types';
 import { connect } from 'react-redux';
 
 import Hero from '../hero/HeroImage';
@@ -10,6 +10,9 @@ import News from '../News/News';
 import * as actions from '../../actions';
 
 export class Achievers extends React.Component {
+  constructor() {
+    super();
+  }
   componentWillMount() {
     this.props.getAchieversData();
   }
@@ -75,7 +78,7 @@ Achievers.propTypes = {
       ).isRequired
     }).isRequired
   }).isRequired,
-  getAchieversData: func.isRequired
+  getAchieversData:func.isRequired
 };
 
 export default connect(mapStateToProps, {

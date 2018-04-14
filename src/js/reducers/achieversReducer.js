@@ -10,9 +10,8 @@ const achieversReducer = function achieversReducer(state = initial, action) {
 			return action.payload;
 		case types.GET_ACHIEVERS_DATA_FAIL:
 			return action.payload;
-		default:
-			return state;
 	}
+	return state;
 };
 
 export default achieversReducer;

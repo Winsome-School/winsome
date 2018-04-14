@@ -1,5 +1,9 @@
-import data from '../Data/achieversData';
+import AchieversData from '../Data/achieversData';
+import CalenderData from '../Data/calenderData'
 
 export function getAchieversData() {
-	return data;
+	return AchieversData;
+}
+export function getCalenderData() {
+	return CalenderData;
 }
