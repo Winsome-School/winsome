@@ -7,7 +7,15 @@ import {
 	PREVIOUS_RESP_VIEW,
 	GET_USERNAME,
 	GET_PASSWORD,
-	LOGIN
+	LOGIN,
+	GET_ACHIEVERS_DATA,
+	GET_ACHIEVERS_DATA_SUCCESS,
+	GET_ACHIEVERS_DATA_ATTEMPT,
+	GET_ACHIEVERS_DATA_FAIL,
+	GET_CALENDER_DATA,
+	GET_CALENDER_DATA_SUCCESS,
+	GET_CALENDER_DATA_ATTEMPT,
+	GET_CALENDER_DATA_FAIL
 } from '../constants';
 
 export function onClickLeftArrow() {
@@ -63,5 +71,50 @@ export function getPassAction(password) {
 export function loginAction() {
 	return {
 		type: LOGIN
+	};
+}
+export function getAchieversData() {
+	return {
+		type: GET_ACHIEVERS_DATA
+	};
+}
+export function getAchieversDataSuccess(data) {
+	return {
+		type: GET_ACHIEVERS_DATA_SUCCESS,
+		payload: data
+	};
+}
+export function getAchieversDataAttempt() {
+	return {
+		type: GET_ACHIEVERS_DATA_ATTEMPT
+	};
+}
+export function getAchieversDataFail(error) {
+	return {
+		type: GET_ACHIEVERS_DATA_FAIL,
+		payload: error
+	};
+}
+
+export function getCalenderData() {
+	return {
+		type: GET_CALENDER_DATA
+	};
+}
+export function getCalenderDataSuccess(data) {
+	return {
+		type: GET_CALENDER_DATA_SUCCESS,
+		payload: data
+	};
+}
+export function getCalenderDataAttempt() {
+	return {
+		type: GET_CALENDER_DATA_ATTEMPT
+	};
+}
+export function getCalenderDataFail(error) {
+	return {
+		type: GET_CALENDER_DATA_FAIL,
+		payload: error
 	};
 }

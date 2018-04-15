@@ -20,13 +20,16 @@
     "react-responsive": "^4.1.0",
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
-    "redux-mock-store": "^1.5.1"
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.1",
+    "redux-saga": "^0.16.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
     "babel-jest": "^22.4.3",
     "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
@@ -47,6 +50,7 @@
     "purify-css": "^1.2.5",
     "purifycss-webpack": "^0.7.0",
     "react-test-renderer": "^16.2.0",
+    "redux-saga-test-plan": "^3.6.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
     "webpack": "^3.10.0",
