@@ -1,6 +1,7 @@
 import React from 'react';
 import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
+import News from '../News/News';
 
 export default class App extends React.Component {
   constructor() {
@@ -62,6 +63,9 @@ export default class App extends React.Component {
                 that they will face in life and beyond school.
 						</p>
             </div>
+          </div>
+          <div className="News-container">
+            <News />
           </div>
           <div className="col2 board">
             <h2>School Board</h2>
