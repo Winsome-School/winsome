@@ -16,7 +16,7 @@ export default class Contact extends React.Component {
 
   }
   handleSubmit(e) {
-    alert('Form is submitted: ' + this.state.value);
+    alert(`Form is submitted:  ${this.state.value}`);
     e.preventDefault();
   }
   render() {
@@ -30,9 +30,9 @@ export default class Contact extends React.Component {
           <div className='row'>
             <div className="col-md-6 contactInfo">
               <h2 className='contactH2'>Get In Touch</h2>
-              <div className='yellowBox'></div>
+              <div className='yellowBox' />
               <p className='contactP'>We are always happy to answer questions about life at School. Please do not hesitate to get in touch by telephone or email</p>
-              <br></br>
+              <br /><br />
               <p className='contactP'><b>Pakistan:</b> 01883 343028</p>
               <p className='contactP'><b>International:</b> +44 1883 343028</p>
 
@@ -40,7 +40,7 @@ export default class Contact extends React.Component {
 
             <div className="col-md-6 location">
               <div className="col-md-1 glyphicon">
-                <p><span className='glyphicon glyphicon-map-marker'></span></p>
+                <p><span className='glyphicon glyphicon-map-marker' /></p>
               </div>
               <div className="col-md-5 address">
                 <p><b>Winsome Radical School</b></p>
@@ -54,13 +54,13 @@ export default class Contact extends React.Component {
             <div className='contactUs'>
               <div className='contactForm'>
                 <h2 className='contactH2'>Contact Us</h2>
-                <div className='yellowBox'></div>
+                <div className='yellowBox' />
                 <form className='userInfo' value={this.state.value} onChange={this.handleChange}>
                   <input type="text" placeholder="First Name" /><br />
                   <input type="text" placeholder="Last Name" /><br />
                   <input type="text" placeholder="Email" /><br />
                   <input type="text" placeholder="Subject" /><br />
-                  <textarea placeholder="Message"></textarea><br />
+                  <textarea placeholder="Message" /><br />
                   <button value={this.state.value} onSubmit={this.handleSubmit}>Submit</button>
                 </form>
               </div>
@@ -68,7 +68,7 @@ export default class Contact extends React.Component {
           </div>
         </div>
         <div className="contact-news">
-        <News/>
+        <News />
         </div>
         <div className="clear">
         <Discover />

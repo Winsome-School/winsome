@@ -4,6 +4,10 @@ import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
 
 export default class career extends Component {
+  
+  componentDidMount(){
+    
+  }
   render() {
     return (
       <div>

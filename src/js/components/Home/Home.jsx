@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
-
-
+// import PropTypes from 'prop-types';
 import Hero from '../hero/HeroImage';
 import Promo from '../promo/Promo';
 import Calender from '../calender/Calender';
@@ -12,8 +10,11 @@ import Gallery from '../gallery/Gallery';
 
 class Home extends Component {
 
+  componentDidMount(){
+
+  }
   render() {
-    let { style } = this.props;
+    // const { style } = this.props;
 
     return (
       <div className="Home">
@@ -30,7 +31,7 @@ class Home extends Component {
 };
 
 Home.propTypes = {
-  // getAction: PropTypes.func.isRequired,
+  // style: PropTypes.isRequired,
 };
 
 // function mapStateToProps(state) {

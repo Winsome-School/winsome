@@ -1,4 +1,4 @@
-let dataForEvents=[
+const dataForEvents=[
 	{
 		id:1,
 		thumbnail:"image-source",
@@ -33,4 +33,4 @@ let dataForEvents=[
 	},
 
 ]
-export default dataForEvents
+export default dataForEvents;

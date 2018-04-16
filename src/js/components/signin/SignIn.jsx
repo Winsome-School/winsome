@@ -1,9 +1,8 @@
+import {Redirect} from 'react-router-dom';
 import React, { Component } from 'react';
 import { func, bool, shape, string } from 'prop-types';
 import { connect } from 'react-redux';
 import { getUserAction, getPassAction, loginAction } from '../../actions';
-
-import {Redirect} from 'react-router-dom';
 
 class SignIn extends Component {
 	constructor() {

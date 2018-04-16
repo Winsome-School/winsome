@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
 import News from '../News/News';
@@ -51,5 +52,9 @@ function mapStateToProps({ juniorData }) {
     juniorData
   };
 }
+
+Junior.propTypes = {
+  juniorData: PropTypes.isRequired,
+};
 
 export default connect(mapStateToProps, null)(Junior);
