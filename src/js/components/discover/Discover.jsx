@@ -1,28 +1,34 @@
 import React, { Component } from 'react';
 
 export default class Feature extends Component {
-
-  componentDidMount() {
-    
-  }
+  componentDidMount() {}
 
   render() {
     return (
-      <div id="discover">
-        <div className="Text">
-          <h3 className="discover-heading">Discover More About Winsome</h3>
+      <div className="discover-container">
+        <div className="header">
+          <div className="header-content">
+            <h3>Discover More About Winsome</h3>
+          </div>
         </div>
-        <div className="one-third events">
-          <h3 className="discover-subheading">Events</h3>
+        <div className="content">
+          <div className="first">
+            <div className="footer-discover">
+              <h3>Events</h3>
+            </div>
+          </div>
+          <div className="second">
+            <div className="footer-discover">
+              <h3>Faculty & Staff</h3>
+            </div>
+          </div>
+          <div className="third">
+            <div className="footer-discover">
+              <h3>Policies & Procedures</h3>
+            </div>
+          </div>
         </div>
-        <div className="one-third faculty">
-          <h3 className="discover-subheading">Faculty & Staff</h3>
-        </div>
-        <div className="one-third policies">
-          <h3 className="discover-subheading">Policies & Procedures</h3>
-        </div>
-        <div className="clear" />
       </div>
-    )
+    );
   }
-};
+}

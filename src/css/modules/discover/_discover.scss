@@ -1,43 +1,121 @@
-#discover {
-  position: relative;
-  .Text {
-      background-color: #fdba26;
-      opacity: 0.8;
-      .discover-heading{
-          padding: 2%;
-          text-align: center;
-          margin: 0;
+// #discover {
+//   position: relative;
+//   .Text {
+// background-color: #fdba26;
+// opacity: 0.8;
+//     .discover-heading {
+//       padding: 2%;
+//       text-align: center;
+//       margin: 0;
+//     }
+//   }
+//   .one-third {
+//     height: 400px;
+//     width: 33.33333333%;
+//     float: left;
+//     .discover-subheading {
+//       @include H3('left', $white);
+//       color: white;
+//       padding: 20px;
+//       // margin-top: 343px;
+//       position: absolute;
+//       width: 33.33%;
+//       cursor: pointer;
+//       bottom: 0px;
+//       background-color: rgba(24, 24, 24, 0.6);
+//     }
+//   }
+//   .events {
+// background-image: url('./images/events.jpg');
+// background-repeat: no-repeat;
+// background-size: cover;
+//   }
+//   .faculty {
+// background-image: url('./images/faculty-staff.jpg');
+// background-repeat: no-repeat;
+// background-size: cover;
+//   }
+//   .policies {
+// background-image: url('./images/policies-procedures.jpg');
+// background-repeat: no-repeat;
+// background-size: cover;
+//   }
+// }
+
+.discover-container {
+  display: flex;
+  background-color: grey;
+  flex-direction: column;
+  justify-content: flex-start;
+  .header {
+    height: 80px;
+    background-color: #fdba26;
+    //width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    .header-content {
+      font-size: 35px;
+      h3 {
+        margin-top: 30px;
+        opacity: 0.8;
       }
+    }
   }
-  .one-third {
-      height: 400px;
-      width: 33.33333333%;
-      float: left;
-      .discover-subheading {
-        @include H3('left', $white);
-          color: white;
-          padding: 20px;
-          // margin-top: 343px;
-          position: absolute;
-          width: 33.33%;
-          cursor: pointer;
-          bottom: 0px;
-          background-color: rgba(24, 24, 24, 0.6);
-      }
-  }
-  .events {
+  .content {
+    height: 300px;
+    position: relative;
+    flex-grow: 5;
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .first {
       background-image: url('./images/events.jpg');
       background-repeat: no-repeat;
       background-size: cover;
-  }
-  .faculty {
+      flex-basis: 33.3333%;
+      .footer {
+        @extend .footer-discover;
+      }
+    }
+    .second {
       background-image: url('./images/faculty-staff.jpg');
       background-repeat: no-repeat;
       background-size: cover;
-  }
-  .policies {
+      flex-basis: 33.3333%;
+      .footer {
+        @extend .footer-discover;
+      }
+    }
+    .third {
       background-image: url('./images/policies-procedures.jpg');
       background-repeat: no-repeat;
       background-size: cover;
+      flex-basis: 33.3333%;
+      margin-right: auto;
+      .footer {
+        @extend .footer-discover;
+      }
+    }
+  }
+}
+.footer-discover {
+  height: 70px;
+  color: white;
+  background-color: rgba(24, 24, 24, 0.6);
+  width: 33.3333%;
+  cursor: pointer;
+  position: absolute;
+  top: 230px;
+  font-size: 25px;
+  h3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
   }
 }
