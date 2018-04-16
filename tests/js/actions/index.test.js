@@ -52,4 +52,37 @@ describe('Test Actions', () => {
 			).toEqual(expectedAction);
 		});
 	});
+
+	describe('test the Calender Actions', () => {
+		it('test the getCalenderData action', () => {
+			const expectedAction = {
+				type: constants.GET_CALENDER_DATA
+			};
+			expect(actions.getCalenderData()).toEqual(expectedAction);
+		});
+		it('test the getCalenderDataSuccess action', () => {
+			const expectedAction = {
+				type: constants.GET_CALENDER_DATA_SUCCESS,
+				payload: { id: 7 }
+			};
+			expect(actions.getCalenderDataSuccess({ id: 7 })).toEqual(
+				expectedAction
+			);
+		});
+		it('test the getCalenderDataAttempt action', () => {
+			const expectedAction = {
+				type: constants.GET_CALENDER_DATA_ATTEMPT
+			};
+			expect(actions.getCalenderDataAttempt()).toEqual(expectedAction);
+		});
+		it('test the getCalenderDataFail action', () => {
+			const expectedAction = {
+				type: constants.GET_CALENDER_DATA_FAIL,
+				payload: { message: 'Api Fail' }
+			};
+			expect(
+				actions.getCalenderDataFail({ message: 'Api Fail' })
+			).toEqual(expectedAction);
+		});
+	});
 });
