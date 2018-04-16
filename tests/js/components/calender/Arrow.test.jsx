@@ -46,4 +46,12 @@ describe('Test the Arrow Component', () => {
 		};
 		expect(actions.onClickLeftArrow()).toEqual(expectedActionLeftArrow);
 	});
+	it('test the if condition',()=>{
+		const e={
+			nativeEvent:{
+				keyCode:13
+			}
+		}
+		expect(e.nativeEvent.keyCode).toBe(13)
+	})
 });
