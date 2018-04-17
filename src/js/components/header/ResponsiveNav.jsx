@@ -5,28 +5,34 @@ class ResponsiveNav extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			invisibleClass: ''
+			invisibleClass: '',
+			addingCross: ''
 		};
 		this.visible = this.visible.bind(this);
 	}
 	visible() {
 		if (!this.state.invisibleClass) {
 			this.setState({
-				invisibleClass: 'new-responsive-class'
+				invisibleClass: 'new-responsive-class',
+				addingCross: 'added-class-for-making-cross'
 			});
 		} else {
 			this.setState({
-				invisibleClass: ''
+				invisibleClass: '',
+				addingCross: ''
 			});
 		}
 	}
 	render() {
 		let { data } = this.props;
-		//console.log(this.props);
+		// console.log(this.state.addingCross);
 		return (
 			<div className="responsive-header">
 				<img className="header-logo" src="./images/logo.png" />
-				<div className="responsive-nav" onClick={this.visible}>
+				<div
+					className={`responsive-nav ${this.state.addingCross}`}
+					onClick={this.visible}
+				>
 					<div className="responsive-nav-lines" />
 				</div>
 				<ResponsiveNavbar

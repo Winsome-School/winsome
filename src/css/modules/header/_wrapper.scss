@@ -68,7 +68,7 @@
 //################## THIS IS THE CODE FOR THE THREE LINES APPEARING ON RIGHT OF SCREEN ######################
 .responsive-nav {
 	display: inline-block;
-	//background-color: green;
+	// background-color: green;
 	position: absolute;
 	right: 20px;
 	z-index: 1;
@@ -103,6 +103,40 @@
 			height: 66%;
 			width: 66%;
 			content: '';
+		}
+	}
+	//##################### FROM HERE ON CODE DEALS WITH THE MAKING OF CROSS FROM THREE LINES ####################
+	&.added-class-for-making-cross {
+		cursor: pointer;
+		//background-color: green;
+		.responsive-nav-lines {
+			// top: 45px;
+			// position: absolute;
+			// background-color: $white;
+			height: 10px;
+			width: 100%;
+			transform: rotate(45deg);
+			// top: 45%;
+			// left: 2px;
+			&:before {
+				//position: absolute;
+				background-color: $white;
+				bottom: 0px;
+				height: 100%;
+				transform: rotate(90deg);
+				width: 100%;
+				// content: '';
+			}
+			// before and after uses content for their appearence if content is commented they will not
+			// be appeared even height and width is given
+			&:after {
+				// position: absolute;
+				//background-color: $white;
+				top: 0px;
+				// height: 66%;
+				width: 0%;
+				// content: '';
+			}
 		}
 	}
 }
