@@ -1,102 +1,102 @@
 //############# color Variables  ##########
-$uper-box-color : #404040;
-$box-1-color:#ffcc33;
+$uper-box-color: #404040;
+$box-1-color: #ffcc33;
 $box-2-color: #ff6666;
 $box-3-color: #8080ff;
-$box-4-color:#80ff80;
-$box-border-color:#404040;
-$news-resp-screen:767px;
+$box-4-color: #80ff80;
+$box-border-color: #404040;
+$news-resp-screen: 767px;
 
 //######### SCSS of News ###################
-.News{
-	.news-Box{
-	width:100%;
-	
-		.uper-box{
-			
+.News {
+	.news-Box {
+		width: 100%;
+
+		.uper-box {
 			width: 100%;
 			background-color: $uper-box-color;
-			h2{
+			h2 {
 				margin: 0px;
 				padding: 50px 40px;
-				color:white;
+				color: white;
 				font-family: sans-serif;
-				@media only screen and (max-width:940px){
-					padding: 30px 20px;	
+				@media only screen and (max-width: 940px) {
+					padding: 30px 20px;
 				}
 			}
-			p{
-				@include P(left,white);
-				padding:0px 40px 50px 40px;
+			p {
+				@include P(left, white);
+				padding: 0px 40px 50px 40px;
 				font-size: 18px;
 				text-align: justify;
 				font-family: sans-serif;
-				color:#d9d9d9;
-				@media only screen and (max-width:940px){
-					padding:0px 20px 30px 20px;
+				color: #d9d9d9;
+				@media only screen and (max-width: 940px) {
+					padding: 0px 20px 30px 20px;
 				}
-				span{
-					color:$box-1-color;
+				span {
+					color: $box-1-color;
 				}
 			}
 		}
-		.lower-box{
-			
+		.lower-box {
 			width: 100%;
 
-
-			.des-box{
+			.des-box {
 				height: 100px;
-				width: 25%;	
+				width: 25%;
 				background-color: $box-1-color;
 				float: left;
-			
-				@media only screen and (min-width:$news-resp-screen){
-					
+
+				@media only screen and (min-width: $news-resp-screen) {
 					height: 80px;
-					width: 100%;	
+					width: 100%;
 				}
-				@media only screen and(min-width:940px){
+				@media only screen and(min-width:940px) {
 					height: 50%;
-					width: 50%;	
+					width: 50%;
 				}
-				h3{
+				h3 {
 					font-family: sans-serif;
 					padding: 0 20%;
-					margin:35% 0;
-					border-left:9px $box-border-color solid ;
+					margin: 35% 0;
+					border-left: 9px $box-border-color solid;
 					box-sizing: border-box;
 					font-weight: 700;
-					@media only screen and (max-width: 1300px){
-						font-weight:600;
-						padding:0 5%;
-						font-size: 18px; 
+					@media only screen and (max-width: 1300px) {
+						font-weight: 600;
+						padding: 0 5%;
+						font-size: 18px;
 					}
-					@media only screen and (max-width:940px){
-						margin:35px 0;	
+					@media only screen and (max-width: 940px) {
+						margin: 35px 0;
 					}
-					@media only screen and (max-width:$news-resp-screen){
-						font-weight:600;
-						padding:0 7%;
+					@media only screen and (max-width: $news-resp-screen) {
+						font-weight: 600;
+						padding: 0 7%;
 						font-size: 22px;
-						border-left:5px $box-border-color solid ;
+						border-left: 5px $box-border-color solid;
+					}
+					@media only screen and (max-width: 500px) {
+						font-weight: 550;
+						padding: 0 6%;
+						font-size: 18px;
+						border-left: 3px $box-border-color solid;
 					}
 				}
 			}
-			.box-2{
+			.box-2 {
 				background-color: $box-2-color;
 			}
-			.box-3{
+			.box-3 {
 				background-color: $box-3-color;
 			}
-			.box-4{
+			.box-4 {
 				background-color: $box-4-color;
 			}
-			
 		}
 	}
-	.clear{
-		clear: both; 
+	.clear {
+		clear: both;
 	}
-
 }

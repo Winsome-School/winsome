@@ -36,9 +36,7 @@ class App extends Component {
   //   super();
   // }
 
-  componentDidMount(){
-    
-  }
+  componentDidMount() {}
 
   render() {
     // let { } = this.props;
@@ -50,7 +48,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/career" component={Career} />
             <Route exact path="/dashboard" component={Dashboard} />
-            <Route exact path="/sign in" component={SignIn} />
+            <Route exact path="/sign-in" component={SignIn} />
             <Route exact path="/junior" component={Junior} />
             <Route exact path="/middle" component={Middle} />
             <Route exact path="/photo-galleries" component={PhotoGallery} />
@@ -69,7 +67,7 @@ class App extends Component {
       </Router>
     );
   }
-};
+}
 
 // App.propTypes = {
 //   //getAction: PropTypes.func.isRequired,
@@ -79,6 +77,6 @@ function mapStateToProps(state) {
   return {
     test: state.test
   };
-};
+}
 
 export default connect(mapStateToProps, {})(App);
