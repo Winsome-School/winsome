@@ -1,10 +1,14 @@
 import {
 	ARROW_LEFT,
 	ARROW_RIGHT,
+	INITIAL_VIEW,
 	NEXT_VIEW,
 	PREVIOUS_VIEW,
 	NEXT_RESP_VIEW,
 	PREVIOUS_RESP_VIEW,
+	NEXT_VIEW_SAGA,
+	PREVIOUS_VIEW_SAGA,
+	INITIAL_BLOG_VIEW,
 	GET_USERNAME,
 	GET_PASSWORD,
 	LOGIN,
@@ -31,7 +35,12 @@ export function onClickRightArrow() {
 		payload: 1
 	};
 }
-
+export function initialView(data) {
+	return {
+		type: INITIAL_VIEW,
+		payload: data
+	};
+}
 export function nextView() {
 	return {
 		type: NEXT_VIEW
@@ -116,5 +125,20 @@ export function getCalenderDataFail(error) {
 	return {
 		type: GET_CALENDER_DATA_FAIL,
 		payload: error
+	};
+}
+export function initialBlogViewToSaga() {
+	return {
+		type: INITIAL_BLOG_VIEW
+	};
+}
+export function nextViewToSaga() {
+	return {
+		type: NEXT_VIEW_SAGA
+	};
+}
+export function previousViewToSaga() {
+	return {
+		type: PREVIOUS_VIEW_SAGA
 	};
 }

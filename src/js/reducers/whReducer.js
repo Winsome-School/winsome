@@ -1,15 +1,15 @@
-import data from '../Data';
-
 import {
 	NEXT_VIEW,
 	PREVIOUS_VIEW,
 	NEXT_RESP_VIEW,
-	PREVIOUS_RESP_VIEW
+	PREVIOUS_RESP_VIEW,
+	INITIAL_VIEW
 } from '../constants';
 
 const initial = {
-	selectedView: [data[0], data[1]],
-	respView: [data[0]],
+	data: [],
+	selectedView: [],
+	respView: [],
 	firstIndexofSelectedView: 0,
 	indexofRespView: 0
 };
@@ -26,7 +26,17 @@ export default function whReducer(state = initial, action) {
 	let newRespindex;
 	let newview;
 	let newindex;
+	var data = state.data;
 	switch (action.type) {
+		case INITIAL_VIEW:
+			data = action.payload;
+			return {
+				...state,
+				data: data,
+				selectedView: [data[0], data[1]],
+				respView: [data[0]]
+			};
+			break;
 		case NEXT_VIEW:
 			if (firstIndexofSelectedView < data.length - 2) {
 				newview = [...selectedView];
@@ -47,7 +57,10 @@ export default function whReducer(state = initial, action) {
 
 			break;
 		case PREVIOUS_VIEW:
-			if (firstIndexofSelectedView > 0 && firstIndexofSelectedView < 5) {
+			if (
+				firstIndexofSelectedView > 0 &&
+				firstIndexofSelectedView < data.length - 1
+			) {
 				newview = [...selectedView];
 				newview.splice(
 					0,
@@ -77,7 +90,7 @@ export default function whReducer(state = initial, action) {
 			}
 			break;
 		case PREVIOUS_RESP_VIEW:
-			if (indexofRespView > 0 && indexofRespView < 6) {
+			if (indexofRespView > 0 && indexofRespView < data.length) {
 				newRespview = [...respView];
 				newRespview.splice(0, 1, data[indexofRespView - 1]);
 				newRespindex = indexofRespView - 1;
