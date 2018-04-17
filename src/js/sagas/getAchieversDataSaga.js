@@ -10,7 +10,6 @@ export default function* getAchieversDataSaga() {
 
 	try {
 		const response = yield call(api.getAchieversData);
-		yield call(delay, 1000);
 		yield put(actions.getAchieversDataSuccess(response));
 	} catch (e) {
 		yield put(actions.getAchieversDataFail({ message: 'Api Failure' }));

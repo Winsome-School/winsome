@@ -4,11 +4,12 @@
 	float: left;
 	.firstPart {
 		width: 60%;
-		height: 500px;
+		height: 200px;
 		margin: 5.5% auto auto 6.5%;
 		float: left;
-		@media (max-width: 747px) {
+		@media (max-width: 768px) {
 			width: 80%;
+			margin-top: 100px;
 		}
 		h2 {
 			font-size: 20px;
@@ -21,7 +22,7 @@
 			background-color: yellow;
 			margin-top: 5%;
 			margin-left: 0.5%;
-			@media (max-width: 747px) {
+			@media (max-width: 768px) {
 				width: 9px;
 				height: 9px;
 			}

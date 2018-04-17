@@ -12,15 +12,12 @@ export default class Navbar extends Component {
         <NavSubmenu
           key={i}
           data={
-            <Link
-              className="navbar-main-anchors"
-              to={dataArray[1].dataNavbar[i].addressValue}
-            >
-              {dataArray[1].dataNavbar[i].value}
+            <Link className="navbar-main-anchors" to={item.addressValue}>
+              {item.value}
             </Link>
           }
-          data2={dataArray[1].dataNavbar[i].dropDownMenu}
-          styles={dataArray[1].dataNavbar[i].styles}
+          data2={item.dropDownMenu}
+          styles={item.styles}
         />
       );
     });

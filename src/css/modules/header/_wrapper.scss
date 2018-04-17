@@ -12,18 +12,71 @@
 		position: absolute;
 		z-index: 1;
 	}
+	//##################### THIS CODE IS FOR THE POP UP TO APPEAR FROM RIGHT ##################################
+	.responsive-nav-sub-menu-header {
+		background-color: $accent-color;
+		position: absolute;
+		z-index: 1;
+		display: flex;
+		visibility: hidden;
+		opacity: 0;
+		flex-direction: column;
+		height: 100vh;
+		width: 0%;
+		&.new-responsive-class {
+			opacity: 0.9;
+			width: 50%;
+			//transition-timing-function: ease-in-out;
+			visibility: visible;
+			transition: all 1s;
+		}
+		.responsive-nav-sub-menu-header-navbar-menus {
+			margin-bottom: auto;
+			margin-top: auto;
+			//align-content: center;
+			//flex-grow: 1;
+			// background-color: yellow;
+			.responsive-nav-sub-menu-bar {
+				//background-color: red;
+				margin-left: 20px;
+				margin-top: 10px;
+				text-transform: uppercase;
+				.responsive-anchor-header {
+					color: $white;
+				}
+			}
+			.responsive-drop-down-menu {
+				//background-color: green;
+				text-transform: uppercase;
+				margin-left: 40px;
+				color: white;
+				display: flex;
+				flex-direction: column;
+				align-items: start;
+			}
+		}
+		.responsive-nav-sub-menu-header-login {
+			// margin-left: 20px;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+			// background-color: yellow;
+			display: flex;
+			justify-content: space-around;
+		}
+	}
 }
+//################## THIS IS THE CODE FOR THE THREE LINES APPEARING ON RIGHT OF SCREEN ######################
 .responsive-nav {
 	display: inline-block;
-	//background-color: green;
+	// background-color: green;
 	position: absolute;
 	right: 20px;
 	z-index: 1;
 	top: 8px;
 	height: 60px;
 	width: 60px;
-	&:active {
-		display: none;
+	&:hover {
+		cursor: pointer;
 	}
 	.responsive-nav-lines {
 		// top: 45px;
@@ -52,6 +105,40 @@
 			content: '';
 		}
 	}
+	//##################### FROM HERE ON CODE DEALS WITH THE MAKING OF CROSS FROM THREE LINES ####################
+	&.added-class-for-making-cross {
+		cursor: pointer;
+		//background-color: green;
+		.responsive-nav-lines {
+			// top: 45px;
+			// position: absolute;
+			// background-color: $white;
+			height: 7px;
+			width: 100%;
+			transform: rotate(45deg);
+			// top: 45%;
+			// left: 2px;
+			&:before {
+				//position: absolute;
+				background-color: $white;
+				bottom: 0px;
+				height: 100%;
+				transform: rotate(90deg);
+				width: 100%;
+				// content: '';
+			}
+			// before and after uses content for their appearence if content is commented they will not
+			// be appeared even height and width is given
+			&:after {
+				// position: absolute;
+				//background-color: $white;
+				top: 0px;
+				// height: 66%;
+				width: 0%;
+				// content: '';
+			}
+		}
+	}
 }
 // ############# this code is written for the disappearence of Nav ##########################
 
@@ -65,5 +152,16 @@
 @media only screen and (min-width: 1080px) {
 	.responsive-header {
 		display: none;
+	}
+}
+
+//################### This class is given to change the color of anchor tags #########################
+.responsive-anchor-header {
+	color: $white;
+	&:hover {
+		font-weight: 1000;
+		transform: scale(1.1);
+		color: $white;
+		text-decoration: none;
 	}
 }

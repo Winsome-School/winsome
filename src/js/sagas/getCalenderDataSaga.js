@@ -10,7 +10,6 @@ export default function* getCalenderDataSaga() {
 
 	try {
 		const response = yield call(api.getCalenderData);
-		yield call(delay, 1000);
 		yield put(actions.getCalenderDataSuccess(response));
 	} catch (e) {
 		yield put(actions.getCalenderDataFail({ message: 'Api Failure' }));

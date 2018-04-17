@@ -3,12 +3,12 @@ import { connect } from 'react-redux';
 
 import Login from './Login';
 import Navbar from './Navbar';
-import ResponsiveNavbar from './ResponsiveNavbar';
+import ResponsiveNav from './ResponsiveNav';
 
 // import dataArray from './DataGiver';
 
 const Nav = ({ headerData }) => {
-  console.log(headerData);
+  //console.log(headerData);
   //console.log(dataArray)
   let loginToRender = headerData[0].loginData.map((item, index) => {
     return (
@@ -26,7 +26,7 @@ const Nav = ({ headerData }) => {
           <div id="div4" />
         </div>
       </div>
-      <ResponsiveNavbar />
+      <ResponsiveNav data={headerData} />
     </div>
   );
 };
