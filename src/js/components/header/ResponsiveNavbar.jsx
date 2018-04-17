@@ -19,11 +19,13 @@ const ResponsiveNavbar = props => {
 	let responsiveNavSubMenu = responsiveDataArrayNavbar
 		.reverse()
 		.map((item, i) => {
-			if (i === 0 || i === 4 || i === 5) {
+			if (item.dropDownMenu.length > 1) {
 				return (
 					<ResponsiveNavSubMenu
 						key={i}
-						onclick={func}
+						onclick={() => {
+							return 0;
+						}}
 						data={
 							<Link
 								className="responsive-anchor-header"
@@ -40,9 +42,7 @@ const ResponsiveNavbar = props => {
 			return (
 				<ResponsiveNavSubMenu
 					key={i}
-					onclick={() => {
-						return 0;
-					}}
+					onclick={func}
 					data={
 						<Link
 							className="responsive-anchor-header"
