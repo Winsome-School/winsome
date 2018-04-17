@@ -19,9 +19,30 @@ const ResponsiveNavbar = props => {
 	let responsiveNavSubMenu = responsiveDataArrayNavbar
 		.reverse()
 		.map((item, i) => {
+			if (i === 0 || i === 4 || i === 5) {
+				return (
+					<ResponsiveNavSubMenu
+						key={i}
+						onclick={func}
+						data={
+							<Link
+								className="responsive-anchor-header"
+								to={item.addressValue}
+							>
+								{item.value}
+							</Link>
+						}
+						data2={item.dropDownMenu}
+						func={func}
+					/>
+				);
+			}
 			return (
 				<ResponsiveNavSubMenu
 					key={i}
+					onclick={() => {
+						return 0;
+					}}
 					data={
 						<Link
 							className="responsive-anchor-header"
@@ -31,19 +52,20 @@ const ResponsiveNavbar = props => {
 						</Link>
 					}
 					data2={item.dropDownMenu}
+					func={func}
 				/>
 			);
 		});
 	//console.log(newClass);
 	return (
-		<div
-			className={`responsive-nav-sub-menu-header ${newClass}`}
-			onClick={func}
-		>
+		<div className={`responsive-nav-sub-menu-header ${newClass}`}>
 			<div className="responsive-nav-sub-menu-header-navbar-menus">
 				{responsiveNavSubMenu}
 			</div>
-			<div className="responsive-nav-sub-menu-header-login">
+			<div
+				className="responsive-nav-sub-menu-header-login"
+				onClick={func}
+			>
 				{responsiveLogin}
 			</div>
 		</div>

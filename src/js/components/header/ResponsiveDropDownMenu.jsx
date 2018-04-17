@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ResponsiveDropDownMenu = props => {
 	//console.log(props);
-	let { data2 } = props;
+	let { data2, func } = props;
 	//console.log(styles)
 	let mydata = data2.map((item, index) => {
 		return (
@@ -16,7 +16,11 @@ const ResponsiveDropDownMenu = props => {
 			</Link>
 		);
 	});
-	return <div className="responsive-drop-down-menu">{mydata}</div>;
+	return (
+		<div className="responsive-drop-down-menu" onClick={func}>
+			{mydata}
+		</div>
+	);
 };
 
 export default ResponsiveDropDownMenu;
