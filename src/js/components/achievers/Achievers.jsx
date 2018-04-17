@@ -10,9 +10,7 @@ import News from '../News/News';
 import * as actions from '../../actions';
 
 export class Achievers extends React.Component {
-  constructor() {
-    super();
-  }
+  
   componentWillMount() {
     this.props.getAchieversData();
   }

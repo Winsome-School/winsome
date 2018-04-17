@@ -10,10 +10,11 @@ export class Event extends React.Component {
 	}
 	renderArray() {
 		const {count,calender} = this.props;
-		let events,counter;
+		let events;
+		const {counter}=calender;
 		if(Object.keys(this.props.calender).length){
 			 events=[...calender.events]
-			 counter=calender.counter;
+			 // counter=calender.counter;
 		}
 		else{
 			return '';

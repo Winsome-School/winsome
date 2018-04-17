@@ -1,7 +1,13 @@
 import React from 'react';
 import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
+import News from '../News/News';
+
 export default class Senior extends React.Component {
+  
+  componentDidMount(){
+
+  }
   render() {
     return (
       <div>
@@ -26,7 +32,10 @@ export default class Senior extends React.Component {
                 in a safe and positive environment.
                 <br />
               </p>
-              <img src="./images/IMG_9554.jpg" width="90%" />
+              <img src="./images/IMG_9554.jpg" width="90%" alt="" />
+            </div>
+            <div className="News-container">
+              <News />
             </div>
             <div className="col1">
               <div className="aims">

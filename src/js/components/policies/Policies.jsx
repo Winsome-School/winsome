@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
+import News from '../News/News';
 
 export default class Policies extends Component {
+  componentDidMount(){
+
+  }
   render() {
     return (
       <div>
@@ -10,9 +14,12 @@ export default class Policies extends Component {
           style={'header-image'}
         />
         <div id="policies">
+          <div className="News-container">
+              <News />
+          </div>
           <div className="wrapper">
             <h3 className="policies-heading">Policies & Procedures</h3>
-            <div className="box"></div>
+            <div className="box" />
             <p className="policies-paragraph">Please find below all our policies for Winsome School System.</p>
             <h4 className="policy-name-heading">Admissions Policy</h4>
             <p className="policy-name-paragraph">Download PDF</p>

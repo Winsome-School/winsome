@@ -5,65 +5,73 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Event
-    count={0}
-    counter={0}
-    events={
-      Array [
-        Object {
-          "event": "Half terms End",
-          "eventDate": "01 May",
-          "id": 1,
-          "time": "",
-        },
-        Object {
-          "event": "NetBall: first vii vs viii",
-          "eventDate": "20 May",
-          "id": 2,
-          "time": "2:30 pm",
-        },
-        Object {
-          "event": "Parent presentation on healthy living",
-          "eventDate": "03 June",
-          "id": 3,
-          "time": "12:35 pm",
-        },
-        Object {
-          "event": "M5 rs trip to walsigham",
-          "eventDate": "25 June",
-          "id": 4,
-          "time": "",
-        },
-        Object {
-          "event": "Tour to muree",
-          "eventDate": "15 July",
-          "id": 5,
-          "time": "2:30 pm",
-        },
-        Object {
-          "event": "Water splash Day",
-          "eventDate": "28 July",
-          "id": 6,
-          "time": "11:35 am",
-        },
-        Object {
-          "event": "Visit to Jungle",
-          "eventDate": "05 Aug",
-          "id": 7,
-          "time": "",
-        },
-        Object {
-          "event": "Independence Day",
-          "eventDate": "14 Aug",
-          "id": 8,
-          "time": "12:35 am",
-        },
-        Object {
-          "event": "Bsant Day",
-          "eventDate": "25 Aug",
-          "id": 9,
-          "time": "11:38 pm",
-        },
-      ]
+    calender={
+      Object {
+        "counter": 0,
+        "events": Array [
+          Object {
+            "event": "Half terms End",
+            "eventDate": "01 May",
+            "id": 1,
+            "time": "",
+          },
+          Object {
+            "event": "NetBall: first vii vs viii",
+            "eventDate": "20 May",
+            "id": 2,
+            "time": "2:30 pm",
+          },
+          Object {
+            "event": "Parent presentation on healthy living",
+            "eventDate": "03 June",
+            "id": 3,
+            "time": "12:35 pm",
+          },
+          Object {
+            "event": "M5 rs trip to walsigham",
+            "eventDate": "25 June",
+            "id": 4,
+            "time": "",
+          },
+          Object {
+            "event": "Tour to muree",
+            "eventDate": "15 July",
+            "id": 5,
+            "time": "2:30 pm",
+          },
+          Object {
+            "event": "Water splash Day",
+            "eventDate": "28 July",
+            "id": 6,
+            "time": "11:35 am",
+          },
+          Object {
+            "event": "Visit to Jungle",
+            "eventDate": "05 Aug",
+            "id": 7,
+            "time": "",
+          },
+          Object {
+            "event": "Independence Day",
+            "eventDate": "14 Aug",
+            "id": 8,
+            "time": "12:35 am",
+          },
+          Object {
+            "event": "Bsant Day",
+            "eventDate": "25 Aug",
+            "id": 9,
+            "time": "11:38 pm",
+          },
+        ],
+      }
+    }
+    getCalenderData={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
     }
   />,
   Symbol(enzyme.__renderer__): Object {

@@ -13,7 +13,7 @@ const Middle = () => (
       <div className='middleSection'>
         <div>
           <h2 className='middleH2'>Middle School</h2>
-          <div className='yellowBox'></div>
+          <div className='yellowBox' />
           <p className='middleP'>
             At Winsome, middle years education focuses on educating
             the whole child, supporting our students to become
@@ -31,10 +31,10 @@ const Middle = () => (
             and literacy skills through consistent learning programs.
           </p>
         </div>
-        <div className='middleImg'></div>
+        <div className='middleImg' />
         <div>
           <h2 className='middleH2'>Your Child as an Individual</h2>
-          <div className='yellowBox'></div>
+          <div className='yellowBox' />
           <p className='middleP'>
             Recognizing individual dierences and establishing
             clear learning pathways for all children is the key
@@ -60,7 +60,8 @@ const Middle = () => (
       </div>
     </div>
     <div className="clear">
-    <Discover />
+      <Discover />
+      <Footer />
     </div>
   </div>
 )

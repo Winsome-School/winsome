@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class HeroImage extends Component {
+  
+  componentDidMount(){
+
+  }
   render() {
-    let { style } = this.props;
+    const { style } = this.props;
     return (
       <section >
-        <div className={style}>
-        </div>
+        <div className={style} />
       </section>
     );
   }
 }
+
+HeroImage.propTypes = {
+  style: PropTypes.isRequired,
+};

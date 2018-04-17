@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 
 export default class News extends Component{
-	constructor(){
-		super();
+
+	componentDidMount(){
+
 	}
-
-
 	render(){
 		return (
 
@@ -17,14 +16,14 @@ export default class News extends Component{
 
 							<h2>Latest News</h2>
 							<p> Sed posuere consectetur est at lobor,
-								Etiam porta sem malesuada magna..<br/>
-								<span>03.28.18</span>
+								Etiam porta sem malesuada magna..<br />
+								<span>03.28.18 </span>
 							</p>
 
 							
 							<p> Sed posuere consectetur est at lobor,
-								Etiam porta sem malesuada magna..<br/>
-								<span>03.27.18</span>
+								Etiam porta sem malesuada magna..<br />
+								<span>03.27.18 </span>
 							</p>
 
 						</div>
@@ -50,8 +49,7 @@ export default class News extends Component{
 
 					</div>
 
-					<div className="clear">
-					</div>
+					<div className="clear" />
 
 
 				</div>

@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import {
   BrowserRouter as Router,
-  Link,
+  // Link,
   Route,
   Switch
 } from 'react-router-dom';
 
 import Header from './header';
-import HeroImage from './hero/HeroImage';
-import Promo from './promo/Promo';
-import Calender from './calender/Calender';
-import Blog from './Whatshappen/Blog';
-import Gallery from './gallery/Gallery';
+// import HeroImage from './hero/HeroImage';
+// import Promo from './promo/Promo';
+// import Calender from './calender/Calender';
+// import Blog from './Whatshappen/Blog';
+// import Gallery from './gallery/Gallery';
 import Footer from './footer/Footer';
 import Career from './career/Career';
 import Home from './Home/Home';
@@ -26,18 +26,22 @@ import Events from './events/Events';
 import Contact from './contact/Contact';
 import Policies from './policies/Policies';
 import OurSchool from './ourschool/OurSchool';
-import Senior from './senior/Senior';
+import Senior from './Senior/Senior';
 import SignIn from './signin/SignIn';
 import HR from './hr/HR';
 import Dashboard from './dashboard/Dashboard';
 
 class App extends Component {
-  constructor() {
-    super();
+  // constructor() {
+  //   super();
+  // }
+
+  componentDidMount(){
+    
   }
 
   render() {
-    let { } = this.props;
+    // let { } = this.props;
 
     return (
       <Router>
@@ -67,9 +71,9 @@ class App extends Component {
   }
 };
 
-App.propTypes = {
-  //getAction: PropTypes.func.isRequired,
-};
+// App.propTypes = {
+//   //getAction: PropTypes.func.isRequired,
+// };
 
 function mapStateToProps(state) {
   return {
