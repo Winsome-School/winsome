@@ -48,9 +48,6 @@ export default class App extends React.Component {
               time for you.
             </p>
           </div>
-          <div className="News-container">
-            <News />
-          </div>
           <div className="col1">
             <div className="aims">
               <h2>Our Aims</h2>
@@ -108,6 +105,9 @@ export default class App extends React.Component {
               Education preparation Institute, Seminole State College <br />
               of Florida, USA
             </p>
+          </div>
+          <div className="News-container">
+            <News />
           </div>
         </div>
         <Discover />

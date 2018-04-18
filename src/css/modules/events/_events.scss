@@ -1,48 +1,47 @@
-
-.filler{
+.filler {
 	width: 30%;
-	float : right
-
+	float: right;
 }
-.events-wrapper{
-	background-color:#e2e2e2;
-	width:100%;
-	
+.events-wrapper {
+	background-color: #e2e2e2;
+	width: 100%;
 }
-.my-events{
+.my-events {
 	margin-top: 25px;
 	width: 70%;
-	padding : 0 0px 50px 50px;
+	padding: 0 0px 50px 50px;
 	display: inline-block;
-	p{
+	p {
 		padding: 0px 40% 40px 0px;
 	}
 }
-.box-events{
-      background-color: $accent-color;
-      width: 20px;
-      height: 20px;
-      margin: 30px 0;
+.box-events {
+	background-color: $accent-color;
+	width: 20px;
+	height: 20px;
+	margin: 30px 0;
 }
 
-.left-image-div{
-	float:left;
-	width:50%;
-	display:inline-block;
+.left-image-div {
+	float: left;
+	width: 50%;
+	display: inline-block;
 	padding-right: 50px;
 	margin: 0 0 40px 0;
+	@media only screen and (max-width: 768px) {
+		width: 100%;
+	}
 }
-.events-Img{
+.events-Img {
 	height: 400px;
 	@include image('reggio-emilia-photo.jpg');
-	border-bottom: 10px solid $accent-color
+	border-bottom: 10px solid $accent-color;
 }
-.events-news{
+.events-news {
 	float: right;
 	width: 25%;
-	padding-left:-50px; 
-	@media only screen and (max-width:768px){
-		width:100%;
-			
+	padding-left: -50px;
+	@media only screen and (max-width: 768px) {
+		width: 100%;
 	}
 }
