@@ -1,6 +1,9 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
+import { object, arrayOf } from 'prop-types';
+
+// import { Link } from 'react-router-dom';
 import ResponsiveNavbar from './ResponsiveNavbar';
+
 class ResponsiveNav extends React.Component {
 	constructor() {
 		super();
@@ -24,25 +27,36 @@ class ResponsiveNav extends React.Component {
 		}
 	}
 	render() {
-		let { data } = this.props;
+		const { data } = this.props;
 		// console.log(this.state.addingCross);
+		// console.log(data);
 		return (
 			<div className="responsive-header">
-				<img className="header-logo" src="./images/logo.png" />
+				<img
+					className="header-logo"
+					src="./images/logo.png"
+					alt="header logo is not available"
+				/>
 				<div
 					className={`responsive-nav ${this.state.addingCross}`}
 					onClick={this.visible}
+					onKeyPress={this.visible}
+					role="button"
+					tabIndex="0"
 				>
 					<div className="responsive-nav-lines" />
 				</div>
 				<ResponsiveNavbar
 					data={data}
 					newClass={this.state.invisibleClass}
-					func={this.visible}
+					myFunc={this.visible}
 				/>
 			</div>
 		);
 	}
 }
+ResponsiveNav.propTypes = {
+	data: arrayOf(object.isRequired).isRequired
+};
 
 export default ResponsiveNav;

@@ -1,26 +1,40 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { string, shape, arrayOf } from 'prop-types';
 
-import NavSubmenu from './NavSubMenu';
-import { Link } from 'react-router-dom';
+import NavSubmenu from './Navsubmenu';
 
-export default class Navbar extends Component {
-  render() {
-    let { dataArray } = this.props;
-    //console.log(dataArray[1].dataNavbar[0].adressValue)
-    var dataToRender = dataArray[1].dataNavbar.map((item, i) => {
-      return (
-        <NavSubmenu
-          key={i}
-          data={
-            <Link className="navbar-main-anchors" to={item.addressValue}>
-              {item.value}
-            </Link>
-          }
-          data2={item.dropDownMenu}
-          styles={item.styles}
-        />
-      );
-    });
-    return <div className="my-navbar">{dataToRender}</div>;
-  }
-}
+const Navbar = props => {
+  const { dataNavbar } = props;
+  // console.log(dataNavbar);
+  const dataToRender = dataNavbar.map(item => {
+    return (
+      <NavSubmenu
+        key={item.id}
+        dataForNavbarSubmenu={item}
+        dataForNavbarDropDownMenu={item.dropDownMenu}
+        styles={item.styles}
+      />
+    );
+  });
+  return <div className="my-navbar">{dataToRender}</div>;
+};
+Navbar.propTypes = {
+  dataNavbar: arrayOf(
+    shape({
+      id: string.isRequired,
+      value: string.isRequired,
+      addressValue: string.isRequired,
+      styles: string.isRequired,
+      dropDownMenu: arrayOf(
+        shape({
+          id: string.isRequired,
+          value: string.isRequired,
+          addressValue: string.isRequired,
+          styles: string.isRequired
+        })
+      )
+    })
+  ).isRequired
+};
+
+export default Navbar;

@@ -1,4 +1,4 @@
-let dataArray = [
+const dataArray = [
   // data for login section
   {
     loginData: [
@@ -19,13 +19,13 @@ let dataArray = [
   // data for navbar section
   {
     dataNavbar: [
-      //////////////////// option values /////////////////////////////
+      // ////////////////// option values /////////////////////////////
       {
         id: '1',
         value: 'contact',
         addressValue: 'contact',
         styles: 'contact-header',
-        ///////////////////// dropDown options are given here////////////////
+        // /////////////////// dropDown options are given here////////////////
         dropDownMenu: [
           {
             id: '1',
@@ -35,13 +35,13 @@ let dataArray = [
           }
         ]
       },
-      //////////////////// option values /////////////////////////////
+      // ////////////////// option values /////////////////////////////
       {
         id: '2',
         value: 'career',
         addressValue: 'career',
         styles: 'career-header',
-        ///////////////////// dropDown options are given here////////////////
+        // /////////////////// dropDown options are given here////////////////
         dropDownMenu: [
           {
             id: '1',
@@ -51,13 +51,13 @@ let dataArray = [
           }
         ]
       },
-      //////////////////// option values /////////////////////////////
+      // ////////////////// option values /////////////////////////////
       {
         id: '3',
         value: 'news|events',
         addressValue: '',
         styles: 'news-events-header',
-        ///////////////////// dropDown options are given here////////////////
+        // /////////////////// dropDown options are given here////////////////
         dropDownMenu: [
           {
             id: '1',
@@ -79,13 +79,13 @@ let dataArray = [
           }
         ]
       },
-      //////////////////// option values /////////////////////////////
+      // ////////////////// option values /////////////////////////////
       {
         id: '4',
         value: 'admissions',
         addressValue: '',
         styles: 'admissions-header',
-        ///////////////////// dropDown options are given here////////////////
+        // /////////////////// dropDown options are given here////////////////
         dropDownMenu: [
           {
             id: '1',
@@ -101,13 +101,13 @@ let dataArray = [
           }
         ]
       },
-      //////////////////// option values /////////////////////////////
+      // ////////////////// option values /////////////////////////////
       {
         id: '5',
         value: 'our school',
         addressValue: '',
         styles: 'our-school-header',
-        ///////////////////// dropDown options are given here////////////////
+        // /////////////////// dropDown options are given here////////////////
         dropDownMenu: [
           {
             id: '1',
@@ -135,13 +135,13 @@ let dataArray = [
           }
         ]
       },
-      //////////////////// option values /////////////////////////////
+      // ////////////////// option values /////////////////////////////
       {
         id: '6',
         value: 'home',
         addressValue: 'home',
         styles: 'home-header',
-        ///////////////////// dropDown options are given here////////////////
+        // /////////////////// dropDown options are given here////////////////
         dropDownMenu: [
           {
             id: '1',

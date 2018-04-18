@@ -1,62 +1,47 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { arrayOf, func, object, string } from 'prop-types';
 
 import ResponsiveLogin from './ResponsiveLogin';
 import ResponsiveNavSubMenu from './ResponsiveNavSubMenu';
+
 const ResponsiveNavbar = props => {
-	//console.log(props.data[1].dataNavbar);
-	let { data, newClass, func } = props;
-	let responsiveDataArrayLogin = [...data[0].loginData];
-	let responsiveDataArrayNavbar = [...data[1].dataNavbar];
-	let responsiveLogin = responsiveDataArrayLogin
+	// console.log(props.data[1].dataNavbar);
+	const { data, newClass, myFunc } = props;
+	const responsiveDataArrayLogin = [...data[0].loginData];
+	const responsiveDataArrayNavbar = [...data[1].dataNavbar];
+	const responsiveLogin = responsiveDataArrayLogin.reverse().map(item => {
+		return (
+			// /////// the array is being passed to the component for better results
+			<ResponsiveLogin key={Math.random()} data={item} />
+		);
+	});
+	const responsiveNavSubMenu = responsiveDataArrayNavbar
 		.reverse()
-		.map((item, index) => {
-			return (
-				///////// the array is being passed to the component for better results
-				<ResponsiveLogin key={index} data={item} />
-			);
-		});
-	let responsiveNavSubMenu = responsiveDataArrayNavbar
-		.reverse()
-		.map((item, i) => {
+		.map(item => {
 			if (item.dropDownMenu.length > 1) {
 				return (
 					<ResponsiveNavSubMenu
-						key={i}
+						key={item.id}
 						onclick={() => {
 							return 0;
 						}}
-						data={
-							<Link
-								className="responsive-anchor-header"
-								to={item.addressValue}
-							>
-								{item.value}
-							</Link>
-						}
+						data={item}
 						data2={item.dropDownMenu}
-						func={func}
+						myFunc={myFunc}
 					/>
 				);
 			}
 			return (
 				<ResponsiveNavSubMenu
-					key={i}
-					onclick={func}
-					data={
-						<Link
-							className="responsive-anchor-header"
-							to={item.addressValue}
-						>
-							{item.value}
-						</Link>
-					}
+					key={item.id}
+					onclick={myFunc}
+					data={item}
 					data2={item.dropDownMenu}
-					func={func}
+					myFunc={myFunc}
 				/>
 			);
 		});
-	//console.log(newClass);
+	// console.log(newClass);
 	return (
 		<div className={`responsive-nav-sub-menu-header ${newClass}`}>
 			<div className="responsive-nav-sub-menu-header-navbar-menus">
@@ -64,11 +49,20 @@ const ResponsiveNavbar = props => {
 			</div>
 			<div
 				className="responsive-nav-sub-menu-header-login"
-				onClick={func}
+				onClick={myFunc}
+				onKeyPress={myFunc}
+				role="link"
+				tabIndex="0"
 			>
 				{responsiveLogin}
 			</div>
 		</div>
 	);
+};
+
+ResponsiveNavbar.propTypes = {
+	newClass: string.isRequired,
+	data: arrayOf(object.isRequired).isRequired,
+	myFunc: func.isRequired
 };
 export default ResponsiveNavbar;

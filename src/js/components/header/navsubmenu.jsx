@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import { string, shape, arrayOf } from 'prop-types';
 import DropDownMenu from './DropDownMenu';
 
 export default class NavSubMenu extends React.Component {
@@ -25,14 +26,22 @@ export default class NavSubMenu extends React.Component {
 	}
 
 	render() {
+		// console.log(this.props.dataForNavbarSubmenu);
+		const { dataForNavbarSubmenu } = this.props;
 		return (
 			<div id="nav-sub-menu">
 				<div
 					className="nav-sub-menu-bar"
 					onMouseOver={this.handler1}
+					onFocus={this.handler1}
 					onMouseLeave={this.handler2}
 				>
-					{this.props.data}
+					<Link
+						className="navbar-main-anchors"
+						to={dataForNavbarSubmenu.addressValue}
+					>
+						{dataForNavbarSubmenu.value}
+					</Link>
 				</div>
 				<DropDownMenu
 					extraClass={this.state.myclass}
@@ -45,3 +54,20 @@ export default class NavSubMenu extends React.Component {
 		);
 	}
 }
+
+NavSubMenu.propTypes = {
+	dataForNavbarSubmenu: shape({
+		id: string.isRequired,
+		value: string.isRequired,
+		addressValue: string.isRequired,
+		styles: string.isRequired,
+		dropDownMenu: arrayOf(
+			shape({
+				id: string.isRequired,
+				value: string.isRequired,
+				addressValue: string.isRequired,
+				styles: string.isRequired
+			})
+		)
+	}).isRequired
+};
