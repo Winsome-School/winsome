@@ -6,9 +6,16 @@ import Promo from '../promo/Promo';
 import Calender from '../calender/Calender';
 import Blog from '../Whatshappen/Blog';
 import Gallery from '../gallery/Gallery';
+import * as actions from '../../actions';
 
 
 class Home extends Component {
+
+  constructor(props) {
+    super(props);
+    const { getPromoAction } = this.props;
+    getPromoAction();
+  }
 
   componentDidMount(){
 
@@ -40,4 +47,4 @@ Home.propTypes = {
 //   };
 // };
 
-export default connect(null, {})(Home);
+export default connect(null, {getPromoAction: actions.getPromoAction})(Home);

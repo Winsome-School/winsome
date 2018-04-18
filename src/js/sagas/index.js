@@ -5,6 +5,7 @@ import nextBlogViewSaga from './nextBlogViewSaga';
 import previousBlogViewSaga from './previousBlogViewSaga';
 import { takeEvery, takeLatest, all } from 'redux-saga/effects';
 import * as types from '../constants';
+import promoDataSaga from '../sagas/promoDataSaga';
 
 function* watchAchieversDataSaga() {
 	yield takeLatest(types.GET_ACHIEVERS_DATA, getAchieversDataSaga);
@@ -24,12 +25,18 @@ function* watchPreviousBlogViewSaga() {
 	yield takeLatest(types.PREVIOUS_VIEW_SAGA, previousBlogViewSaga);
 	console.log('watching');
 }
+
+function* watchGetPromoAction() {
+  yield takeEvery(types.GET_PROMO, promoDataSaga);
+}
+
 export default function* rootSaga() {
 	yield all([
 		watchAchieversDataSaga(),
 		watchCalenderDataSaga(),
 		watchinitialBlogViewSaga(),
 		watchNextBlogViewSaga(),
-		watchPreviousBlogViewSaga()
+    watchPreviousBlogViewSaga(),
+    watchGetPromoAction()
 	]);
 }

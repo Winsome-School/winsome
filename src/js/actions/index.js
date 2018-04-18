@@ -19,8 +19,23 @@ import {
 	GET_CALENDER_DATA,
 	GET_CALENDER_DATA_SUCCESS,
 	GET_CALENDER_DATA_ATTEMPT,
-	GET_CALENDER_DATA_FAIL
+  GET_CALENDER_DATA_FAIL,
+  GET_PROMO,
+  GET_PROMO_DATA
 } from '../constants';
+
+export function getPromoAction() {
+  return {
+    type: GET_PROMO
+  }
+}
+
+export function getPromoData(data) {
+  return {
+    type: GET_PROMO_DATA,
+    payload: data
+  }
+}
 
 export function onClickLeftArrow() {
 	return {
