@@ -2,8 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { arrayOf, object } from 'prop-types';
 
-import Login from './Login';
-import Navbar from './Navbar';
+import Login from './login';
+import Navbar from './navbar';
 import ResponsiveNav from './ResponsiveNav';
 
 // import dataArray from './DataGiver';

@@ -1,5 +1,5 @@
 import { HEADER_DATA } from '../constants';
-import headerData from '../components/header/DataGiver';
+import headerData from '../components/header/dataGiver';
 
 // console.log(headerData);
 
