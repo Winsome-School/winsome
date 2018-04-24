@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { string, shape, arrayOf } from 'prop-types';
 import DropDownMenu from './DropDownMenu';
 
-// #####################         ####################
+// #######################        ####################
 export default class NavSubMenu extends React.Component {
 	constructor() {
 		super();

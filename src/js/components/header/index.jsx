@@ -6,7 +6,7 @@ import Login from './Login';
 import Navbar from './Navbar';
 import ResponsiveNav from './ResponsiveNav';
 
-// import dataArray from './DataGiver';####
+// import dataArray from './DataGiver';#####
 
 const Nav = ({ headerData }) => {
   // console.log(headerData);

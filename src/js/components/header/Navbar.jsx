@@ -5,7 +5,7 @@ import NavSubmenu from './NavSubMenu';
 
 const Navbar = props => {
 	const { dataNavbar } = props;
-	// console.log(dataNavbar.styles);
+	// console.log(dataNavbar.styles);#
 	const dataToRender = dataNavbar.map(item => {
 		return (
 			<NavSubmenu

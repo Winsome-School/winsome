@@ -4,7 +4,7 @@ import { string, shape, arrayOf, func } from 'prop-types';
 
 const DropDownMenu = props => {
 	const { dataForNavbarDropDownMenu, func1, func2, styles } = props;
-	// console.log(styles) ##
+	// console.log(styles) ###
 	const mydata = dataForNavbarDropDownMenu.map(item => {
 		return (
 			<Link to={item.addressValue} key={item.id}>
