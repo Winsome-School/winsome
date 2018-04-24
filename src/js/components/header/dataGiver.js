@@ -1,5 +1,5 @@
 const dataArray = [
-  // data for login section
+  // data for login section and its styles
   {
     loginData: [
       {

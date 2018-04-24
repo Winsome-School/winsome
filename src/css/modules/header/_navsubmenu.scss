@@ -1,8 +1,8 @@
-#nav-sub-menu{
+#nav-sub-menu {
   // display : inline;
-  //background-color : red;
+  // background-color : red;
   position: relative;
-  float : right;
+  float: right;
   padding: 0px 30px 0px 10px;
   // .nav-sub-menu-bar:hover+.drop-down-box{
   // //height :100px;
@@ -11,19 +11,19 @@
   // //display:block;
   // //background-color: purple
   // }
-  a{
+  a {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
     //######################  this anchor tag gives style to main nav menus ########################
   }
-  a:active{
-      font-weight: 1000;
-      transform: scale(1.1);
+  a:active {
+    font-weight: 1000;
+    transform: scale(1.1);
     //##################### this weight is given to produce clicked effect on the text #############
     //##################### by making it bold. #####################################################
   }
 }
-#nav-sub-menu:hover{
+#nav-sub-menu:hover {
   cursor: pointer;
 }
