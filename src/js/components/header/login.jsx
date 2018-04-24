@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Login = props => {
 	const { loginData } = props;
-	// ########## UNCOMMENT THE LINE BELOW TO SEE THE COMING PROPS ##########################
+	// ########### UNCOMMENT THE LINE BELOW TO SEE THE COMING PROPS ##########################
 	// console.log(loginData);
 	return (
 		<div id="div1">
@@ -26,3 +26,4 @@ Login.propTypes = {
 };
 
 export default Login;
+

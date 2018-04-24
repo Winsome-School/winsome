@@ -1,7 +1,7 @@
 import { HEADER_DATA } from '../constants';
-import headerData from '../components/header/dataGiver';
+import headerData from '../components/header/DataGiver';
 
-// console.log(headerData);
+// console.log(headerData); #######
 
 export default function(state = headerData, action) {
 	switch (action.type) {

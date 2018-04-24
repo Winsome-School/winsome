@@ -4,7 +4,7 @@ import { shape, string } from 'prop-types';
 
 const ResponsiveLogin = props => {
 	const { data } = props;
-	// console.log(data);
+	// console.log(data);####
 	return (
 		<div className="responsive-login">
 			<Link className="responsive-anchor-header" to={data.addressValue}>

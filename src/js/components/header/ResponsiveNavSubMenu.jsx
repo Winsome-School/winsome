@@ -6,7 +6,7 @@ import ResponsiveDropDownMenu from './ResponsiveDropDownMenu';
 
 const ResponsiveNavSubMenu = props => {
 	const { data, onclick } = props;
-	// console.log(data);
+	// console.log(data); ##############
 	return (
 		<div>
 			<div

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { string, shape, arrayOf, func } from 'prop-types';
 
 const ResponsiveDropDownMenu = props => {
-	// console.log(props);
+	// console.log(props);##########
 	const { data2, myFunc } = props;
 	// console.log(styles)
 	const mydata = data2.map(item => {

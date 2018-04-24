@@ -5,7 +5,7 @@ import ResponsiveLogin from './ResponsiveLogin';
 import ResponsiveNavSubMenu from './ResponsiveNavSubMenu';
 
 const ResponsiveNavbar = props => {
-	// console.log(props.data[1].dataNavbar);
+	// console.log(props.data[1].dataNavbar); ##########
 	const { data, newClass, myFunc } = props;
 	const responsiveDataArrayLogin = [...data[0].loginData];
 	const responsiveDataArrayNavbar = [...data[1].dataNavbar];

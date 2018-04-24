@@ -2,11 +2,11 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { arrayOf, object } from 'prop-types';
 
-import Login from './login';
-import Navbar from './navbar';
+import Login from './Login';
+import Navbar from './Navbar';
 import ResponsiveNav from './ResponsiveNav';
 
-// import dataArray from './DataGiver';
+// import dataArray from './DataGiver';####
 
 const Nav = ({ headerData }) => {
   // console.log(headerData);
