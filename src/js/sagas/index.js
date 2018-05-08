@@ -1,9 +1,10 @@
+import { takeEvery, takeLatest, all } from 'redux-saga/effects';
+
 import getAchieversDataSaga from './getAchieversDataSaga';
 import getCalenderDataSaga from './getCalenderDataSaga';
 import initialBlogViewSaga from './initialBlogViewSaga';
 import nextBlogViewSaga from './nextBlogViewSaga';
 import previousBlogViewSaga from './previousBlogViewSaga';
-import { takeEvery, takeLatest, all } from 'redux-saga/effects';
 import * as types from '../constants';
 import promoDataSaga from '../sagas/promoDataSaga';
 
@@ -15,19 +16,19 @@ function* watchCalenderDataSaga() {
 }
 function* watchinitialBlogViewSaga() {
 	yield takeLatest(types.INITIAL_BLOG_VIEW, initialBlogViewSaga);
-	console.log('watching');
+	// console.log('watching');
 }
 function* watchNextBlogViewSaga() {
 	yield takeLatest(types.NEXT_VIEW_SAGA, nextBlogViewSaga);
-	console.log('watching');
+	// console.log('watching');
 }
 function* watchPreviousBlogViewSaga() {
 	yield takeLatest(types.PREVIOUS_VIEW_SAGA, previousBlogViewSaga);
-	console.log('watching');
+	// console.log('watching');
 }
 
 function* watchGetPromoAction() {
-  yield takeEvery(types.GET_PROMO, promoDataSaga);
+	yield takeEvery(types.GET_PROMO, promoDataSaga);
 }
 
 export default function* rootSaga() {
@@ -36,7 +37,7 @@ export default function* rootSaga() {
 		watchCalenderDataSaga(),
 		watchinitialBlogViewSaga(),
 		watchNextBlogViewSaga(),
-    watchPreviousBlogViewSaga(),
-    watchGetPromoAction()
+		watchPreviousBlogViewSaga(),
+		watchGetPromoAction()
 	]);
 }

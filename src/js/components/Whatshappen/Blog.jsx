@@ -15,10 +15,13 @@ export class Blog extends React.Component {
     this.previous = this.previous.bind(this);
   }
 
+  componentDidMount() {
+    this.props.initialBlogViewToSaga();
+  }
+
   next() {
     this.props.nextViewToSaga();
   }
-
   previous() {
     this.props.previousViewToSaga();
   }
@@ -38,11 +41,6 @@ export class Blog extends React.Component {
     ));
     return view;
   }
-  componentDidMount() {
-    this.props.initialBlogViewToSaga();
-    console.log(this.props.initialBlogViewToSaga);
-  }
-
   render() {
     const view = this.createNormalView();
     const respView = this.createRespView();

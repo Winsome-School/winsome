@@ -84,5 +84,16 @@ describe('Test Actions', () => {
 				actions.getCalenderDataFail({ message: 'Api Fail' })
 			).toEqual(expectedAction);
 		});
+		describe('test the sigin Actions', () => {
+			it('test the getUserAction action', () => {
+				const username = 'abc';
+				const expectedAction = {
+					type: constants.GET_USERNAME,
+					payload: username
+				};
+
+				expect(actions.getUserAction('abc')).toEqual(expectedAction);
+			});
+		});
 	});
 });

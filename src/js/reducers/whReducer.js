@@ -26,16 +26,18 @@ export default function whReducer(state = initial, action) {
 	let newRespindex;
 	let newview;
 	let newindex;
-	var data = state.data;
+	let data = { state };
 	switch (action.type) {
 		case INITIAL_VIEW:
-			data = action.payload;
-			return {
-				...state,
-				data: data,
-				selectedView: [data[0], data[1]],
-				respView: [data[0]]
-			};
+			if (action.payload) {
+				data = action.payload;
+				return {
+					...state,
+					data,
+					selectedView: [data[0], data[1]],
+					respView: [data[0]]
+				};
+			}
 			break;
 		case NEXT_VIEW:
 			if (firstIndexofSelectedView < data.length - 2) {

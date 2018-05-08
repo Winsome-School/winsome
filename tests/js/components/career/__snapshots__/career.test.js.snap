@@ -1,0 +1,2745 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests the Career Component renders the Career Component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <career />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HeroImage
+          style="header-image"
+        />,
+        <div
+          id="career"
+        >
+          <div
+            className="content-1"
+          >
+            <div
+              className="content-box"
+            >
+              <h3>
+                Working at Winsome 
+              </h3>
+              <div
+                className="yellow-icon"
+              />
+              <p>
+                We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.
+                <br />
+                <br />
+                If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.
+              </p>
+            </div>
+            <div
+              className="content-box box-2"
+            >
+              <h3>
+                Apply For a Job
+              </h3>
+              <div
+                className="yellow-icon"
+              />
+              <p>
+                Please select the type of position you are applying for:
+              </p>
+              <div
+                className="dropDown"
+              >
+                <select>
+                  <option
+                    value="volvo"
+                  >
+                    Junior-Nursery to Class 1
+                  </option>
+                  <option
+                    value="saab"
+                  >
+                    Saab
+                  </option>
+                  <option
+                    value="mercedes"
+                  >
+                    Mercedes
+                  </option>
+                  <option
+                    value="audi"
+                  >
+                    Audi
+                  </option>
+                </select>
+              </div>
+              <br />
+              <p>
+                How did you hear about this teaching position?
+              </p>
+              <div
+                className="dropDown"
+              >
+                <select>
+                  <option
+                    value="volvo"
+                  >
+                    Search Engine
+                  </option>
+                  <option
+                    value="saab"
+                  >
+                    Google
+                  </option>
+                  <option
+                    value="mercedes"
+                  >
+                    Bingo
+                  </option>
+                  <option
+                    value="audi"
+                  >
+                    Yahoo
+                  </option>
+                </select>
+              </div>
+              <div
+                className="resume-box"
+              >
+                <p>
+                  Upload Your Resume
+                </p>
+                <p>
+                  Drag & Drop file here, or click button below.
+                </p>
+                <div
+                  className="upload-btn"
+                >
+                  <button>
+                    Upload File
+                  </button>
+                </div>
+              </div>
+              <p>
+                Personal Information
+              </p>
+              <form
+                className="user-info"
+              >
+                <input
+                  placeholder="First Name"
+                  type="text"
+                />
+                <input
+                  placeholder="Last Name"
+                  type="text"
+                />
+                <input
+                  placeholder="Date Of Birth"
+                  type="text"
+                />
+                <input
+                  placeholder="Address"
+                  type="text"
+                />
+                <input
+                  placeholder="City"
+                  type="text"
+                />
+                <input
+                  placeholder="Provivce/Religion"
+                  type="text"
+                />
+                <input
+                  placeholder="Country"
+                  type="text"
+                />
+                <input
+                  placeholder="Phone Landline"
+                  type="text"
+                />
+                <input
+                  placeholder="Phone Mobile"
+                  type="text"
+                />
+                <input
+                  placeholder="Email"
+                  type="text"
+                />
+                <button>
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+          <div
+            className="News-container"
+          >
+            <News />
+          </div>
+        </div>,
+        <div
+          className="clear"
+        >
+          <Feature />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "style": "header-image",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="content-1"
+            >
+              <div
+                className="content-box"
+              >
+                <h3>
+                  Working at Winsome 
+                </h3>
+                <div
+                  className="yellow-icon"
+                />
+                <p>
+                  We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.
+                  <br />
+                  <br />
+                  If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.
+                </p>
+              </div>
+              <div
+                className="content-box box-2"
+              >
+                <h3>
+                  Apply For a Job
+                </h3>
+                <div
+                  className="yellow-icon"
+                />
+                <p>
+                  Please select the type of position you are applying for:
+                </p>
+                <div
+                  className="dropDown"
+                >
+                  <select>
+                    <option
+                      value="volvo"
+                    >
+                      Junior-Nursery to Class 1
+                    </option>
+                    <option
+                      value="saab"
+                    >
+                      Saab
+                    </option>
+                    <option
+                      value="mercedes"
+                    >
+                      Mercedes
+                    </option>
+                    <option
+                      value="audi"
+                    >
+                      Audi
+                    </option>
+                  </select>
+                </div>
+                <br />
+                <p>
+                  How did you hear about this teaching position?
+                </p>
+                <div
+                  className="dropDown"
+                >
+                  <select>
+                    <option
+                      value="volvo"
+                    >
+                      Search Engine
+                    </option>
+                    <option
+                      value="saab"
+                    >
+                      Google
+                    </option>
+                    <option
+                      value="mercedes"
+                    >
+                      Bingo
+                    </option>
+                    <option
+                      value="audi"
+                    >
+                      Yahoo
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="resume-box"
+                >
+                  <p>
+                    Upload Your Resume
+                  </p>
+                  <p>
+                    Drag & Drop file here, or click button below.
+                  </p>
+                  <div
+                    className="upload-btn"
+                  >
+                    <button>
+                      Upload File
+                    </button>
+                  </div>
+                </div>
+                <p>
+                  Personal Information
+                </p>
+                <form
+                  className="user-info"
+                >
+                  <input
+                    placeholder="First Name"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Last Name"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Date Of Birth"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Address"
+                    type="text"
+                  />
+                  <input
+                    placeholder="City"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Provivce/Religion"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Country"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Phone Landline"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Phone Mobile"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Email"
+                    type="text"
+                  />
+                  <button>
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>,
+            <div
+              className="News-container"
+            >
+              <News />
+            </div>,
+          ],
+          "id": "career",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="content-box"
+                >
+                  <h3>
+                    Working at Winsome 
+                  </h3>
+                  <div
+                    className="yellow-icon"
+                  />
+                  <p>
+                    We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.
+                    <br />
+                    <br />
+                    If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.
+                  </p>
+                </div>,
+                <div
+                  className="content-box box-2"
+                >
+                  <h3>
+                    Apply For a Job
+                  </h3>
+                  <div
+                    className="yellow-icon"
+                  />
+                  <p>
+                    Please select the type of position you are applying for:
+                  </p>
+                  <div
+                    className="dropDown"
+                  >
+                    <select>
+                      <option
+                        value="volvo"
+                      >
+                        Junior-Nursery to Class 1
+                      </option>
+                      <option
+                        value="saab"
+                      >
+                        Saab
+                      </option>
+                      <option
+                        value="mercedes"
+                      >
+                        Mercedes
+                      </option>
+                      <option
+                        value="audi"
+                      >
+                        Audi
+                      </option>
+                    </select>
+                  </div>
+                  <br />
+                  <p>
+                    How did you hear about this teaching position?
+                  </p>
+                  <div
+                    className="dropDown"
+                  >
+                    <select>
+                      <option
+                        value="volvo"
+                      >
+                        Search Engine
+                      </option>
+                      <option
+                        value="saab"
+                      >
+                        Google
+                      </option>
+                      <option
+                        value="mercedes"
+                      >
+                        Bingo
+                      </option>
+                      <option
+                        value="audi"
+                      >
+                        Yahoo
+                      </option>
+                    </select>
+                  </div>
+                  <div
+                    className="resume-box"
+                  >
+                    <p>
+                      Upload Your Resume
+                    </p>
+                    <p>
+                      Drag & Drop file here, or click button below.
+                    </p>
+                    <div
+                      className="upload-btn"
+                    >
+                      <button>
+                        Upload File
+                      </button>
+                    </div>
+                  </div>
+                  <p>
+                    Personal Information
+                  </p>
+                  <form
+                    className="user-info"
+                  >
+                    <input
+                      placeholder="First Name"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Last Name"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Date Of Birth"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Address"
+                      type="text"
+                    />
+                    <input
+                      placeholder="City"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Provivce/Religion"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Country"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Phone Landline"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Phone Mobile"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Email"
+                      type="text"
+                    />
+                    <button>
+                      Submit
+                    </button>
+                  </form>
+                </div>,
+              ],
+              "className": "content-1",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h3>
+                      Working at Winsome 
+                    </h3>,
+                    <div
+                      className="yellow-icon"
+                    />,
+                    <p>
+                      We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.
+                      <br />
+                      <br />
+                      If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.
+                    </p>,
+                  ],
+                  "className": "content-box",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Working at Winsome ",
+                    },
+                    "ref": null,
+                    "rendered": "Working at Winsome ",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "yellow-icon",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.",
+                        <br />,
+                        <br />,
+                        "If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": "br",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": "br",
+                      },
+                      "If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.",
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h3>
+                      Apply For a Job
+                    </h3>,
+                    <div
+                      className="yellow-icon"
+                    />,
+                    <p>
+                      Please select the type of position you are applying for:
+                    </p>,
+                    <div
+                      className="dropDown"
+                    >
+                      <select>
+                        <option
+                          value="volvo"
+                        >
+                          Junior-Nursery to Class 1
+                        </option>
+                        <option
+                          value="saab"
+                        >
+                          Saab
+                        </option>
+                        <option
+                          value="mercedes"
+                        >
+                          Mercedes
+                        </option>
+                        <option
+                          value="audi"
+                        >
+                          Audi
+                        </option>
+                      </select>
+                    </div>,
+                    <br />,
+                    <p>
+                      How did you hear about this teaching position?
+                    </p>,
+                    <div
+                      className="dropDown"
+                    >
+                      <select>
+                        <option
+                          value="volvo"
+                        >
+                          Search Engine
+                        </option>
+                        <option
+                          value="saab"
+                        >
+                          Google
+                        </option>
+                        <option
+                          value="mercedes"
+                        >
+                          Bingo
+                        </option>
+                        <option
+                          value="audi"
+                        >
+                          Yahoo
+                        </option>
+                      </select>
+                    </div>,
+                    <div
+                      className="resume-box"
+                    >
+                      <p>
+                        Upload Your Resume
+                      </p>
+                      <p>
+                        Drag & Drop file here, or click button below.
+                      </p>
+                      <div
+                        className="upload-btn"
+                      >
+                        <button>
+                          Upload File
+                        </button>
+                      </div>
+                    </div>,
+                    <p>
+                      Personal Information
+                    </p>,
+                    <form
+                      className="user-info"
+                    >
+                      <input
+                        placeholder="First Name"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Last Name"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Date Of Birth"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Address"
+                        type="text"
+                      />
+                      <input
+                        placeholder="City"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Provivce/Religion"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Country"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Phone Landline"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Phone Mobile"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Email"
+                        type="text"
+                      />
+                      <button>
+                        Submit
+                      </button>
+                    </form>,
+                  ],
+                  "className": "content-box box-2",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Apply For a Job",
+                    },
+                    "ref": null,
+                    "rendered": "Apply For a Job",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "yellow-icon",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Please select the type of position you are applying for:",
+                    },
+                    "ref": null,
+                    "rendered": "Please select the type of position you are applying for:",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <select>
+                        <option
+                          value="volvo"
+                        >
+                          Junior-Nursery to Class 1
+                        </option>
+                        <option
+                          value="saab"
+                        >
+                          Saab
+                        </option>
+                        <option
+                          value="mercedes"
+                        >
+                          Mercedes
+                        </option>
+                        <option
+                          value="audi"
+                        >
+                          Audi
+                        </option>
+                      </select>,
+                      "className": "dropDown",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <option
+                            value="volvo"
+                          >
+                            Junior-Nursery to Class 1
+                          </option>,
+                          <option
+                            value="saab"
+                          >
+                            Saab
+                          </option>,
+                          <option
+                            value="mercedes"
+                          >
+                            Mercedes
+                          </option>,
+                          <option
+                            value="audi"
+                          >
+                            Audi
+                          </option>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Junior-Nursery to Class 1",
+                            "value": "volvo",
+                          },
+                          "ref": null,
+                          "rendered": "Junior-Nursery to Class 1",
+                          "type": "option",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Saab",
+                            "value": "saab",
+                          },
+                          "ref": null,
+                          "rendered": "Saab",
+                          "type": "option",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Mercedes",
+                            "value": "mercedes",
+                          },
+                          "ref": null,
+                          "rendered": "Mercedes",
+                          "type": "option",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Audi",
+                            "value": "audi",
+                          },
+                          "ref": null,
+                          "rendered": "Audi",
+                          "type": "option",
+                        },
+                      ],
+                      "type": "select",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "How did you hear about this teaching position?",
+                    },
+                    "ref": null,
+                    "rendered": "How did you hear about this teaching position?",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <select>
+                        <option
+                          value="volvo"
+                        >
+                          Search Engine
+                        </option>
+                        <option
+                          value="saab"
+                        >
+                          Google
+                        </option>
+                        <option
+                          value="mercedes"
+                        >
+                          Bingo
+                        </option>
+                        <option
+                          value="audi"
+                        >
+                          Yahoo
+                        </option>
+                      </select>,
+                      "className": "dropDown",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <option
+                            value="volvo"
+                          >
+                            Search Engine
+                          </option>,
+                          <option
+                            value="saab"
+                          >
+                            Google
+                          </option>,
+                          <option
+                            value="mercedes"
+                          >
+                            Bingo
+                          </option>,
+                          <option
+                            value="audi"
+                          >
+                            Yahoo
+                          </option>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Search Engine",
+                            "value": "volvo",
+                          },
+                          "ref": null,
+                          "rendered": "Search Engine",
+                          "type": "option",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Google",
+                            "value": "saab",
+                          },
+                          "ref": null,
+                          "rendered": "Google",
+                          "type": "option",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Bingo",
+                            "value": "mercedes",
+                          },
+                          "ref": null,
+                          "rendered": "Bingo",
+                          "type": "option",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Yahoo",
+                            "value": "audi",
+                          },
+                          "ref": null,
+                          "rendered": "Yahoo",
+                          "type": "option",
+                        },
+                      ],
+                      "type": "select",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <p>
+                          Upload Your Resume
+                        </p>,
+                        <p>
+                          Drag & Drop file here, or click button below.
+                        </p>,
+                        <div
+                          className="upload-btn"
+                        >
+                          <button>
+                            Upload File
+                          </button>
+                        </div>,
+                      ],
+                      "className": "resume-box",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Upload Your Resume",
+                        },
+                        "ref": null,
+                        "rendered": "Upload Your Resume",
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Drag & Drop file here, or click button below.",
+                        },
+                        "ref": null,
+                        "rendered": "Drag & Drop file here, or click button below.",
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <button>
+                            Upload File
+                          </button>,
+                          "className": "upload-btn",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Upload File",
+                          },
+                          "ref": null,
+                          "rendered": "Upload File",
+                          "type": "button",
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Personal Information",
+                    },
+                    "ref": null,
+                    "rendered": "Personal Information",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          placeholder="First Name"
+                          type="text"
+                        />,
+                        <input
+                          placeholder="Last Name"
+                          type="text"
+                        />,
+                        <input
+                          placeholder="Date Of Birth"
+                          type="text"
+                        />,
+                        <input
+                          placeholder="Address"
+                          type="text"
+                        />,
+                        <input
+                          placeholder="City"
+                          type="text"
+                        />,
+                        <input
+                          placeholder="Provivce/Religion"
+                          type="text"
+                        />,
+                        <input
+                          placeholder="Country"
+                          type="text"
+                        />,
+                        <input
+                          placeholder="Phone Landline"
+                          type="text"
+                        />,
+                        <input
+                          placeholder="Phone Mobile"
+                          type="text"
+                        />,
+                        <input
+                          placeholder="Email"
+                          type="text"
+                        />,
+                        <button>
+                          Submit
+                        </button>,
+                      ],
+                      "className": "user-info",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "placeholder": "First Name",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "placeholder": "Last Name",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "placeholder": "Date Of Birth",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "placeholder": "Address",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "placeholder": "City",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "placeholder": "Provivce/Religion",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "placeholder": "Country",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "placeholder": "Phone Landline",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "placeholder": "Phone Mobile",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "placeholder": "Email",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Submit",
+                        },
+                        "ref": null,
+                        "rendered": "Submit",
+                        "type": "button",
+                      },
+                    ],
+                    "type": "form",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <News />,
+              "className": "News-container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Feature />,
+          "className": "clear",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HeroImage
+            style="header-image"
+          />,
+          <div
+            id="career"
+          >
+            <div
+              className="content-1"
+            >
+              <div
+                className="content-box"
+              >
+                <h3>
+                  Working at Winsome 
+                </h3>
+                <div
+                  className="yellow-icon"
+                />
+                <p>
+                  We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.
+                  <br />
+                  <br />
+                  If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.
+                </p>
+              </div>
+              <div
+                className="content-box box-2"
+              >
+                <h3>
+                  Apply For a Job
+                </h3>
+                <div
+                  className="yellow-icon"
+                />
+                <p>
+                  Please select the type of position you are applying for:
+                </p>
+                <div
+                  className="dropDown"
+                >
+                  <select>
+                    <option
+                      value="volvo"
+                    >
+                      Junior-Nursery to Class 1
+                    </option>
+                    <option
+                      value="saab"
+                    >
+                      Saab
+                    </option>
+                    <option
+                      value="mercedes"
+                    >
+                      Mercedes
+                    </option>
+                    <option
+                      value="audi"
+                    >
+                      Audi
+                    </option>
+                  </select>
+                </div>
+                <br />
+                <p>
+                  How did you hear about this teaching position?
+                </p>
+                <div
+                  className="dropDown"
+                >
+                  <select>
+                    <option
+                      value="volvo"
+                    >
+                      Search Engine
+                    </option>
+                    <option
+                      value="saab"
+                    >
+                      Google
+                    </option>
+                    <option
+                      value="mercedes"
+                    >
+                      Bingo
+                    </option>
+                    <option
+                      value="audi"
+                    >
+                      Yahoo
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="resume-box"
+                >
+                  <p>
+                    Upload Your Resume
+                  </p>
+                  <p>
+                    Drag & Drop file here, or click button below.
+                  </p>
+                  <div
+                    className="upload-btn"
+                  >
+                    <button>
+                      Upload File
+                    </button>
+                  </div>
+                </div>
+                <p>
+                  Personal Information
+                </p>
+                <form
+                  className="user-info"
+                >
+                  <input
+                    placeholder="First Name"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Last Name"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Date Of Birth"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Address"
+                    type="text"
+                  />
+                  <input
+                    placeholder="City"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Provivce/Religion"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Country"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Phone Landline"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Phone Mobile"
+                    type="text"
+                  />
+                  <input
+                    placeholder="Email"
+                    type="text"
+                  />
+                  <button>
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div
+              className="News-container"
+            >
+              <News />
+            </div>
+          </div>,
+          <div
+            className="clear"
+          >
+            <Feature />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "style": "header-image",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="content-1"
+              >
+                <div
+                  className="content-box"
+                >
+                  <h3>
+                    Working at Winsome 
+                  </h3>
+                  <div
+                    className="yellow-icon"
+                  />
+                  <p>
+                    We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.
+                    <br />
+                    <br />
+                    If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.
+                  </p>
+                </div>
+                <div
+                  className="content-box box-2"
+                >
+                  <h3>
+                    Apply For a Job
+                  </h3>
+                  <div
+                    className="yellow-icon"
+                  />
+                  <p>
+                    Please select the type of position you are applying for:
+                  </p>
+                  <div
+                    className="dropDown"
+                  >
+                    <select>
+                      <option
+                        value="volvo"
+                      >
+                        Junior-Nursery to Class 1
+                      </option>
+                      <option
+                        value="saab"
+                      >
+                        Saab
+                      </option>
+                      <option
+                        value="mercedes"
+                      >
+                        Mercedes
+                      </option>
+                      <option
+                        value="audi"
+                      >
+                        Audi
+                      </option>
+                    </select>
+                  </div>
+                  <br />
+                  <p>
+                    How did you hear about this teaching position?
+                  </p>
+                  <div
+                    className="dropDown"
+                  >
+                    <select>
+                      <option
+                        value="volvo"
+                      >
+                        Search Engine
+                      </option>
+                      <option
+                        value="saab"
+                      >
+                        Google
+                      </option>
+                      <option
+                        value="mercedes"
+                      >
+                        Bingo
+                      </option>
+                      <option
+                        value="audi"
+                      >
+                        Yahoo
+                      </option>
+                    </select>
+                  </div>
+                  <div
+                    className="resume-box"
+                  >
+                    <p>
+                      Upload Your Resume
+                    </p>
+                    <p>
+                      Drag & Drop file here, or click button below.
+                    </p>
+                    <div
+                      className="upload-btn"
+                    >
+                      <button>
+                        Upload File
+                      </button>
+                    </div>
+                  </div>
+                  <p>
+                    Personal Information
+                  </p>
+                  <form
+                    className="user-info"
+                  >
+                    <input
+                      placeholder="First Name"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Last Name"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Date Of Birth"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Address"
+                      type="text"
+                    />
+                    <input
+                      placeholder="City"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Provivce/Religion"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Country"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Phone Landline"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Phone Mobile"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Email"
+                      type="text"
+                    />
+                    <button>
+                      Submit
+                    </button>
+                  </form>
+                </div>
+              </div>,
+              <div
+                className="News-container"
+              >
+                <News />
+              </div>,
+            ],
+            "id": "career",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="content-box"
+                  >
+                    <h3>
+                      Working at Winsome 
+                    </h3>
+                    <div
+                      className="yellow-icon"
+                    />
+                    <p>
+                      We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.
+                      <br />
+                      <br />
+                      If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.
+                    </p>
+                  </div>,
+                  <div
+                    className="content-box box-2"
+                  >
+                    <h3>
+                      Apply For a Job
+                    </h3>
+                    <div
+                      className="yellow-icon"
+                    />
+                    <p>
+                      Please select the type of position you are applying for:
+                    </p>
+                    <div
+                      className="dropDown"
+                    >
+                      <select>
+                        <option
+                          value="volvo"
+                        >
+                          Junior-Nursery to Class 1
+                        </option>
+                        <option
+                          value="saab"
+                        >
+                          Saab
+                        </option>
+                        <option
+                          value="mercedes"
+                        >
+                          Mercedes
+                        </option>
+                        <option
+                          value="audi"
+                        >
+                          Audi
+                        </option>
+                      </select>
+                    </div>
+                    <br />
+                    <p>
+                      How did you hear about this teaching position?
+                    </p>
+                    <div
+                      className="dropDown"
+                    >
+                      <select>
+                        <option
+                          value="volvo"
+                        >
+                          Search Engine
+                        </option>
+                        <option
+                          value="saab"
+                        >
+                          Google
+                        </option>
+                        <option
+                          value="mercedes"
+                        >
+                          Bingo
+                        </option>
+                        <option
+                          value="audi"
+                        >
+                          Yahoo
+                        </option>
+                      </select>
+                    </div>
+                    <div
+                      className="resume-box"
+                    >
+                      <p>
+                        Upload Your Resume
+                      </p>
+                      <p>
+                        Drag & Drop file here, or click button below.
+                      </p>
+                      <div
+                        className="upload-btn"
+                      >
+                        <button>
+                          Upload File
+                        </button>
+                      </div>
+                    </div>
+                    <p>
+                      Personal Information
+                    </p>
+                    <form
+                      className="user-info"
+                    >
+                      <input
+                        placeholder="First Name"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Last Name"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Date Of Birth"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Address"
+                        type="text"
+                      />
+                      <input
+                        placeholder="City"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Provivce/Religion"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Country"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Phone Landline"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Phone Mobile"
+                        type="text"
+                      />
+                      <input
+                        placeholder="Email"
+                        type="text"
+                      />
+                      <button>
+                        Submit
+                      </button>
+                    </form>
+                  </div>,
+                ],
+                "className": "content-1",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3>
+                        Working at Winsome 
+                      </h3>,
+                      <div
+                        className="yellow-icon"
+                      />,
+                      <p>
+                        We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.
+                        <br />
+                        <br />
+                        If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.
+                      </p>,
+                    ],
+                    "className": "content-box",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Working at Winsome ",
+                      },
+                      "ref": null,
+                      "rendered": "Working at Winsome ",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "yellow-icon",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.",
+                          <br />,
+                          <br />,
+                          "If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "We pride ourselves on the best support and care of our academics and Administration -a School is only as strong as those working within it.",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        "If you wish to apply for an academic vacancy please fill in the details below and our HR department will get in touch with you.",
+                      ],
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3>
+                        Apply For a Job
+                      </h3>,
+                      <div
+                        className="yellow-icon"
+                      />,
+                      <p>
+                        Please select the type of position you are applying for:
+                      </p>,
+                      <div
+                        className="dropDown"
+                      >
+                        <select>
+                          <option
+                            value="volvo"
+                          >
+                            Junior-Nursery to Class 1
+                          </option>
+                          <option
+                            value="saab"
+                          >
+                            Saab
+                          </option>
+                          <option
+                            value="mercedes"
+                          >
+                            Mercedes
+                          </option>
+                          <option
+                            value="audi"
+                          >
+                            Audi
+                          </option>
+                        </select>
+                      </div>,
+                      <br />,
+                      <p>
+                        How did you hear about this teaching position?
+                      </p>,
+                      <div
+                        className="dropDown"
+                      >
+                        <select>
+                          <option
+                            value="volvo"
+                          >
+                            Search Engine
+                          </option>
+                          <option
+                            value="saab"
+                          >
+                            Google
+                          </option>
+                          <option
+                            value="mercedes"
+                          >
+                            Bingo
+                          </option>
+                          <option
+                            value="audi"
+                          >
+                            Yahoo
+                          </option>
+                        </select>
+                      </div>,
+                      <div
+                        className="resume-box"
+                      >
+                        <p>
+                          Upload Your Resume
+                        </p>
+                        <p>
+                          Drag & Drop file here, or click button below.
+                        </p>
+                        <div
+                          className="upload-btn"
+                        >
+                          <button>
+                            Upload File
+                          </button>
+                        </div>
+                      </div>,
+                      <p>
+                        Personal Information
+                      </p>,
+                      <form
+                        className="user-info"
+                      >
+                        <input
+                          placeholder="First Name"
+                          type="text"
+                        />
+                        <input
+                          placeholder="Last Name"
+                          type="text"
+                        />
+                        <input
+                          placeholder="Date Of Birth"
+                          type="text"
+                        />
+                        <input
+                          placeholder="Address"
+                          type="text"
+                        />
+                        <input
+                          placeholder="City"
+                          type="text"
+                        />
+                        <input
+                          placeholder="Provivce/Religion"
+                          type="text"
+                        />
+                        <input
+                          placeholder="Country"
+                          type="text"
+                        />
+                        <input
+                          placeholder="Phone Landline"
+                          type="text"
+                        />
+                        <input
+                          placeholder="Phone Mobile"
+                          type="text"
+                        />
+                        <input
+                          placeholder="Email"
+                          type="text"
+                        />
+                        <button>
+                          Submit
+                        </button>
+                      </form>,
+                    ],
+                    "className": "content-box box-2",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Apply For a Job",
+                      },
+                      "ref": null,
+                      "rendered": "Apply For a Job",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "yellow-icon",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Please select the type of position you are applying for:",
+                      },
+                      "ref": null,
+                      "rendered": "Please select the type of position you are applying for:",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <select>
+                          <option
+                            value="volvo"
+                          >
+                            Junior-Nursery to Class 1
+                          </option>
+                          <option
+                            value="saab"
+                          >
+                            Saab
+                          </option>
+                          <option
+                            value="mercedes"
+                          >
+                            Mercedes
+                          </option>
+                          <option
+                            value="audi"
+                          >
+                            Audi
+                          </option>
+                        </select>,
+                        "className": "dropDown",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <option
+                              value="volvo"
+                            >
+                              Junior-Nursery to Class 1
+                            </option>,
+                            <option
+                              value="saab"
+                            >
+                              Saab
+                            </option>,
+                            <option
+                              value="mercedes"
+                            >
+                              Mercedes
+                            </option>,
+                            <option
+                              value="audi"
+                            >
+                              Audi
+                            </option>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Junior-Nursery to Class 1",
+                              "value": "volvo",
+                            },
+                            "ref": null,
+                            "rendered": "Junior-Nursery to Class 1",
+                            "type": "option",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Saab",
+                              "value": "saab",
+                            },
+                            "ref": null,
+                            "rendered": "Saab",
+                            "type": "option",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Mercedes",
+                              "value": "mercedes",
+                            },
+                            "ref": null,
+                            "rendered": "Mercedes",
+                            "type": "option",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Audi",
+                              "value": "audi",
+                            },
+                            "ref": null,
+                            "rendered": "Audi",
+                            "type": "option",
+                          },
+                        ],
+                        "type": "select",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "How did you hear about this teaching position?",
+                      },
+                      "ref": null,
+                      "rendered": "How did you hear about this teaching position?",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <select>
+                          <option
+                            value="volvo"
+                          >
+                            Search Engine
+                          </option>
+                          <option
+                            value="saab"
+                          >
+                            Google
+                          </option>
+                          <option
+                            value="mercedes"
+                          >
+                            Bingo
+                          </option>
+                          <option
+                            value="audi"
+                          >
+                            Yahoo
+                          </option>
+                        </select>,
+                        "className": "dropDown",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <option
+                              value="volvo"
+                            >
+                              Search Engine
+                            </option>,
+                            <option
+                              value="saab"
+                            >
+                              Google
+                            </option>,
+                            <option
+                              value="mercedes"
+                            >
+                              Bingo
+                            </option>,
+                            <option
+                              value="audi"
+                            >
+                              Yahoo
+                            </option>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Search Engine",
+                              "value": "volvo",
+                            },
+                            "ref": null,
+                            "rendered": "Search Engine",
+                            "type": "option",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Google",
+                              "value": "saab",
+                            },
+                            "ref": null,
+                            "rendered": "Google",
+                            "type": "option",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Bingo",
+                              "value": "mercedes",
+                            },
+                            "ref": null,
+                            "rendered": "Bingo",
+                            "type": "option",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Yahoo",
+                              "value": "audi",
+                            },
+                            "ref": null,
+                            "rendered": "Yahoo",
+                            "type": "option",
+                          },
+                        ],
+                        "type": "select",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <p>
+                            Upload Your Resume
+                          </p>,
+                          <p>
+                            Drag & Drop file here, or click button below.
+                          </p>,
+                          <div
+                            className="upload-btn"
+                          >
+                            <button>
+                              Upload File
+                            </button>
+                          </div>,
+                        ],
+                        "className": "resume-box",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Upload Your Resume",
+                          },
+                          "ref": null,
+                          "rendered": "Upload Your Resume",
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Drag & Drop file here, or click button below.",
+                          },
+                          "ref": null,
+                          "rendered": "Drag & Drop file here, or click button below.",
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <button>
+                              Upload File
+                            </button>,
+                            "className": "upload-btn",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Upload File",
+                            },
+                            "ref": null,
+                            "rendered": "Upload File",
+                            "type": "button",
+                          },
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Personal Information",
+                      },
+                      "ref": null,
+                      "rendered": "Personal Information",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            placeholder="First Name"
+                            type="text"
+                          />,
+                          <input
+                            placeholder="Last Name"
+                            type="text"
+                          />,
+                          <input
+                            placeholder="Date Of Birth"
+                            type="text"
+                          />,
+                          <input
+                            placeholder="Address"
+                            type="text"
+                          />,
+                          <input
+                            placeholder="City"
+                            type="text"
+                          />,
+                          <input
+                            placeholder="Provivce/Religion"
+                            type="text"
+                          />,
+                          <input
+                            placeholder="Country"
+                            type="text"
+                          />,
+                          <input
+                            placeholder="Phone Landline"
+                            type="text"
+                          />,
+                          <input
+                            placeholder="Phone Mobile"
+                            type="text"
+                          />,
+                          <input
+                            placeholder="Email"
+                            type="text"
+                          />,
+                          <button>
+                            Submit
+                          </button>,
+                        ],
+                        "className": "user-info",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "First Name",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "Last Name",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "Date Of Birth",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "Address",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "City",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "Provivce/Religion",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "Country",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "Phone Landline",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "Phone Mobile",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "Email",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Submit",
+                          },
+                          "ref": null,
+                          "rendered": "Submit",
+                          "type": "button",
+                        },
+                      ],
+                      "type": "form",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <News />,
+                "className": "News-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Feature />,
+            "className": "clear",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

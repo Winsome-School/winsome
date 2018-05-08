@@ -1,0 +1,865 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test the News Component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <News />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="news-Box"
+        >
+          <div
+            className="uper-box"
+          >
+            <h2>
+              Latest News
+            </h2>
+            <p>
+               
+              Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+              <br />
+              <span>
+                03.28.18 
+              </span>
+            </p>
+            <p>
+               
+              Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+              <br />
+              <span>
+                03.27.18 
+              </span>
+            </p>
+          </div>
+          <div
+            className="lower-box"
+          >
+            <div
+              className="des-box"
+            >
+              <h3>
+                Education Blogs
+              </h3>
+            </div>
+            <div
+              className="des-box box-2"
+            >
+              <h3>
+                Resource center
+              </h3>
+            </div>
+            <div
+              className="des-box box-3"
+            >
+              <h3>
+                Winsome Gallery
+              </h3>
+            </div>
+            <div
+              className="des-box box-4"
+            >
+              <h3>
+                Annual Achievers
+              </h3>
+            </div>
+          </div>
+        </div>,
+        <div
+          className="clear"
+        />,
+      ],
+      "className": "News",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="uper-box"
+            >
+              <h2>
+                Latest News
+              </h2>
+              <p>
+                 
+                Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+                <br />
+                <span>
+                  03.28.18 
+                </span>
+              </p>
+              <p>
+                 
+                Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+                <br />
+                <span>
+                  03.27.18 
+                </span>
+              </p>
+            </div>,
+            <div
+              className="lower-box"
+            >
+              <div
+                className="des-box"
+              >
+                <h3>
+                  Education Blogs
+                </h3>
+              </div>
+              <div
+                className="des-box box-2"
+              >
+                <h3>
+                  Resource center
+                </h3>
+              </div>
+              <div
+                className="des-box box-3"
+              >
+                <h3>
+                  Winsome Gallery
+                </h3>
+              </div>
+              <div
+                className="des-box box-4"
+              >
+                <h3>
+                  Annual Achievers
+                </h3>
+              </div>
+            </div>,
+          ],
+          "className": "news-Box",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Latest News
+                </h2>,
+                <p>
+                   
+                  Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+                  <br />
+                  <span>
+                    03.28.18 
+                  </span>
+                </p>,
+                <p>
+                   
+                  Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+                  <br />
+                  <span>
+                    03.27.18 
+                  </span>
+                </p>,
+              ],
+              "className": "uper-box",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Latest News",
+                },
+                "ref": null,
+                "rendered": "Latest News",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..",
+                    <br />,
+                    <span>
+                      03.28.18 
+                    </span>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "03.28.18 ",
+                    },
+                    "ref": null,
+                    "rendered": "03.28.18 ",
+                    "type": "span",
+                  },
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..",
+                    <br />,
+                    <span>
+                      03.27.18 
+                    </span>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "03.27.18 ",
+                    },
+                    "ref": null,
+                    "rendered": "03.27.18 ",
+                    "type": "span",
+                  },
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="des-box"
+                >
+                  <h3>
+                    Education Blogs
+                  </h3>
+                </div>,
+                <div
+                  className="des-box box-2"
+                >
+                  <h3>
+                    Resource center
+                  </h3>
+                </div>,
+                <div
+                  className="des-box box-3"
+                >
+                  <h3>
+                    Winsome Gallery
+                  </h3>
+                </div>,
+                <div
+                  className="des-box box-4"
+                >
+                  <h3>
+                    Annual Achievers
+                  </h3>
+                </div>,
+              ],
+              "className": "lower-box",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h3>
+                    Education Blogs
+                  </h3>,
+                  "className": "des-box",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Education Blogs",
+                  },
+                  "ref": null,
+                  "rendered": "Education Blogs",
+                  "type": "h3",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h3>
+                    Resource center
+                  </h3>,
+                  "className": "des-box box-2",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Resource center",
+                  },
+                  "ref": null,
+                  "rendered": "Resource center",
+                  "type": "h3",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h3>
+                    Winsome Gallery
+                  </h3>,
+                  "className": "des-box box-3",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Winsome Gallery",
+                  },
+                  "ref": null,
+                  "rendered": "Winsome Gallery",
+                  "type": "h3",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h3>
+                    Annual Achievers
+                  </h3>,
+                  "className": "des-box box-4",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Annual Achievers",
+                  },
+                  "ref": null,
+                  "rendered": "Annual Achievers",
+                  "type": "h3",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "clear",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="news-Box"
+          >
+            <div
+              className="uper-box"
+            >
+              <h2>
+                Latest News
+              </h2>
+              <p>
+                 
+                Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+                <br />
+                <span>
+                  03.28.18 
+                </span>
+              </p>
+              <p>
+                 
+                Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+                <br />
+                <span>
+                  03.27.18 
+                </span>
+              </p>
+            </div>
+            <div
+              className="lower-box"
+            >
+              <div
+                className="des-box"
+              >
+                <h3>
+                  Education Blogs
+                </h3>
+              </div>
+              <div
+                className="des-box box-2"
+              >
+                <h3>
+                  Resource center
+                </h3>
+              </div>
+              <div
+                className="des-box box-3"
+              >
+                <h3>
+                  Winsome Gallery
+                </h3>
+              </div>
+              <div
+                className="des-box box-4"
+              >
+                <h3>
+                  Annual Achievers
+                </h3>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="clear"
+          />,
+        ],
+        "className": "News",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="uper-box"
+              >
+                <h2>
+                  Latest News
+                </h2>
+                <p>
+                   
+                  Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+                  <br />
+                  <span>
+                    03.28.18 
+                  </span>
+                </p>
+                <p>
+                   
+                  Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+                  <br />
+                  <span>
+                    03.27.18 
+                  </span>
+                </p>
+              </div>,
+              <div
+                className="lower-box"
+              >
+                <div
+                  className="des-box"
+                >
+                  <h3>
+                    Education Blogs
+                  </h3>
+                </div>
+                <div
+                  className="des-box box-2"
+                >
+                  <h3>
+                    Resource center
+                  </h3>
+                </div>
+                <div
+                  className="des-box box-3"
+                >
+                  <h3>
+                    Winsome Gallery
+                  </h3>
+                </div>
+                <div
+                  className="des-box box-4"
+                >
+                  <h3>
+                    Annual Achievers
+                  </h3>
+                </div>
+              </div>,
+            ],
+            "className": "news-Box",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2>
+                    Latest News
+                  </h2>,
+                  <p>
+                     
+                    Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+                    <br />
+                    <span>
+                      03.28.18 
+                    </span>
+                  </p>,
+                  <p>
+                     
+                    Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..
+                    <br />
+                    <span>
+                      03.27.18 
+                    </span>
+                  </p>,
+                ],
+                "className": "uper-box",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Latest News",
+                  },
+                  "ref": null,
+                  "rendered": "Latest News",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..",
+                      <br />,
+                      <span>
+                        03.28.18 
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "03.28.18 ",
+                      },
+                      "ref": null,
+                      "rendered": "03.28.18 ",
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..",
+                      <br />,
+                      <span>
+                        03.27.18 
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "Sed posuere consectetur est at lobor, Etiam porta sem malesuada magna..",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "03.27.18 ",
+                      },
+                      "ref": null,
+                      "rendered": "03.27.18 ",
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="des-box"
+                  >
+                    <h3>
+                      Education Blogs
+                    </h3>
+                  </div>,
+                  <div
+                    className="des-box box-2"
+                  >
+                    <h3>
+                      Resource center
+                    </h3>
+                  </div>,
+                  <div
+                    className="des-box box-3"
+                  >
+                    <h3>
+                      Winsome Gallery
+                    </h3>
+                  </div>,
+                  <div
+                    className="des-box box-4"
+                  >
+                    <h3>
+                      Annual Achievers
+                    </h3>
+                  </div>,
+                ],
+                "className": "lower-box",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <h3>
+                      Education Blogs
+                    </h3>,
+                    "className": "des-box",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Education Blogs",
+                    },
+                    "ref": null,
+                    "rendered": "Education Blogs",
+                    "type": "h3",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <h3>
+                      Resource center
+                    </h3>,
+                    "className": "des-box box-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Resource center",
+                    },
+                    "ref": null,
+                    "rendered": "Resource center",
+                    "type": "h3",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <h3>
+                      Winsome Gallery
+                    </h3>,
+                    "className": "des-box box-3",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Winsome Gallery",
+                    },
+                    "ref": null,
+                    "rendered": "Winsome Gallery",
+                    "type": "h3",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <h3>
+                      Annual Achievers
+                    </h3>,
+                    "className": "des-box box-4",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Annual Achievers",
+                    },
+                    "ref": null,
+                    "rendered": "Annual Achievers",
+                    "type": "h3",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "clear",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

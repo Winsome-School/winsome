@@ -19,46 +19,55 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <div
-          className="Text"
+          className="header"
         >
-          <h3
-            className="discover-heading"
+          <div
+            className="header-content"
           >
-            Discover More About Winsome
-          </h3>
+            <h3>
+              Discover More About Winsome
+            </h3>
+          </div>
         </div>,
         <div
-          className="one-third events"
+          className="content"
         >
-          <h3
-            className="discover-subheading"
+          <div
+            className="first"
           >
-            Events
-          </h3>
-        </div>,
-        <div
-          className="one-third faculty"
-        >
-          <h3
-            className="discover-subheading"
+            <div
+              className="footer-discover"
+            >
+              <h3>
+                Events
+              </h3>
+            </div>
+          </div>
+          <div
+            className="second"
           >
-            Faculty & Staff
-          </h3>
-        </div>,
-        <div
-          className="one-third policies"
-        >
-          <h3
-            className="discover-subheading"
+            <div
+              className="footer-discover"
+            >
+              <h3>
+                Faculty & Staff
+              </h3>
+            </div>
+          </div>
+          <div
+            className="third"
           >
-            Policies & Procedures
-          </h3>
+            <div
+              className="footer-discover"
+            >
+              <h3>
+                Policies & Procedures
+              </h3>
+            </div>
+          </div>
         </div>,
-        <div
-          className="clear"
-        />,
       ],
-      "id": "discover",
+      "className": "discover-container",
     },
     "ref": null,
     "rendered": Array [
@@ -67,12 +76,14 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h3
-            className="discover-heading"
+          "children": <div
+            className="header-content"
           >
-            Discover More About Winsome
-          </h3>,
-          "className": "Text",
+            <h3>
+              Discover More About Winsome
+            </h3>
+          </div>,
+          "className": "header",
         },
         "ref": null,
         "rendered": Object {
@@ -80,12 +91,24 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Discover More About Winsome",
-            "className": "discover-heading",
+            "children": <h3>
+              Discover More About Winsome
+            </h3>,
+            "className": "header-content",
           },
           "ref": null,
-          "rendered": "Discover More About Winsome",
-          "type": "h3",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Discover More About Winsome",
+            },
+            "ref": null,
+            "rendered": "Discover More About Winsome",
+            "type": "h3",
+          },
+          "type": "div",
         },
         "type": "div",
       },
@@ -94,91 +117,169 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h3
-            className="discover-subheading"
-          >
-            Events
-          </h3>,
-          "className": "one-third events",
+          "children": Array [
+            <div
+              className="first"
+            >
+              <div
+                className="footer-discover"
+              >
+                <h3>
+                  Events
+                </h3>
+              </div>
+            </div>,
+            <div
+              className="second"
+            >
+              <div
+                className="footer-discover"
+              >
+                <h3>
+                  Faculty & Staff
+                </h3>
+              </div>
+            </div>,
+            <div
+              className="third"
+            >
+              <div
+                className="footer-discover"
+              >
+                <h3>
+                  Policies & Procedures
+                </h3>
+              </div>
+            </div>,
+          ],
+          "className": "content",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Events",
-            "className": "discover-subheading",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="footer-discover"
+              >
+                <h3>
+                  Events
+                </h3>
+              </div>,
+              "className": "first",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h3>
+                  Events
+                </h3>,
+                "className": "footer-discover",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Events",
+                },
+                "ref": null,
+                "rendered": "Events",
+                "type": "h3",
+              },
+              "type": "div",
+            },
+            "type": "div",
           },
-          "ref": null,
-          "rendered": "Events",
-          "type": "h3",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <h3
-            className="discover-subheading"
-          >
-            Faculty & Staff
-          </h3>,
-          "className": "one-third faculty",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Faculty & Staff",
-            "className": "discover-subheading",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="footer-discover"
+              >
+                <h3>
+                  Faculty & Staff
+                </h3>
+              </div>,
+              "className": "second",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h3>
+                  Faculty & Staff
+                </h3>,
+                "className": "footer-discover",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Faculty & Staff",
+                },
+                "ref": null,
+                "rendered": "Faculty & Staff",
+                "type": "h3",
+              },
+              "type": "div",
+            },
+            "type": "div",
           },
-          "ref": null,
-          "rendered": "Faculty & Staff",
-          "type": "h3",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <h3
-            className="discover-subheading"
-          >
-            Policies & Procedures
-          </h3>,
-          "className": "one-third policies",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Policies & Procedures",
-            "className": "discover-subheading",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="footer-discover"
+              >
+                <h3>
+                  Policies & Procedures
+                </h3>
+              </div>,
+              "className": "third",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h3>
+                  Policies & Procedures
+                </h3>,
+                "className": "footer-discover",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Policies & Procedures",
+                },
+                "ref": null,
+                "rendered": "Policies & Procedures",
+                "type": "h3",
+              },
+              "type": "div",
+            },
+            "type": "div",
           },
-          "ref": null,
-          "rendered": "Policies & Procedures",
-          "type": "h3",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "className": "clear",
-        },
-        "ref": null,
-        "rendered": null,
+        ],
         "type": "div",
       },
     ],
@@ -192,46 +293,55 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <div
-            className="Text"
+            className="header"
           >
-            <h3
-              className="discover-heading"
+            <div
+              className="header-content"
             >
-              Discover More About Winsome
-            </h3>
+              <h3>
+                Discover More About Winsome
+              </h3>
+            </div>
           </div>,
           <div
-            className="one-third events"
+            className="content"
           >
-            <h3
-              className="discover-subheading"
+            <div
+              className="first"
             >
-              Events
-            </h3>
-          </div>,
-          <div
-            className="one-third faculty"
-          >
-            <h3
-              className="discover-subheading"
+              <div
+                className="footer-discover"
+              >
+                <h3>
+                  Events
+                </h3>
+              </div>
+            </div>
+            <div
+              className="second"
             >
-              Faculty & Staff
-            </h3>
-          </div>,
-          <div
-            className="one-third policies"
-          >
-            <h3
-              className="discover-subheading"
+              <div
+                className="footer-discover"
+              >
+                <h3>
+                  Faculty & Staff
+                </h3>
+              </div>
+            </div>
+            <div
+              className="third"
             >
-              Policies & Procedures
-            </h3>
+              <div
+                className="footer-discover"
+              >
+                <h3>
+                  Policies & Procedures
+                </h3>
+              </div>
+            </div>
           </div>,
-          <div
-            className="clear"
-          />,
         ],
-        "id": "discover",
+        "className": "discover-container",
       },
       "ref": null,
       "rendered": Array [
@@ -240,12 +350,14 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h3
-              className="discover-heading"
+            "children": <div
+              className="header-content"
             >
-              Discover More About Winsome
-            </h3>,
-            "className": "Text",
+              <h3>
+                Discover More About Winsome
+              </h3>
+            </div>,
+            "className": "header",
           },
           "ref": null,
           "rendered": Object {
@@ -253,12 +365,24 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Discover More About Winsome",
-              "className": "discover-heading",
+              "children": <h3>
+                Discover More About Winsome
+              </h3>,
+              "className": "header-content",
             },
             "ref": null,
-            "rendered": "Discover More About Winsome",
-            "type": "h3",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Discover More About Winsome",
+              },
+              "ref": null,
+              "rendered": "Discover More About Winsome",
+              "type": "h3",
+            },
+            "type": "div",
           },
           "type": "div",
         },
@@ -267,91 +391,169 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h3
-              className="discover-subheading"
-            >
-              Events
-            </h3>,
-            "className": "one-third events",
+            "children": Array [
+              <div
+                className="first"
+              >
+                <div
+                  className="footer-discover"
+                >
+                  <h3>
+                    Events
+                  </h3>
+                </div>
+              </div>,
+              <div
+                className="second"
+              >
+                <div
+                  className="footer-discover"
+                >
+                  <h3>
+                    Faculty & Staff
+                  </h3>
+                </div>
+              </div>,
+              <div
+                className="third"
+              >
+                <div
+                  className="footer-discover"
+                >
+                  <h3>
+                    Policies & Procedures
+                  </h3>
+                </div>
+              </div>,
+            ],
+            "className": "content",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Events",
-              "className": "discover-subheading",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="footer-discover"
+                >
+                  <h3>
+                    Events
+                  </h3>
+                </div>,
+                "className": "first",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h3>
+                    Events
+                  </h3>,
+                  "className": "footer-discover",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Events",
+                  },
+                  "ref": null,
+                  "rendered": "Events",
+                  "type": "h3",
+                },
+                "type": "div",
+              },
+              "type": "div",
             },
-            "ref": null,
-            "rendered": "Events",
-            "type": "h3",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <h3
-              className="discover-subheading"
-            >
-              Faculty & Staff
-            </h3>,
-            "className": "one-third faculty",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Faculty & Staff",
-              "className": "discover-subheading",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="footer-discover"
+                >
+                  <h3>
+                    Faculty & Staff
+                  </h3>
+                </div>,
+                "className": "second",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h3>
+                    Faculty & Staff
+                  </h3>,
+                  "className": "footer-discover",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Faculty & Staff",
+                  },
+                  "ref": null,
+                  "rendered": "Faculty & Staff",
+                  "type": "h3",
+                },
+                "type": "div",
+              },
+              "type": "div",
             },
-            "ref": null,
-            "rendered": "Faculty & Staff",
-            "type": "h3",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <h3
-              className="discover-subheading"
-            >
-              Policies & Procedures
-            </h3>,
-            "className": "one-third policies",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Policies & Procedures",
-              "className": "discover-subheading",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="footer-discover"
+                >
+                  <h3>
+                    Policies & Procedures
+                  </h3>
+                </div>,
+                "className": "third",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h3>
+                    Policies & Procedures
+                  </h3>,
+                  "className": "footer-discover",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Policies & Procedures",
+                  },
+                  "ref": null,
+                  "rendered": "Policies & Procedures",
+                  "type": "h3",
+                },
+                "type": "div",
+              },
+              "type": "div",
             },
-            "ref": null,
-            "rendered": "Policies & Procedures",
-            "type": "h3",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "className": "clear",
-          },
-          "ref": null,
-          "rendered": null,
+          ],
           "type": "div",
         },
       ],

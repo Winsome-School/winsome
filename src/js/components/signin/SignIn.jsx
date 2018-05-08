@@ -1,10 +1,10 @@
-import {Redirect} from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import React, { Component } from 'react';
 import { func, bool, shape, string } from 'prop-types';
 import { connect } from 'react-redux';
 import { getUserAction, getPassAction, loginAction } from '../../actions';
 
-class SignIn extends Component {
+export class SignIn extends Component {
 	constructor() {
 		super();
 
@@ -26,15 +26,13 @@ class SignIn extends Component {
 
 	render() {
 		const { loginData } = this.props;
-		
+
 		return loginData.usermatch ? (
 			<div>
 				<Redirect to="/dashboard" />
 			</div>
 		) : (
 			<div>
-				
-				
 				<div className="user-signin">
 					<div className="wraper">
 						<div className="login-box">

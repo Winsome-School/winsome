@@ -1,0 +1,950 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests the Whatshappen Blog Component renders the Whatshappen Blog Component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Blog
+    initialBlogViewToSaga={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
+    nextViewToSaga={[MockFunction]}
+    previousViewToSaga={[MockFunction]}
+    viewData={
+      Object {
+        "firstIndexofSelectedView": 0,
+        "indexofRespView": 0,
+        "respView": Array [
+          Object {},
+        ],
+        "selectedView": Array [
+          Object {},
+          Object {},
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="wraper"
+      >
+        <div
+          className="des"
+        >
+          <h2>
+            Whats been happening
+          </h2>
+          <span>
+            What its like to be a part of our school community.
+          </span>
+        </div>
+        <div
+          className="slide-show"
+        >
+          <div
+            className="arrows left"
+          >
+            <div
+              className="arrow previous"
+              id="previous"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              role="button"
+              tabIndex="0"
+            />
+          </div>
+          <div
+            className="arrows right"
+          >
+            <div
+              className="arrow next"
+              id="next"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              role="button"
+              tabIndex="0"
+            />
+          </div>
+          <div
+            className="whatsHappen-card"
+          >
+            <div
+              className="wh-normal-view"
+            >
+              <WhatsHappen
+                blog={Object {}}
+                count={0}
+              />
+              <WhatsHappen
+                blog={Object {}}
+                count={1}
+              />
+            </div>
+            <div
+              className="wh-responsive-view"
+            >
+              <WhatsHappen
+                blog={Object {}}
+                count="resp"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="clear"
+        />
+      </div>,
+      "id": "sec-2",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="des"
+          >
+            <h2>
+              Whats been happening
+            </h2>
+            <span>
+              What its like to be a part of our school community.
+            </span>
+          </div>,
+          <div
+            className="slide-show"
+          >
+            <div
+              className="arrows left"
+            >
+              <div
+                className="arrow previous"
+                id="previous"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                role="button"
+                tabIndex="0"
+              />
+            </div>
+            <div
+              className="arrows right"
+            >
+              <div
+                className="arrow next"
+                id="next"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                role="button"
+                tabIndex="0"
+              />
+            </div>
+            <div
+              className="whatsHappen-card"
+            >
+              <div
+                className="wh-normal-view"
+              >
+                <WhatsHappen
+                  blog={Object {}}
+                  count={0}
+                />
+                <WhatsHappen
+                  blog={Object {}}
+                  count={1}
+                />
+              </div>
+              <div
+                className="wh-responsive-view"
+              >
+                <WhatsHappen
+                  blog={Object {}}
+                  count="resp"
+                />
+              </div>
+            </div>
+          </div>,
+          <div
+            className="clear"
+          />,
+        ],
+        "className": "wraper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Whats been happening
+              </h2>,
+              <span>
+                What its like to be a part of our school community.
+              </span>,
+            ],
+            "className": "des",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Whats been happening",
+              },
+              "ref": null,
+              "rendered": "Whats been happening",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "What its like to be a part of our school community.",
+              },
+              "ref": null,
+              "rendered": "What its like to be a part of our school community.",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="arrows left"
+              >
+                <div
+                  className="arrow previous"
+                  id="previous"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                />
+              </div>,
+              <div
+                className="arrows right"
+              >
+                <div
+                  className="arrow next"
+                  id="next"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                />
+              </div>,
+              <div
+                className="whatsHappen-card"
+              >
+                <div
+                  className="wh-normal-view"
+                >
+                  <WhatsHappen
+                    blog={Object {}}
+                    count={0}
+                  />
+                  <WhatsHappen
+                    blog={Object {}}
+                    count={1}
+                  />
+                </div>
+                <div
+                  className="wh-responsive-view"
+                >
+                  <WhatsHappen
+                    blog={Object {}}
+                    count="resp"
+                  />
+                </div>
+              </div>,
+            ],
+            "className": "slide-show",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="arrow previous"
+                  id="previous"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                />,
+                "className": "arrows left",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "arrow previous",
+                  "id": "previous",
+                  "onClick": [Function],
+                  "onKeyPress": [Function],
+                  "role": "button",
+                  "tabIndex": "0",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="arrow next"
+                  id="next"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                />,
+                "className": "arrows right",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "arrow next",
+                  "id": "next",
+                  "onClick": [Function],
+                  "onKeyPress": [Function],
+                  "role": "button",
+                  "tabIndex": "0",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="wh-normal-view"
+                  >
+                    <WhatsHappen
+                      blog={Object {}}
+                      count={0}
+                    />
+                    <WhatsHappen
+                      blog={Object {}}
+                      count={1}
+                    />
+                  </div>,
+                  <div
+                    className="wh-responsive-view"
+                  >
+                    <WhatsHappen
+                      blog={Object {}}
+                      count="resp"
+                    />
+                  </div>,
+                ],
+                "className": "whatsHappen-card",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <WhatsHappen
+                        blog={Object {}}
+                        count={0}
+                      />,
+                      <WhatsHappen
+                        blog={Object {}}
+                        count={1}
+                      />,
+                    ],
+                    "className": "wh-normal-view",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0.5167054428344668",
+                      "nodeType": "function",
+                      "props": Object {
+                        "blog": Object {},
+                        "count": 0,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "0.6160745164367638",
+                      "nodeType": "function",
+                      "props": Object {
+                        "blog": Object {},
+                        "count": 1,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <WhatsHappen
+                        blog={Object {}}
+                        count="resp"
+                      />,
+                    ],
+                    "className": "wh-responsive-view",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0.44108523793400845",
+                      "nodeType": "function",
+                      "props": Object {
+                        "blog": Object {},
+                        "count": "resp",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "clear",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="wraper"
+        >
+          <div
+            className="des"
+          >
+            <h2>
+              Whats been happening
+            </h2>
+            <span>
+              What its like to be a part of our school community.
+            </span>
+          </div>
+          <div
+            className="slide-show"
+          >
+            <div
+              className="arrows left"
+            >
+              <div
+                className="arrow previous"
+                id="previous"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                role="button"
+                tabIndex="0"
+              />
+            </div>
+            <div
+              className="arrows right"
+            >
+              <div
+                className="arrow next"
+                id="next"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                role="button"
+                tabIndex="0"
+              />
+            </div>
+            <div
+              className="whatsHappen-card"
+            >
+              <div
+                className="wh-normal-view"
+              >
+                <WhatsHappen
+                  blog={Object {}}
+                  count={0}
+                />
+                <WhatsHappen
+                  blog={Object {}}
+                  count={1}
+                />
+              </div>
+              <div
+                className="wh-responsive-view"
+              >
+                <WhatsHappen
+                  blog={Object {}}
+                  count="resp"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="clear"
+          />
+        </div>,
+        "id": "sec-2",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="des"
+            >
+              <h2>
+                Whats been happening
+              </h2>
+              <span>
+                What its like to be a part of our school community.
+              </span>
+            </div>,
+            <div
+              className="slide-show"
+            >
+              <div
+                className="arrows left"
+              >
+                <div
+                  className="arrow previous"
+                  id="previous"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                />
+              </div>
+              <div
+                className="arrows right"
+              >
+                <div
+                  className="arrow next"
+                  id="next"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                />
+              </div>
+              <div
+                className="whatsHappen-card"
+              >
+                <div
+                  className="wh-normal-view"
+                >
+                  <WhatsHappen
+                    blog={Object {}}
+                    count={0}
+                  />
+                  <WhatsHappen
+                    blog={Object {}}
+                    count={1}
+                  />
+                </div>
+                <div
+                  className="wh-responsive-view"
+                >
+                  <WhatsHappen
+                    blog={Object {}}
+                    count="resp"
+                  />
+                </div>
+              </div>
+            </div>,
+            <div
+              className="clear"
+            />,
+          ],
+          "className": "wraper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Whats been happening
+                </h2>,
+                <span>
+                  What its like to be a part of our school community.
+                </span>,
+              ],
+              "className": "des",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Whats been happening",
+                },
+                "ref": null,
+                "rendered": "Whats been happening",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "What its like to be a part of our school community.",
+                },
+                "ref": null,
+                "rendered": "What its like to be a part of our school community.",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="arrows left"
+                >
+                  <div
+                    className="arrow previous"
+                    id="previous"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    role="button"
+                    tabIndex="0"
+                  />
+                </div>,
+                <div
+                  className="arrows right"
+                >
+                  <div
+                    className="arrow next"
+                    id="next"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    role="button"
+                    tabIndex="0"
+                  />
+                </div>,
+                <div
+                  className="whatsHappen-card"
+                >
+                  <div
+                    className="wh-normal-view"
+                  >
+                    <WhatsHappen
+                      blog={Object {}}
+                      count={0}
+                    />
+                    <WhatsHappen
+                      blog={Object {}}
+                      count={1}
+                    />
+                  </div>
+                  <div
+                    className="wh-responsive-view"
+                  >
+                    <WhatsHappen
+                      blog={Object {}}
+                      count="resp"
+                    />
+                  </div>
+                </div>,
+              ],
+              "className": "slide-show",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="arrow previous"
+                    id="previous"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    role="button"
+                    tabIndex="0"
+                  />,
+                  "className": "arrows left",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "arrow previous",
+                    "id": "previous",
+                    "onClick": [Function],
+                    "onKeyPress": [Function],
+                    "role": "button",
+                    "tabIndex": "0",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="arrow next"
+                    id="next"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    role="button"
+                    tabIndex="0"
+                  />,
+                  "className": "arrows right",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "arrow next",
+                    "id": "next",
+                    "onClick": [Function],
+                    "onKeyPress": [Function],
+                    "role": "button",
+                    "tabIndex": "0",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="wh-normal-view"
+                    >
+                      <WhatsHappen
+                        blog={Object {}}
+                        count={0}
+                      />
+                      <WhatsHappen
+                        blog={Object {}}
+                        count={1}
+                      />
+                    </div>,
+                    <div
+                      className="wh-responsive-view"
+                    >
+                      <WhatsHappen
+                        blog={Object {}}
+                        count="resp"
+                      />
+                    </div>,
+                  ],
+                  "className": "whatsHappen-card",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <WhatsHappen
+                          blog={Object {}}
+                          count={0}
+                        />,
+                        <WhatsHappen
+                          blog={Object {}}
+                          count={1}
+                        />,
+                      ],
+                      "className": "wh-normal-view",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0.5167054428344668",
+                        "nodeType": "function",
+                        "props": Object {
+                          "blog": Object {},
+                          "count": 0,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "0.6160745164367638",
+                        "nodeType": "function",
+                        "props": Object {
+                          "blog": Object {},
+                          "count": 1,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <WhatsHappen
+                          blog={Object {}}
+                          count="resp"
+                        />,
+                      ],
+                      "className": "wh-responsive-view",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0.44108523793400845",
+                        "nodeType": "function",
+                        "props": Object {
+                          "blog": Object {},
+                          "count": "resp",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "clear",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
