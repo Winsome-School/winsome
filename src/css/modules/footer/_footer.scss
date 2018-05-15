@@ -6,7 +6,10 @@
     .wrapper {
       @include wrapper($wrapper-width);
       @media only screen and (max-width : 470px) {
-        @include wrapper(100%);
+        width: 100%;
+      }
+      @media only screen and (max-width : 1148px) and (min-width : 940px) {
+        width: 94%;
       }
       padding-top: 30px;
       .column {
@@ -14,7 +17,7 @@
         height: 370px;
         float: left;
         margin: 10px;
-        @media only screen and (max-width : 768px) {
+        @media only screen and (max-width : 940px) {
           width: 100%;
           text-align: center;
           padding-bottom: 400px;
@@ -27,7 +30,7 @@
           @include P(left, $white);
           padding: 3px;
 
-          @media only screen and (max-width : 768px) {
+          @media only screen and (max-width : 940px) {
             text-align: center;
             padding: 0;
           }
@@ -38,7 +41,7 @@
         max-height: 260px;
         float: left;
         margin-top: 150px;
-        @media only screen and (max-width : 768px) {
+        @media only screen and (max-width : 940px) {
           width: 33.3%;
           margin-top: 0;
           // text-align: center;
@@ -47,9 +50,11 @@
             box-size: border-box; 
             @media only screen and (max-width : 470px) {
               padding-left: 10px;
-            
             }
           }
+        }
+        @media only screen and (max-width : 1148px) and (min-width : 940px) {
+          padding-left: 30px;
         }
         .footer-buttons {
           @include H4(left, $white);
@@ -71,11 +76,14 @@
     color: $white;
     .wrapper {
       @include wrapper($wrapper-width);
+      @media only screen and (max-width : 1042px) {
+        @include wrapper(90%);
+      }
       .social-icons {
         width: 25%;
         float: left;
         padding-top: 10px;
-        @media only screen and (max-width : 768px) {
+        @media only screen and (max-width : 940px) {
           width: 100%;
           text-align: center;
         }
@@ -84,17 +92,22 @@
           height: 50px;
           color: $white;
           padding-top: 10px;
-          @media only screen and (max-width : 768px) {}
+          // @media only screen and (max-width : 768px) {}
         }
       }
       .copyright-text {
         width: 50%;
         float: right;
         line-height: 50px;
-        @media only screen and (max-width : 768px) {
+        @media only screen and (max-width : 940px) {
           width: 100%;
           text-align: center;
-        line-height: 20px;
+          line-height: 20px;
+        }
+        p{
+          @media only screen and (max-width: 1024px) and (min-width: 940px) {
+            float: right;
+          }
         }
       }
     }

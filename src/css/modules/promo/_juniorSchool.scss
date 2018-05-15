@@ -36,12 +36,22 @@
         top: -150px;
         .junior-school-left-image {
           @include junior-school-image(350px, 200px, $background-image-color, './images/junior-school-left.jpg', relative, 0px, 0px);
+          @media only screen and (max-width : 940px) and (min-width : 768px){
+            left: -200px;
+          }
         }
         .junior-school-middle-image {
           @include junior-school-image(350px, 350px, $background-image-color, './images/junior-school-middle.jpg', absolute, 220px, -80px);
+          @media only screen and (max-width : 940px) and (min-width : 768px){
+            left: 20px;
+            top: -40px;
+          }
         }
         .junior-school-right-image {
           @include junior-school-image(350px, 200px, $background-image-color, './images/junior-school-right.jpg', relative, 100px, 0px);
+          @media only screen and (max-width : 940px) and (min-width : 768px){
+            left: -100px;
+          }
         }
       }
     }
@@ -71,7 +81,12 @@
             display: none;
           }
           .junior-school-middle-image {
+            
             @include junior-school-imageMobile(250px, 250px, $background-image-color, './images/junior-school-middle.jpg', relative, -30px, 10px);
+            // width: 250px;
+            // height: 250px;
+            // background: url('./images/junior-school-middle.jpg') no-repeat center;
+            // position: static;
           }
           .junior-school-right-image {
             display: none;
