@@ -1,6 +1,5 @@
 // ############### color variables #########
-$heading-icon-color: #ffcc33;
-$career-body-color: #e6e6e6;
+$career-body-color:$secondary-background-color;
 $placeholder-color: #999999;
 $border-color: #737373;
 $button-color: #737373;
@@ -8,20 +7,24 @@ $p-color: #737373;
 // ############### CSS Classes#########
 %career-button {
 	height: 45px;
-	width: 35%;
+	width: 130px;
 	font-size: 18px;
 	color: white;
 	background-color: $button-color;
 	border: none;
-	line-height: 40px;
 	font-weight: lighter;
+	margin:0px auto;
+	text-align: center;
+	display: block;
+
 }
 
 // ############# Career SCSS ###########
 #career {
 	border-top: 10px $heading-icon-color solid;
 	background-color: $career-body-color;
-	min-height: 2000px;
+	min-height: 2200px;
+	background: $career-body-color;
 	.content-1 {
 		width: 55%;
 		margin-left: 7%;
@@ -63,7 +66,7 @@ $p-color: #737373;
 			}
 			.resume-box {
 				width: 100%;
-				height: 220px;
+				min-height: 220px;
 				border: $border-color 2px solid;
 				margin: 45px 0px;
 				p:nth-child(1) {
@@ -76,10 +79,10 @@ $p-color: #737373;
 					padding-top: 7px;
 				}
 				.upload-btn {
-					margin: 20px 0% 0% 32%;
+					margin-top: 30px;
 					width: 100%;
 					height: 50px;
-					button {
+					.upload-file-btn {
 						@extend %career-button;
 					}
 				}
@@ -109,10 +112,11 @@ $p-color: #737373;
 						color: $placeholder-color;
 					}
 				}
-				button {
+				.career-submit-button {
 					@extend %career-button;
 					margin-top: 20px;
 					margin-bottom: 80px;
+					float: left;
 				}
 			}
 		}

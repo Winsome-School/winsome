@@ -1,39 +1,44 @@
-#policies {
+#policies-container {
   width: 100%;
-  background-color: $career-body-color;
-  .wrapper {
-    margin-left: 100px;
-    height: 800px;
-    .policies-heading {
-      @include H3('left', $black);
-    }
-    .box {
-      width: 25px;
-      height: 25px;
-      background-color: $accent-color;
-      margin: 30px 30px 30px 0px;
-    }
-    .policies-paragraph {
-      @include P('left', $black);
-    }
-    .policy-name-heading {
-      @include H4('left', $black);
-      margin-top: 30px;
-    }
-    .policy-name-paragraph {
-      @include P('left', $black);
-      margin-top: 10px;
-      text-decoration: underline;
-      text-decoration-style: 5px solid $accent-color;
-      margin-bottom: 60px;
+  min-height: 850px;
+  background-color: $secondary-background-color;
+  border-top: 10px $heading-icon-color solid;
+
+  #policies {
+    width: 70%;
+    float: left;
+    background-color: $career-body-color;
+
+    .wrapper {
+      @include wrapper(80%);
+      .policies-heading {
+        @include H3('left', $black);
+      }
+      .box {
+        @include heading-icon();
+      }
+      .policies-paragraph {
+        @include P('left', $black);
+      }
+      .policy-name-heading {
+        @include H4('left', $black);
+        margin-top: 30px;
+      }
+      .policy-name-paragraph {
+        @include P('left', $black);
+        margin-top: 10px;
+        text-decoration: underline;
+        text-decoration-style: 5px solid $accent-color;
+        margin-bottom: 60px;
+      }
     }
   }
-}
-
-.News-container {
-  float: right;
-  width: 25%;
-  @media only screen and (max-width: 768px) {
-    width: 100%;
+  .policies-news {
+    float: right;
+    width: 30%;
+    background-color: $career-body-color;
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
   }
 }

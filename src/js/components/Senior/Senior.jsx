@@ -4,15 +4,12 @@ import Hero from '../hero/HeroImage';
 import News from '../News/News';
 
 export default class Senior extends React.Component {
-  
-  componentDidMount(){
-
-  }
+  componentDidMount() {}
   render() {
     return (
       <div>
-        <div>
-          <Hero style={'header-image'} />
+        <Hero style={'senior-img'} />
+        <div id="senior">
           <div className="head">
             <div className="school">
               <h2>Senior School</h2>
@@ -66,7 +63,9 @@ export default class Senior extends React.Component {
             </div>
           </div>
         </div>
-        <Discover />
+        <div className="clear">
+          <Discover />
+        </div>
       </div>
     );
   }

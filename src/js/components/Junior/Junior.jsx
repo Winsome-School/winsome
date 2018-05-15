@@ -7,7 +7,7 @@ import News from '../News/News';
 
 export const Junior = ({ juniorData }) => (
   <div id="junior">
-    <Hero style={'header-image'} />
+    <Hero style={'junior-img'} />
     <div className="container">
       <div className="junior">
         <h2>{juniorData.p1.heading}</h2>
@@ -54,7 +54,7 @@ function mapStateToProps({ juniorData }) {
 }
 
 Junior.propTypes = {
-  juniorData: PropTypes.isRequired,
+  juniorData: PropTypes.isRequired
 };
 
 export default connect(mapStateToProps, null)(Junior);

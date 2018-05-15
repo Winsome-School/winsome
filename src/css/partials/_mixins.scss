@@ -31,7 +31,33 @@
   box-shadow: 4px 4px 10px $accent-color;
   margin: 0 auto;
 }
-
+@mixin heading-icon() {
+  width: 18px;
+  background-color: $heading-icon-color;
+  height: 18px;
+  margin: 30px 0px;
+}
+@mixin secondary-btn() {
+  height: 45px;
+  width: 130px;
+  font-size: 18px;
+  color: white;
+  background-color: $button-color;
+  border: none;
+  font-weight: lighter;
+  margin: 0px auto;
+  padding: 0px auto;
+  display: block;
+}
+@mixin page-img() {
+  width: 100%;
+  height: calc(100vh - 130px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  border-bottom: 5px solid #fdba26;
+}
 @mixin promo-image-container-sectionOne-left() {
   width: 50%;
   float: left;

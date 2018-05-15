@@ -1,9 +1,10 @@
 #junior {
-  background-color: #e2e2e2;
+  background-color: $secondary-background-color;
 }
 
 .container {
-  background-color: #e2e2e2;
+  background-color: $secondary-background-color;
+  border-top: 10px $heading-icon-color solid;
   width: 75%;
   margin: 0;
   padding: 0;
@@ -15,6 +16,9 @@
     width: 100%;
     padding: 15px 50px 30px 60px;
     float: left;
+    h2 {
+      @include H2(left, black);
+    }
     .box {
       background-color: $accent-color;
       width: 20px;
@@ -34,6 +38,9 @@
 
   .creating {
     padding: 15px 0 30px 60px;
+    h2 {
+      @include H2(left, black);
+    }
 
     .box {
       background-color: $accent-color;
@@ -43,15 +50,28 @@
     }
     .textimage {
       .pdivs {
+        float: left;
         line-height: 1.6;
         //padding-top:  1% ;
         padding-bottom: 3%;
         width: 50%;
         float: left;
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+          padding-right: 10%;
+        }
       }
       .imglion {
-        width: 40%;
+        float: left;
+        width: 70%;
         float: right;
+        margin-right: -30%;
+        margin-top: 5%;
+        @media only screen and (max-width: 768px) {
+          width: 80%;
+          display: block;
+          float: left;
+        }
         //margin-top: 3%;
       }
     }
@@ -61,6 +81,9 @@
     width: 70%;
     padding: 15px 50px 30px 60px;
     clear: both;
+    h2 {
+      @include H2(left, black);
+    }
 
     .box {
       background-color: $accent-color;
@@ -83,6 +106,7 @@
   float: right;
   height: 100%;
   width: 25%;
+  border-top: 10px $heading-icon-color solid;
   @media (max-width: 768px) {
     width: 100%;
   }

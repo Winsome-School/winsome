@@ -4,7 +4,7 @@ import { string } from 'prop-types';
 const FirstHeading = ({ heading, text }) => (
 	<div className="first">
 		<div className="firstPart">
-			<h2>{heading}</h2>
+			<div className="h2">{heading}</div>
 			<div className="box" />
 			<p>{text}</p>
 			<div className="clear" />

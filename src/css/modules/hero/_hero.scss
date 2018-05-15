@@ -1,23 +1,68 @@
 .hero-image {
   //width:100%;
-  height:calc(100vh - 130px);
+  height: calc(100vh - 130px);
   background: url('../images/Hero.jpg');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size:cover;
+  background-size: cover;
   position: relative;
-  border-bottom: 5px solid #FDBA26 ;
+  border-bottom: 5px solid #fdba26;
   //box-sizing: border-box;
 }
-  
+
 .header-image {
-  width:100%;
-  height:calc(50vh - 130px);
+  width: 100%;
+  height: calc(80vh - 130px);
   background: url('../images/Hero-without-dialogue.jpg');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size:cover;
+  background-size: cover;
   position: relative;
-  border-bottom: 5px solid #FDBA26 ;
+  border-bottom: 5px solid #fdba26;
   //box-sizing: border-box;
 }
+.ourschool-img {
+  background: url('../images/ourschool-page-img.jpg');
+  @include page-img();
+}
+.junior-img {
+  background: url('../images/junior-page-img.jpg');
+  @include page-img();
+}
+.middle-img {
+  background: url('../images/middle-page-img.jpg');
+  @include page-img();
+}
+.senior-img {
+  background: url('../images/senior-page-img.jpg');
+  @include page-img();
+}
+.staff-img {
+  background: url('../images/staff-page-img.jpg');
+  @include page-img();
+}
+.policies-img {
+  background: url('../images/policies-page-img.jpg');
+  @include page-img();
+}
+.achievers-img {
+  background: url('../images/achievers-page-img.jpg');
+  @include page-img();
+}
+.photogallery-img {
+  background: url('../images/Hero-without-dialogue.jpg');
+  @include page-img();
+}
+.events-img {
+  background: url('../images/events-page-img.jpg');
+  @include page-img();
+}
+.career-img {
+  @include page-img();
+  background: url('../images/career-page-img.jpg');
+}
+.contact-img {
+  @include page-img();
+  background: url('../images/contact-page-img.jpg');
+}
+

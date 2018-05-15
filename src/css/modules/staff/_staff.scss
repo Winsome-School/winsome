@@ -1,47 +1,43 @@
-#staff{
-	background-color: #d9d9d9;
-	.staff-app{
+#staff {
+	background-color: $secondary-background-color;
+	.staff-app {
 		//margin-top:0px;
 		width: 100%;
-		background-color: #d9d9d9;
-		.staff{
+		border-top: 10px $heading-icon-color solid;
+		background-color: $secondary-background-color;
+		.staff {
 			width: 75%;
-			background-color: #d9d9d9;
-			height: 750px;
+			background-color: $secondary-background-color;
+			min-height: 750px;
 			clear: both;
 			float: left;
-			@media only screen and (max-width:768px){
+			@media only screen and (max-width: 768px) {
 				width: 100%;
 			}
-
-			.box{
-				height: 10px;
-				width: 10px;
-				background-color: yellow;
-			}
-			.heading{
+			.heading {
+				@include H2(left, black);
 				margin-left: 10%;
 				position: relative;
-				margin-top: 7%;
+				.box {
+					@include heading-icon();
+				}
 			}
-			.paragraph{
+
+			.paragraph {
 				width: 65%;
 				margin-top: 4%;
 				margin-left: 6%;
-				p{
-				
+				p {
 					margin-top: 25px;
 					margin-left: 5%;
 				}
-
-			}	
+			}
 		}
-		.staff-news{
+		.staff-news {
 			float: right;
 			width: 25%;
-			@media only screen and (max-width:768px){
-				width:100%;
-				
+			@media only screen and (max-width: 768px) {
+				width: 100%;
 			}
 		}
 	}

@@ -1,5 +1,5 @@
 #junior-school {
-  height: 700px;
+  min-height: 700px;
   width: 100%;
   .top-section {
     height: 500px;
@@ -23,7 +23,7 @@
     }
   }
   .bottom-section {
-    height: 200px;
+    min-height: 200px;
     width: 100%;
     background-color: $secondary-color;
     .wrapper {

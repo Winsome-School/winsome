@@ -1,45 +1,44 @@
-#photogallery{
+#photogallery {
 	min-height: 100vh;
 	padding: 20px 70px 120px 70px;
 	width: 100%;
 	background-color: $background-image-color;
-	@media only screen and (max-width : 768px) {
+	border-top: 10px $heading-icon-color solid;
+
+	@media only screen and (max-width: 768px) {
 		padding: 20px 10px 120px 10px;
 	}
-	.photogalleryH2{
+	.photogalleryH2 {
 		@include H2('', $black);
 	}
-	.yellowBox{
-		margin: 30px 0;
-		height: 20px;
-		width: 20px;
-		background-color: $accent-color;
+	.yellowBox {
+		@include heading-icon();
 	}
-	.photogalleryP{
+	.photogalleryP {
 		@include P('', $black);
 		padding-right: 120px;
 		margin-bottom: 30px;
-		@media only screen and (max-width : 768px) {
+		@media only screen and (max-width: 768px) {
 			padding-right: 0;
 			margin-bottom: 20px;
 		}
 	}
-	.showImages{
+	.showImages {
 		margin-top: 80px;
-		.imageContainer{
+		.imageContainer {
 			margin-top: 50px;
-			.img{
+			.img {
 				height: 100vh;
-				@include image('')
+				@include image('');
 			}
-			.photoCaption{
-				p{
+			.photoCaption {
+				p {
 					padding: 20px 0;
 					font-size: 1.2em;
 					font-weight: bold;
 					font-style: italic;
-					@media only screen and (max-width : 768px) {
-						font-size: 1em;												
+					@media only screen and (max-width: 768px) {
+						font-size: 1em;
 					}
 				}
 			}

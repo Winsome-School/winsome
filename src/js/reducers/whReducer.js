@@ -27,8 +27,10 @@ export default function whReducer(state = initial, action) {
 	let newview;
 	let newindex;
 	let data = { state };
+	console.log('in wh reducer')
 	switch (action.type) {
 		case INITIAL_VIEW:
+		console.log(action.type)
 			if (action.payload) {
 				data = action.payload;
 				return {
@@ -40,7 +42,9 @@ export default function whReducer(state = initial, action) {
 			}
 			break;
 		case NEXT_VIEW:
+		console.log(action.type)
 			if (firstIndexofSelectedView < data.length - 2) {
+				console.log('in the reducer')
 				newview = [...selectedView];
 
 				newview.splice(
@@ -50,6 +54,7 @@ export default function whReducer(state = initial, action) {
 					data[firstIndexofSelectedView + 2]
 				);
 				newindex = firstIndexofSelectedView + 1;
+				console.log(newindex)
 				return {
 					...state,
 					selectedView: newview,

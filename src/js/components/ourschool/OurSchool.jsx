@@ -11,7 +11,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Hero style={'header-image'} />
+        <Hero style={'ourschool-img'} />
         <div className="head">
           <div className="school">
             <h2>Our School</h2>

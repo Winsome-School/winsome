@@ -1,5 +1,10 @@
+#senior {
+    width: 70%;
+    float: left;
+}
 .head {
-    background-color: #e6e6e6;
+    //background-color: #e6e6e6;
+    background-color: green;
 
     h2 {
         font-size: 28px;
@@ -11,10 +16,7 @@
         letter-spacing: 0.48px;
     }
     .box {
-        margin: 3% 0 3% 0;
-        background-color: yellow;
-        width: 18px;
-        height: 18px;
+        @include heading-icon();
     }
     .school {
         width: 65%;
@@ -36,16 +38,16 @@
         }
     }
 }
-.head::after {
-    content: '';
-    clear: both;
-    display: block;
-}
+// .head::after {
+//     content: '';
+//     clear: both;
+//     display: block;
+// }
 
 .News-container {
-  float: right;
-  width: 25%;
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-  }
+    float: right;
+    width: 25%;
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+    }
 }

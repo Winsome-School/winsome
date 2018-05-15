@@ -1,5 +1,6 @@
 .head {
-	background-color: lightgrey;
+	background-color: $secondary-background-color;
+	border-top: 10px $heading-icon-color solid;
 	h2 {
 		font-size: 28px;
 		font-weight: bold;
@@ -10,10 +11,7 @@
 		letter-spacing: 0.48px;
 	}
 	.box {
-		margin: 3% 0 3% 0;
-		background-color: yellow;
-		width: 18px;
-		height: 18px;
+		@include heading-icon();
 	}
 	.school {
 		width: 70%;

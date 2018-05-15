@@ -5,27 +5,16 @@
 	.firstPart {
 		width: 60%;
 		height: 200px;
-		margin: 5.5% auto auto 6.5%;
+		margin: 50px auto auto 30px;
 		float: left;
 		@media (max-width: 768px) {
 			width: 80%;
-			margin-top: 100px;
 		}
-		h2 {
-			font-size: 20px;
-			margin: 0px;
-			font-weight: bold;
+		.h2 {
+			@include H2('', $black);
 		}
 		.box {
-			width: 13px;
-			height: 13px;
-			background-color: yellow;
-			margin-top: 5%;
-			margin-left: 0.5%;
-			@media (max-width: 768px) {
-				width: 9px;
-				height: 9px;
-			}
+			@include heading-icon();
 		}
 		p {
 			text-align: justify;

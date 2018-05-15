@@ -3,22 +3,12 @@
 	width: 100%;
 	float: left;
 	h2 {
-		margin-left: 4.5%;
-		font-size: 30;
-		@media (max-width: 768px) {
-			font-size: 23px;
-		}
+		@include H2('', $black);
+		margin-left: 30px;
 	}
 	.box {
-		width: 13px;
-		height: 13px;
-		background-color: yellow;
-		margin-top: 2.5%;
-		margin-left: 5%;
-		@media (max-width: 768px) {
-			width: 9px;
-			height: 9px;
-		}
+		@include heading-icon();
+		margin-left: 30px;
 	}
 	.part {
 		width: 400px;

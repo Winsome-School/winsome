@@ -1,5 +1,5 @@
 #winsome-school {
-  height: 1000px;
+  min-height: 1000px;
   width: 100%;
   background: linear-gradient($primary-color, $secondary-color);
   .winsome-school-heading {
@@ -14,7 +14,7 @@
 
 @media only screen and (max-width: 768px) {
   #winsome-school {
-    height: 1550px;
+    min-height: 1750px;
     .winsome-school-heading {
       @include H2Mobile(center, $white);
     }

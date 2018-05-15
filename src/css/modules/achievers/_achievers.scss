@@ -2,7 +2,8 @@
 	margin: 0px;
 	font-family: Roboto;
 	overflow: hidden;
-	background-color: #bac6c6;
+	background-color: $secondary-background-color;
+	border-top: 10px $heading-icon-color solid;
 	.achieversNews {
 		float: right;
 		width: 25%;

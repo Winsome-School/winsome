@@ -13,13 +13,13 @@
 	display: inline-block;
 	p {
 		padding: 0px 40% 40px 0px;
+		@media only screen and (max-width: 768px) {
+			padding: 0px 40px 40px 0px;
+		}
 	}
 }
 .box-events {
-	background-color: $accent-color;
-	width: 20px;
-	height: 20px;
-	margin: 30px 0;
+	@include heading-icon();
 }
 
 .left-image-div {
@@ -29,7 +29,8 @@
 	padding-right: 50px;
 	margin: 0 0 40px 0;
 	@media only screen and (max-width: 768px) {
-		width: 100%;
+		width: 130%;
+		padding: 0px;
 	}
 }
 .events-Img {

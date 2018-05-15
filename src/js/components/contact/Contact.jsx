@@ -20,7 +20,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div id="contact">
-        <Hero style={'header-image'} />
+        <Hero style={'contact-img'} />
         <div className="contact">
           <div className="row">
             <div className="col-md-6 contactInfo">
@@ -76,7 +76,11 @@ export default class Contact extends React.Component {
                   <br />
                   <textarea placeholder="Message" />
                   <br />
-                  <button value={this.state.value} onSubmit={this.handleSubmit}>
+                  <button
+                    value={this.state.value}
+                    onSubmit={this.handleSubmit}
+                    className="contact-submit-btn"
+                  >
                     Submit
                   </button>
                 </form>

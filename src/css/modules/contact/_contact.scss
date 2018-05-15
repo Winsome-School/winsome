@@ -1,17 +1,16 @@
 $contact-body-color: #e6e6e6;
-$placeholder-color:#999999;
 $border-color:#737373;
 $button-color:#737373;
 $p-color:#737373;
 
 
 #contact{
-	background-color: $background-image-color;
+	background-color: $secondary-background-color;
 }
 .contact{
-	border-top: 10px yellow solid;
+	border-top: 10px $heading-icon-color solid;
 	padding: 20px 70px 50px 70px;
-	background-color: $background-image-color;
+	background-color: $secondary-background-color;
 	width: 75%;
 	float: left;
 	@media only screen and(max-width: 768px){
@@ -25,84 +24,101 @@ $p-color:#737373;
 		// width: 1000px;
 		// width: 350px;
 		.contactInfo{
-			width: 500px;
-
-			// width: 500;
-			// float: left;
+			width: 50%;
+			float: left;
+			@media only screen and (max-width: 768px) {
+			width: 100%;
+			}
 			.contactH2{
-				@include H2('', $black)
+				@include H3('', $black)
 			}
 			.yellowBox{
 
-				margin-top: 30px;
-				margin-bottom: 30px;
-				height: 20px;
-				width: 20px;
-				background-color: $accent-color;
+				@include heading-icon();
 
 			}.contactP{
-				width: 340px;
 			}
 		}
 	
-	.glyphicon{
-			color: yellow;
-			// float: right;
-			// width: 350;
-			// position: absolute;
-		}.location{
+		.location{
 			
-			padding-top: 145px;
-			padding-left: 100px;
+			width: 50%;
+			padding-top: 100px;
+			padding-left: 60px;
+			float: left;
+			@media only screen and (max-width: 768px) {
+			width: 100%;
+			padding-left: 0px;
+			}
+			.glyphicon{
+				color: #ffcc33;
+				margin-right:10px;
+				// float: right;
+				// width: 350;
+				// position: absolute;
+			}
 			.address{
 				padding-left: 0px;
-			}
-
-		}
-	}
-.contact-news{
-
-}
-.contactUs{
-
-	.contactForm{
-		margin-top: 100px;
-		.contactH2{
-			@include H2('',$black)
-		}
-		.yellowBox{
-			margin-top: 30px;
-			margin-bottom: 30px;
-			height: 20px;
-			width: 20px;
-			background-color: $accent-color;
-		 }.userInfo{
-			input{
-				margin: 15px 0px;
-				border: 2px $border-color solid;
-				width: 50%;
-				height: 60px;
-				font-size: 20px;
-				text-indent: 18px;
-				background-color: $contact-body-color;
-				&::placeholder{
-					color: $placeholder-color;
-					opacity:1;
-
+				width: 70%;
+				margin: 0px auto;
+				@media only screen and (max-width: 768px) {
+				width: 100%;
+				margin: 10px 0px 0px 20px;
 				}
 			}
-		}.messageForm{
-			input{
-				margin: 15px 0px;
-				border: 2px $border-color solid;
-				width: 50%;
-				height: 350px;
-				font-size:20px;
-				text-indent: 18px;
-				background-color: $contact-body-color;
-				&::placeholder{
-					color: $placeholder-color;
-					opacity: 1;
+		}
+
+		
+	}
+
+	.contactUs{
+
+		.contactForm{
+			margin-top: 100px;
+			.contactH2{
+				@include H3('',$black)
+			}
+			.yellowBox{
+				@include heading-icon();
+			 }
+			.userInfo{
+				input{
+					margin: 15px 0px;
+					border: 2px $border-color solid;
+					width: 70%;
+					height: 60px;
+					font-size: 20px;
+					text-indent: 18px;
+					background-color: $contact-body-color;
+					@media only screen and (max-width: 768px) {
+					width: 100%;
+					}
+					&::placeholder{
+						color: $placeholder-color;
+						opacity:1;
+
+					}
+				}
+				textarea{
+						margin: 15px 0px;
+						border: 2px $border-color solid;
+						width: 70%;
+						height: 350px;
+						font-size: 20px;
+						text-indent: 18px;
+						background-color: $contact-body-color;
+						@media only screen and (max-width: 768px) {
+						width: 100%;
+						}
+						&::placeholder{
+							color: $placeholder-color;
+							opacity: 1;
+						}
+				}
+				.contact-submit-btn{
+
+						@include secondary-btn();
+						float: left;
 				}
 				
 			}
@@ -111,37 +127,12 @@ $p-color:#737373;
 		}
 	}
 }
-}
-textarea{
-					margin: 15px 0px;
-					border: 2px $border-color solid;
-					width: 50%;
-					height: 350px;
-					font-size: 20px;
-					text-indent: 18px;
-					background-color: $contact-body-color;
-					&::placeholder{
-						color: $placeholder-color;
-						opacity: 1;
-					}
-				}
-				button{
-				margin-top: 20px;
-				margin-bottom: 80px;
-				height: 45px;
-				width: 150px
-				// color: red;
-				// font-size: 18px;
-				// color: white;
-				// background-color: $button-color;
-				// border: none;
-				// line-height: 40px;
-				// font-weight: lighter;
-			}
+
+		
 .contact-news{
 	float: right;
 	width: 25%;
-	border-top: 10px yellow solid;
+	border-top: 10px $heading-icon-color solid;
 	@media only screen and (max-width:768px){
 		width:100%;
 		border-top: none;
