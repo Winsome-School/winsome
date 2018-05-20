@@ -48,6 +48,10 @@ $p-color: #737373;
 				@include P(left, $p-color);
 				font-weight: 600;
 				letter-spacing: 1px;
+				@media only screen and (max-width: 768px) {
+					font-weight: 200;
+				}
+
 			}
 		}
 		.box-2 {

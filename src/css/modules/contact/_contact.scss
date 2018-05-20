@@ -9,12 +9,13 @@ $p-color:#737373;
 }
 .contact{
 	border-top: 10px $heading-icon-color solid;
-	padding: 20px 70px 50px 70px;
+	padding: 20px 50px 50px 50px;
 	background-color: $secondary-background-color;
 	width: 75%;
 	float: left;
 	@media only screen and(max-width: 768px){
 		width: 100%;
+		padding: 20px 20px 50px 20px;
 	}
 	.row{
 		margin: 0;
