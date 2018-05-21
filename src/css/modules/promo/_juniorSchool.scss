@@ -31,27 +31,30 @@
       padding-top: 30px;
       .junior-school-gallery-container {
         position: relative;
-        display: inline-block;
-        margin-left: calc(500px/2);
-        top: -150px;
+        display: flex;
+        justify-content: space-around;
+        top: -15rem;
         .junior-school-left-image {
           @include junior-school-image(350px, 200px, $background-image-color, './images/junior-school-left.jpg', relative, 0px, 0px);
-          @media only screen and (max-width : 940px) and (min-width : 768px){
-            left: -200px;
-          }
+          // @media only screen and (max-width : 940px) and (min-width : 768px){
+          //   left: -200px;
+          // }
+          align-self: flex-start;
         }
         .junior-school-middle-image {
-          @include junior-school-image(350px, 350px, $background-image-color, './images/junior-school-middle.jpg', absolute, 220px, -80px);
-          @media only screen and (max-width : 940px) and (min-width : 768px){
-            left: 20px;
-            top: -40px;
-          }
+          @include junior-school-image(350px, 350px, $background-image-color, './images/junior-school-middle.jpg', absolute, 245px, -50px);
+          // @media only screen and (max-width : 940px) and (min-width : 768px){
+          //   left: 20px;
+          //   top: -40px;
+          // }
+          align-self: center;
         }
         .junior-school-right-image {
-          @include junior-school-image(350px, 200px, $background-image-color, './images/junior-school-right.jpg', relative, 100px, 0px);
-          @media only screen and (max-width : 940px) and (min-width : 768px){
-            left: -100px;
-          }
+          @include junior-school-image(350px, 200px, $background-image-color, './images/junior-school-right.jpg', relative, 0px, 0px);
+          // @media only screen and (max-width : 940px) and (min-width : 768px){
+          //   left: -100px;
+          // }
+          align-self: flex-end;
         }
       }
     }
@@ -61,7 +64,9 @@
 
 // Styles smaller than mobile/tablet
 
-@media only screen and (max-width: 768px) {
+@media only screen
+ and (max-width: 940px)
+ and (min-width: 768px) {
   #junior-school {
     .top-section {
       .wrapper {
@@ -81,12 +86,41 @@
             display: none;
           }
           .junior-school-middle-image {
-            
             @include junior-school-imageMobile(250px, 250px, $background-image-color, './images/junior-school-middle.jpg', relative, -30px, 10px);
-            // width: 250px;
-            // height: 250px;
-            // background: url('./images/junior-school-middle.jpg') no-repeat center;
-            // position: static;
+          }
+          .junior-school-right-image {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen
+ and (max-width: 767px)
+ and (min-width: 320px) {
+  #junior-school {
+    .top-section {
+      .wrapper {
+        .junior-school-heading {
+          .junior-school-description {
+            .read-more {
+
+            }
+          }
+        }
+      }
+    }
+    .bottom-section {
+      .wrapper {
+        .junior-school-gallery-container {
+          .junior-school-left-image {
+            display: none;
+          }
+          .junior-school-middle-image {
+            @include junior-school-imageMobile(180px, 180px, $background-image-color, './images/junior-school-middle.jpg', relative, -10px, 140px);
+            display: none;
           }
           .junior-school-right-image {
             display: none;
