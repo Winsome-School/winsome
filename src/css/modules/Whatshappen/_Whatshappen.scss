@@ -3,17 +3,20 @@ $career-resp-screen: 768px;
 //scss start
 
 #sec-2 {
-    height: 840px;
+    // height: 840px;
     @include image('../images/chem-formula-pattern.jpg');
-    padding: 60px 0 0 0;
-    bottom-margin: 50px;
+    padding: 60px 0 60px 0;
+    // bottom-margin: 50px;
 
     .wraper {
         width: 90%;
         margin: 0 auto;
         padding: 0 10px 20px 10px;
         //border:1px red solid;
-
+        @media only screen and (max-width : 470px) {
+          width: 100%;
+          padding: 0 10px 20px 0px;
+        }
         .des {
             //width: 80%;
             margin: 0 auto;
@@ -46,7 +49,7 @@ $career-resp-screen: 768px;
         }
 
         .slide-show {
-            height: 540px;
+            // height: 540px;
             //background-color: lightblue;
             clear: both;
             width: 100%;
@@ -73,6 +76,10 @@ $career-resp-screen: 768px;
                 margin: 210px 0;
                 margin-left: 15px;
                 cursor: pointer;
+                @media only screen and (max-width : 470px) {
+                  height: 30px;
+                  width: 30px;
+                }
                 &:focus {
                     outline: 0;
                 }
@@ -95,7 +102,7 @@ $career-resp-screen: 768px;
 
             .whatsHappen-card {
                 width: 84%;
-                height: 480px;
+                // height: 480px;
                 float: left;
                 .wh-normal-view {
                     display: none;
@@ -113,8 +120,8 @@ $career-resp-screen: 768px;
                 }
 
                 .whatshappen {
-                    height: 480px;
-                    width: 80%;
+                    // height: 480px;
+                    width: 90%;
                     border: 1px $accent-color solid;
                     box-sizing: border-box;
                     margin: 0 auto;
@@ -138,9 +145,10 @@ $career-resp-screen: 768px;
                         }
                     }
                     .img-des {
-                        height: 198px;
+                        // height: 198px;
+
                         width: 100%;
-                        padding: 15px 15px 0 15px;
+                        padding: 25px 15px 15px 15px;
                         box-shadow: 0px 5px 8px $accent-color;
                         background-color: white;
                         box-sizing: border-box;
