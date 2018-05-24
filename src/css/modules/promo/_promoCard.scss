@@ -1,5 +1,5 @@
 .promo-card {
-  margin-bottom: 420px;
+  padding-bottom: 420px;
   .wrapper {
     @include wrapper($wrapper-width);
     padding-top: 30px;
@@ -111,7 +111,7 @@
 and (max-width: 940px)
 and (min-width: 768px) {
   .promo-card {
-    margin-bottom: 700px;
+    padding-bottom: 700px;
     .wrapper {
       .promo-card-container-sectionOne-left {
         .promo-image-container-sectionOne-left {
@@ -193,7 +193,7 @@ and (min-width: 768px) {
 and (max-width: 767px)
 and (min-width: 320px) {
   .promo-card {
-    margin-bottom: 900px;
+    padding-bottom: 900px;
     .wrapper {
       .promo-card-container-sectionOne-left {
         .promo-image-container-sectionOne-left {
