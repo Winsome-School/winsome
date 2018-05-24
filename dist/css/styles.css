@@ -115,13 +115,42 @@ body {
 }
 
 #winsome-school {
-  height: 1000px;
+  min-height: 1000px;
   width: 100%;
   background: linear-gradient(#0078ad,#134a7d);
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:940px) and (min-width:768px) {
   #winsome-school {
-    height: 1550px;
+    min-height: 1600px;
   }
+}
+
+@media only screen and (max-width:767px) and (min-width:320px) {
+  #winsome-school {
+    min-height: 1950px;
+  }
+}
+
+.head {
+  background-color: #e6e6e6;
+  border-top: 10px solid #fc3;
+}
+
+.head .school {
+  width: 70%;
+  float: left;
+  padding: 5%;
+}
+
+@media only screen and (max-width:768px) {
+  .head .school {
+    width: 100%;
+  }
+}
+
+.head:after {
+  content: "";
+  clear: both;
+  display: block;
 }

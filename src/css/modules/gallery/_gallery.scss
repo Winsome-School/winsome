@@ -18,11 +18,22 @@
   .box{
     padding: 40px 100px; 
     box-sizing: border-box;
+    @media only screen and (max-width : 990px) {
+      padding: 40px 60px;   
+    }
+    @media only screen and (max-width : 525px) {
+      padding: 40px 20px;   
+    }
     .firstRow{
       .col-md-6{
         .img1{
           padding: 0;
           height: 250px;
+
+          @media only screen and (max-width : 990px) {
+            margin: 10px 0;  
+            height: 350px; 
+          }
           /*margin: 2px;*/
           // background: url(../images/imgone.jpg);
           /*width: 95%;*/
@@ -35,13 +46,18 @@
       .firstImage{
         .img2{
           padding: 0;
-          height: 250px;/*
+          height: 250px;
+          /*
           margin-left: 10px;
           margin-right: 10px;*/
           // background: url(../images/imgtwo.jpg);
           background-position:center;
           background-size: cover;
           box-shadow: 1px 1px 1px 1px #FDBA26;
+          @media only screen and (max-width : 990px) {
+            margin: 10px 0;  
+            height: 350px; 
+          }
         }
       }
       .secondImage{
@@ -54,11 +70,18 @@
           background-position: center;
           box-shadow: 1px 1px 1px 1px #FDBA26;
           /*padding: 100px;*/
+          @media only screen and (max-width : 990px) {
+            margin: 10px 0;  
+            height: 350px; 
+          }
         }
       }
     }
     .secondRow{
       padding-top: 20px;
+      @media only screen and (max-width : 990px) {
+        padding: 0;
+      }
       .thirdImage{
         .img4{
           padding: 0;
@@ -67,6 +90,10 @@
           background-size: cover;
           background-position: center;
           box-shadow: 1px 1px 1px 1px #FDBA26;
+          @media only screen and (max-width : 990px) {
+            margin: 10px 0;  
+            height: 350px; 
+          }
         }
       }
       .forthImage{
@@ -77,6 +104,10 @@
           background-position: center;
           background-size: cover;
           box-shadow: 1px 1px 3px 1px #FDBA26;
+          @media only screen and (max-width : 990px) {
+            margin: 10px 0;  
+            height: 350px; 
+          }
         }
       }
       .col-md-6{
@@ -87,6 +118,10 @@
           background-position: center;
           background-size: cover;
           box-shadow: 1px 1px 1px 1px #FDBA26;
+          @media only screen and (max-width : 990px) {
+            margin: 10px 0;  
+            height: 350px; 
+          }
         }
       }
     }
