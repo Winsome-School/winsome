@@ -1,52 +1,12 @@
-// #discover {
-//   position: relative;
-//   .Text {
-// background-color: #fdba26;
-// opacity: 0.8;
-//     .discover-heading {
-//       padding: 2%;
-//       text-align: center;
-//       margin: 0;
-//     }
-//   }
-//   .one-third {
-//     height: 400px;
-//     width: 33.33333333%;
-//     float: left;
-//     .discover-subheading {
-//       @include H3('left', $white);
-//       color: white;
-//       padding: 20px;
-//       // margin-top: 343px;
-//       position: absolute;
-//       width: 33.33%;
-//       cursor: pointer;
-//       bottom: 0px;
-//       background-color: rgba(24, 24, 24, 0.6);
-//     }
-//   }
-//   .events {
-// background-image: url('./images/events.jpg');
-// background-repeat: no-repeat;
-// background-size: cover;
-//   }
-//   .faculty {
-// background-image: url('./images/faculty-staff.jpg');
-// background-repeat: no-repeat;
-// background-size: cover;
-//   }
-//   .policies {
-// background-image: url('./images/policies-procedures.jpg');
-// background-repeat: no-repeat;
-// background-size: cover;
-//   }
-// }
 
 .discover-container {
   display: flex;
   background-color: grey;
   flex-direction: column;
   justify-content: flex-start;
+  @media only screen and (max-width: 628px) {
+    height: 260px;
+  }
   .header {
     height: 80px;
     background-color: #fdba26;
@@ -54,11 +14,20 @@
     flex-grow: 1;
     display: flex;
     justify-content: center;
+     @media only screen and (max-width: 628px) {
+      height: 55px;
+    }
     .header-content {
       font-size: 35px;
+      @media only screen and (max-width: 628px) {
+      font-size: 12px
+    }
       h3 {
         margin-top: 30px;
         opacity: 0.8;
+        @media only screen and (max-width: 628px) {
+          margin-top:15px;
+        }
       }
     }
   }
@@ -71,12 +40,18 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    @media only screen and (max-width: 628px) {
+      height: 200px;
+    }
 
     .first {
       background-image: url('./images/events.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       flex-basis: 33.3333%;
+      @media only screen and (max-width: 628px) {
+        height: 220px;
+      }
       .footer {
         @extend .footer-discover;
       }
@@ -86,6 +61,9 @@
       background-repeat: no-repeat;
       background-size: cover;
       flex-basis: 33.3333%;
+      @media only screen and (max-width: 628px) {
+        height: 220px;
+      }
       .footer {
         @extend .footer-discover;
       }
@@ -96,6 +74,9 @@
       background-size: cover;
       flex-basis: 33.3333%;
       margin-right: auto;
+      @media only screen and (max-width: 628px) {
+       height: 220px;
+      }
       .footer {
         @extend .footer-discover;
       }
@@ -111,11 +92,15 @@
   position: absolute;
   top: 230px;
   font-size: 25px;
+  @media only screen and (max-width: 628px) {
+        height:50px; 
+        top:170px;
+  }
   h3 {
     margin-left: 10px;
     margin-top: 20px;
-    @media (max-width: 768px) {
-      font-size: 20px;
-    }
+    @media only screen and (max-width: 628px) {
+        font-size: 12px;
+      }
   }
 }

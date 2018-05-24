@@ -41,9 +41,9 @@
 
 
 
-@media (max-width: 468px) {
+@media (max-width: 526px) {
 	.arrowRight {
-	@include arrow(82.4%, 67%, 40px, 40px, 135deg);
+	@include arrow(85.4%, 67%, 40px, 40px, 135deg);
 	border-left: 3px solid $arrowColor;
 	border-top: 3px solid $arrowColor;
 	transition: all 0.4s ease-in-out;
