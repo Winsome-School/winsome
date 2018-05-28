@@ -5,7 +5,7 @@ $box-2-color: #ff6666;
 $box-3-color: #8080ff;
 $box-4-color: #80ff80;
 $box-border-color: #404040;
-$news-resp-screen: 767px;
+$news-resp-screen: 769px;
 
 //######### SCSS of News ###################
 .News {
@@ -22,6 +22,7 @@ $news-resp-screen: 767px;
 				font-family: sans-serif;
 				@media only screen and (max-width: 940px) {
 					padding: 30px 20px;
+					font-size: 24px;
 				}
 			}
 			p {
@@ -33,6 +34,7 @@ $news-resp-screen: 767px;
 				color: #d9d9d9;
 				@media only screen and (max-width: 940px) {
 					padding: 0px 20px 30px 20px;
+					font-size: 14px;
 				}
 				span {
 					color: $box-1-color;

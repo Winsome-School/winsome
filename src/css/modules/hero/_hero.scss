@@ -48,6 +48,7 @@
 .achievers-img {
   background: url('../images/achievers-page-img.jpg');
   @include page-img();
+  background-size: auto;
 }
 .photogallery-img {
   background: url('../images/Hero-without-dialogue.jpg');

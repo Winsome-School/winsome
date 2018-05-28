@@ -15,9 +15,17 @@
 				width: 100%;
 			}
 			.heading {
-				@include H2(left, black);
+				h2 {
+					@include H2(left, $black);
+					font-size: 30px;
+					@media only screen and (max-width: 768px) {
+						font-size: 24px;
+					}
+				}
+
 				margin-left: 10%;
 				position: relative;
+
 				.box {
 					@include heading-icon();
 				}

@@ -22,7 +22,7 @@ const Events = () => {
       <Hero style={'events-img'} />
       <div className="events-wrapper">
         <div className="my-events">
-          <h2>Junior School</h2>
+          <h2 className="events-h2">Junior School</h2>
           <div className="box-events" />
           <p>
             Kindergarten and Pre-primary education provides an important

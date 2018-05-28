@@ -17,6 +17,13 @@
 			padding: 0px 20px 40px 0px;
 		}
 	}
+	.events-h2 {
+		@include H3('', $black);
+		font-size: 30px;
+		@media only screen and (max-width: 768px) {
+			font-size: 24px;
+		}
+	}
 }
 .box-events {
 	@include heading-icon();

@@ -9,10 +9,10 @@ export default class Senior extends React.Component {
     return (
       <div>
         <Hero style={'senior-img'} />
-        <div id="senior">
+        <div className="main-portion">
           <div className="head">
             <div className="school">
-              <h2>Senior School</h2>
+              <h2 className="senior-h2">Senior School</h2>
               <div className="box" />
               <p>
                 Supporthing our teenagers as they become young adults.our
@@ -31,12 +31,10 @@ export default class Senior extends React.Component {
               </p>
               <img src="./images/IMG_9554.jpg" width="90%" alt="" />
             </div>
-            <div className="News-container">
-              <News />
-            </div>
+
             <div className="col1">
               <div className="aims">
-                <h2>Besearch-based Best Practice</h2>
+                <h2 className="senior-h2">Besearch-based Best Practice</h2>
                 <div className="box" />
                 <p>
                   Teachers apply research-bash best pravtice to deliver a
@@ -62,7 +60,11 @@ export default class Senior extends React.Component {
               </div>
             </div>
           </div>
+          <div className="News-container">
+            <News />
+          </div>
         </div>
+
         <div className="clear">
           <Discover />
         </div>

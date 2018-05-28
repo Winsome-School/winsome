@@ -1,5 +1,5 @@
 // ############### color variables #########
-$career-body-color:$secondary-background-color;
+$career-body-color: $secondary-background-color;
 $placeholder-color: #999999;
 $border-color: #737373;
 $button-color: #737373;
@@ -13,10 +13,9 @@ $p-color: #737373;
 	background-color: $button-color;
 	border: none;
 	font-weight: lighter;
-	margin:0px auto;
+	margin: 0px auto;
 	text-align: center;
 	display: block;
-
 }
 
 // ############# Career SCSS ###########
@@ -36,7 +35,11 @@ $p-color: #737373;
 		.content-box {
 			h3 {
 				@include H3(left, $black);
-				letter-spacing: 2px;
+				letter-spacing: 1px;
+				font-size: 30px;
+				@media only screen and (max-width: 768px) {
+					font-size: 24px;
+				}
 			}
 			.yellow-icon {
 				width: 18px;
@@ -50,8 +53,8 @@ $p-color: #737373;
 				letter-spacing: 1px;
 				@media only screen and (max-width: 768px) {
 					font-weight: 200;
+					font-size: 12px;
 				}
-
 			}
 		}
 		.box-2 {

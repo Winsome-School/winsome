@@ -13,6 +13,10 @@
       @include wrapper(80%);
       .policies-heading {
         @include H3('left', $black);
+        font-size: 30px;
+        @media only screen and (max-width: 768px) {
+          font-size: 24px;
+        }
       }
       .box {
         @include heading-icon();

@@ -9,7 +9,11 @@
 		padding: 20px 10px 120px 10px;
 	}
 	.photogalleryH2 {
-		@include H2('', $black);
+		@include H3('', $black);
+		font-size: 30px;
+		@media only screen and (max-width: 768px) {
+			font-size: 24px;
+		}
 	}
 	.yellowBox {
 		@include heading-icon();
