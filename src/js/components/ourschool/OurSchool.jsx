@@ -106,9 +106,12 @@ export default class App extends React.Component {
               of Florida, USA
             </p>
           </div>
-          <div className="News-container">
+          <div className="News-container news-hide">
             <News />
           </div>
+        </div>
+        <div className="News-container news-hide-2">
+            <News />
         </div>
         <Discover />
       </div>

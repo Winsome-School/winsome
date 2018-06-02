@@ -26,7 +26,7 @@ export default function whReducer(state = initial, action) {
 	let newRespindex;
 	let newview;
 	let newindex;
-	let data = { state };
+	let { data } =  state ;
 	switch (action.type) {
 		case INITIAL_VIEW:
 			if (action.payload) {
@@ -42,7 +42,6 @@ export default function whReducer(state = initial, action) {
 		case NEXT_VIEW:
 			if (firstIndexofSelectedView < data.length - 2) {
 				newview = [...selectedView];
-
 				newview.splice(
 					0,
 					2,
