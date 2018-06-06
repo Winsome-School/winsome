@@ -11,11 +11,11 @@ $career-resp-screen: 768px;
     .wraper {
         width: 90%;
         margin: 0 auto;
-        padding: 0 10px 20px 10px;
+        padding: 0 0px 20px 10px;
         //border:1px red solid;
         @media only screen and (max-width : 470px) {
           width: 100%;
-          padding: 0 10px 20px 0px;
+          padding: 0 0px 20px 0px;
         }
         .des {
             //width: 80%;
@@ -85,6 +85,8 @@ $career-resp-screen: 768px;
                 }
                 &:active {
                     outline: 0;
+                    border-top: 4px $secondary-color solid;
+                    border-left: 4px $secondary-color solid;
                 }
                 @media only screen and (min-width: $career-resp-screen) {
                     height: 60px;
